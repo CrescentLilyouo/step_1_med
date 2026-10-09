@@ -145,7 +145,7 @@ const bones3Sources=[
   "id": "S78",
   "title": "NCBI：Anatomy, Thorax, Muscles",
   "url": "https://www.ncbi.nlm.nih.gov/books/NBK538321/?report=printable",
-  "note": "最內肋間肌、肋下肌及胸橫肌同屬最深肌羣，不可當成同一條肌肉。",
+  "note": "最內肋間肌、肋下肌及胸橫肌同屬最深肌群，不可當成同一條肌肉。",
   "type": "醫學教材"
  },
  {
@@ -159,7 +159,7 @@ const bones3Sources=[
   "id": "S80",
   "title": "NCBI：Anatomy, Shoulder and Upper Limb, Glenohumeral Joint",
   "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537018/",
-  "note": "肩關節囊、盂脣、動態／靜態穩定與神經血供。",
+  "note": "肩關節囊、盂唇、動態／靜態穩定與神經血供。",
   "type": "醫學教材"
  },
  {
@@ -342,7 +342,7 @@ const bones3Topics=[
    {
     "id": "method",
     "title": "01｜完整處理範圍、方法與限制",
-    "html": "<p>來源為使用者提供的〈2016DF02 01_骨骼(3)〉影片，全長 1 小時 53 分 42 秒。全長音訊以連續 30 秒片段自動轉錄；另抽取每 20 秒一張的板書，共 341 張，逐張以聯絡表核對。以下為全片按時間排序的改寫筆記，不是逐字稿，也不是聲稱逐秒人工觀看。</p><p>自動辨識有重複、漏字與中英文名詞錯誤；以相鄰音訊、板書與教材交叉校正。不能可靠還原的原句不補寫成講者確實說過；補充內容另標教材延伸。時間爲約略回看區間，對應使用者上傳檔案，未取得可驗證的單支 YouTube ID，所以不製作假跳轉連結。</p><div class=\"study-note teal\">建議先依下方時間表回顧，再到九個主題子頁看細節。片中「考過很多次」屬講者提醒，不代表本站已統計歷屆頻率；官方題號只列確實核對的題目。</div>"
+    "html": "<p>來源為使用者提供的〈2016DF02 01_骨骼(3)〉影片，全長 1 小時 53 分 42 秒。全長音訊以連續 30 秒片段自動轉錄；另抽取每 20 秒一張的板書，共 341 張，逐張以聯絡表核對。以下為全片按時間排序的改寫筆記，不是逐字稿，也不是聲稱逐秒人工觀看。</p><p>自動辨識有重複、漏字與中英文名詞錯誤；以相鄰音訊、板書與教材交叉校正。不能可靠還原的原句不補寫成講者確實說過；補充內容另標教材延伸。時間為約略回看區間，對應使用者上傳檔案，未取得可驗證的單支 YouTube ID，所以不製作假跳轉連結。</p><div class=\"study-note teal\">建議先依下方時間表回顧，再到九個主題子頁看細節。片中「考過很多次」屬講者提醒，不代表本站已統計歷屆頻率；官方題號只列確實核對的題目。</div>"
    },
    {
     "id": "time-2",
@@ -352,17 +352,17 @@ const bones3Topics=[
    {
     "id": "time-3",
     "title": "03｜肩胛骨與鎖骨",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">回看時間（約）</th><th scope=\"col\">影片段落</th><th scope=\"col\">詳細重點與連結</th></tr></thead><tbody><tr><td>17:00–21:00</td><td>肩胛骨輪廓與單字</td><td>三角、三緣、關節盂；喙突 coracoid、冠突 coronoid、圓錐 conoid 的字形辨識。 <a href=\"#/subject/anatomy/chapter/bones3/topic/scapula\">詳見主題頁 →</a></td></tr><tr><td>21:00–24:00</td><td>肩胛棘、肩峯與體表高度</td><td>後方棘延續到肩峯，傳統 T2／T3／T7 地標要搭配姿勢與「約」的限制。 <a href=\"#/subject/anatomy/chapter/bones3/topic/scapula\">詳見主題頁 →</a></td></tr><tr><td>24:00–26:00</td><td>上肢與軀幹的骨性連接</td><td>鎖骨連胸骨與肩峯，肱骨頭連關節盂；肩鎖分離與盂肱脫位不同。課堂名次不當成固定全身統計。 <a href=\"#/subject/anatomy/chapter/bones3/topic/clavicle-girdle\">詳見主題頁 →</a></td></tr><tr><td>26:00–30:00</td><td>喙鎖韌帶兩部分</td><td>圓錐與斜方共同穩定肩帶；鎖骨下面圓錐結節、斜方線與相應韌帶相連。 <a href=\"#/subject/anatomy/chapter/bones3/topic/clavicle-girdle\">詳見主題頁 →</a></td></tr><tr><td>30:00–33:30</td><td>肩胛骨三窩、喙突肌肉與切跡</td><td>肩胛下、棘上、棘下窩；胸小肌、肱二頭肌短頭、喙肱肌接喙突。肩胛上神經經韌帶下方，血管常在上方。 <a href=\"#/subject/anatomy/chapter/bones3/topic/scapula\">詳見主題頁 →</a></td></tr></tbody></table></div>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">回看時間（約）</th><th scope=\"col\">影片段落</th><th scope=\"col\">詳細重點與連結</th></tr></thead><tbody><tr><td>17:00–21:00</td><td>肩胛骨輪廓與單字</td><td>三角、三緣、關節盂；喙突 coracoid、冠突 coronoid、圓錐 conoid 的字形辨識。 <a href=\"#/subject/anatomy/chapter/bones3/topic/scapula\">詳見主題頁 →</a></td></tr><tr><td>21:00–24:00</td><td>肩胛棘、肩峰與體表高度</td><td>後方棘延續到肩峰，傳統 T2／T3／T7 地標要搭配姿勢與「約」的限制。 <a href=\"#/subject/anatomy/chapter/bones3/topic/scapula\">詳見主題頁 →</a></td></tr><tr><td>24:00–26:00</td><td>上肢與軀幹的骨性連接</td><td>鎖骨連胸骨與肩峰，肱骨頭連關節盂；肩鎖分離與盂肱脫位不同。課堂名次不當成固定全身統計。 <a href=\"#/subject/anatomy/chapter/bones3/topic/clavicle-girdle\">詳見主題頁 →</a></td></tr><tr><td>26:00–30:00</td><td>喙鎖韌帶兩部分</td><td>圓錐與斜方共同穩定肩帶；鎖骨下面圓錐結節、斜方線與相應韌帶相連。 <a href=\"#/subject/anatomy/chapter/bones3/topic/clavicle-girdle\">詳見主題頁 →</a></td></tr><tr><td>30:00–33:30</td><td>肩胛骨三窩、喙突肌肉與切跡</td><td>肩胛下、棘上、棘下窩；胸小肌、肱二頭肌短頭、喙肱肌接喙突。肩胛上神經經韌帶下方，血管常在上方。 <a href=\"#/subject/anatomy/chapter/bones3/topic/scapula\">詳見主題頁 →</a></td></tr></tbody></table></div>"
    },
    {
     "id": "time-4",
     "title": "04｜上肢骨與肩關節",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">回看時間（約）</th><th scope=\"col\">影片段落</th><th scope=\"col\">詳細重點與連結</th></tr></thead><tbody><tr><td>33:30–37:30</td><td>上肢骨計數、腕骨與指骨</td><td>肱骨、橈尺骨，兩排腕骨，掌骨與指骨；拇指兩節，其他各三節。拇指 CMC 為大多角骨配第一掌骨基底。 <a href=\"#/subject/anatomy/chapter/bones3/topic/carpus-hand\">詳見主題頁 →</a></td></tr><tr><td>37:30–40:00</td><td>肱骨畫圖與方向</td><td>先找近端頭、大小結節、兩種頸，後方鷹嘴窩用來判前後。 <a href=\"#/subject/anatomy/chapter/bones3/topic/humerus\">詳見主題頁 →</a></td></tr><tr><td>40:00–44:30</td><td>肩關節穩定與供應</td><td>球窩關節，四肌袖、三組課堂韌帶；肩胛上、前後旋肱動脈，以及肩胛上、腋、外側胸肌神經。動態、靜態與關節感覺／運動神經分別整理。 <a href=\"#/subject/anatomy/chapter/bones3/topic/glenohumeral\">詳見主題頁 →</a></td></tr><tr><td>44:30–47:00</td><td>大小結節與結節間溝</td><td>大結節有三肌袖，小結節有肩胛下肌；大圓、胸大、闊背的止點落在內外脣／溝底。長頭腱在溝內不能算作肌肉止點。 <a href=\"#/subject/anatomy/chapter/bones3/topic/humerus\">詳見主題頁 →</a></td></tr><tr><td>47:00–50:00</td><td>肱骨幹標記與橈神經</td><td>三角肌粗隆在前外側，橈神經溝在後方，與肱深動脈相伴。骨幹骨折可連到垂腕。 <a href=\"#/subject/anatomy/chapter/bones3/topic/humerus\">詳見主題頁 →</a></td></tr></tbody></table></div>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">回看時間（約）</th><th scope=\"col\">影片段落</th><th scope=\"col\">詳細重點與連結</th></tr></thead><tbody><tr><td>33:30–37:30</td><td>上肢骨計數、腕骨與指骨</td><td>肱骨、橈尺骨，兩排腕骨，掌骨與指骨；拇指兩節，其他各三節。拇指 CMC 為大多角骨配第一掌骨基底。 <a href=\"#/subject/anatomy/chapter/bones3/topic/carpus-hand\">詳見主題頁 →</a></td></tr><tr><td>37:30–40:00</td><td>肱骨畫圖與方向</td><td>先找近端頭、大小結節、兩種頸，後方鷹嘴窩用來判前後。 <a href=\"#/subject/anatomy/chapter/bones3/topic/humerus\">詳見主題頁 →</a></td></tr><tr><td>40:00–44:30</td><td>肩關節穩定與供應</td><td>球窩關節，四肌袖、三組課堂韌帶；肩胛上、前後旋肱動脈，以及肩胛上、腋、外側胸肌神經。動態、靜態與關節感覺／運動神經分別整理。 <a href=\"#/subject/anatomy/chapter/bones3/topic/glenohumeral\">詳見主題頁 →</a></td></tr><tr><td>44:30–47:00</td><td>大小結節與結節間溝</td><td>大結節有三肌袖，小結節有肩胛下肌；大圓、胸大、闊背的止點落在內外唇／溝底。長頭腱在溝內不能算作肌肉止點。 <a href=\"#/subject/anatomy/chapter/bones3/topic/humerus\">詳見主題頁 →</a></td></tr><tr><td>47:00–50:00</td><td>肱骨幹標記與橈神經</td><td>三角肌粗隆在前外側，橈神經溝在後方，與肱深動脈相伴。骨幹骨折可連到垂腕。 <a href=\"#/subject/anatomy/chapter/bones3/topic/humerus\">詳見主題頁 →</a></td></tr></tbody></table></div>"
    },
    {
     "id": "time-5",
     "title": "05｜遠端肱骨、肘與腕",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">回看時間（約）</th><th scope=\"col\">影片段落</th><th scope=\"col\">詳細重點與連結</th></tr></thead><tbody><tr><td>50:00–54:00</td><td>小頭、滑車、內外上髁</td><td>小頭外側配橈骨、滑車內側配尺骨；內上髁後有尺神經，內屈外伸是肌羣起點框架。 <a href=\"#/subject/anatomy/chapter/bones3/topic/humerus\">詳見主題頁 →</a></td></tr><tr><td>54:00–57:30</td><td>肱骨三個窩與尺骨兩個突</td><td>前面橈骨窩、冠突窩；後面鷹嘴窩。尺骨冠突在前、鷹嘴在後，共同圍滑車切跡。 <a href=\"#/subject/anatomy/chapter/bones3/topic/forearm-elbow\">詳見主題頁 →</a></td></tr><tr><td>57:30–61:00</td><td>肘關節與環狀韌帶</td><td>影片以肱尺＋肱橈說屈伸；完整肘複合體包含近端橈尺。環狀韌帶兩端接尺骨、環繞橈骨頭。 <a href=\"#/subject/anatomy/chapter/bones3/topic/forearm-elbow\">詳見主題頁 →</a></td></tr><tr><td>61:00–63:30</td><td>橈尺骨近遠端互換</td><td>橈骨頭在近端、尺骨頭在遠端；近端尺骨有橈骨切跡，遠端橈骨有尺骨切跡。 <a href=\"#/subject/anatomy/chapter/bones3/topic/forearm-elbow\">詳見主題頁 →</a></td></tr><tr><td>63:30–66:00</td><td>腕關節與兩側莖突</td><td>橈骨接舟狀、月狀；完整橈腕關節也含關節盤與三角骨的關係，尺骨不直接接腕骨。橈骨莖突通常伸得較遠。 <a href=\"#/subject/anatomy/chapter/bones3/topic/forearm-elbow\">詳見主題頁 →</a></td></tr></tbody></table></div>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">回看時間（約）</th><th scope=\"col\">影片段落</th><th scope=\"col\">詳細重點與連結</th></tr></thead><tbody><tr><td>50:00–54:00</td><td>小頭、滑車、內外上髁</td><td>小頭外側配橈骨、滑車內側配尺骨；內上髁後有尺神經，內屈外伸是肌群起點框架。 <a href=\"#/subject/anatomy/chapter/bones3/topic/humerus\">詳見主題頁 →</a></td></tr><tr><td>54:00–57:30</td><td>肱骨三個窩與尺骨兩個突</td><td>前面橈骨窩、冠突窩；後面鷹嘴窩。尺骨冠突在前、鷹嘴在後，共同圍滑車切跡。 <a href=\"#/subject/anatomy/chapter/bones3/topic/forearm-elbow\">詳見主題頁 →</a></td></tr><tr><td>57:30–61:00</td><td>肘關節與環狀韌帶</td><td>影片以肱尺＋肱橈說屈伸；完整肘複合體包含近端橈尺。環狀韌帶兩端接尺骨、環繞橈骨頭。 <a href=\"#/subject/anatomy/chapter/bones3/topic/forearm-elbow\">詳見主題頁 →</a></td></tr><tr><td>61:00–63:30</td><td>橈尺骨近遠端互換</td><td>橈骨頭在近端、尺骨頭在遠端；近端尺骨有橈骨切跡，遠端橈骨有尺骨切跡。 <a href=\"#/subject/anatomy/chapter/bones3/topic/forearm-elbow\">詳見主題頁 →</a></td></tr><tr><td>63:30–66:00</td><td>腕關節與兩側莖突</td><td>橈骨接舟狀、月狀；完整橈腕關節也含關節盤與三角骨的關係，尺骨不直接接腕骨。橈骨莖突通常伸得較遠。 <a href=\"#/subject/anatomy/chapter/bones3/topic/forearm-elbow\">詳見主題頁 →</a></td></tr></tbody></table></div>"
    },
    {
     "id": "time-6",
@@ -372,7 +372,7 @@ const bones3Topics=[
    {
     "id": "time-7",
     "title": "07｜骨盆入門與髂棘",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">回看時間（約）</th><th scope=\"col\">影片段落</th><th scope=\"col\">詳細重點與連結</th></tr></thead><tbody><tr><td>74:30–76:30</td><td>進入骨盆：名稱與成人計數</td><td>骨盆帶狹義兩塊髖骨；骨性骨盆另含薦骨、尾骨。每塊髖骨由髂、坐、恥骨融合。 <a href=\"#/subject/anatomy/chapter/bones3/topic/hip-landmarks\">詳見主題頁 →</a></td></tr><tr><td>76:30–80:00</td><td>前方畫薦骨與髂棘</td><td>以腰、薦椎及薦骨翼建立骨盆輪廓。圖上髂前上、下棘的水平線只是輔助畫圖，不當成固定臨牀椎體層級。 <a href=\"#/subject/anatomy/chapter/bones3/topic/hip-landmarks\">詳見主題頁 →</a></td></tr><tr><td>80:00–83:00</td><td>髂骨拼字與閉孔</td><td>Ilium 髂骨對 ileum 迴腸；髂嵴前後端，閉孔膜與剩餘閉孔管的初步概念。 <a href=\"#/subject/anatomy/chapter/bones3/topic/hip-landmarks\">詳見主題頁 →</a></td></tr><tr><td>83:00–86:00</td><td>用顏色分三塊髖骨</td><td>髂骨上方、恥骨前下、坐骨後下。三者參與髖臼，恥坐骨圍閉孔。 <a href=\"#/subject/anatomy/chapter/bones3/topic/hip-landmarks\">詳見主題頁 →</a></td></tr><tr><td>86:00–92:00</td><td>轉到側面：四髂棘與髂嵴</td><td>ASIS、AIIS、PSIS、PIIS；髂嵴兩端是 ASIS／PSIS，傳統最高點約 L4、PSIS 約 S2。 <a href=\"#/subject/anatomy/chapter/bones3/topic/hip-landmarks\">詳見主題頁 →</a></td></tr></tbody></table></div>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">回看時間（約）</th><th scope=\"col\">影片段落</th><th scope=\"col\">詳細重點與連結</th></tr></thead><tbody><tr><td>74:30–76:30</td><td>進入骨盆：名稱與成人計數</td><td>骨盆帶狹義兩塊髖骨；骨性骨盆另含薦骨、尾骨。每塊髖骨由髂、坐、恥骨融合。 <a href=\"#/subject/anatomy/chapter/bones3/topic/hip-landmarks\">詳見主題頁 →</a></td></tr><tr><td>76:30–80:00</td><td>前方畫薦骨與髂棘</td><td>以腰、薦椎及薦骨翼建立骨盆輪廓。圖上髂前上、下棘的水平線只是輔助畫圖，不當成固定臨床椎體層級。 <a href=\"#/subject/anatomy/chapter/bones3/topic/hip-landmarks\">詳見主題頁 →</a></td></tr><tr><td>80:00–83:00</td><td>髂骨拼字與閉孔</td><td>Ilium 髂骨對 ileum 迴腸；髂嵴前後端，閉孔膜與剩餘閉孔管的初步概念。 <a href=\"#/subject/anatomy/chapter/bones3/topic/hip-landmarks\">詳見主題頁 →</a></td></tr><tr><td>83:00–86:00</td><td>用顏色分三塊髖骨</td><td>髂骨上方、恥骨前下、坐骨後下。三者參與髖臼，恥坐骨圍閉孔。 <a href=\"#/subject/anatomy/chapter/bones3/topic/hip-landmarks\">詳見主題頁 →</a></td></tr><tr><td>86:00–92:00</td><td>轉到側面：四髂棘與髂嵴</td><td>ASIS、AIIS、PSIS、PIIS；髂嵴兩端是 ASIS／PSIS，傳統最高點約 L4、PSIS 約 S2。 <a href=\"#/subject/anatomy/chapter/bones3/topic/hip-landmarks\">詳見主題頁 →</a></td></tr></tbody></table></div>"
    },
    {
     "id": "time-8",
@@ -387,7 +387,7 @@ const bones3Topics=[
    {
     "id": "corrections",
     "title": "10｜影片口訣與教材修正總表",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">影片簡化／可能混淆</th><th scope=\"col\">網站採用的精確說法</th><th scope=\"col\">核對依據</th></tr></thead><tbody><tr><td>典型肋列 2–9</td><td>形態學通常 3–9；第 2 肋有特殊標記，課堂分組偏重肋骨頭關節面</td><td>S58</td></tr><tr><td>深層全叫胸橫肌</td><td>胸壁第三層含最內肋間肌等，胸橫肌爲前胸壁深層構造</td><td>S59、S78</td></tr><tr><td>肋骨上緣一定安全</td><td>避主要束的理由成立，側支、變異仍可能受傷</td><td>S60</td></tr><tr><td>肌袖＋其他附著一起算大／小結節肌肉</td><td>大結節三肌袖、小結節一；內外脣和溝底另外列</td><td>S65、S67、S79</td></tr><tr><td>肩鎖固定是第二容易脫臼</td><td>未提供統計範圍；改比盂肱脫位與肩鎖分離</td><td>S63、S80</td></tr><tr><td>腕關節只有橈骨配兩塊腕骨</td><td>直接骨性配對是舟狀、月狀；完整橈腕關節含關節盤及三角骨</td><td>S62、S69</td></tr><tr><td>Monteggia／Galeazzi 只背骨折骨頭</td><td>要加橈骨頭脫位／遠端橈尺損傷</td><td>S82</td></tr><tr><td>舟狀骨骨折必然壞死</td><td>近端較缺血，結果受骨折位置、血供等影響</td><td>S70、S71</td></tr><tr><td>橫掌骨韌帶直接把所有頭綁一起</td><td>主要連第 2–5 MCP 掌板；拇指不列入同樣連結</td><td>S94</td></tr><tr><td>髂棘或觸診線固定對某椎體</td><td>傳統地標爲近似，圖示層級不能當個體定值</td><td>S76</td></tr><tr><td>髂股韌帶連轉子間嵴</td><td>前方轉子間線；後方纔是嵴</td><td>S99</td></tr><tr><td>僵直性脊椎炎一定先痛薦髂</td><td>薦髂炎重要，但臨牀分佈有差異</td><td>S101</td></tr></tbody></table></div>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">影片簡化／可能混淆</th><th scope=\"col\">網站採用的精確說法</th><th scope=\"col\">核對依據</th></tr></thead><tbody><tr><td>典型肋列 2–9</td><td>形態學通常 3–9；第 2 肋有特殊標記，課堂分組偏重肋骨頭關節面</td><td>S58</td></tr><tr><td>深層全叫胸橫肌</td><td>胸壁第三層含最內肋間肌等，胸橫肌為前胸壁深層構造</td><td>S59、S78</td></tr><tr><td>肋骨上緣一定安全</td><td>避主要束的理由成立，側支、變異仍可能受傷</td><td>S60</td></tr><tr><td>肌袖＋其他附著一起算大／小結節肌肉</td><td>大結節三肌袖、小結節一；內外唇和溝底另外列</td><td>S65、S67、S79</td></tr><tr><td>肩鎖固定是第二容易脫臼</td><td>未提供統計範圍；改比盂肱脫位與肩鎖分離</td><td>S63、S80</td></tr><tr><td>腕關節只有橈骨配兩塊腕骨</td><td>直接骨性配對是舟狀、月狀；完整橈腕關節含關節盤及三角骨</td><td>S62、S69</td></tr><tr><td>Monteggia／Galeazzi 只背骨折骨頭</td><td>要加橈骨頭脫位／遠端橈尺損傷</td><td>S82</td></tr><tr><td>舟狀骨骨折必然壞死</td><td>近端較缺血，結果受骨折位置、血供等影響</td><td>S70、S71</td></tr><tr><td>橫掌骨韌帶直接把所有頭綁一起</td><td>主要連第 2–5 MCP 掌板；拇指不列入同樣連結</td><td>S94</td></tr><tr><td>髂棘或觸診線固定對某椎體</td><td>傳統地標為近似，圖示層級不能當個體定值</td><td>S76</td></tr><tr><td>髂股韌帶連轉子間嵴</td><td>前方轉子間線；後方才是嵴</td><td>S99</td></tr><tr><td>僵直性脊椎炎一定先痛薦髂</td><td>薦髂炎重要，但臨床分佈有差異</td><td>S101</td></tr></tbody></table></div>"
    },
    {
     "id": "coverage",
@@ -432,8 +432,8 @@ const bones3Topics=[
    },
    {
     "id": "layers",
-    "title": "05｜三層肌羣與神經血管平面",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">由淺至深</th><th scope=\"col\">纖維／分佈重點</th><th scope=\"col\">與神經血管關係</th></tr></thead><tbody><tr><td>外肋間肌 external intercostal</td><td>通常向前下方；前側以膜延續</td><td>位於神經血管束外側</td></tr><tr><td>內肋間肌 internal intercostal</td><td>通常向後下方；方向與外層相反</td><td>神經血管束位於它的深面</td></tr><tr><td>最內肋間肌 innermost intercostal</td><td>側胸壁較明顯，與內肋間肌大致同向</td><td>神經血管束位於它的淺面</td></tr><tr><td>最深肌羣的區域性構造</td><td>後側肋下肌；前側胸橫肌；外側最內肋間肌</td><td>不能把最內肋間肌全稱作胸橫肌</td></tr></tbody></table></div><div class=\"study-note teal\">影片把最內層概括為「胸橫肌」。標準胸壁側面層次應背：內肋間肌 → 血管神經平面 → 最內肋間肌；胸橫肌主要位於前胸壁。</div>"
+    "title": "05｜三層肌群與神經血管平面",
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">由淺至深</th><th scope=\"col\">纖維／分佈重點</th><th scope=\"col\">與神經血管關係</th></tr></thead><tbody><tr><td>外肋間肌 external intercostal</td><td>通常向前下方；前側以膜延續</td><td>位於神經血管束外側</td></tr><tr><td>內肋間肌 internal intercostal</td><td>通常向後下方；方向與外層相反</td><td>神經血管束位於它的深面</td></tr><tr><td>最內肋間肌 innermost intercostal</td><td>側胸壁較明顯，與內肋間肌大致同向</td><td>神經血管束位於它的淺面</td></tr><tr><td>最深肌群的區域性構造</td><td>後側肋下肌；前側胸橫肌；外側最內肋間肌</td><td>不能把最內肋間肌全稱作胸橫肌</td></tr></tbody></table></div><div class=\"study-note teal\">影片把最內層概括為「胸橫肌」。標準胸壁側面層次應背：內肋間肌 → 血管神經平面 → 最內肋間肌；胸橫肌主要位於前胸壁。</div>"
    },
    {
     "id": "van",
@@ -472,7 +472,7 @@ const bones3Topics=[
    {
     "id": "orientation",
     "title": "01｜先定左右，再看前後",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">線索</th><th scope=\"col\">朝向</th><th scope=\"col\">判斷</th></tr></thead><tbody><tr><td>肩胛棘 scapular spine</td><td>後方</td><td>看得到肩胛棘的是後面</td></tr><tr><td>肩胛下窩 subscapular fossa</td><td>前方，靠胸壁</td><td>前面不被肩胛棘分成上下兩窩</td></tr><tr><td>關節盂 glenoid cavity</td><td>外側，亦略朝前</td><td>它接肱骨頭</td></tr><tr><td>喙突 coracoid process</td><td>向前突出</td><td>與向後外延續的肩峯區分</td></tr></tbody></table></div><div class=\"flow\"><div class=\"flow-step\"><b>找關節盂</b><small>定外側</small></div><span class=\"flow-arrow\" aria-hidden=\"true\">→</span><div class=\"flow-step\"><b>找肩胛棘</b><small>定後面</small></div><span class=\"flow-arrow\" aria-hidden=\"true\">→</span><div class=\"flow-step\"><b>下角向下</b><small>再判左右</small></div></div>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">線索</th><th scope=\"col\">朝向</th><th scope=\"col\">判斷</th></tr></thead><tbody><tr><td>肩胛棘 scapular spine</td><td>後方</td><td>看得到肩胛棘的是後面</td></tr><tr><td>肩胛下窩 subscapular fossa</td><td>前方，靠胸壁</td><td>前面不被肩胛棘分成上下兩窩</td></tr><tr><td>關節盂 glenoid cavity</td><td>外側，亦略朝前</td><td>它接肱骨頭</td></tr><tr><td>喙突 coracoid process</td><td>向前突出</td><td>與向後外延續的肩峰區分</td></tr></tbody></table></div><div class=\"flow\"><div class=\"flow-step\"><b>找關節盂</b><small>定外側</small></div><span class=\"flow-arrow\" aria-hidden=\"true\">→</span><div class=\"flow-step\"><b>找肩胛棘</b><small>定後面</small></div><span class=\"flow-arrow\" aria-hidden=\"true\">→</span><div class=\"flow-step\"><b>下角向下</b><small>再判左右</small></div></div>"
    },
    {
     "id": "borders",
@@ -482,17 +482,17 @@ const bones3Topics=[
    {
     "id": "surface",
     "title": "03｜T2、T3、T7：傳統姿勢下的近似地標",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">體表標記</th><th scope=\"col\">常用近似</th><th scope=\"col\">注意</th></tr></thead><tbody><tr><td>上角</td><td>T2</td><td>手臂自然垂下時</td></tr><tr><td>肩胛棘內端／棘根</td><td>T3</td><td>最常拿來作背部地標</td></tr><tr><td>下角</td><td>T7</td><td>肩胛骨會隨手臂抬高而旋轉</td></tr><tr><td>影片補充的外側角、肩峯高度</td><td>示意圖分別畫近 T3、T2</td><td>以圖像記憶為主，勿當成固定影像切面</td></tr></tbody></table></div><p>肩胛骨位於後胸壁，傳統範圍約第 2–7 肋。肋骨編號與胸椎體表高度是兩種描述；姿勢、肩帶活動、個體形態都會改變定位。</p>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">體表標記</th><th scope=\"col\">常用近似</th><th scope=\"col\">注意</th></tr></thead><tbody><tr><td>上角</td><td>T2</td><td>手臂自然垂下時</td></tr><tr><td>肩胛棘內端／棘根</td><td>T3</td><td>最常拿來作背部地標</td></tr><tr><td>下角</td><td>T7</td><td>肩胛骨會隨手臂抬高而旋轉</td></tr><tr><td>影片補充的外側角、肩峰高度</td><td>示意圖分別畫近 T3、T2</td><td>以圖像記憶為主，勿當成固定影像切面</td></tr></tbody></table></div><p>肩胛骨位於後胸壁，傳統範圍約第 2–7 肋。肋骨編號與胸椎體表高度是兩種描述；姿勢、肩帶活動、個體形態都會改變定位。</p>"
    },
    {
     "id": "spine-acromion",
-    "title": "04｜肩胛棘如何延續成肩峯",
-    "html": "<p>肩胛棘向外延續為肩峯 acromion。肩峯與鎖骨外端形成肩鎖關節；關節盂則與肱骨頭形成盂肱關節。看到兩個關節都在肩部時，仍要把它們的骨頭配對分開。</p><div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">骨性標記</th><th scope=\"col\">主要連結</th><th scope=\"col\">辨認</th></tr></thead><tbody><tr><td>肩峯</td><td>鎖骨外端；三角肌、斜方肌附著</td><td>肩胛棘外側的延續</td></tr><tr><td>關節盂</td><td>肱骨頭</td><td>淺而呈梨形的關節面</td></tr><tr><td>盂上結節</td><td>肱二頭肌長頭起點（另涉及盂脣）</td><td>在關節盂上方</td></tr><tr><td>盂下結節</td><td>肱三頭肌長頭起點</td><td>在關節盂下方</td></tr></tbody></table></div>"
+    "title": "04｜肩胛棘如何延續成肩峰",
+    "html": "<p>肩胛棘向外延續為肩峰 acromion。肩峰與鎖骨外端形成肩鎖關節；關節盂則與肱骨頭形成盂肱關節。看到兩個關節都在肩部時，仍要把它們的骨頭配對分開。</p><div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">骨性標記</th><th scope=\"col\">主要連結</th><th scope=\"col\">辨認</th></tr></thead><tbody><tr><td>肩峰</td><td>鎖骨外端；三角肌、斜方肌附著</td><td>肩胛棘外側的延續</td></tr><tr><td>關節盂</td><td>肱骨頭</td><td>淺而呈梨形的關節面</td></tr><tr><td>盂上結節</td><td>肱二頭肌長頭起點（另涉及盂唇）</td><td>在關節盂上方</td></tr><tr><td>盂下結節</td><td>肱三頭肌長頭起點</td><td>在關節盂下方</td></tr></tbody></table></div>"
    },
    {
     "id": "coracoid",
     "title": "05｜喙突：三條肌肉、三組常見韌帶",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">類別</th><th scope=\"col\">結構</th><th scope=\"col\">喙突關係</th></tr></thead><tbody><tr><td>肌肉</td><td>胸小肌 pectoralis minor</td><td>止於喙突</td></tr><tr><td>肌肉</td><td>肱二頭肌短頭</td><td>起於喙突</td></tr><tr><td>肌肉</td><td>喙肱肌 coracobrachialis</td><td>起於喙突</td></tr><tr><td>韌帶</td><td>喙鎖韌帶</td><td>喙突 ↔ 鎖骨</td></tr><tr><td>韌帶</td><td>喙肩韌帶</td><td>喙突 ↔ 肩峯</td></tr><tr><td>韌帶</td><td>喙肱韌帶</td><td>喙突 ↔ 肱骨／肩關節囊</td></tr></tbody></table></div><details><summary>喙突連肱二頭肌長頭還是短頭？</summary><p>短頭。長頭起於盂上結節與上方盂脣，走過結節間溝。</p></details>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">類別</th><th scope=\"col\">結構</th><th scope=\"col\">喙突關係</th></tr></thead><tbody><tr><td>肌肉</td><td>胸小肌 pectoralis minor</td><td>止於喙突</td></tr><tr><td>肌肉</td><td>肱二頭肌短頭</td><td>起於喙突</td></tr><tr><td>肌肉</td><td>喙肱肌 coracobrachialis</td><td>起於喙突</td></tr><tr><td>韌帶</td><td>喙鎖韌帶</td><td>喙突 ↔ 鎖骨</td></tr><tr><td>韌帶</td><td>喙肩韌帶</td><td>喙突 ↔ 肩峰</td></tr><tr><td>韌帶</td><td>喙肱韌帶</td><td>喙突 ↔ 肱骨／肩關節囊</td></tr></tbody></table></div><details><summary>喙突連肱二頭肌長頭還是短頭？</summary><p>短頭。長頭起於盂上結節與上方盂唇，走過結節間溝。</p></details>"
    },
    {
     "id": "notch",
@@ -507,7 +507,7 @@ const bones3Topics=[
    {
     "id": "words",
     "title": "08｜Coracoid、Coronoid、Conoid：差一字不同部位",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">英文</th><th scope=\"col\">中文</th><th scope=\"col\">本章例子</th></tr></thead><tbody><tr><td>Coracoid</td><td>喙狀／鳥嘴狀</td><td>肩胛骨喙突</td></tr><tr><td>Coronoid</td><td>冠狀</td><td>尺骨冠突；第二章下頜骨冠突</td></tr><tr><td>Conoid</td><td>圓錐</td><td>鎖骨圓錐結節、圓錐韌帶</td></tr><tr><td>Acromion</td><td>肩峯</td><td>肩胛棘的外側延續</td></tr><tr><td>Glenoid</td><td>關節盂</td><td>接肱骨頭</td></tr></tbody></table></div><p>讀題先看完整單字與所屬骨頭；「肩胛骨冠突」與「尺骨喙突」都是把相近拼字混在一起。</p>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">英文</th><th scope=\"col\">中文</th><th scope=\"col\">本章例子</th></tr></thead><tbody><tr><td>Coracoid</td><td>喙狀／鳥嘴狀</td><td>肩胛骨喙突</td></tr><tr><td>Coronoid</td><td>冠狀</td><td>尺骨冠突；第二章下頜骨冠突</td></tr><tr><td>Conoid</td><td>圓錐</td><td>鎖骨圓錐結節、圓錐韌帶</td></tr><tr><td>Acromion</td><td>肩峰</td><td>肩胛棘的外側延續</td></tr><tr><td>Glenoid</td><td>關節盂</td><td>接肱骨頭</td></tr></tbody></table></div><p>讀題先看完整單字與所屬骨頭；「肩胛骨冠突」與「尺骨喙突」都是把相近拼字混在一起。</p>"
    }
   ]
  },
@@ -525,7 +525,7 @@ const bones3Topics=[
    {
     "id": "chain",
     "title": "01｜上肢如何接上軀幹",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">連接</th><th scope=\"col\">兩端</th><th scope=\"col\">性質</th></tr></thead><tbody><tr><td>胸鎖關節 SC</td><td>鎖骨內端 ↔ 胸骨柄（涉及第 1 肋軟骨）</td><td>上肢與中軸骨的重要骨性連接</td></tr><tr><td>肩鎖關節 AC</td><td>鎖骨外端 ↔ 肩峯</td><td>肩帶內部連接</td></tr><tr><td>盂肱關節 GH</td><td>肩胛骨關節盂 ↔ 肱骨頭</td><td>肩關節主要活動關節</td></tr><tr><td>肩胛胸廓接觸</td><td>肩胛骨前面 ↔ 胸壁肌肉平面</td><td>功能性滑動介面，非典型骨性滑液關節</td></tr></tbody></table></div><p>肩帶由鎖骨及肩胛骨構成。鎖骨像支撐桿，讓上肢與胸壁保持距離；肩胛骨本身並未直接與肋骨形成一般滑液關節。</p>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">連接</th><th scope=\"col\">兩端</th><th scope=\"col\">性質</th></tr></thead><tbody><tr><td>胸鎖關節 SC</td><td>鎖骨內端 ↔ 胸骨柄（涉及第 1 肋軟骨）</td><td>上肢與中軸骨的重要骨性連接</td></tr><tr><td>肩鎖關節 AC</td><td>鎖骨外端 ↔ 肩峰</td><td>肩帶內部連接</td></tr><tr><td>盂肱關節 GH</td><td>肩胛骨關節盂 ↔ 肱骨頭</td><td>肩關節主要活動關節</td></tr><tr><td>肩胛胸廓接觸</td><td>肩胛骨前面 ↔ 胸壁肌肉平面</td><td>功能性滑動介面，非典型骨性滑液關節</td></tr></tbody></table></div><p>肩帶由鎖骨及肩胛骨構成。鎖骨像支撐桿，讓上肢與胸壁保持距離；肩胛骨本身並未直接與肋骨形成一般滑液關節。</p>"
    },
    {
     "id": "shape",
@@ -545,7 +545,7 @@ const bones3Topics=[
    {
     "id": "not-same",
     "title": "05｜名稱相近的三個連接",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">名稱</th><th scope=\"col\">連接骨頭</th><th scope=\"col\">功能線索</th></tr></thead><tbody><tr><td>Coracoclavicular 喙鎖</td><td>喙突—鎖骨</td><td>有 conoid、trapezoid 兩部分</td></tr><tr><td>Coracoacromial 喙肩</td><td>喙突—肩峯</td><td>形成肩峯上方拱的一部分</td></tr><tr><td>Acromioclavicular 肩鎖</td><td>肩峯—鎖骨</td><td>關節及其周圍韌帶</td></tr></tbody></table></div><details><summary>喙鎖韌帶的兩端一定跨過兩個不同骨頭嗎？</summary><p>是。喙突屬肩胛骨，另一端是鎖骨；喙肩韌帶兩端則都在肩胛骨上。</p></details>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">名稱</th><th scope=\"col\">連接骨頭</th><th scope=\"col\">功能線索</th></tr></thead><tbody><tr><td>Coracoclavicular 喙鎖</td><td>喙突—鎖骨</td><td>有 conoid、trapezoid 兩部分</td></tr><tr><td>Coracoacromial 喙肩</td><td>喙突—肩峰</td><td>形成喙肩弓的一部分，位於肱骨頭上方</td></tr><tr><td>Acromioclavicular 肩鎖</td><td>肩峰—鎖骨</td><td>關節及其周圍韌帶</td></tr></tbody></table></div><details><summary>喙鎖韌帶的兩端一定跨過兩個不同骨頭嗎？</summary><p>是。喙突屬肩胛骨，另一端是鎖骨；喙肩韌帶兩端則都在肩胛骨上。</p></details>"
    },
    {
     "id": "ossify",
@@ -555,7 +555,7 @@ const bones3Topics=[
    {
     "id": "clinical",
     "title": "07｜教材延伸：骨折與肩鎖分離別混",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">情境</th><th scope=\"col\">主要受損結構</th><th scope=\"col\">解題切入</th></tr></thead><tbody><tr><td>鎖骨骨折</td><td>骨性支撐桿中斷</td><td>常在中段／曲度轉折區</td></tr><tr><td>肩鎖關節分離</td><td>肩鎖韌帶，較嚴重時喙鎖韌帶也受損</td><td>關節端相對位移與穩定性</td></tr><tr><td>盂肱脫位</td><td>肱骨頭離開關節盂</td><td>不是鎖骨與肩峯分離</td></tr></tbody></table></div><p>本節用三種損傷區分骨頭連接，不將簡化描述用於判定個別病人的分級或治療。</p>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">情境</th><th scope=\"col\">主要受損結構</th><th scope=\"col\">解題切入</th></tr></thead><tbody><tr><td>鎖骨骨折</td><td>骨性支撐桿中斷</td><td>常在中段／曲度轉折區</td></tr><tr><td>肩鎖關節分離</td><td>肩鎖韌帶，較嚴重時喙鎖韌帶也受損</td><td>關節端相對位移與穩定性</td></tr><tr><td>盂肱脫位</td><td>肱骨頭離開關節盂</td><td>不是鎖骨與肩峰分離</td></tr></tbody></table></div><p>本節用三種損傷區分骨頭連接，不將簡化描述用於判定個別病人的分級或治療。</p>"
    }
   ]
  },
@@ -574,12 +574,12 @@ const bones3Topics=[
    {
     "id": "joint",
     "title": "01｜肩關節＝盂肱關節：球大、窩淺",
-    "html": "<p>肱骨頭與肩胛骨關節盂形成球窩滑液關節，可多軸活動。盂脣由纖維軟骨構成，增加關節盂的深度；活動度大仍需要肌肉、囊韌帶與其他構造共同維持穩定。</p>"
+    "html": "<p>肱骨頭與肩胛骨關節盂形成球窩滑液關節，可多軸活動。盂唇由纖維軟骨構成，增加關節盂的深度；活動度大仍需要肌肉、囊韌帶與其他構造共同維持穩定。</p>"
    },
    {
     "id": "stability",
     "title": "02｜影片「四肌三韌帶」與完整穩定系統",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">穩定種類</th><th scope=\"col\">主要構造</th><th scope=\"col\">影片記憶法</th></tr></thead><tbody><tr><td>動態</td><td>旋轉肌袖、肱二頭肌長頭、肩胛周圍肌羣</td><td>四塊肌袖包住肱骨頭</td></tr><tr><td>靜態</td><td>關節囊、盂肱韌帶、盂脣、骨性配合及關節內負壓等</td><td>三組韌帶作為入門框架</td></tr></tbody></table></div><div class=\"study-note teal\">「肩關節靠肌肉」可用於強調肌袖的動態穩定，不能推成韌帶不重要。穩定作用會隨姿勢、活動方向與肩外展角度而改變。</div>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">穩定種類</th><th scope=\"col\">主要構造</th><th scope=\"col\">影片記憶法</th></tr></thead><tbody><tr><td>動態</td><td>旋轉肌袖、肱二頭肌長頭、肩胛周圍肌群</td><td>四塊肌袖包住肱骨頭</td></tr><tr><td>靜態</td><td>關節囊、盂肱韌帶、盂唇、骨性配合及關節內負壓等</td><td>三組韌帶作為入門框架</td></tr></tbody></table></div><div class=\"study-note teal\">「肩關節靠肌肉」可用於強調肌袖的動態穩定，不能推成韌帶不重要。穩定作用會隨姿勢、活動方向與肩外展角度而改變。</div>"
    },
    {
     "id": "sits",
@@ -604,7 +604,7 @@ const bones3Topics=[
    {
     "id": "dislocation",
     "title": "07｜肩脫位與肩鎖分離：不沿用排名死背",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">情境</th><th scope=\"col\">骨頭關係</th><th scope=\"col\">重要配對</th></tr></thead><tbody><tr><td>盂肱脫位</td><td>肱骨頭離開關節盂</td><td>腋神經可能受影響</td></tr><tr><td>肩鎖分離</td><td>鎖骨外端與肩峯關係改變</td><td>肩鎖、喙鎖韌帶</td></tr><tr><td>影片「第一、第二易脫臼」說法</td><td>不同統計範圍會有不同排名</td><td>本章不把肩鎖關節列為全身固定第二名</td></tr></tbody></table></div><p>肩關節容易脫位，可由球大窩淺與活動度理解；比背無範圍的名次更能解題。</p>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">情境</th><th scope=\"col\">骨頭關係</th><th scope=\"col\">重要配對</th></tr></thead><tbody><tr><td>盂肱脫位</td><td>肱骨頭離開關節盂</td><td>腋神經可能受影響</td></tr><tr><td>肩鎖分離</td><td>鎖骨外端與肩峰關係改變</td><td>肩鎖、喙鎖韌帶</td></tr><tr><td>影片「第一、第二易脫臼」說法</td><td>不同統計範圍會有不同排名</td><td>本章不把肩鎖關節列為全身固定第二名</td></tr></tbody></table></div><p>肩關節容易脫位，可由球大窩淺與活動度理解；比背無範圍的名次更能解題。</p>"
    }
   ]
  },
@@ -630,7 +630,7 @@ const bones3Topics=[
    {
     "id": "necks",
     "title": "02｜解剖頸與外科頸",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">名稱</th><th scope=\"col\">位置</th><th scope=\"col\">臨牀配對</th></tr></thead><tbody><tr><td>Anatomical neck 解剖頸</td><td>沿肱骨頭關節面邊緣</td><td>頭與結節區的分界</td></tr><tr><td>Surgical neck 外科頸</td><td>結節區下方與骨幹交界</td><td>腋神經、後旋肱動脈附近</td></tr></tbody></table></div><details><summary>骨折題寫「肱骨頸」，可以直接選腋神經嗎？</summary><p>先確認是外科頸。解剖頸、外科頸與骨幹位置不同；題幹的精確部位纔是配對依據。</p></details>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">名稱</th><th scope=\"col\">位置</th><th scope=\"col\">臨床配對</th></tr></thead><tbody><tr><td>Anatomical neck 解剖頸</td><td>沿肱骨頭關節面邊緣</td><td>頭與結節區的分界</td></tr><tr><td>Surgical neck 外科頸</td><td>結節區下方與骨幹交界</td><td>腋神經、後旋肱動脈附近</td></tr></tbody></table></div><details><summary>骨折題寫「肱骨頸」，可以直接選腋神經嗎？</summary><p>先確認是外科頸。解剖頸、外科頸與骨幹位置不同；題幹的精確部位才是配對依據。</p></details>"
    },
    {
     "id": "cuff",
@@ -640,7 +640,7 @@ const bones3Topics=[
    {
     "id": "groove",
     "title": "04｜結節間溝：內容物與附著分兩題",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">位置</th><th scope=\"col\">結構</th><th scope=\"col\">不要混淆</th></tr></thead><tbody><tr><td>溝內通過</td><td>肱二頭肌長頭腱</td><td>通過不等於止在溝底</td></tr><tr><td>外側脣／大結節嵴</td><td>胸大肌 pectoralis major</td><td>主要附著在外側</td></tr><tr><td>溝底</td><td>闊背肌 latissimus dorsi</td><td>常用標準配對</td></tr><tr><td>內側脣／小結節嵴</td><td>大圓肌 teres major</td><td>不是肩胛下肌的小結節附著</td></tr></tbody></table></div><p>部分教材與真實標本的腱附著範圍可有重疊；國考配對先採標準地標，再看題圖。肱二頭肌長頭從盂上結節／盂脣出發，往遠端止於橈骨粗隆。</p>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">位置</th><th scope=\"col\">結構</th><th scope=\"col\">不要混淆</th></tr></thead><tbody><tr><td>溝內通過</td><td>肱二頭肌長頭腱</td><td>通過不等於止在溝底</td></tr><tr><td>外側唇／大結節嵴</td><td>胸大肌 pectoralis major</td><td>主要附著在外側</td></tr><tr><td>溝底</td><td>闊背肌 latissimus dorsi</td><td>常用標準配對</td></tr><tr><td>內側唇／小結節嵴</td><td>大圓肌 teres major</td><td>不是肩胛下肌的小結節附著</td></tr></tbody></table></div><p>部分教材與真實標本的腱附著範圍可有重疊；國考配對先採標準地標，再看題圖。肱二頭肌長頭從盂上結節／盂唇出發，往遠端止於橈骨粗隆。</p>"
    },
    {
     "id": "shaft",
@@ -654,8 +654,8 @@ const bones3Topics=[
    },
    {
     "id": "epicondyles",
-    "title": "07｜內上髁、外上髁與肌羣",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">地標</th><th scope=\"col\">肌羣線索</th><th scope=\"col\">神經關係</th></tr></thead><tbody><tr><td>內上髁 medial epicondyle</td><td>前臂屈肌／旋前肌共同起點的一部分</td><td>尺神經走其後方</td></tr><tr><td>外上髁 lateral epicondyle</td><td>前臂伸肌／旋後肌相關起點</td><td>別把尺神經放到外側</td></tr></tbody></table></div><p>「內屈外伸」是共同腱起點的概括，不表示前臂所有屈肌、伸肌都只從這兩個點起源。</p>"
+    "title": "07｜內上髁、外上髁與肌群",
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">地標</th><th scope=\"col\">肌群線索</th><th scope=\"col\">神經關係</th></tr></thead><tbody><tr><td>內上髁 medial epicondyle</td><td>前臂屈肌／旋前肌共同起點的一部分</td><td>尺神經走其後方</td></tr><tr><td>外上髁 lateral epicondyle</td><td>前臂伸肌／旋後肌相關起點</td><td>別把尺神經放到外側</td></tr></tbody></table></div><p>「內屈外伸」是共同腱起點的概括，不表示前臂所有屈肌、伸肌都只從這兩個點起源。</p>"
    },
    {
     "id": "nerves",
@@ -665,7 +665,7 @@ const bones3Topics=[
    {
     "id": "recall",
     "title": "09｜四個常混配對",
-    "html": "<details><summary>肩胛下肌與大圓肌都內旋，所以止點相同嗎？</summary><p>不同。肩胛下肌止於小結節；大圓肌止於小結節嵴／結節間溝內側脣。</p></details><details><summary>肱骨小頭與肱骨頭是同一個構造嗎？</summary><p>不是。肱骨頭在近端接肩胛骨；肱骨小頭在遠端接橈骨頭。</p></details><details><summary>腋神經與橈神經都在肱骨後方，所以骨折配對可以互換嗎？</summary><p>不可以。腋神經靠外科頸，橈神經靠骨幹橈神經溝。</p></details><details><summary>盂下結節長頭腱與結節間溝長頭腱是同一條肌肉嗎？</summary><p>不同。盂下結節是肱三頭肌長頭；結節間溝通過肱二頭肌長頭腱。</p></details>"
+    "html": "<details><summary>肩胛下肌與大圓肌都內旋，所以止點相同嗎？</summary><p>不同。肩胛下肌止於小結節；大圓肌止於小結節嵴／結節間溝內側唇。</p></details><details><summary>肱骨小頭與肱骨頭是同一個構造嗎？</summary><p>不是。肱骨頭在近端接肩胛骨；肱骨小頭在遠端接橈骨頭。</p></details><details><summary>腋神經與橈神經都在肱骨後方，所以骨折配對可以互換嗎？</summary><p>不可以。腋神經靠外科頸，橈神經靠骨幹橈神經溝。</p></details><details><summary>盂下結節長頭腱與結節間溝長頭腱是同一條肌肉嗎？</summary><p>不同。盂下結節是肱三頭肌長頭；結節間溝通過肱二頭肌長頭腱。</p></details>"
    }
   ]
  },
@@ -763,7 +763,7 @@ const bones3Topics=[
    {
     "id": "proximal",
     "title": "03｜近端腕骨：誰接橈骨、誰在掌側",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">腕骨</th><th scope=\"col\">重點</th><th scope=\"col\">補充</th></tr></thead><tbody><tr><td>舟狀骨</td><td>直接接橈骨；跨兩排功能關係</td><td>常見腕骨骨折</td></tr><tr><td>月狀骨</td><td>直接接橈骨</td><td>掌側脫位可能影響正中神經</td></tr><tr><td>三角骨</td><td>尺側，關節盤與其相關</td><td>沒有直接與尺骨形成骨性關節</td></tr><tr><td>豆狀骨</td><td>在三角骨掌側</td><td>尺側屈腕肌肌腱內的籽骨</td></tr></tbody></table></div><details><summary>尺骨與三角骨直接相接嗎？</summary><p>不直接。遠端尺骨與腕骨之間有關節盤，不能因爲它們都在尺側就省略軟組織。</p></details>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">腕骨</th><th scope=\"col\">重點</th><th scope=\"col\">補充</th></tr></thead><tbody><tr><td>舟狀骨</td><td>直接接橈骨；跨兩排功能關係</td><td>常見腕骨骨折</td></tr><tr><td>月狀骨</td><td>直接接橈骨</td><td>掌側脫位可能影響正中神經</td></tr><tr><td>三角骨</td><td>尺側，關節盤與其相關</td><td>沒有直接與尺骨形成骨性關節</td></tr><tr><td>豆狀骨</td><td>在三角骨掌側</td><td>尺側屈腕肌肌腱內的籽骨</td></tr></tbody></table></div><details><summary>尺骨與三角骨直接相接嗎？</summary><p>不直接。遠端尺骨與腕骨之間有關節盤，不能因為它們都在尺側就省略軟組織。</p></details>"
    },
    {
     "id": "scaphoid",
@@ -773,7 +773,7 @@ const bones3Topics=[
    {
     "id": "snuff",
     "title": "05｜教材延伸：鼻煙窩與舟狀骨",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">內容</th></tr></thead><tbody><tr><td>尺側／內側腱界</td><td>拇長伸肌 EPL</td></tr><tr><td>橈側／外側腱界</td><td>拇長外展肌 APL、拇短伸肌 EPB</td></tr><tr><td>深部骨性底</td><td>舟狀骨、大多角骨</td></tr><tr><td>主要通過動脈</td><td>橈動脈</td></tr></tbody></table></div><p>手撐地後出現鼻煙窩壓痛是常見試題線索，但解題需要把骨、腱、動脈放在同一張空間圖；這是教材補充，不以它代替臨牀診斷。</p>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">內容</th></tr></thead><tbody><tr><td>尺側／內側腱界</td><td>拇長伸肌 EPL</td></tr><tr><td>橈側／外側腱界</td><td>拇長外展肌 APL、拇短伸肌 EPB</td></tr><tr><td>深部骨性底</td><td>舟狀骨、大多角骨</td></tr><tr><td>主要通過動脈</td><td>橈動脈</td></tr></tbody></table></div><p>手撐地後出現鼻煙窩壓痛是常見試題線索，但解題需要把骨、腱、動脈放在同一張空間圖；這是教材補充，不以它代替臨床診斷。</p>"
    },
    {
     "id": "tunnel",
@@ -854,7 +854,7 @@ const bones3Topics=[
    {
     "id": "ischium",
     "title": "07｜坐骨棘與坐骨結節：韌帶、肌腱各有位置",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">地標</th><th scope=\"col\">位置</th><th scope=\"col\">附著／臨牀線索</th></tr></thead><tbody><tr><td>坐骨棘 ischial spine</td><td>大、小坐骨切跡之間</td><td>薦棘韌帶；陰部神經繞行附近</td></tr><tr><td>坐骨結節 ischial tuberosity</td><td>後下方粗糙部</td><td>薦結節韌帶；多數腿後肌起點</td></tr><tr><td>坐骨支 ischial ramus</td><td>向前上接恥骨下支</td><td>組成坐恥支</td></tr></tbody></table></div><div class=\"study-note teal\">「坐骨」是坐着承重相關，不代表它的所有突起都在最下方。坐骨棘比坐骨結節更上方。</div>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">地標</th><th scope=\"col\">位置</th><th scope=\"col\">附著／臨床線索</th></tr></thead><tbody><tr><td>坐骨棘 ischial spine</td><td>大、小坐骨切跡之間</td><td>薦棘韌帶；陰部神經繞行附近</td></tr><tr><td>坐骨結節 ischial tuberosity</td><td>後下方粗糙部</td><td>薦結節韌帶；多數腿後肌起點</td></tr><tr><td>坐骨支 ischial ramus</td><td>向前上接恥骨下支</td><td>組成坐恥支</td></tr></tbody></table></div><div class=\"study-note teal\">「坐骨」是坐著承重相關，不代表它的所有突起都在最下方。坐骨棘比坐骨結節更上方。</div>"
    },
    {
     "id": "pubis",
@@ -869,7 +869,7 @@ const bones3Topics=[
    {
     "id": "iliac-tubercle",
     "title": "10｜髂結節與髂嵴：影片的 L5 口訣",
-    "html": "<p>髂結節 iliac tubercle 是髂嵴外脣向外較明顯的突起；髂嵴 crest 是整條上緣。影片用「髂嵴最高點約 L4、髂結節約 L5」作層級記憶。可保留為課堂概念，勿把圖上的位置當成每人精確固定的椎體水平。</p><details><summary>Iliac tubercle 就是 ASIS 嗎？</summary><p>不是。髂結節在髂嵴外脣，是不同於髂前上棘的地標。</p></details>"
+    "html": "<p>髂結節 iliac tubercle 是髂嵴外唇向外較明顯的突起；髂嵴 crest 是整條上緣。影片用「髂嵴最高點約 L4、髂結節約 L5」作層級記憶。可保留為課堂概念，勿把圖上的位置當成每人精確固定的椎體水平。</p><details><summary>Iliac tubercle 就是 ASIS 嗎？</summary><p>不是。髂結節在髂嵴外唇，是不同於髂前上棘的地標。</p></details>"
    },
    {
     "id": "si-clinical",
@@ -940,7 +940,7 @@ const bones3Topics=[
    {
     "id": "sex",
     "title": "10｜教材延伸：典型骨盆形態比較",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">特徵</th><th scope=\"col\">典型女性骨盆</th><th scope=\"col\">典型男性骨盆</th></tr></thead><tbody><tr><td>入口</td><td>較圓／橢圓</td><td>較偏心形</td></tr><tr><td>小骨盆</td><td>較寬淺</td><td>較窄深</td></tr><tr><td>恥骨下角</td><td>通常較大</td><td>通常較小</td></tr><tr><td>大坐骨切跡</td><td>通常較寬</td><td>通常較窄</td></tr></tbody></table></div><p>這些是羣體上的典型形態，個體有重疊。不要把一個角度值當成絕對性別分類，也不要把這些分類延伸成個別人的分娩結果。</p>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">特徵</th><th scope=\"col\">典型女性骨盆</th><th scope=\"col\">典型男性骨盆</th></tr></thead><tbody><tr><td>入口</td><td>較圓／橢圓</td><td>較偏心形</td></tr><tr><td>小骨盆</td><td>較寬淺</td><td>較窄深</td></tr><tr><td>恥骨下角</td><td>通常較大</td><td>通常較小</td></tr><tr><td>大坐骨切跡</td><td>通常較寬</td><td>通常較窄</td></tr></tbody></table></div><p>這些是群體上的典型形態，個體有重疊。不要把一個角度值當成絕對性別分類，也不要把這些分類延伸成個別人的分娩結果。</p>"
    }
   ]
  },
@@ -975,7 +975,7 @@ const bones3Topics=[
    {
     "id": "pair-3",
     "title": "03｜肱骨肌肉附著",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">看到什麼</th><th scope=\"col\">立刻配對</th></tr></thead><tbody><tr><td>大結節</td><td>棘上、棘下、小圓</td></tr><tr><td>小結節</td><td>肩胛下</td></tr><tr><td>外脣／內脣／溝底</td><td>胸大／大圓／闊背</td></tr><tr><td>結節間溝內容物</td><td>肱二頭肌長頭腱</td></tr><tr><td>內／外上髁</td><td>屈肌羣／伸肌羣</td></tr></tbody></table></div>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">看到什麼</th><th scope=\"col\">立刻配對</th></tr></thead><tbody><tr><td>大結節</td><td>棘上、棘下、小圓</td></tr><tr><td>小結節</td><td>肩胛下</td></tr><tr><td>外唇／內唇／溝底</td><td>胸大／大圓／闊背</td></tr><tr><td>結節間溝內容物</td><td>肱二頭肌長頭腱</td></tr><tr><td>內／外上髁</td><td>屈肌群／伸肌群</td></tr></tbody></table></div>"
    },
    {
     "id": "pair-4",
@@ -1005,7 +1005,7 @@ const bones3Topics=[
    {
     "id": "strategy",
     "title": "09｜從背配對到標本題的三步",
-    "html": "<div class=\"flow\"><div class=\"flow-step\"><b>定方向</b><small>前後、內外、近遠</small></div><span class=\"flow-arrow\" aria-hidden=\"true\">→</span><div class=\"flow-step\"><b>找兩端</b><small>骨頭＋接面／韌帶</small></div><span class=\"flow-arrow\" aria-hidden=\"true\">→</span><div class=\"flow-step\"><b>接功能</b><small>肌肉、神經、通道</small></div></div><p>讀文字後遮住右欄自行回想；再對照原創圖與原教材的三維視角。若錯在「頭、頸、基底」或「切跡、孔、管」，先脩名詞範圍，再增加臨牀配對。表格是濃縮複習，詳情與變異仍見主題頁。</p>"
+    "html": "<div class=\"flow\"><div class=\"flow-step\"><b>定方向</b><small>前後、內外、近遠</small></div><span class=\"flow-arrow\" aria-hidden=\"true\">→</span><div class=\"flow-step\"><b>找兩端</b><small>骨頭＋接面／韌帶</small></div><span class=\"flow-arrow\" aria-hidden=\"true\">→</span><div class=\"flow-step\"><b>接功能</b><small>肌肉、神經、通道</small></div></div><p>讀文字後遮住右欄自行回想；再對照原創圖與原教材的三維視角。若錯在「頭、頸、基底」或「切跡、孔、管」，先脩名詞範圍，再增加臨床配對。表格是濃縮複習，詳情與變異仍見主題頁。</p>"
    }
   ]
  },
@@ -1047,7 +1047,7 @@ const bones3Topics=[
    {
     "id": "source-map",
     "title": "05｜外部來源如何使用",
-    "html": "<p>逐段筆記提供課堂主線；九個主題頁將板書概念拆成可查表的骨、肌肉、韌帶與神經關係。教材與文獻用於校正名詞、補齊範圍或說明變異。每頁頁尾列具體來源編號，下方可查所有新增來源。</p><p>本章新增來源以 NCBI／PubMed、OpenStax、大學解剖教材與考選部為主。研究論文的結論保留研究範圍，沒有將個別病例或百分比擴成所有人。影片年代較早；涉及精確定位與臨牀連結，以當前可核對資料補註。</p>"
+    "html": "<p>逐段筆記提供課堂主線；九個主題頁將板書概念拆成可查表的骨、肌肉、韌帶與神經關係。教材與文獻用於校正名詞、補齊範圍或說明變異。每頁頁尾列具體來源編號，下方可查所有新增來源。</p><p>本章新增來源以 NCBI／PubMed、OpenStax、大學解剖教材與考選部為主。研究論文的結論保留研究範圍，沒有將個別病例或百分比擴成所有人。影片年代較早；涉及精確定位與臨床連結，以當前可核對資料補註。</p>"
    },
    {
     "id": "refs-official",
@@ -1057,7 +1057,7 @@ const bones3Topics=[
    {
     "id": "refs-book",
     "title": "07｜骨與關節教材",
-    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">編號／連結</th><th scope=\"col\">用途</th></tr></thead><tbody><tr><td>S58 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK538328/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Thorax, Ribs</a></td><td>肋骨典型／非典型分類、第一肋骨與血管溝。</td></tr><tr><td>S59 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK549847/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Thorax, Superior Intercostal Arteries</a></td><td>核對 VAN 由上而下排列、內肋間肌與最內肋間肌間的平面。</td></tr><tr><td>S60 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK544368/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Thoracotomy and the Collateral Intercostal Neurovascular Bundle</a></td><td>側支血管神經束存在；沿肋骨上緣並不能保證零損傷。</td></tr><tr><td>S63 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK525990/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Clavicle</a></td><td>鎖骨形態、膜內／軟骨內骨化、喙鎖韌帶附著。</td></tr><tr><td>S64 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK557880/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Suprascapular Nerve</a></td><td>肩胛上神經經肩胛上橫韌帶下方；動脈通常在上方，存在變異。</td></tr><tr><td>S65 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK534821/?report=printable\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Humerus</a></td><td>肱骨結節、結節間溝、肱骨小頭與滑車。</td></tr><tr><td>S66 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK526056/?report=reader\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Nerves</a></td><td>腋／橈／尺神經與肱骨骨折位置的關係。</td></tr><tr><td>S67 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK546633/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Scapulohumeral Muscles</a></td><td>旋轉肌袖四肌、附著與功能。</td></tr><tr><td>S68 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK544512/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Forearm Radius</a></td><td>橈骨頭、粗隆、莖突、遠端關節面。</td></tr><tr><td>S70 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK536907/?report=reader\" target=\"_blank\" rel=\"noopener\">NCBI：Scaphoid Wrist Fracture</a></td><td>舟狀骨逆行血流與近端缺血風險；未採用過度絕對的發生率。</td></tr><tr><td>S73 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK519524/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Abdomen and Pelvis: Bones (Ilium, Ischium, and Pubis)</a></td><td>髂、坐、恥骨地標及觸診用途。</td></tr><tr><td>S74 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK493215/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Abdomen and Pelvis: Ligaments</a></td><td>骨盆韌帶及大／小坐骨孔的形成。</td></tr><tr><td>S75 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK554736/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Abdomen and Pelvis, Pudendal Nerve</a></td><td>陰部神經繞坐骨棘，經大坐骨孔出、小坐骨孔入會陰。</td></tr><tr><td>S78 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK538321/?report=printable\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Thorax, Muscles</a></td><td>最內肋間肌、肋下肌及胸橫肌同屬最深肌羣，不可當成同一條肌肉。</td></tr><tr><td>S80 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK537018/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Glenohumeral Joint</a></td><td>肩關節囊、盂脣、動態／靜態穩定與神經血供。</td></tr><tr><td>S81 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK532948/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Elbow Joint</a></td><td>肘複合體三部分、側副與環狀韌帶。</td></tr><tr><td>S82 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK574580/?report=printable\" target=\"_blank\" rel=\"noopener\">NCBI：Forearm Fractures</a></td><td>Monteggia 與 Galeazzi 不只骨折，還要加入關節損傷。</td></tr><tr><td>S83 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK470428/\" target=\"_blank\" rel=\"noopener\">NCBI：Fifth Metacarpal Fracture</a></td><td>拳擊手骨折常見於第 5 掌骨頸。</td></tr><tr><td>S84 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK545198/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Wrist Flexor Retinaculum</a></td><td>腕隧道 9 條肌腱與正中神經，及其骨性附著。</td></tr><tr><td>S87 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK560933/\" target=\"_blank\" rel=\"noopener\">NCBI：Supracondylar Humerus Fractures</a></td><td>遠端肱骨髁上骨折與前骨間／正中神經、肱動脈。</td></tr><tr><td>S88 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK534814/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Hand Guyon Canal</a></td><td>Guyon 管的尺神經、尺動脈與腕隧道分開。</td></tr><tr><td>S91 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK547714/\" target=\"_blank\" rel=\"noopener\">NCBI：Smith Fracture Review</a></td><td>Smith 掌側與 Colles 背側移位的方向比較。</td></tr><tr><td>S92 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK500035/\" target=\"_blank\" rel=\"noopener\">NCBI：Bennett Fracture</a></td><td>第一掌骨基底的關節內骨折，與拇指 CMC 損傷相連。</td></tr><tr><td>S93 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK482228/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomical Snuff Box</a></td><td>鼻煙窩肌腱邊界、底部骨頭與橈動脈。</td></tr><tr><td>S99 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK526019/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Bony Pelvis and Lower Limb, Hip</a></td><td>髂股韌帶的髂前下棘、股骨轉子間線附著。</td></tr><tr><td>S100 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK482258/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Abdomen and Pelvis, Pelvis</a></td><td>尾骨肌由坐骨棘連到薦、尾骨；不是穿小坐骨孔進臀部。</td></tr></tbody></table></div>"
+    "html": "<div class=\"table-scroll\" role=\"region\" aria-label=\"比較表，可左右捲動\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">編號／連結</th><th scope=\"col\">用途</th></tr></thead><tbody><tr><td>S58 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK538328/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Thorax, Ribs</a></td><td>肋骨典型／非典型分類、第一肋骨與血管溝。</td></tr><tr><td>S59 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK549847/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Thorax, Superior Intercostal Arteries</a></td><td>核對 VAN 由上而下排列、內肋間肌與最內肋間肌間的平面。</td></tr><tr><td>S60 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK544368/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Thoracotomy and the Collateral Intercostal Neurovascular Bundle</a></td><td>側支血管神經束存在；沿肋骨上緣並不能保證零損傷。</td></tr><tr><td>S63 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK525990/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Clavicle</a></td><td>鎖骨形態、膜內／軟骨內骨化、喙鎖韌帶附著。</td></tr><tr><td>S64 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK557880/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Suprascapular Nerve</a></td><td>肩胛上神經經肩胛上橫韌帶下方；動脈通常在上方，存在變異。</td></tr><tr><td>S65 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK534821/?report=printable\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Humerus</a></td><td>肱骨結節、結節間溝、肱骨小頭與滑車。</td></tr><tr><td>S66 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK526056/?report=reader\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Nerves</a></td><td>腋／橈／尺神經與肱骨骨折位置的關係。</td></tr><tr><td>S67 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK546633/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Scapulohumeral Muscles</a></td><td>旋轉肌袖四肌、附著與功能。</td></tr><tr><td>S68 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK544512/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Forearm Radius</a></td><td>橈骨頭、粗隆、莖突、遠端關節面。</td></tr><tr><td>S70 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK536907/?report=reader\" target=\"_blank\" rel=\"noopener\">NCBI：Scaphoid Wrist Fracture</a></td><td>舟狀骨逆行血流與近端缺血風險；未採用過度絕對的發生率。</td></tr><tr><td>S73 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK519524/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Abdomen and Pelvis: Bones (Ilium, Ischium, and Pubis)</a></td><td>髂、坐、恥骨地標及觸診用途。</td></tr><tr><td>S74 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK493215/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Abdomen and Pelvis: Ligaments</a></td><td>骨盆韌帶及大／小坐骨孔的形成。</td></tr><tr><td>S75 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK554736/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Abdomen and Pelvis, Pudendal Nerve</a></td><td>陰部神經繞坐骨棘，經大坐骨孔出、小坐骨孔入會陰。</td></tr><tr><td>S78 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK538321/?report=printable\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Thorax, Muscles</a></td><td>最內肋間肌、肋下肌及胸橫肌同屬最深肌群，不可當成同一條肌肉。</td></tr><tr><td>S80 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK537018/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Glenohumeral Joint</a></td><td>肩關節囊、盂唇、動態／靜態穩定與神經血供。</td></tr><tr><td>S81 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK532948/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Elbow Joint</a></td><td>肘複合體三部分、側副與環狀韌帶。</td></tr><tr><td>S82 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK574580/?report=printable\" target=\"_blank\" rel=\"noopener\">NCBI：Forearm Fractures</a></td><td>Monteggia 與 Galeazzi 不只骨折，還要加入關節損傷。</td></tr><tr><td>S83 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK470428/\" target=\"_blank\" rel=\"noopener\">NCBI：Fifth Metacarpal Fracture</a></td><td>拳擊手骨折常見於第 5 掌骨頸。</td></tr><tr><td>S84 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK545198/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Wrist Flexor Retinaculum</a></td><td>腕隧道 9 條肌腱與正中神經，及其骨性附著。</td></tr><tr><td>S87 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK560933/\" target=\"_blank\" rel=\"noopener\">NCBI：Supracondylar Humerus Fractures</a></td><td>遠端肱骨髁上骨折與前骨間／正中神經、肱動脈。</td></tr><tr><td>S88 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK534814/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Shoulder and Upper Limb, Hand Guyon Canal</a></td><td>Guyon 管的尺神經、尺動脈與腕隧道分開。</td></tr><tr><td>S91 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK547714/\" target=\"_blank\" rel=\"noopener\">NCBI：Smith Fracture Review</a></td><td>Smith 掌側與 Colles 背側移位的方向比較。</td></tr><tr><td>S92 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK500035/\" target=\"_blank\" rel=\"noopener\">NCBI：Bennett Fracture</a></td><td>第一掌骨基底的關節內骨折，與拇指 CMC 損傷相連。</td></tr><tr><td>S93 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK482228/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomical Snuff Box</a></td><td>鼻煙窩肌腱邊界、底部骨頭與橈動脈。</td></tr><tr><td>S99 · <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK526019/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Bony Pelvis and Lower Limb, Hip</a></td><td>髂股韌帶的髂前下棘、股骨轉子間線附著。</td></tr><tr><td>S100 · <a href=\"https://www.ncbi.nlm.nih.gov/sites/books/NBK482258/\" target=\"_blank\" rel=\"noopener\">NCBI：Anatomy, Abdomen and Pelvis, Pelvis</a></td><td>尾骨肌由坐骨棘連到薦、尾骨；不是穿小坐骨孔進臀部。</td></tr></tbody></table></div>"
    },
    {
     "id": "refs-research",
