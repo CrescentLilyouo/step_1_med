@@ -7,7 +7,7 @@
 - 解剖學、組織學、胚胎學
 - 生理學、生物化學、藥理學
 - 病理學、微生物學、寄生蟲學
-- 免疫學、公共衛生學、醫學倫理
+- 免疫學、公共衛生學
 
 ## 使用方式
 
@@ -15,4 +15,6 @@
 
 目前網站：https://med-step-one-study.nick0663587.chatgpt.site
 
-此儲存庫存放網站原始碼；GitHub 與目前網站尚未設定自動部署同步。
+此儲存庫存放網站原始碼；GitHub Pages 網站：https://crescentlilyouo.github.io/step_1_med/
+
+更新 main 分支後，GitHub Pages 會自動發布。
