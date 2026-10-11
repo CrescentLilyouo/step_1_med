@@ -1,0 +1,202 @@
+[
+  {
+    "id": "planes",
+    "path": "assets/os-planes.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/380a8c8bbe4346e8fd87c5781e6bbc656f23a6fc",
+    "figure": "1.14",
+    "source": "S3",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 44332
+  },
+  {
+    "id": "skull-front",
+    "path": "assets/os-skull-front.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/2b992922f28d116ef649105fc6d93b2880df5084",
+    "figure": "7.4",
+    "source": "S5",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 185976
+  },
+  {
+    "id": "fossae",
+    "path": "assets/os-fossae.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/3b7c91e046f2dda8fc0e89d44c26f75f3c3ec3a9",
+    "figure": "7.6",
+    "source": "S5",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 41086
+  },
+  {
+    "id": "vertebra",
+    "path": "assets/os-vertebra.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/b7ace936bef1712ff26e889bfd6c372b328c185e",
+    "figure": "7.23",
+    "source": "S6",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 46598
+  },
+  {
+    "id": "rib-joint",
+    "path": "assets/os-rib-joint.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/c734e2220a4134b53ed4f8df4c1223746743d645",
+    "figure": "7.27",
+    "source": "S6",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 49752
+  },
+  {
+    "id": "scapula",
+    "path": "assets/os-scapula.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/c0c428b8a836313f67005105fba27d82101e2eac",
+    "figure": "8.4",
+    "source": "S61",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 48774
+  },
+  {
+    "id": "girdle",
+    "path": "assets/os-girdle.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/80224ef3967f0d62672cd00db90e8b15ffb1dfff",
+    "figure": "8.3",
+    "source": "S61",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 64918
+  },
+  {
+    "id": "hip",
+    "path": "assets/os-hip.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/09675fd7c72116ca71747d723ec61e999098b3d1",
+    "figure": "8.13",
+    "source": "S72",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 65316
+  },
+  {
+    "id": "carpal-tunnel",
+    "path": "assets/os-carpal-tunnel.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/2c7255e7b163131cb99e7ed231a27cb35c151bb9",
+    "figure": "8.9",
+    "source": "S62",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 52008
+  },
+  {
+    "id": "humerus",
+    "path": "assets/os-humerus.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/5f70593eab8f8ab3ebf4aa75fc37d72225c0a95d",
+    "figure": "8.5",
+    "source": "S62",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 48810
+  },
+  {
+    "id": "forearm",
+    "path": "assets/os-forearm.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/b9c3c45f968f9af4e3706ef9ac442d49ea0e4871",
+    "figure": "8.6",
+    "source": "S62",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 140548
+  },
+  {
+    "id": "thorax",
+    "path": "assets/os-thorax.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/e1cbee95a6b2d98480a003a7bc69809a859173d9",
+    "figure": "7.32",
+    "source": "S7",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 51754
+  },
+  {
+    "id": "long-bone",
+    "path": "assets/os-long-bone.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/584a309c687dbba48af841cf629d2a6937ad6599",
+    "figure": "6.7",
+    "source": "S103",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 103354
+  },
+  {
+    "id": "skull-base",
+    "path": "assets/os-skull-base.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/a396a2846f29c7093bc703fe88e037c012b24076",
+    "figure": "7.8",
+    "source": "S5",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 290032
+  },
+  {
+    "id": "carpals",
+    "path": "assets/os-carpals.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/541c7cf2586e9daaea40767bbc68011fdb8573b1",
+    "figure": "8.7",
+    "source": "S62",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 179168
+  },
+  {
+    "id": "maxilla",
+    "path": "assets/os-maxilla.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/fe4b2c7e91fc9e97d81533f0e9847192b37e6ff7",
+    "figure": "7.14",
+    "source": "S5",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 31446
+  },
+  {
+    "id": "mandible",
+    "path": "assets/os-mandible.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/95a05cdf947b78d81fab54996eccf24afd490180",
+    "figure": "7.15",
+    "source": "S5",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 40868
+  },
+  {
+    "id": "nasal",
+    "path": "assets/os-nasal.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/29c3d68c210f8e68d03ff2107ff05f50df7b4dae",
+    "figure": "7.17",
+    "source": "S5",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 42716
+  },
+  {
+    "id": "cervical",
+    "path": "assets/os-cervical.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/c01b47a41df5712e913133afdb71320f1c7dccb0",
+    "figure": "7.25",
+    "source": "S6",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 84776
+  },
+  {
+    "id": "disc",
+    "path": "assets/os-disc.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/4b8ca232c0ac2d22d1ba1be3b8ce86ea2975f5ea",
+    "figure": "7.24",
+    "source": "S6",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 25148
+  }
+]
