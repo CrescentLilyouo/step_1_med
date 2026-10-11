@@ -1,0 +1,82 @@
+[
+  {
+    "id": "femur",
+    "path": "assets/os-femur.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/6e59c1693b3349bffa2c27ac7a2e29f889a08edc",
+    "figure": "8.16",
+    "source": "S113",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 83784
+  },
+  {
+    "id": "tibia-fibula",
+    "path": "assets/os-tibia-fibula.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/1d834f37b5d1d87f46a30ed1ce9e17f348be7905",
+    "figure": "8.18",
+    "source": "S113",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 138572
+  },
+  {
+    "id": "foot",
+    "path": "assets/os-foot.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/f18d5fb174826160f664e435a126c47e94f2c576",
+    "figure": "8.19",
+    "source": "S113",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 224026
+  },
+  {
+    "id": "pelvic-ligaments",
+    "path": "assets/os-pelvic-ligaments.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/e9efe6bbd9bf0d4f8b2bf4c034c50ee550562936",
+    "figure": "8.14",
+    "source": "S72",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 36138
+  },
+  {
+    "id": "pelvic-sex",
+    "path": "assets/os-pelvic-sex.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/68be4683554df7c8be92cbebe1381bad70a10da1",
+    "figure": "8.15",
+    "source": "S72",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 50902
+  },
+  {
+    "id": "hip-joint",
+    "path": "assets/os-hip-joint.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/95ce63923c32fe5333a26c3905f644f625697917",
+    "figure": "9.18",
+    "source": "S48",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 109404
+  },
+  {
+    "id": "knee",
+    "path": "assets/os-knee.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/34a9f927c0e23c676167851497ca3562507a76eb",
+    "figure": "9.19",
+    "source": "S48",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 197880
+  },
+  {
+    "id": "ankle",
+    "path": "assets/os-ankle.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/27a2d5bcbb13d9e7d6033a5bc33567f34a342ad5",
+    "figure": "9.21",
+    "source": "S48",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e",
+    "bytes": 96690
+  }
+]
