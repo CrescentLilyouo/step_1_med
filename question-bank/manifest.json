@@ -1,0 +1,2602 @@
+{
+  "updated": "2026-10-13",
+  "years": [
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "papers": [
+    {
+      "year": 96,
+      "session": 1,
+      "paper": 1,
+      "code": "096040",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=096040&y=2007",
+      "files": {
+        "Q": {
+          "path": "exams/96/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=096040&c=122&s=1001&q=1&verify=step1-20261013-096040-122-1001-Q",
+          "sha256": "4ab252e1508e491063037b8a0245ce9057a68eb4cfe16ac5f14babaea51a7350"
+        },
+        "M": {
+          "path": "exams/96/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=096040&c=122&s=1001&q=1&verify=step1-20261013-096040-122-1001-M",
+          "sha256": "2827a4d1c248afe271cff8db1c87334558dfe6aee63642a7777a1e9df3e0bc1a"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 96,
+      "session": 1,
+      "paper": 2,
+      "code": "096040",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=096040&y=2007",
+      "files": {
+        "Q": {
+          "path": "exams/96/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=096040&c=122&s=2001&q=1&verify=step1-20261013-096040-122-2001-Q",
+          "sha256": "53aa4102543872e3840ccc476a3ab8caa3d500b7bc4d67b6c652e64b55f60c09"
+        },
+        "M": {
+          "path": "exams/96/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=096040&c=122&s=2001&q=1&verify=step1-20261013-096040-122-2001-M",
+          "sha256": "93a0538d9e282629824f0d888c17036569f816ef9ddddcc9bd4b3abfaad81e45"
+        }
+      },
+      "subjects": {
+        "physiology": 39,
+        "biochemistry": 13,
+        "pharmacology": 26,
+        "pathology": 22
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 96,
+      "session": 2,
+      "paper": 1,
+      "code": "096130",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=096130&y=2007",
+      "files": {
+        "Q": {
+          "path": "exams/96/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=096130&c=103&s=1001&q=1&verify=step1-20261013-096130-103-1001-Q",
+          "sha256": "cb6751a395bcf22368e58c945fc5c913900f5a271fe67831c818c801797477b0"
+        },
+        "M": {
+          "path": "exams/96/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=096130&c=103&s=1001&q=1&verify=step1-20261013-096130-103-1001-M",
+          "sha256": "bcb3488cd76cb4dad53fd7be1cafefa3629417324d9d5e1e31553e830b17376f"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 96,
+      "session": 2,
+      "paper": 2,
+      "code": "096130",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=096130&y=2007",
+      "files": {
+        "Q": {
+          "path": "exams/96/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=096130&c=103&s=2001&q=1&verify=step1-20261013-096130-103-2001-Q",
+          "sha256": "23e48fed9a52bf8d27d43edbb114084ba97d1b6f0c3079a354e706a1ba1b56ba"
+        },
+        "M": {
+          "path": "exams/96/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=096130&c=103&s=2001&q=1&verify=step1-20261013-096130-103-2001-M",
+          "sha256": "a04e8e4787e6c8cdb342dd5b2027aa0aa256f9802d329ec34ccc1d7b3082a869"
+        }
+      },
+      "subjects": {
+        "physiology": 27,
+        "biochemistry": 23,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 97,
+      "session": 1,
+      "paper": 1,
+      "code": "097050",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=097050&y=2008",
+      "files": {
+        "Q": {
+          "path": "exams/97/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097050&c=103&s=c011&q=1&verify=step1-20261013-097050-103-c011-Q",
+          "sha256": "86b04aa4315e9dd88fddbdde9cd963a17f76afc3319a180c2726efa3a724395c"
+        },
+        "M": {
+          "path": "exams/97/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097050&c=103&s=c011&q=1&verify=step1-20261013-097050-103-c011-M",
+          "sha256": "8d93d26a45a3d5082ff6ef736291c91626f46cd104c627760bf22eaf4950bf15"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 97,
+      "session": 1,
+      "paper": 2,
+      "code": "097050",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=097050&y=2008",
+      "files": {
+        "Q": {
+          "path": "exams/97/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097050&c=103&s=c021&q=1&verify=step1-20261013-097050-103-c021-Q",
+          "sha256": "13479ee4c190f6a039c820825b43bf24ea51d5d7caacfd459d150da8d49aab86"
+        },
+        "M": {
+          "path": "exams/97/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097050&c=103&s=c021&q=1&verify=step1-20261013-097050-103-c021-M",
+          "sha256": "0191de7fb7a7947b7ab57ae3c69ab7f33b78b3398479a4eaccf4c9624575313d"
+        }
+      },
+      "subjects": {
+        "physiology": 26,
+        "biochemistry": 24,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 97,
+      "session": 2,
+      "paper": 1,
+      "code": "097140",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=097140&y=2008",
+      "files": {
+        "Q": {
+          "path": "exams/97/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097140&c=103&s=c011&q=1&verify=step1-20261013-097140-103-c011-Q",
+          "sha256": "60e3175ba49c835c51bc4658c125e2af25bd14597ebe2455829758d66b5d1c66"
+        },
+        "M": {
+          "path": "exams/97/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097140&c=103&s=c011&q=1&verify=step1-20261013-097140-103-c011-M",
+          "sha256": "cf37a64eb14c66d05072f53e31d982b31f3aa572823f98b7bd170aed9598dce0"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 97,
+      "session": 2,
+      "paper": 2,
+      "code": "097140",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=097140&y=2008",
+      "files": {
+        "Q": {
+          "path": "exams/97/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097140&c=103&s=c021&q=1&verify=step1-20261013-097140-103-c021-Q",
+          "sha256": "21d89fd1703de57e0f7a249900a068cc3617a67cb996a7917de3a9d1acf9b310"
+        },
+        "M": {
+          "path": "exams/97/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097140&c=103&s=c021&q=1&verify=step1-20261013-097140-103-c021-M",
+          "sha256": "448740a917924a19c4e59dc9b46b38e4d45e5cc98ef40b6ff83f553fcb397cef"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 98,
+      "session": 1,
+      "paper": 1,
+      "code": "098020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=098020&y=2009",
+      "files": {
+        "Q": {
+          "path": "exams/98/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098020&c=103&s=c011&q=1&verify=step1-20261013-098020-103-c011-Q",
+          "sha256": "905e1e79a2fc73ac6ece19e4e5db56abf56417d29c0e81a38f418c0458e48186"
+        },
+        "M": {
+          "path": "exams/98/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098020&c=103&s=c011&q=1&verify=step1-20261013-098020-103-c011-M",
+          "sha256": "fa3c20f2d5dd9f9fab724cb6c86eade694ac7c5903c4f8fa6dad1a01b435c75e"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 98,
+      "session": 1,
+      "paper": 2,
+      "code": "098020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=098020&y=2009",
+      "files": {
+        "Q": {
+          "path": "exams/98/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098020&c=103&s=c021&q=1&verify=step1-20261013-098020-103-c021-Q",
+          "sha256": "05322076182d980c7854c94af1d1a4a7e95595e8064794dfded1f2492fe313d7"
+        },
+        "M": {
+          "path": "exams/98/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098020&c=103&s=c021&q=1&verify=step1-20261013-098020-103-c021-M",
+          "sha256": "fa5f74bceac1ec65e79837f3b4a0c7cbc4523d9e04372545d783b23a430eb7ef"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 98,
+      "session": 2,
+      "paper": 1,
+      "code": "098140",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=098140&y=2009",
+      "files": {
+        "Q": {
+          "path": "exams/98/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098140&c=103&s=c011&q=1&verify=step1-20261013-098140-103-c011-Q",
+          "sha256": "d7bb0983c35f0d2a44103d1880d9ab43b1286ebe6bd9a08683bac7649c9f2693"
+        },
+        "M": {
+          "path": "exams/98/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098140&c=103&s=c011&q=1&verify=step1-20261013-098140-103-c011-M",
+          "sha256": "017eb18fcfa362d3cd42dc73d37e84090c7997415dbc9a4d9a7e21eab3aa2670"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 98,
+      "session": 2,
+      "paper": 2,
+      "code": "098140",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=098140&y=2009",
+      "files": {
+        "Q": {
+          "path": "exams/98/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098140&c=103&s=c021&q=1&verify=step1-20261013-098140-103-c021-Q",
+          "sha256": "243bff5281e211b9bc379faa353ab6706a16cb7af075a769c7e9e0f4b4ec8511"
+        },
+        "M": {
+          "path": "exams/98/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098140&c=103&s=c021&q=1&verify=step1-20261013-098140-103-c021-M",
+          "sha256": "95423dc72a2c46424dc4c5d4f34284b4767073da97cb7cac3c5c898d58d4420c"
+        }
+      },
+      "subjects": {
+        "physiology": 26,
+        "biochemistry": 24,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 99,
+      "session": 1,
+      "paper": 1,
+      "code": "099010",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=099010&y=2010",
+      "files": {
+        "Q": {
+          "path": "exams/99/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099010&c=101&s=100&q=1&verify=step1-20261013-099010-101-100-Q",
+          "sha256": "0289ab9455e3209d31eeaee6b1d88cf5784978cfb97650ab5fe758dfc84299d1"
+        },
+        "M": {
+          "path": "exams/99/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=099010&c=101&s=100&q=1&verify=step1-20261013-099010-101-100-M",
+          "sha256": "40b0b8bdccba8cae4d2bfdc0ae39eb6368d12c00093a6f068286c4fc728790e1"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 99,
+      "session": 1,
+      "paper": 2,
+      "code": "099010",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=099010&y=2010",
+      "files": {
+        "Q": {
+          "path": "exams/99/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099010&c=101&s=200&q=1&verify=step1-20261013-099010-101-200-Q",
+          "sha256": "f1346337062ad6cf6f5ef3c9c074ecab4ab2d28a5968ccc5d65fd98637f35d51"
+        },
+        "M": {
+          "path": "exams/99/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=099010&c=101&s=200&q=1&verify=step1-20261013-099010-101-200-M",
+          "sha256": "287f186d626ec1706ef63037b7077750339a45a19e7633dfed87be33828d623c"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 99,
+      "session": 2,
+      "paper": 1,
+      "code": "099130",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=099130&y=2010",
+      "files": {
+        "Q": {
+          "path": "exams/99/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099130&c=101&s=100&q=1&verify=step1-20261013-099130-101-100-Q",
+          "sha256": "d0b7f6ddd624163e9ef4e1a8b1a3d0a4e995be58edb9b6c7762922ce681767ef"
+        },
+        "M": {
+          "path": "exams/99/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=099130&c=101&s=100&q=1&verify=step1-20261013-099130-101-100-M",
+          "sha256": "29aa61c3f00d75efcfaf5dd825968ccd3bd3414b3dce8e8e078468b1493edd8a"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 99,
+      "session": 2,
+      "paper": 2,
+      "code": "099130",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=099130&y=2010",
+      "files": {
+        "Q": {
+          "path": "exams/99/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099130&c=101&s=200&q=1&verify=step1-20261013-099130-101-200-Q",
+          "sha256": "a569924724a49efb63f083d6ad09048d4dfe664f1cffc8270afa7ec09307e2b7"
+        },
+        "M": {
+          "path": "exams/99/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=099130&c=101&s=200&q=1&verify=step1-20261013-099130-101-200-M",
+          "sha256": "5f5fecc94be9a105e30b148893ef2db00e3a7cc5e2b92fad40cb65820ab5dcb9"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 100,
+      "session": 1,
+      "paper": 1,
+      "code": "100030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=100030&y=2011",
+      "files": {
+        "Q": {
+          "path": "exams/100/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100030&c=101&s=0101&q=1&verify=step1-20261013-100030-101-0101-Q",
+          "sha256": "6e64c0c8bb0a6ce41c7e02494c70cd925bba4c8a6e7f6a0f98b9f081580d000b"
+        },
+        "M": {
+          "path": "exams/100/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100030&c=101&s=0101&q=1&verify=step1-20261013-100030-101-0101-M",
+          "sha256": "064442f76d3ed4e67e8ef038c43ba27ea610c90830f32248b92f04ca997d1a2a"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 100,
+      "session": 1,
+      "paper": 2,
+      "code": "100030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=100030&y=2011",
+      "files": {
+        "Q": {
+          "path": "exams/100/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100030&c=101&s=0102&q=1&verify=step1-20261013-100030-101-0102-Q",
+          "sha256": "301e95052a5b28fd48818f1c9d28d9c75548b6a0e116947547eb3126c47242e1"
+        },
+        "M": {
+          "path": "exams/100/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100030&c=101&s=0102&q=1&verify=step1-20261013-100030-101-0102-M",
+          "sha256": "f1cd52e28faca6c84e0de13cb64d944423866603295f0aaf11ec9123cddf6274"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 100,
+      "session": 2,
+      "paper": 1,
+      "code": "100140",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=100140&y=2011",
+      "files": {
+        "Q": {
+          "path": "exams/100/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100140&c=101&s=0101&q=1&verify=step1-20261013-100140-101-0101-Q",
+          "sha256": "0ae63a7f34a8f246e91811f20ef4587d2a028c1bd441c94ba441e0d1c1debfd7"
+        },
+        "S": {
+          "path": "exams/100/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=100140&c=101&s=0101&q=1&verify=step1-20261013-100140-101-0101-S",
+          "sha256": "b2efc966d588508e9e8ad6e4eea0abdb4dacd3b727ef1352d17a5dc2814c93fe"
+        },
+        "M": {
+          "path": "exams/100/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100140&c=101&s=0101&q=1&verify=step1-20261013-100140-101-0101-M",
+          "sha256": "b5312916a5cf0738034c852c4c5ae7bd5d64eb7df85588c716716e680f85d890"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 100,
+      "session": 2,
+      "paper": 2,
+      "code": "100140",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=100140&y=2011",
+      "files": {
+        "Q": {
+          "path": "exams/100/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100140&c=101&s=0102&q=1&verify=step1-20261013-100140-101-0102-Q",
+          "sha256": "a503acbf0af73b84e808530e34dca3bb5828f141570ba88800ad2e9418c57434"
+        },
+        "S": {
+          "path": "exams/100/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=100140&c=101&s=0102&q=1&verify=step1-20261013-100140-101-0102-S",
+          "sha256": "4eb4a8a41fb89cfbe9eb3cc7e2a7a072ce68a200cefe1a6254c751fbef18234f"
+        },
+        "M": {
+          "path": "exams/100/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100140&c=101&s=0102&q=1&verify=step1-20261013-100140-101-0102-M",
+          "sha256": "e28fcb46c0d97ec4bc62c1f2946a2abbc13691386c8cf81996fd0206fc2a089c"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 101,
+      "session": 1,
+      "paper": 1,
+      "code": "101030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=101030&y=2012",
+      "files": {
+        "Q": {
+          "path": "exams/101/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101030&c=101&s=0101&q=1&verify=step1-20261013-101030-101-0101-Q",
+          "sha256": "fd038ac5b4edc6634448ca10b96ada35dfbe40b0e13b4c5486c51bd505a80822"
+        },
+        "S": {
+          "path": "exams/101/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101030&c=101&s=0101&q=1&verify=step1-20261013-101030-101-0101-S",
+          "sha256": "fd9f8c353b2d05e8a8e54aa890ca16ec74615ad690f483002c6ae44fdbdb18aa"
+        },
+        "M": {
+          "path": "exams/101/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101030&c=101&s=0101&q=1&verify=step1-20261013-101030-101-0101-M",
+          "sha256": "d91d3ea6d05df69ae8b72a379963abc20d5a84e4725c1f4e42cb24affe7113de"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 101,
+      "session": 1,
+      "paper": 2,
+      "code": "101030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=101030&y=2012",
+      "files": {
+        "Q": {
+          "path": "exams/101/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101030&c=101&s=0102&q=1&verify=step1-20261013-101030-101-0102-Q",
+          "sha256": "ac9336ebe3fae6c9d6202496147b2967be50b2470e85417ca1d2ccae547c07d1"
+        },
+        "S": {
+          "path": "exams/101/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101030&c=101&s=0102&q=1&verify=step1-20261013-101030-101-0102-S",
+          "sha256": "671e93f9d0987852d36b71e04137e5c077fa07fd1dac15fc235671020bdff141"
+        },
+        "M": {
+          "path": "exams/101/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101030&c=101&s=0102&q=1&verify=step1-20261013-101030-101-0102-M",
+          "sha256": "b9e2ba2a1cbf77ed46abe1c4375b58f9484fb86e3c2389d88fcb96b24a522314"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 101,
+      "session": 2,
+      "paper": 1,
+      "code": "101110",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=101110&y=2012",
+      "files": {
+        "Q": {
+          "path": "exams/101/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101110&c=101&s=0101&q=1&verify=step1-20261013-101110-101-0101-Q",
+          "sha256": "2a842a6108eae68fddc657073cd349b97bdcd37a5659f7d3f58a678906977248"
+        },
+        "S": {
+          "path": "exams/101/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101110&c=101&s=0101&q=1&verify=step1-20261013-101110-101-0101-S",
+          "sha256": "0fdef18e80ab9377905ac940b54ce0fede9b4acfe2a43c12989698060595fc0e"
+        },
+        "M": {
+          "path": "exams/101/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101110&c=101&s=0101&q=1&verify=step1-20261013-101110-101-0101-M",
+          "sha256": "ef4936caefe6d18fa1e6393270c8b54285631391a203d70b501a4d1e364ba2a4"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 101,
+      "session": 2,
+      "paper": 2,
+      "code": "101110",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=101110&y=2012",
+      "files": {
+        "Q": {
+          "path": "exams/101/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101110&c=101&s=0102&q=1&verify=step1-20261013-101110-101-0102-Q",
+          "sha256": "4295d524c82831117bad07511fcfd1c2428567f4d1f08483910c579186f863f2"
+        },
+        "S": {
+          "path": "exams/101/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101110&c=101&s=0102&q=1&verify=step1-20261013-101110-101-0102-S",
+          "sha256": "3cade78cc50e8f231292102975d2ea2f66084eb66b0fa7b398b7b44c89de5b96"
+        },
+        "M": {
+          "path": "exams/101/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101110&c=101&s=0102&q=1&verify=step1-20261013-101110-101-0102-M",
+          "sha256": "5072613dfae5b3355ce982e2a8131fc44647e9a7d4edc70f00cc5b2f063a5959"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 102,
+      "session": 1,
+      "paper": 1,
+      "code": "102030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=102030&y=2013",
+      "files": {
+        "Q": {
+          "path": "exams/102/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102030&c=101&s=0101&q=1&verify=step1-20261013-102030-101-0101-Q",
+          "sha256": "3d10fd53807b8d3a4db09e46fc05617ea9bd97204329450ab61f300246f2d29b"
+        },
+        "S": {
+          "path": "exams/102/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102030&c=101&s=0101&q=1&verify=step1-20261013-102030-101-0101-S",
+          "sha256": "ab44a223c9105d9b0f042608110def9b611b4f2d5aa48c0ed5bc714358e06b33"
+        },
+        "M": {
+          "path": "exams/102/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102030&c=101&s=0101&q=1&verify=step1-20261013-102030-101-0101-M",
+          "sha256": "52f5f10e3e533f306165d375c70d1432a27bb8329ef690964b908873fe3cf1ce"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 102,
+      "session": 1,
+      "paper": 2,
+      "code": "102030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=102030&y=2013",
+      "files": {
+        "Q": {
+          "path": "exams/102/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102030&c=101&s=0102&q=1&verify=step1-20261013-102030-101-0102-Q",
+          "sha256": "f60f84dffdafb58a5183296438f7d1eb859f174459b847d539d35412ad598115"
+        },
+        "S": {
+          "path": "exams/102/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102030&c=101&s=0102&q=1&verify=step1-20261013-102030-101-0102-S",
+          "sha256": "5a7177adfb269a8c9d16314d91775e9ae9ec7a985607991e99bab0cacf8761ff"
+        },
+        "M": {
+          "path": "exams/102/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102030&c=101&s=0102&q=1&verify=step1-20261013-102030-101-0102-M",
+          "sha256": "8b023cd6e6aae9994aa550b216bb0d3e3ee29a63e4c5ef41883888c5ad7b64d9"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 102,
+      "session": 2,
+      "paper": 1,
+      "code": "102110",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=102110&y=2013",
+      "files": {
+        "Q": {
+          "path": "exams/102/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102110&c=101&s=0101&q=1&verify=step1-20261013-102110-101-0101-Q",
+          "sha256": "5b0cebc6600f435984663bc5e1952e36e207b58f3ca3a7a43004bc38d28bfb33"
+        },
+        "S": {
+          "path": "exams/102/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102110&c=101&s=0101&q=1&verify=step1-20261013-102110-101-0101-S",
+          "sha256": "79d7729f231db79343f3f1915338658fec2e625549cf66834045d4e7b17fc16c"
+        },
+        "M": {
+          "path": "exams/102/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102110&c=101&s=0101&q=1&verify=step1-20261013-102110-101-0101-M",
+          "sha256": "be13922455559ccf9b7aa8c369e0ee8be9a3a813bb31f79804deb7e288d9dfa9"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 102,
+      "session": 2,
+      "paper": 2,
+      "code": "102110",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=102110&y=2013",
+      "files": {
+        "Q": {
+          "path": "exams/102/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102110&c=101&s=0102&q=1&verify=step1-20261013-102110-101-0102-Q",
+          "sha256": "1d552ec01a07f5e4827a60cae60f67454441821185dd4cf0b592aae048f18e66"
+        },
+        "S": {
+          "path": "exams/102/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102110&c=101&s=0102&q=1&verify=step1-20261013-102110-101-0102-S",
+          "sha256": "90bfcfc771e57d4e9450ab8ab1f76273a0fce087bab1caccdbcd1f9098c6e510"
+        },
+        "M": {
+          "path": "exams/102/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102110&c=101&s=0102&q=1&verify=step1-20261013-102110-101-0102-M",
+          "sha256": "87cbb0bfe684db7aeb9af4699ebecfd30eb108bca3d5033b6dd5213993cd0108"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 103,
+      "session": 1,
+      "paper": 1,
+      "code": "103030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=103030&y=2014",
+      "files": {
+        "Q": {
+          "path": "exams/103/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103030&c=101&s=0101&q=1&verify=step1-20261013-103030-101-0101-Q",
+          "sha256": "dc5c85d612a76ef0173d286d61a7662199f921d2b94f4050a11feabcafd70c57"
+        },
+        "S": {
+          "path": "exams/103/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103030&c=101&s=0101&q=1&verify=step1-20261013-103030-101-0101-S",
+          "sha256": "86131f804855aacf809ea5be88b57cad192fd819183bb7a7beda9e68ef3684c8"
+        },
+        "M": {
+          "path": "exams/103/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103030&c=101&s=0101&q=1&verify=step1-20261013-103030-101-0101-M",
+          "sha256": "db8aef4a4f89d343d356e3c92babb76950e7ad96208c2b4d5262abb4add85946"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 103,
+      "session": 1,
+      "paper": 2,
+      "code": "103030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=103030&y=2014",
+      "files": {
+        "Q": {
+          "path": "exams/103/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103030&c=101&s=0102&q=1&verify=step1-20261013-103030-101-0102-Q",
+          "sha256": "ca3bd5e21391dfa65122f749b8402a79456f20b79560e76e9a640c8c4bf3745f"
+        },
+        "S": {
+          "path": "exams/103/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103030&c=101&s=0102&q=1&verify=step1-20261013-103030-101-0102-S",
+          "sha256": "a0f0d8630cb452133f9fc37e3698b0c2b85f6a8428bf05613c83657e67296359"
+        },
+        "M": {
+          "path": "exams/103/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103030&c=101&s=0102&q=1&verify=step1-20261013-103030-101-0102-M",
+          "sha256": "4d0b4b9c3c31b8b80a2f8dc7841efe9d38bd2ce26550ef53651175d6c0519de4"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 103,
+      "session": 2,
+      "paper": 1,
+      "code": "103100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=103100&y=2014",
+      "files": {
+        "Q": {
+          "path": "exams/103/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103100&c=101&s=0101&q=1&verify=step1-20261013-103100-101-0101-Q",
+          "sha256": "86d7f9036596e034229aa586f1724b3981784f4ab507f28f6649edece6282685"
+        },
+        "S": {
+          "path": "exams/103/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103100&c=101&s=0101&q=1&verify=step1-20261013-103100-101-0101-S",
+          "sha256": "bfe8fbc2b4a5d59b4c5871bb8a4ce85add513629fb622ca535fb9b9a77a72c65"
+        },
+        "M": {
+          "path": "exams/103/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103100&c=101&s=0101&q=1&verify=step1-20261013-103100-101-0101-M",
+          "sha256": "78cf17b9562c0971e779b2f47177c7f1f5d5a9f4a4ebc7b79e179167ae64502c"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 103,
+      "session": 2,
+      "paper": 2,
+      "code": "103100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=103100&y=2014",
+      "files": {
+        "Q": {
+          "path": "exams/103/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103100&c=101&s=0102&q=1&verify=step1-20261013-103100-101-0102-Q",
+          "sha256": "88e0de8aac67dbf58b95fbc667a109a5fef15c474747f117f4ac1b4e52fbba1b"
+        },
+        "S": {
+          "path": "exams/103/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103100&c=101&s=0102&q=1&verify=step1-20261013-103100-101-0102-S",
+          "sha256": "b7d7231bcc4e92ece9cf112f1f8363ce59a9577888ca939a266b726522cbb857"
+        },
+        "M": {
+          "path": "exams/103/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103100&c=101&s=0102&q=1&verify=step1-20261013-103100-101-0102-M",
+          "sha256": "9bf31edc0711fc5c82c87bbeee61fa9af8abd67f108a385d25d089f946589519"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 104,
+      "session": 1,
+      "paper": 1,
+      "code": "104030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=104030&y=2015",
+      "files": {
+        "Q": {
+          "path": "exams/104/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104030&c=101&s=0101&q=1&verify=step1-20261013-104030-101-0101-Q",
+          "sha256": "b03827e82a736721f3c88dee1ff70f8e6fb42279e38984323249633b48e1a9e3"
+        },
+        "S": {
+          "path": "exams/104/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104030&c=101&s=0101&q=1&verify=step1-20261013-104030-101-0101-S",
+          "sha256": "719d3809fd979909f349e7998b09cb29413377fba0f299dbb83925bf281b0120"
+        },
+        "M": {
+          "path": "exams/104/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104030&c=101&s=0101&q=1&verify=step1-20261013-104030-101-0101-M",
+          "sha256": "02f33821580ee4bc4029daec52f2760d659fc58dd5950d42aa4fef0aefc4287a"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 104,
+      "session": 1,
+      "paper": 2,
+      "code": "104030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=104030&y=2015",
+      "files": {
+        "Q": {
+          "path": "exams/104/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104030&c=101&s=0102&q=1&verify=step1-20261013-104030-101-0102-Q",
+          "sha256": "0907a8a199d5eb4e9705623f44208dc29391daa6e3f0d9452124ef403bd298f4"
+        },
+        "S": {
+          "path": "exams/104/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104030&c=101&s=0102&q=1&verify=step1-20261013-104030-101-0102-S",
+          "sha256": "b9a6c514fdf14b257a050e7ab6d334f0a85764a961fa43fe74913f796b03500b"
+        },
+        "M": {
+          "path": "exams/104/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104030&c=101&s=0102&q=1&verify=step1-20261013-104030-101-0102-M",
+          "sha256": "2a0930b093751721f3403dcaf4137ed5c51e156192708703202fc8126042e259"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 104,
+      "session": 2,
+      "paper": 1,
+      "code": "104090",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=104090&y=2015",
+      "files": {
+        "Q": {
+          "path": "exams/104/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104090&c=301&s=55&q=1&verify=step1-20261013-104090-301-55-Q",
+          "sha256": "a1fa646bee5b88d68eb2f7817e2903cc7287272c0daa313ac4245a175c77918d"
+        },
+        "S": {
+          "path": "exams/104/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104090&c=301&s=55&q=1&verify=step1-20261013-104090-301-55-S",
+          "sha256": "f737bba815c474babd89e91659cbe0783fd5f2037f8564192c5dba0e7ecafe8d"
+        },
+        "M": {
+          "path": "exams/104/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104090&c=301&s=55&q=1&verify=step1-20261013-104090-301-55-M",
+          "sha256": "b3ae49c4dcf37797f80d922c003f7dbbd5fe6a411da8a3d3f55aebc89437919b"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 104,
+      "session": 2,
+      "paper": 2,
+      "code": "104090",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=104090&y=2015",
+      "files": {
+        "Q": {
+          "path": "exams/104/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104090&c=301&s=66&q=1&verify=step1-20261013-104090-301-66-Q",
+          "sha256": "7ab5542f39c7a1ed77cb0c14ac0facbe456cffde6ec9b8078bf46bf2f6222517"
+        },
+        "S": {
+          "path": "exams/104/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104090&c=301&s=66&q=1&verify=step1-20261013-104090-301-66-S",
+          "sha256": "7ecc2d46c83c1ff80457314a49d47402652ac2f16dfbfa80758a9f4e949d3f6f"
+        },
+        "M": {
+          "path": "exams/104/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104090&c=301&s=66&q=1&verify=step1-20261013-104090-301-66-M",
+          "sha256": "8cf7dbb262c8040751211298346d181caeb960fcb56651c0260ff4a6eb74d331"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 105,
+      "session": 1,
+      "paper": 1,
+      "code": "105020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=105020&y=2016",
+      "files": {
+        "Q": {
+          "path": "exams/105/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105020&c=301&s=55&q=1&verify=step1-20261013-105020-301-55-Q",
+          "sha256": "4db8ead745b3ab064a599af195104761e47db973a289f54c205a090f851caa51"
+        },
+        "S": {
+          "path": "exams/105/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105020&c=301&s=55&q=1&verify=step1-20261013-105020-301-55-S",
+          "sha256": "b29e4a0e68bed245ef39619c5d6cc330ba0c3beb5e4fc930f494029d80a2d0ff"
+        },
+        "M": {
+          "path": "exams/105/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105020&c=301&s=55&q=1&verify=step1-20261013-105020-301-55-M",
+          "sha256": "68aa6bf70b07d94ae57e6937ebbe39eb2cceb64b197812d6f577de2c20b572bf"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 105,
+      "session": 1,
+      "paper": 2,
+      "code": "105020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=105020&y=2016",
+      "files": {
+        "Q": {
+          "path": "exams/105/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105020&c=301&s=66&q=1&verify=step1-20261013-105020-301-66-Q",
+          "sha256": "b310871daace12431d2e1343873022fcdce75785a88cf14c0964aa298472e403"
+        },
+        "S": {
+          "path": "exams/105/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105020&c=301&s=66&q=1&verify=step1-20261013-105020-301-66-S",
+          "sha256": "9d4ec043b0d95b46ad4f6f59dcc7fbb0f2f12879c7bdc2093d72db2c41bce865"
+        },
+        "M": {
+          "path": "exams/105/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105020&c=301&s=66&q=1&verify=step1-20261013-105020-301-66-M",
+          "sha256": "30727b0826be5c1111ae752b7f96a04534b3d064a9d1f5ea15673afbd7d53c61"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 105,
+      "session": 2,
+      "paper": 1,
+      "code": "105100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=105100&y=2016",
+      "files": {
+        "Q": {
+          "path": "exams/105/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105100&c=301&s=55&q=1&verify=step1-20261013-105100-301-55-Q",
+          "sha256": "00a2facb4eef204dbec683da1437b76b4c17fff58bf2a0fdcaa5dde6af3d7562"
+        },
+        "S": {
+          "path": "exams/105/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105100&c=301&s=55&q=1&verify=step1-20261013-105100-301-55-S",
+          "sha256": "557b168d0fca0b68f13e2394cbb2c78b106625490038a1a5799b460c4dd964d0"
+        },
+        "M": {
+          "path": "exams/105/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105100&c=301&s=55&q=1&verify=step1-20261013-105100-301-55-M",
+          "sha256": "1064b0029817202a6abccf2b2b421ee397cb1025070312ebb8ab2ed70af9c9d3"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 105,
+      "session": 2,
+      "paper": 2,
+      "code": "105100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=105100&y=2016",
+      "files": {
+        "Q": {
+          "path": "exams/105/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105100&c=301&s=66&q=1&verify=step1-20261013-105100-301-66-Q",
+          "sha256": "e027d4f98802f3af42c2d0f80f0329caff12efd1ce0c2a5d3881424ae0597a73"
+        },
+        "S": {
+          "path": "exams/105/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105100&c=301&s=66&q=1&verify=step1-20261013-105100-301-66-S",
+          "sha256": "93207ab5fde153596fd8a1bcb93dee1ab713f4a699bb243d705ea8c827f3aff5"
+        },
+        "M": {
+          "path": "exams/105/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105100&c=301&s=66&q=1&verify=step1-20261013-105100-301-66-M",
+          "sha256": "7ce0a1ea9c5910ac34d217256be6a0fa26f533025e352ad139cde28b8e3e6f20"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 106,
+      "session": 1,
+      "paper": 1,
+      "code": "106020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=106020&y=2017",
+      "files": {
+        "Q": {
+          "path": "exams/106/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=106020&c=301&s=55&q=1&verify=step1-20261013-106020-301-55-Q",
+          "sha256": "597f14ef88f1a8ec8b49c18c2ee1a1cd2a2376cf1e89ff832305637320a0f3c8"
+        },
+        "S": {
+          "path": "exams/106/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=106020&c=301&s=55&q=1&verify=step1-20261013-106020-301-55-S",
+          "sha256": "e5781fcd1de82a2a98e9ed1bcdccdffe6022c80affd625474fb0438d3e2353e1"
+        },
+        "M": {
+          "path": "exams/106/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=106020&c=301&s=55&q=1&verify=step1-20261013-106020-301-55-M",
+          "sha256": "107e46087e9ac242ad0c280b8ab1e46afe3452a4e31ae374ee52c4717ac62d62"
+        }
+      },
+      "subjects": {
+        "anatomy": 28,
+        "embryology": 4,
+        "histology": 9,
+        "microbiology": 20,
+        "immunology": 13,
+        "parasitology": 8,
+        "public-health": 18
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 106,
+      "session": 1,
+      "paper": 2,
+      "code": "106020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=106020&y=2017",
+      "files": {
+        "Q": {
+          "path": "exams/106/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=106020&c=301&s=66&q=1&verify=step1-20261013-106020-301-66-Q",
+          "sha256": "648f2174cbf4e7bfa4e9a1ee28e4576bad7327dee808dd84269236fb0e8edb51"
+        },
+        "S": {
+          "path": "exams/106/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=106020&c=301&s=66&q=1&verify=step1-20261013-106020-301-66-S",
+          "sha256": "97adbf9b9f85c3d6d2c1ebd1125ee3d11af530388b8d4b86cc7f10117feaef45"
+        },
+        "M": {
+          "path": "exams/106/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=106020&c=301&s=66&q=1&verify=step1-20261013-106020-301-66-M",
+          "sha256": "b950ff58ce96677b3a408b213bf7e451c432e4ccac819180e92f9df45c94bf56"
+        }
+      },
+      "subjects": {
+        "physiology": 25,
+        "biochemistry": 25,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "legacy"
+    },
+    {
+      "year": 106,
+      "session": 2,
+      "paper": 1,
+      "code": "106100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=106100&y=2017",
+      "files": {
+        "Q": {
+          "path": "exams/106/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=106100&c=301&s=11&q=1&verify=step1-20261013-106100-301-11-Q",
+          "sha256": "4347a983cc51d3e7ba530ce47c5bf8fb7854bf5bd21c00ef37eef18b9b6196ec"
+        },
+        "S": {
+          "path": "exams/106/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=106100&c=301&s=11&q=1&verify=step1-20261013-106100-301-11-S",
+          "sha256": "955d5497b236144c4aa1d5b34133ba3308f9b1199af4e10fbb3110629188e21d"
+        },
+        "M": {
+          "path": "exams/106/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=106100&c=301&s=11&q=1&verify=step1-20261013-106100-301-11-M",
+          "sha256": "575ae19851c472298b6d830a6828c1aaed8a667d36233ab7cba3628991ebea68"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 106,
+      "session": 2,
+      "paper": 2,
+      "code": "106100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=106100&y=2017",
+      "files": {
+        "Q": {
+          "path": "exams/106/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=106100&c=301&s=22&q=1&verify=step1-20261013-106100-301-22-Q",
+          "sha256": "67e08dc5b60395c35708d80b5d8a9b20ee883baf88fe4ff53e989042f5907074"
+        },
+        "S": {
+          "path": "exams/106/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=106100&c=301&s=22&q=1&verify=step1-20261013-106100-301-22-S",
+          "sha256": "0676a5f079233562939d8f67820625fcbe77433ca423153b977ad1c9de566543"
+        },
+        "M": {
+          "path": "exams/106/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=106100&c=301&s=22&q=1&verify=step1-20261013-106100-301-22-M",
+          "sha256": "d6feeff72218f5c09a5b6c88110a7171a342f73d52ed839e281b3b9a64cca650"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 107,
+      "session": 1,
+      "paper": 1,
+      "code": "107020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=107020&y=2018",
+      "files": {
+        "Q": {
+          "path": "exams/107/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=107020&c=301&s=55&q=1&verify=step1-20261013-107020-301-55-Q",
+          "sha256": "b94c0b0e50cf81a27a00b5e6951b490b777a05f1931790983d653519a0fb16bc"
+        },
+        "S": {
+          "path": "exams/107/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=107020&c=301&s=55&q=1&verify=step1-20261013-107020-301-55-S",
+          "sha256": "0743150470b6a0623b4342ea2fe4913f6c44b021542ccf5d0159695309079710"
+        },
+        "M": {
+          "path": "exams/107/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=107020&c=301&s=55&q=1&verify=step1-20261013-107020-301-55-M",
+          "sha256": "57f114c1d36c067627044d7e8e5ea74544c9f0b10f60e5595503ec9cc3a0ce0f"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 107,
+      "session": 1,
+      "paper": 2,
+      "code": "107020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=107020&y=2018",
+      "files": {
+        "Q": {
+          "path": "exams/107/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=107020&c=301&s=66&q=1&verify=step1-20261013-107020-301-66-Q",
+          "sha256": "1407bb0fc0ed74ce0c5e56729e35be103530005ed4275321afba6da73e12418d"
+        },
+        "S": {
+          "path": "exams/107/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=107020&c=301&s=66&q=1&verify=step1-20261013-107020-301-66-S",
+          "sha256": "ead8109dd696a3ccb071812aa178c52fd0a663108f181c622c5ca84e5b769253"
+        },
+        "M": {
+          "path": "exams/107/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=107020&c=301&s=66&q=1&verify=step1-20261013-107020-301-66-M",
+          "sha256": "835259d1a1b79fcefdc51c8b06d87a2c65f1f96a8b4b0e36c76cb4792ba7bb4e"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 107,
+      "session": 2,
+      "paper": 1,
+      "code": "107100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=107100&y=2018",
+      "files": {
+        "Q": {
+          "path": "exams/107/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=107100&c=301&s=11&q=1&verify=step1-20261013-107100-301-11-Q",
+          "sha256": "c50dfcc1074afb553b53b449e5e1d0a83b7b0da45125a576258a9143dc28443f"
+        },
+        "S": {
+          "path": "exams/107/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=107100&c=301&s=11&q=1&verify=step1-20261013-107100-301-11-S",
+          "sha256": "0c95ca62aba21dcbbc44d2fe992fb6767febc62a212f5a255abd3b1b5adc2f56"
+        },
+        "M": {
+          "path": "exams/107/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=107100&c=301&s=11&q=1&verify=step1-20261013-107100-301-11-M",
+          "sha256": "48d02009c8de89515533591d3f9530a1923761e99d2c88dd83e3e32fbc4707b9"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 107,
+      "session": 2,
+      "paper": 2,
+      "code": "107100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=107100&y=2018",
+      "files": {
+        "Q": {
+          "path": "exams/107/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=107100&c=301&s=22&q=1&verify=step1-20261013-107100-301-22-Q",
+          "sha256": "5d4f461ea6328d969d3055785247a774578a5cd7394826789871aba43624b552"
+        },
+        "S": {
+          "path": "exams/107/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=107100&c=301&s=22&q=1&verify=step1-20261013-107100-301-22-S",
+          "sha256": "fb2459ea60e77e2aef71f688795a1365a785a253f61cd0c0dd31f3446b1aad0a"
+        },
+        "M": {
+          "path": "exams/107/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=107100&c=301&s=22&q=1&verify=step1-20261013-107100-301-22-M",
+          "sha256": "b57a2f7f127413c5ce216be050bf917f845dd80a59d362ebe1befc0bc4a65e26"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 108,
+      "session": 1,
+      "paper": 1,
+      "code": "108030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=108030&y=2019",
+      "files": {
+        "Q": {
+          "path": "exams/108/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=108030&c=301&s=11&q=1&verify=step1-20261013-108030-301-11-Q",
+          "sha256": "a2e670ee7a9268b1e0d6d2712aa8f1692e7d2ab15f2cb076051428345beb5a0d"
+        },
+        "S": {
+          "path": "exams/108/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=108030&c=301&s=11&q=1&verify=step1-20261013-108030-301-11-S",
+          "sha256": "51631f316d6673b620909c614df85c9b22925cfd41cb61d2a81481fd259e9bbf"
+        },
+        "M": {
+          "path": "exams/108/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=108030&c=301&s=11&q=1&verify=step1-20261013-108030-301-11-M",
+          "sha256": "ba466f7574e5b74706727ba18d03f0b69db1df0c6e9b85166cee6c096a7dc976"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 108,
+      "session": 1,
+      "paper": 2,
+      "code": "108030",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=108030&y=2019",
+      "files": {
+        "Q": {
+          "path": "exams/108/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=108030&c=301&s=22&q=1&verify=step1-20261013-108030-301-22-Q",
+          "sha256": "052fb56eb434f687ae01fadc1f3e6906f4884c4cfc90aece2b97d8a9c92194db"
+        },
+        "S": {
+          "path": "exams/108/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=108030&c=301&s=22&q=1&verify=step1-20261013-108030-301-22-S",
+          "sha256": "2f1543acbc72c3d5871c5b430857ec51a70ab677d6ed506ee6cc6700e9141c3b"
+        },
+        "M": {
+          "path": "exams/108/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=108030&c=301&s=22&q=1&verify=step1-20261013-108030-301-22-M",
+          "sha256": "6acb761b1faa6e103408d2b4d31c761a8b1136adc6e2ae57aef1cd04156badde"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 108,
+      "session": 2,
+      "paper": 1,
+      "code": "108100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=108100&y=2019",
+      "files": {
+        "Q": {
+          "path": "exams/108/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=108100&c=301&s=11&q=1&verify=step1-20261013-108100-301-11-Q",
+          "sha256": "9a9955a260dff5d52a0112672157cce54ef46fc6cb80b042c270d5cb721e6cde"
+        },
+        "S": {
+          "path": "exams/108/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=108100&c=301&s=11&q=1&verify=step1-20261013-108100-301-11-S",
+          "sha256": "55f244a19bf3d1aa53e8adbcf167d3b47a3d25b72e4d4331e91cb338dbde914e"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 108,
+      "session": 2,
+      "paper": 2,
+      "code": "108100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=108100&y=2019",
+      "files": {
+        "Q": {
+          "path": "exams/108/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=108100&c=301&s=22&q=1&verify=step1-20261013-108100-301-22-Q",
+          "sha256": "d0b03fc5043d57be8dad20b747ab20d01053c1ef1112c774e36e8a8324f54a59"
+        },
+        "S": {
+          "path": "exams/108/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=108100&c=301&s=22&q=1&verify=step1-20261013-108100-301-22-S",
+          "sha256": "2799ad1a76a913b0ce5898b0efcd0243a67aa01e364ff1f74bce79ba79503a53"
+        },
+        "M": {
+          "path": "exams/108/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=108100&c=301&s=22&q=1&verify=step1-20261013-108100-301-22-M",
+          "sha256": "27d9e6d01ef27c0dfc4f700f9d9bceb0077464017123fda5cc12d4f63a07eb81"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 109,
+      "session": 1,
+      "paper": 1,
+      "code": "109020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=109020&y=2020",
+      "files": {
+        "Q": {
+          "path": "exams/109/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=109020&c=301&s=11&q=1&verify=step1-20261013-109020-301-11-Q",
+          "sha256": "95363bddd2c9a9e182223e0fa871277b6718ba97faaf57edaec0abb33de22db9"
+        },
+        "S": {
+          "path": "exams/109/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=109020&c=301&s=11&q=1&verify=step1-20261013-109020-301-11-S",
+          "sha256": "c050c2eef16db1513f5b253c4a72213baf637dcac32dd95b8535ce05f0efcd3d"
+        },
+        "M": {
+          "path": "exams/109/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=109020&c=301&s=11&q=1&verify=step1-20261013-109020-301-11-M",
+          "sha256": "fe4c9ceeae274fa1bdcb95582db0d5aaa1f6b708ce310fdea396e54768d9a846"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 109,
+      "session": 1,
+      "paper": 2,
+      "code": "109020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=109020&y=2020",
+      "files": {
+        "Q": {
+          "path": "exams/109/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=109020&c=301&s=22&q=1&verify=step1-20261013-109020-301-22-Q",
+          "sha256": "45d56d284927137f1c97b925741ba3be521f2f3afe9536a62e219b90b2a0491b"
+        },
+        "S": {
+          "path": "exams/109/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=109020&c=301&s=22&q=1&verify=step1-20261013-109020-301-22-S",
+          "sha256": "dbb009bb7a56ef99860b3873fcec718fec2f726b7eb8d246824fae66cac6fccc"
+        },
+        "M": {
+          "path": "exams/109/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=109020&c=301&s=22&q=1&verify=step1-20261013-109020-301-22-M",
+          "sha256": "de5e907a91dfed3e999b5318f31e66445e2b27ca7b072bdfd4eaa3844d13cd3f"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 109,
+      "session": 2,
+      "paper": 1,
+      "code": "109100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=109100&y=2020",
+      "files": {
+        "Q": {
+          "path": "exams/109/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=109100&c=301&s=11&q=1&verify=step1-20261013-109100-301-11-Q",
+          "sha256": "1947eae38c86ef1c621b409f4d7887b1af6392e183da6ab313ee0a6707ff2185"
+        },
+        "S": {
+          "path": "exams/109/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=109100&c=301&s=11&q=1&verify=step1-20261013-109100-301-11-S",
+          "sha256": "71fa3f44b7dc146000cdae6ab6a249c8446b3c6d4731915cbf05e029b4ed9811"
+        },
+        "M": {
+          "path": "exams/109/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=109100&c=301&s=11&q=1&verify=step1-20261013-109100-301-11-M",
+          "sha256": "4eb74e0cd9179dfef74c39b0a7d5ef1240e1501e5c085bec52df5088cc1b2c92"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 109,
+      "session": 2,
+      "paper": 2,
+      "code": "109100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=109100&y=2020",
+      "files": {
+        "Q": {
+          "path": "exams/109/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=109100&c=301&s=22&q=1&verify=step1-20261013-109100-301-22-Q",
+          "sha256": "c1d55a12d1c99ea63943f0068b33f20f4bc3b8b4a20c669a9a90e452cd2f2b2b"
+        },
+        "S": {
+          "path": "exams/109/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=109100&c=301&s=22&q=1&verify=step1-20261013-109100-301-22-S",
+          "sha256": "a52efe1af02779de114bcb735316c5564ad5e0d7aaa11d3efb573815faeb0d7d"
+        },
+        "M": {
+          "path": "exams/109/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=109100&c=301&s=22&q=1&verify=step1-20261013-109100-301-22-M",
+          "sha256": "440da7346fd58af4c85082528ae8e39aa9067e4861d50e7704441f54eb1eb3e7"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 110,
+      "session": 1,
+      "paper": 1,
+      "code": "110020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=110020&y=2021",
+      "files": {
+        "Q": {
+          "path": "exams/110/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110020&c=301&s=11&q=1&verify=step1-20261013-110020-301-11-Q",
+          "sha256": "54e85877be56dc3918fdc664efa1e24805c1d035db68808ff49e7dc51e6190d7"
+        },
+        "S": {
+          "path": "exams/110/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110020&c=301&s=11&q=1&verify=step1-20261013-110020-301-11-S",
+          "sha256": "ac15a438af3aea0e58eea8d367288643ddc0e194a552747d54bc7302997bb591"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 110,
+      "session": 1,
+      "paper": 2,
+      "code": "110020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=110020&y=2021",
+      "files": {
+        "Q": {
+          "path": "exams/110/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110020&c=301&s=22&q=1&verify=step1-20261013-110020-301-22-Q",
+          "sha256": "6a28bf075e2c667c170634b01827f42493a92620dd9038909173074b20bfdeb5"
+        },
+        "S": {
+          "path": "exams/110/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110020&c=301&s=22&q=1&verify=step1-20261013-110020-301-22-S",
+          "sha256": "97b86efbc614cb3924906ffef5177a9adfe1533b37d8ff1eec6d6b3d8e5f91c5"
+        },
+        "M": {
+          "path": "exams/110/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110020&c=301&s=22&q=1&verify=step1-20261013-110020-301-22-M",
+          "sha256": "d1128fa0ac1779c875aa7b913f622d4a6c7fcd87a581799c8d1a227c35e24897"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 110,
+      "session": 2,
+      "paper": 1,
+      "code": "110101",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=110101&y=2021",
+      "files": {
+        "Q": {
+          "path": "exams/110/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110101&c=301&s=11&q=1&verify=step1-20261013-110101-301-11-Q",
+          "sha256": "b98d878b7eaac7cf68738aad682535a8d24f2f0fccadb46f99c4794991bee500"
+        },
+        "S": {
+          "path": "exams/110/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110101&c=301&s=11&q=1&verify=step1-20261013-110101-301-11-S",
+          "sha256": "2618cf8999a54ade786154e148fc201f7bbac1f386d530916171bdd94c163fd8"
+        },
+        "M": {
+          "path": "exams/110/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110101&c=301&s=11&q=1&verify=step1-20261013-110101-301-11-M",
+          "sha256": "a82e73ea5e8ca5c464cd7477cd89f3b7d6977a199d14d19e0353f509b6b49b47"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 110,
+      "session": 2,
+      "paper": 2,
+      "code": "110101",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=110101&y=2021",
+      "files": {
+        "Q": {
+          "path": "exams/110/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=110101&c=301&s=22&q=1&verify=step1-20261013-110101-301-22-Q",
+          "sha256": "aea05983fdc2cec7b68153a67d8168fcc8589611802c9d1dbfa011874e2d2fdf"
+        },
+        "S": {
+          "path": "exams/110/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=110101&c=301&s=22&q=1&verify=step1-20261013-110101-301-22-S",
+          "sha256": "2eab1fc24064823f935084f72ba271956a057b88c3ffaa894b335f30f5ec2ee4"
+        },
+        "M": {
+          "path": "exams/110/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=110101&c=301&s=22&q=1&verify=step1-20261013-110101-301-22-M",
+          "sha256": "861ff6ca5dc3cabbce4c7c79f1ed55ef3ec05e015f55867767346c326e474e0c"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 111,
+      "session": 1,
+      "paper": 1,
+      "code": "111020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=111020&y=2022",
+      "files": {
+        "Q": {
+          "path": "exams/111/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111020&c=301&s=11&q=1&verify=step1-20261013-111020-301-11-Q",
+          "sha256": "cd1f3990f287840bb10891bb44290c52fbb08bd41f1435e92489ce7f443331e7"
+        },
+        "S": {
+          "path": "exams/111/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111020&c=301&s=11&q=1&verify=step1-20261013-111020-301-11-S",
+          "sha256": "e0d49208933cb77d16d6901ff87eb819d96b76bf6ee1d4b548b3bb45b02f548f"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 111,
+      "session": 1,
+      "paper": 2,
+      "code": "111020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=111020&y=2022",
+      "files": {
+        "Q": {
+          "path": "exams/111/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111020&c=301&s=22&q=1&verify=step1-20261013-111020-301-22-Q",
+          "sha256": "bf5645af56e5bcf86756ebc9abd7a37657c06c174478b9acce598f443652eff9"
+        },
+        "S": {
+          "path": "exams/111/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111020&c=301&s=22&q=1&verify=step1-20261013-111020-301-22-S",
+          "sha256": "1298ce4b080300c1df3246894c768165529f60ab77e3f73138a72a3f06dd181e"
+        },
+        "M": {
+          "path": "exams/111/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=111020&c=301&s=22&q=1&verify=step1-20261013-111020-301-22-M",
+          "sha256": "2953061f3114afe89f5ca4d46ab16dd7a92eff99cfff842f43c9df0b201c6219"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 111,
+      "session": 2,
+      "paper": 1,
+      "code": "111100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=111100&y=2022",
+      "files": {
+        "Q": {
+          "path": "exams/111/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111100&c=301&s=11&q=1&verify=step1-20261013-111100-301-11-Q",
+          "sha256": "c65d52728a93de3a22d8e41e963ce17e3419b500571ff0857045aed82b24d281"
+        },
+        "S": {
+          "path": "exams/111/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111100&c=301&s=11&q=1&verify=step1-20261013-111100-301-11-S",
+          "sha256": "78e0f720ef545fb02817079d4c9d78cbb810a8ca2d0505ad2b75356d7ceb7cb7"
+        },
+        "M": {
+          "path": "exams/111/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=111100&c=301&s=11&q=1&verify=step1-20261013-111100-301-11-M",
+          "sha256": "f54b5d1878201075bf0bea1af9c5f7c8d592780e51fff66d86b47dfd436d05cb"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 111,
+      "session": 2,
+      "paper": 2,
+      "code": "111100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=111100&y=2022",
+      "files": {
+        "Q": {
+          "path": "exams/111/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111100&c=301&s=22&q=1&verify=step1-20261013-111100-301-22-Q",
+          "sha256": "2f8917fa6a5f955a008964e6aeb5b7b2c2c7d2a7cfdb6bb650aee2a91022ec7d"
+        },
+        "S": {
+          "path": "exams/111/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=111100&c=301&s=22&q=1&verify=step1-20261013-111100-301-22-S",
+          "sha256": "d825879c9a2df77f7592f8582abda8fcb64dad4afe134b5ea2359dddef47d8c5"
+        },
+        "M": {
+          "path": "exams/111/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=111100&c=301&s=22&q=1&verify=step1-20261013-111100-301-22-M",
+          "sha256": "0aa9900656e295a3f85240593892d91b0209664e4f53a3469dc7f462d6948767"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 112,
+      "session": 1,
+      "paper": 1,
+      "code": "112020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=112020&y=2023",
+      "files": {
+        "Q": {
+          "path": "exams/112/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112020&c=301&s=11&q=1&verify=step1-20261013-112020-301-11-Q",
+          "sha256": "863f6c5c87281915d816040aecf9c7398bafd6d89190c160e7375ded03f0ff0a"
+        },
+        "S": {
+          "path": "exams/112/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112020&c=301&s=11&q=1&verify=step1-20261013-112020-301-11-S",
+          "sha256": "75895246c14e9166549219e5eb4137834353f2197abe4554b8cd0e8f5160a650"
+        },
+        "M": {
+          "path": "exams/112/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112020&c=301&s=11&q=1&verify=step1-20261013-112020-301-11-M",
+          "sha256": "37ac3a94152b60d2f837efcf9dbb3ee540e912d9e37092525d0e572f9e28f028"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 112,
+      "session": 1,
+      "paper": 2,
+      "code": "112020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=112020&y=2023",
+      "files": {
+        "Q": {
+          "path": "exams/112/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112020&c=301&s=22&q=1&verify=step1-20261013-112020-301-22-Q",
+          "sha256": "f7bf1e26f5ea5e25e0488679567dc8c5b622f49417176e2164f2948fc3531b7d"
+        },
+        "S": {
+          "path": "exams/112/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112020&c=301&s=22&q=1&verify=step1-20261013-112020-301-22-S",
+          "sha256": "4b2cd99dd1389d6e8f48913746b7fee1c1647eac7f98ce00b917828bb3beb625"
+        },
+        "M": {
+          "path": "exams/112/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112020&c=301&s=22&q=1&verify=step1-20261013-112020-301-22-M",
+          "sha256": "0a9bad1a6337456f114424ef08b6bbea9f07f8787c0060ad9bb375d6c8aa8ac0"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 112,
+      "session": 2,
+      "paper": 1,
+      "code": "112100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=112100&y=2023",
+      "files": {
+        "Q": {
+          "path": "exams/112/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112100&c=301&s=11&q=1&verify=step1-20261013-112100-301-11-Q",
+          "sha256": "3455ab97f84450b066cac143cfc11a6e115d612f9ff5d546d1abf22f8ed33c15"
+        },
+        "S": {
+          "path": "exams/112/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112100&c=301&s=11&q=1&verify=step1-20261013-112100-301-11-S",
+          "sha256": "0b2bd8cfc8fed6baf88c089a245c571afadf608305c6c4b6285cbc3c04fee3b4"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 112,
+      "session": 2,
+      "paper": 2,
+      "code": "112100",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=112100&y=2023",
+      "files": {
+        "Q": {
+          "path": "exams/112/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112100&c=301&s=22&q=1&verify=step1-20261013-112100-301-22-Q",
+          "sha256": "ba9a2668fab605bce1c6dafce6e9c49af98c944f14abf458dc65834e0bddb96b"
+        },
+        "S": {
+          "path": "exams/112/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112100&c=301&s=22&q=1&verify=step1-20261013-112100-301-22-S",
+          "sha256": "24742710da74cba527cd39148206aefa7a3679c40d84cacf0ae5ae35ea52ed77"
+        },
+        "M": {
+          "path": "exams/112/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112100&c=301&s=22&q=1&verify=step1-20261013-112100-301-22-M",
+          "sha256": "1d9ee7474ec339c9e8eba77fd030dcb784b7a40efff194dd098bd01b0a63d5d4"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 113,
+      "session": 1,
+      "paper": 1,
+      "code": "113020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=113020&y=2024",
+      "files": {
+        "Q": {
+          "path": "exams/113/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113020&c=301&s=11&q=1&verify=step1-20261013-113020-301-11-Q",
+          "sha256": "d6751ab2e9f6407ebb385fc6ca2c2cc625cb66297a924febaad1be09463cc83e"
+        },
+        "S": {
+          "path": "exams/113/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113020&c=301&s=11&q=1&verify=step1-20261013-113020-301-11-S",
+          "sha256": "03f66a7c9f36d91290d83155dd5b52783731902f0c79dcb041a95981ad13624a"
+        },
+        "M": {
+          "path": "exams/113/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=113020&c=301&s=11&q=1&verify=step1-20261013-113020-301-11-M",
+          "sha256": "220273cfe65cfb72b43fb80d9e62b65e9ac3f3dedd8f5eeb4995b8a328634902"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 113,
+      "session": 1,
+      "paper": 2,
+      "code": "113020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=113020&y=2024",
+      "files": {
+        "Q": {
+          "path": "exams/113/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113020&c=301&s=22&q=1&verify=step1-20261013-113020-301-22-Q",
+          "sha256": "f8bdc63c5d19803ef5076726360e3e696d68c712cc87aba2eaf06e874f498b71"
+        },
+        "S": {
+          "path": "exams/113/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113020&c=301&s=22&q=1&verify=step1-20261013-113020-301-22-S",
+          "sha256": "bee6e5e2222efbbf359e155f7ed4dda49021db12bae75589f719babecd5cbefb"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 113,
+      "session": 2,
+      "paper": 1,
+      "code": "113090",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=113090&y=2024",
+      "files": {
+        "Q": {
+          "path": "exams/113/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113090&c=301&s=11&q=1&verify=step1-20261013-113090-301-11-Q",
+          "sha256": "2668beb1b89f18c55dea9c2827e38ec501c635f0834c6eeedb1e174a6091ef6f"
+        },
+        "S": {
+          "path": "exams/113/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113090&c=301&s=11&q=1&verify=step1-20261013-113090-301-11-S",
+          "sha256": "e338814188257a8a82dd34df8fcf000e2d921b4c4538a26ebb05e9ef2055e3c3"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 113,
+      "session": 2,
+      "paper": 2,
+      "code": "113090",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=113090&y=2024",
+      "files": {
+        "Q": {
+          "path": "exams/113/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113090&c=301&s=22&q=1&verify=step1-20261013-113090-301-22-Q",
+          "sha256": "61c1969aba99e8cc6ae11b2c5af2c8e7f73f34062edfb83cf4ed87d5261efc18"
+        },
+        "S": {
+          "path": "exams/113/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113090&c=301&s=22&q=1&verify=step1-20261013-113090-301-22-S",
+          "sha256": "7dfb143065bcfec18578684d4c7ef102665cb9fd529fad940010c9fc4b4bd588"
+        },
+        "M": {
+          "path": "exams/113/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=113090&c=301&s=22&q=1&verify=step1-20261013-113090-301-22-M",
+          "sha256": "4ace4806516e3918a32ddd214bf7416fbf6631bae7bd4ca1889a61e030357d34"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 114,
+      "session": 1,
+      "paper": 1,
+      "code": "114020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114020&y=2025",
+      "files": {
+        "Q": {
+          "path": "exams/114/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114020&c=301&s=0101&q=1&verify=step1-20261013-114020-301-0101-Q",
+          "sha256": "7be999ee18835b0fd7ab61c6592e05424b49d0dd0489fe7bd13b85c6a1e342fe"
+        },
+        "S": {
+          "path": "exams/114/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114020&c=301&s=0101&q=1&verify=step1-20261013-114020-301-0101-S",
+          "sha256": "87c87f207423aa449842bfa2d3caf5a443463e5963c37b1894287bcbd755f69e"
+        },
+        "M": {
+          "path": "exams/114/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114020&c=301&s=0101&q=1&verify=step1-20261013-114020-301-0101-M",
+          "sha256": "dc973e0935d16075b78f06f784e167f65e88c72a9eaa28f7d5ffb784db71f545"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 114,
+      "session": 1,
+      "paper": 2,
+      "code": "114020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114020&y=2025",
+      "files": {
+        "Q": {
+          "path": "exams/114/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114020&c=301&s=0102&q=1&verify=step1-20261013-114020-301-0102-Q",
+          "sha256": "9d751fa36c46a134e9f5d97188ebbe9250b662f3a43590a90971e99070b7b33d"
+        },
+        "S": {
+          "path": "exams/114/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114020&c=301&s=0102&q=1&verify=step1-20261013-114020-301-0102-S",
+          "sha256": "3a17f7bfb072e1decbb02d17dca60d33fb2337f41f5d56b31cdabcad6766bebd"
+        },
+        "M": {
+          "path": "exams/114/1/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114020&c=301&s=0102&q=1&verify=step1-20261013-114020-301-0102-M",
+          "sha256": "08d7e9e13b74e11eeb9e2b355494dd2b942035bf8cf6837ca1ee305c482ddeac"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 114,
+      "session": 2,
+      "paper": 1,
+      "code": "114090",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114090&y=2025",
+      "files": {
+        "Q": {
+          "path": "exams/114/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114090&c=301&s=0101&q=1&verify=step1-20261013-114090-301-0101-Q",
+          "sha256": "ef4cfabd5002aa1bc2c60759112860732f0992251bd5bda8013ad1f8d261f31c"
+        },
+        "S": {
+          "path": "exams/114/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114090&c=301&s=0101&q=1&verify=step1-20261013-114090-301-0101-S",
+          "sha256": "a6a6113bfcfb0b3f2d4e744262c3f3b95c25a9954c754963eded8532edcdd088"
+        },
+        "M": {
+          "path": "exams/114/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114090&c=301&s=0101&q=1&verify=step1-20261013-114090-301-0101-M",
+          "sha256": "8b83d92f8fce3dbb8ac1928d347219757508386b0b2d33c5708d84edc72dad9a"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 114,
+      "session": 2,
+      "paper": 2,
+      "code": "114090",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114090&y=2025",
+      "files": {
+        "Q": {
+          "path": "exams/114/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114090&c=301&s=0102&q=1&verify=step1-20261013-114090-301-0102-Q",
+          "sha256": "1341bf59bb56711635cd14ab790cdfc5f4ac5166f820cc68f7d990f8ee1bc5de"
+        },
+        "S": {
+          "path": "exams/114/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=114090&c=301&s=0102&q=1&verify=step1-20261013-114090-301-0102-S",
+          "sha256": "526d0b13d046d270ddce34769334c319da8a7a36fa72bfcb86224e909b001edf"
+        },
+        "M": {
+          "path": "exams/114/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=114090&c=301&s=0102&q=1&verify=step1-20261013-114090-301-0102-M",
+          "sha256": "fd93908af3c25ede50966516b529368e153c170532153c3107095d677dc920a7"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 115,
+      "session": 1,
+      "paper": 1,
+      "code": "115020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115020&y=2026",
+      "files": {
+        "Q": {
+          "path": "exams/115/1/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115020&c=301&s=0101&q=1&verify=step1-20261013-115020-301-0101-Q",
+          "sha256": "4eb70cce9b576a9b497a13d011e3999662ca995908f2bd21441faf40fff4de76"
+        },
+        "S": {
+          "path": "exams/115/1/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115020&c=301&s=0101&q=1&verify=step1-20261013-115020-301-0101-S",
+          "sha256": "791afaeb0574803bf89e66934d66b41a1e6a8935cc846ed4e7c343124bf5d098"
+        },
+        "M": {
+          "path": "exams/115/1/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115020&c=301&s=0101&q=1&verify=step1-20261013-115020-301-0101-M",
+          "sha256": "cd3dea4890ec0942ffcb798a69250833409cb40e7b32a0482b676b2f5215432e"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 115,
+      "session": 1,
+      "paper": 2,
+      "code": "115020",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115020&y=2026",
+      "files": {
+        "Q": {
+          "path": "exams/115/1/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115020&c=301&s=0102&q=1&verify=step1-20261013-115020-301-0102-Q",
+          "sha256": "76bb19fa9244d6b6caac0478c757eb973c5edcc31a31a7f553c8cbc621b8aa6a"
+        },
+        "S": {
+          "path": "exams/115/1/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115020&c=301&s=0102&q=1&verify=step1-20261013-115020-301-0102-S",
+          "sha256": "48af63ab7d986a0f32636ad9255277931fc000df7b3dd9ba69277f1929482a07"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 115,
+      "session": 2,
+      "paper": 1,
+      "code": "115090",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115090&y=2026",
+      "files": {
+        "Q": {
+          "path": "exams/115/2/medicine-1-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-Q",
+          "sha256": "38fe0d7e1f32ff5f23d0075e706f1d51fbf59ce14903568b589e390fe7f9e84e"
+        },
+        "S": {
+          "path": "exams/115/2/medicine-1-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-S",
+          "sha256": "efc92a3741f2cfc2bfb91896d2905d2745c7430cd2577a4e08b8acc82bcdbc66"
+        },
+        "M": {
+          "path": "exams/115/2/medicine-1-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M",
+          "sha256": "ef588e3635115883d8b5537e228d4aed909e299a74c91f320b6924850b14596f"
+        }
+      },
+      "subjects": {
+        "anatomy": 31,
+        "embryology": 5,
+        "histology": 10,
+        "physiology": 27,
+        "biochemistry": 27
+      },
+      "questions": 100,
+      "layout": "current"
+    },
+    {
+      "year": 115,
+      "session": 2,
+      "paper": 2,
+      "code": "115090",
+      "query": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115090&y=2026",
+      "files": {
+        "Q": {
+          "path": "exams/115/2/medicine-2-Q.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-Q",
+          "sha256": "91dcebc1d54589c5ed409d9b111fd397a1fd005a6587b444c49c7d95b0e1b238"
+        },
+        "S": {
+          "path": "exams/115/2/medicine-2-S.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-S",
+          "sha256": "4a4fa71ad0ef160eea7de174694fbf710e4f033548f704c3fe9ce225226dfce7"
+        },
+        "M": {
+          "path": "exams/115/2/medicine-2-M.pdf",
+          "source": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+          "sha256": "3318a0282d5af167e6f7397d308df62e05c32c071c5c09be0c216f027363bcda"
+        }
+      },
+      "subjects": {
+        "microbiology": 17,
+        "immunology": 11,
+        "parasitology": 7,
+        "public-health": 15,
+        "pharmacology": 25,
+        "pathology": 25
+      },
+      "questions": 100,
+      "layout": "current"
+    }
+  ],
+  "questionCount": 8000,
+  "subjectCounts": {
+    "anatomy": 1177,
+    "histology": 379,
+    "embryology": 179,
+    "physiology": 1056,
+    "biochemistry": 1022,
+    "pharmacology": 1001,
+    "pathology": 997,
+    "microbiology": 743,
+    "parasitology": 301,
+    "immunology": 482,
+    "public-health": 663
+  },
+  "files": 215,
+  "discoveryYears": [
+    81,
+    115
+  ],
+  "classification": "本站依原題內容與歷年出題區段整理，非考選部官方逐題標籤。"
+}

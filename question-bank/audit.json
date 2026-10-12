@@ -1,0 +1,2935 @@
+[
+  {
+    "code": "096040",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "5": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "9": [
+        "B",
+        "D"
+      ],
+      "10": [
+        "A",
+        "D"
+      ],
+      "13": [
+        "A",
+        "C"
+      ],
+      "37": [
+        "A",
+        "B"
+      ],
+      "46": [
+        "A",
+        "C"
+      ],
+      "49": [
+        "B",
+        "C"
+      ],
+      "52": [
+        "A",
+        "D"
+      ],
+      "53": [
+        "*"
+      ],
+      "54": [
+        "*"
+      ],
+      "61": [
+        "A",
+        "B"
+      ],
+      "79": [
+        "*"
+      ],
+      "87": [
+        "A",
+        "C"
+      ],
+      "96": [
+        "A",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "096040",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 39,
+      "biochemistry": 13,
+      "pharmacology": 26,
+      "pathology": 22
+    },
+    "corrections": {
+      "2": [
+        "B",
+        "D"
+      ],
+      "4": [
+        "*"
+      ],
+      "7": [
+        "*"
+      ],
+      "11": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "14": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "19": [
+        "A",
+        "C"
+      ],
+      "22": [
+        "B",
+        "C"
+      ],
+      "25": [
+        "A",
+        "C",
+        "D"
+      ],
+      "28": [
+        "*"
+      ],
+      "30": [
+        "A",
+        "D"
+      ],
+      "48": [
+        "*"
+      ],
+      "56": [
+        "B",
+        "D"
+      ],
+      "58": [
+        "*"
+      ],
+      "68": [
+        "B",
+        "C"
+      ],
+      "70": [
+        "B",
+        "C"
+      ],
+      "92": [
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "096130",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "18": [
+        "B",
+        "C"
+      ],
+      "22": [
+        "B",
+        "C"
+      ],
+      "26": [
+        "*"
+      ],
+      "49": [
+        "*"
+      ],
+      "52": [
+        "B",
+        "D"
+      ],
+      "91": [
+        "B",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "096130",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 27,
+      "biochemistry": 23,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "2": [
+        "B",
+        "C"
+      ],
+      "3": [
+        "A",
+        "C"
+      ],
+      "7": [
+        "C",
+        "D"
+      ],
+      "14": [
+        "*"
+      ],
+      "15": [
+        "*"
+      ],
+      "23": [
+        "*"
+      ],
+      "27": [
+        "A",
+        "B"
+      ],
+      "50": [
+        "*"
+      ],
+      "57": [
+        "A",
+        "D"
+      ],
+      "66": [
+        "B",
+        "D"
+      ],
+      "84": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "097050",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "16": [
+        "*"
+      ],
+      "18": [
+        "B",
+        "C"
+      ],
+      "25": [
+        "*"
+      ],
+      "49": [
+        "C",
+        "D"
+      ],
+      "52": [
+        "B",
+        "D"
+      ],
+      "76": [
+        "*"
+      ],
+      "81": [
+        "B",
+        "C"
+      ],
+      "89": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "097050",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 26,
+      "biochemistry": 24,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "2": [
+        "*"
+      ],
+      "8": [
+        "B",
+        "C"
+      ],
+      "23": [
+        "*"
+      ],
+      "25": [
+        "B",
+        "C"
+      ],
+      "36": [
+        "A",
+        "B"
+      ],
+      "62": [
+        "B",
+        "C"
+      ],
+      "71": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "097140",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "3": [
+        "A",
+        "D"
+      ],
+      "25": [
+        "*"
+      ],
+      "42": [
+        "A",
+        "D"
+      ],
+      "50": [
+        "B",
+        "C"
+      ],
+      "57": [
+        "*"
+      ],
+      "61": [
+        "B",
+        "C"
+      ],
+      "76": [
+        "A",
+        "D"
+      ],
+      "85": [
+        "*"
+      ],
+      "97": [
+        "C",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "097140",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "13": [
+        "A",
+        "C"
+      ],
+      "21": [
+        "C",
+        "D"
+      ],
+      "23": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "29": [
+        "A",
+        "B"
+      ],
+      "58": [
+        "B",
+        "D"
+      ],
+      "78": [
+        "B",
+        "C"
+      ],
+      "92": [
+        "A",
+        "D"
+      ],
+      "93": [
+        "A",
+        "B"
+      ]
+    }
+  },
+  {
+    "code": "098020",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "2": [
+        "A",
+        "B"
+      ],
+      "6": [
+        "A",
+        "B"
+      ],
+      "77": [
+        "B",
+        "C"
+      ],
+      "79": [
+        "B",
+        "C"
+      ],
+      "100": [
+        "C",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "098020",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "2": [
+        "*"
+      ],
+      "16": [
+        "B",
+        "C"
+      ],
+      "25": [
+        "*"
+      ],
+      "51": [
+        "A",
+        "B",
+        "C"
+      ],
+      "71": [
+        "C",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "098140",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "8": [
+        "B",
+        "C",
+        "D"
+      ],
+      "11": [
+        "*"
+      ],
+      "20": [
+        "A",
+        "D"
+      ],
+      "33": [
+        "A",
+        "D"
+      ],
+      "41": [
+        "A",
+        "C"
+      ],
+      "53": [
+        "*"
+      ],
+      "58": [
+        "C",
+        "D"
+      ],
+      "79": [
+        "*"
+      ],
+      "82": [
+        "B",
+        "C"
+      ],
+      "91": [
+        "*"
+      ],
+      "93": [
+        "B",
+        "D"
+      ],
+      "94": [
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "098140",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 26,
+      "biochemistry": 24,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "7": [
+        "B",
+        "C"
+      ],
+      "16": [
+        "A",
+        "B",
+        "D"
+      ],
+      "28": [
+        "B",
+        "C"
+      ],
+      "29": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "58": [
+        "A",
+        "C"
+      ],
+      "70": [
+        "*"
+      ],
+      "74": [
+        "A",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "099010",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "4": [
+        "A",
+        "B"
+      ],
+      "22": [
+        "B",
+        "C"
+      ],
+      "40": [
+        "*"
+      ],
+      "42": [
+        "*"
+      ],
+      "45": [
+        "*"
+      ],
+      "51": [
+        "C",
+        "D"
+      ],
+      "54": [
+        "A",
+        "B"
+      ],
+      "79": [
+        "B",
+        "C"
+      ],
+      "83": [
+        "B",
+        "D"
+      ],
+      "94": [
+        "A",
+        "B"
+      ]
+    }
+  },
+  {
+    "code": "099010",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "1": [
+        "A",
+        "B",
+        "C"
+      ],
+      "19": [
+        "C",
+        "D"
+      ],
+      "24": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "25": [
+        "*"
+      ],
+      "40": [
+        "A",
+        "C"
+      ],
+      "66": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "099130",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "45": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "89": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "099130",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "4": [
+        "C",
+        "D"
+      ],
+      "19": [
+        "A",
+        "C"
+      ],
+      "41": [
+        "A",
+        "C"
+      ],
+      "52": [
+        "A",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "100030",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "9": [
+        "*"
+      ],
+      "10": [
+        "*"
+      ],
+      "17": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "28": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "39": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "45": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "53": [
+        "*"
+      ],
+      "66": [
+        "*"
+      ],
+      "78": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "81": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "87": [
+        "*"
+      ],
+      "90": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "94": [
+        "A",
+        "C",
+        "AC"
+      ]
+    }
+  },
+  {
+    "code": "100030",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "25": [
+        "A",
+        "D",
+        "AD"
+      ],
+      "73": [
+        "A",
+        "B",
+        "AB"
+      ]
+    }
+  },
+  {
+    "code": "100140",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "21": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "29": [
+        "B",
+        "C",
+        "D",
+        "BC",
+        "BD",
+        "CD",
+        "BCD"
+      ],
+      "48": [
+        "*"
+      ],
+      "52": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "68": [
+        "*"
+      ],
+      "69": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "77": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "80": [
+        "*"
+      ],
+      "83": [
+        "*"
+      ],
+      "98": [
+        "C",
+        "D",
+        "CD"
+      ]
+    }
+  },
+  {
+    "code": "100140",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "34": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "44": [
+        "+"
+      ],
+      "54": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "71": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "101030",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "23": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "30": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "43": [
+        "*"
+      ],
+      "53": [
+        "*"
+      ],
+      "54": [
+        "*"
+      ],
+      "56": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "79": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "101030",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "6": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "9": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "11": [
+        "B",
+        "C",
+        "D",
+        "BC",
+        "BD",
+        "CD",
+        "BCD"
+      ],
+      "17": [
+        "*"
+      ],
+      "22": [
+        "A",
+        "B",
+        "D",
+        "AB",
+        "AD",
+        "BD",
+        "ABD"
+      ],
+      "39": [
+        "*"
+      ],
+      "43": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "45": [
+        "*"
+      ],
+      "90": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "101110",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "8": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "11": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "24": [
+        "*"
+      ],
+      "31": [
+        "+"
+      ],
+      "32": [
+        "*"
+      ],
+      "47": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "58": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "60": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "68": [
+        "*"
+      ],
+      "77": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "98": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "BC"
+      ]
+    }
+  },
+  {
+    "code": "101110",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "1": [
+        "*"
+      ],
+      "3": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "11": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "12": [
+        "*"
+      ],
+      "21": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "35": [
+        "*"
+      ],
+      "58": [
+        "B",
+        "C",
+        "D",
+        "BC",
+        "BD",
+        "CD",
+        "BCD"
+      ],
+      "74": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "83": [
+        "A",
+        "B",
+        "C",
+        "AB",
+        "AC",
+        "BC",
+        "ABC"
+      ],
+      "85": [
+        "C",
+        "D",
+        "CD"
+      ]
+    }
+  },
+  {
+    "code": "102030",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "7": [
+        "A",
+        "D",
+        "AD"
+      ],
+      "25": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "46": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "48": [
+        "*"
+      ],
+      "57": [
+        "+"
+      ],
+      "97": [
+        "A",
+        "B",
+        "AB"
+      ]
+    }
+  },
+  {
+    "code": "102030",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "2": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "17": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "19": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "38": [
+        "*"
+      ],
+      "61": [
+        "*"
+      ],
+      "75": [
+        "A",
+        "D",
+        "AD"
+      ]
+    }
+  },
+  {
+    "code": "102110",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "46": [
+        "*"
+      ],
+      "52": [
+        "A",
+        "D",
+        "AD"
+      ],
+      "55": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "72": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "84": [
+        "*"
+      ],
+      "95": [
+        "B",
+        "C",
+        "D",
+        "BC",
+        "BD",
+        "CD",
+        "BCD"
+      ]
+    }
+  },
+  {
+    "code": "102110",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "4": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "21": [
+        "+"
+      ],
+      "24": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "32": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "44": [
+        "*"
+      ],
+      "61": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "103030",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "8": [
+        "*"
+      ],
+      "49": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "54": [
+        "*"
+      ],
+      "58": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "103030",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "24": [
+        "*"
+      ],
+      "25": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "60": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "98": [
+        "C",
+        "D",
+        "CD"
+      ]
+    }
+  },
+  {
+    "code": "103100",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "42": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "44": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "48": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "51": [
+        "*"
+      ],
+      "60": [
+        "+"
+      ],
+      "74": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "90": [
+        "B",
+        "D"
+      ],
+      "95": [
+        "+"
+      ],
+      "98": [
+        "B",
+        "C",
+        "D",
+        "BC",
+        "BD",
+        "CD",
+        "BCD"
+      ],
+      "99": [
+        "C",
+        "D",
+        "CD"
+      ]
+    }
+  },
+  {
+    "code": "103100",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "3": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "6": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "17": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "23": [
+        "A",
+        "D",
+        "AD"
+      ],
+      "31": [
+        "*"
+      ],
+      "38": [
+        "*"
+      ],
+      "59": [
+        "*"
+      ],
+      "68": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "69": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "77": [
+        "*"
+      ],
+      "98": [
+        "C",
+        "D",
+        "CD"
+      ]
+    }
+  },
+  {
+    "code": "104030",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "8": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "20": [
+        "*"
+      ],
+      "51": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "60": [
+        "B",
+        "C",
+        "D",
+        "BC",
+        "BD",
+        "CD",
+        "BCD"
+      ],
+      "88": [
+        "A",
+        "D",
+        "AD"
+      ],
+      "100": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "104030",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "9": [
+        "*"
+      ],
+      "19": [
+        "*"
+      ],
+      "21": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "31": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "41": [
+        "*"
+      ],
+      "48": [
+        "*"
+      ],
+      "52": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "71": [
+        "*"
+      ],
+      "73": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "74": [
+        "B"
+      ]
+    }
+  },
+  {
+    "code": "104090",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "49": [
+        "A",
+        "D"
+      ],
+      "52": [
+        "A",
+        "D"
+      ],
+      "84": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "104090",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "2": [
+        "*"
+      ],
+      "5": [
+        "B",
+        "C"
+      ],
+      "36": [
+        "B",
+        "D"
+      ],
+      "52": [
+        "*"
+      ],
+      "54": [
+        "*"
+      ],
+      "55": [
+        "A",
+        "D"
+      ],
+      "57": [
+        "A",
+        "B"
+      ],
+      "67": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "74": [
+        "*"
+      ],
+      "82": [
+        "*"
+      ],
+      "98": [
+        "B",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "105020",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "10": [
+        "B",
+        "D"
+      ],
+      "29": [
+        "*"
+      ],
+      "49": [
+        "A",
+        "D"
+      ],
+      "53": [
+        "*"
+      ],
+      "83": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "93": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "105020",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "5": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "23": [
+        "A",
+        "B"
+      ],
+      "39": [
+        "A",
+        "B",
+        "D"
+      ],
+      "47": [
+        "A",
+        "D"
+      ],
+      "61": [
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "105100",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "30": [
+        "C",
+        "D"
+      ],
+      "31": [
+        "*"
+      ],
+      "50": [
+        "C",
+        "D"
+      ],
+      "57": [
+        "*"
+      ],
+      "58": [
+        "A",
+        "D"
+      ],
+      "86": [
+        "A",
+        "B"
+      ],
+      "90": [
+        "A",
+        "B",
+        "D"
+      ],
+      "94": [
+        "B",
+        "D"
+      ],
+      "97": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "105100",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "4": [
+        "B",
+        "C"
+      ],
+      "6": [
+        "A",
+        "C",
+        "D"
+      ],
+      "16": [
+        "C",
+        "D"
+      ],
+      "19": [
+        "A",
+        "C",
+        "D"
+      ],
+      "24": [
+        "*"
+      ],
+      "58": [
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "106020",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 28,
+      "embryology": 4,
+      "histology": 9,
+      "microbiology": 20,
+      "immunology": 13,
+      "parasitology": 8,
+      "public-health": 18
+    },
+    "corrections": {
+      "35": [
+        "A",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "106020",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "physiology": 25,
+      "biochemistry": 25,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "16": [
+        "A",
+        "C"
+      ],
+      "27": [
+        "*"
+      ],
+      "40": [
+        "B",
+        "D"
+      ],
+      "51": [
+        "*"
+      ],
+      "67": [
+        "B",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "106100",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "29": [
+        "B",
+        "D"
+      ],
+      "43": [
+        "A",
+        "B"
+      ],
+      "72": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "106100",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "6": [
+        "A",
+        "B"
+      ],
+      "22": [
+        "C",
+        "D"
+      ],
+      "23": [
+        "A",
+        "C"
+      ],
+      "51": [
+        "*"
+      ],
+      "71": [
+        "A",
+        "D"
+      ],
+      "100": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "107020",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "27": [
+        "B",
+        "D"
+      ],
+      "62": [
+        "A",
+        "B"
+      ],
+      "71": [
+        "B",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "107020",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "14": [
+        "B",
+        "C",
+        "D"
+      ],
+      "24": [
+        "*"
+      ],
+      "45": [
+        "A"
+      ],
+      "52": [
+        "A",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "107100",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "4": [
+        "A",
+        "D"
+      ],
+      "27": [
+        "B",
+        "D"
+      ],
+      "29": [
+        "A",
+        "C"
+      ],
+      "64": [
+        "*"
+      ],
+      "73": [
+        "A",
+        "B"
+      ],
+      "96": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "107100",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "12": [
+        "B",
+        "C"
+      ],
+      "15": [
+        "C",
+        "D"
+      ],
+      "23": [
+        "A",
+        "B",
+        "C"
+      ],
+      "32": [
+        "D"
+      ],
+      "37": [
+        "A",
+        "C"
+      ],
+      "44": [
+        "A",
+        "D"
+      ],
+      "58": [
+        "A",
+        "C"
+      ],
+      "85": [
+        "A",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "108030",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "49": [
+        "A",
+        "B"
+      ],
+      "58": [
+        "A",
+        "B"
+      ],
+      "60": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "108030",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "16": [
+        "B",
+        "D"
+      ],
+      "74": [
+        "A",
+        "B"
+      ]
+    }
+  },
+  {
+    "code": "108100",
+    "paper": 1,
+    "effective_answer": "S",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {}
+  },
+  {
+    "code": "108100",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "41": [
+        "B",
+        "D"
+      ]
+    }
+  },
+  {
+    "code": "109020",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "73": [
+        "A",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "109020",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "69": [
+        "*"
+      ],
+      "75": [
+        "B",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "109100",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "4": [
+        "A",
+        "C"
+      ],
+      "58": [
+        "A",
+        "C"
+      ]
+    }
+  },
+  {
+    "code": "109100",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "8": [
+        "A",
+        "B"
+      ],
+      "28": [
+        "*"
+      ],
+      "44": [
+        "*"
+      ],
+      "100": [
+        "A",
+        "B"
+      ]
+    }
+  },
+  {
+    "code": "110020",
+    "paper": 1,
+    "effective_answer": "S",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {}
+  },
+  {
+    "code": "110020",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "40": [
+        "*"
+      ],
+      "88": [
+        "A",
+        "B"
+      ]
+    }
+  },
+  {
+    "code": "110101",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "64": [
+        "A",
+        "B"
+      ]
+    }
+  },
+  {
+    "code": "110101",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "10": [
+        "C",
+        "D"
+      ],
+      "12": [
+        "A",
+        "B",
+        "D"
+      ],
+      "25": [
+        "A",
+        "C"
+      ],
+      "39": [
+        "C",
+        "D"
+      ],
+      "40": [
+        "B",
+        "C"
+      ],
+      "42": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "111020",
+    "paper": 1,
+    "effective_answer": "S",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {}
+  },
+  {
+    "code": "111020",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "10": [
+        "B",
+        "C",
+        "D",
+        "BC",
+        "BD",
+        "CD",
+        "BCD"
+      ],
+      "12": [
+        "*"
+      ],
+      "49": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "111100",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "40": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "62": [
+        "B",
+        "C",
+        "BC"
+      ],
+      "65": [
+        "+"
+      ],
+      "92": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "111100",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "7": [
+        "*"
+      ],
+      "52": [
+        "*"
+      ],
+      "96": [
+        "A",
+        "D",
+        "AD"
+      ]
+    }
+  },
+  {
+    "code": "112020",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "66": [
+        "B",
+        "D",
+        "BD"
+      ]
+    }
+  },
+  {
+    "code": "112020",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "36": [
+        "*"
+      ],
+      "69": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "112100",
+    "paper": 1,
+    "effective_answer": "S",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {}
+  },
+  {
+    "code": "112100",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "69": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "113020",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "3": [
+        "*"
+      ],
+      "43": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "113020",
+    "paper": 2,
+    "effective_answer": "S",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {}
+  },
+  {
+    "code": "113090",
+    "paper": 1,
+    "effective_answer": "S",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {}
+  },
+  {
+    "code": "113090",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "34": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "83": [
+        "B",
+        "C",
+        "D",
+        "BC",
+        "BD",
+        "CD",
+        "BCD"
+      ]
+    }
+  },
+  {
+    "code": "114020",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "77": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "114020",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "40": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "114090",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "49": [
+        "A",
+        "C",
+        "AC"
+      ],
+      "94": [
+        "C",
+        "D",
+        "CD"
+      ],
+      "100": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "114090",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "86": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "115020",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "66": [
+        "A",
+        "D",
+        "AD"
+      ],
+      "95": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "115020",
+    "paper": 2,
+    "effective_answer": "S",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {}
+  },
+  {
+    "code": "115090",
+    "paper": 1,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "anatomy": 31,
+      "embryology": 5,
+      "histology": 10,
+      "physiology": 27,
+      "biochemistry": 27
+    },
+    "corrections": {
+      "63": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "66": [
+        "*"
+      ]
+    }
+  },
+  {
+    "code": "115090",
+    "paper": 2,
+    "effective_answer": "M",
+    "questions": 100,
+    "answers": 100,
+    "subjects": {
+      "microbiology": 17,
+      "immunology": 11,
+      "parasitology": 7,
+      "public-health": 15,
+      "pharmacology": 25,
+      "pathology": 25
+    },
+    "corrections": {
+      "14": [
+        "*"
+      ],
+      "25": [
+        "*"
+      ],
+      "55": [
+        "*"
+      ],
+      "68": [
+        "*"
+      ],
+      "95": [
+        "A",
+        "D",
+        "AD"
+      ],
+      "98": [
+        "*"
+      ]
+    }
+  }
+]
