@@ -1,0 +1,157 @@
+[
+  {
+    "id": "face",
+    "figure": "11.7",
+    "path": "assets/muscles1-os-face.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/9b369a7466ec2ef44a97decc8de15593c7189e13",
+    "source": "S137",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e"
+  },
+  {
+    "id": "eye",
+    "figure": "11.9",
+    "path": "assets/muscles1-os-eye.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/537281d6d1ddb1adde8f7127cb3da79eb68a442a",
+    "source": "S137",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e"
+  },
+  {
+    "id": "neck",
+    "figure": "11.13",
+    "path": "assets/muscles1-os-neck.webp",
+    "url": "https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/ebf1c2fc60b3f970a32460af1c2639b3e89546a5",
+    "source": "S137",
+    "license": "CC BY-NC-SA 4.0",
+    "credit": "OpenStax, Anatomy and Physiology 2e"
+  },
+  {
+    "id": "mouth",
+    "title": "口周肌：把嘴角與嘴唇方向分開",
+    "time": "04:30–06:00",
+    "path": "assets/muscles1-mouth.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "eye-actions",
+    "title": "六眼外肌：動作方向與 III、IV、VI",
+    "time": "10:30–13:30",
+    "path": "assets/muscles1-eye-actions.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "oblique-pull",
+    "title": "斜肌繞行：先畫滑車，再看拉力",
+    "time": "14:00–22:00",
+    "path": "assets/muscles1-oblique-pull.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "orbital-ring",
+    "title": "眼眶通道：孔裂與共同腱環分兩層讀",
+    "time": "23:00–28:30",
+    "path": "assets/muscles1-orbital-ring.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "tmj",
+    "title": "顳顎關節：關節盤、旋轉與滑移",
+    "time": "36:30–42:30",
+    "path": "assets/muscles1-tmj.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "mastication",
+    "title": "咀嚼肌：用骨端與拉力推運動",
+    "time": "43:00–57:30",
+    "path": "assets/muscles1-mastication.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "hyoid",
+    "title": "頸前層級：下顎—舌骨—甲狀軟骨—胸骨",
+    "time": "62:00–72:00、97:00–103:00",
+    "path": "assets/muscles1-hyoid.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "swallow",
+    "title": "吞嚥：提喉、閉氣道與推送需協調",
+    "time": "58:00–72:00、80:00–85:00",
+    "path": "assets/muscles1-swallow.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "glottis",
+    "title": "聲門俯視：外展打開，內收靠攏",
+    "time": "85:30–96:30",
+    "path": "assets/muscles1-glottis.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "larynx-tension",
+    "title": "喉肌：聲帶長短與開閉分開讀",
+    "time": "88:00–96:30",
+    "path": "assets/muscles1-larynx-tension.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "nerve-map",
+    "title": "頭頸肌神經：大分類與例外",
+    "time": "07:00–10:00、80:00–85:00、97:00–103:00",
+    "path": "assets/muscles1-nerve-map.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "neck-triangles",
+    "title": "頸前三角：用三條肌肉畫分區",
+    "time": "103:00–113:42",
+    "path": "assets/muscles1-neck-triangles.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "eye-test",
+    "title": "H 型檢查：先水平定位，再測上下",
+    "time": "29:00–35:00",
+    "path": "assets/muscles1-eye-test.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "tongue",
+    "title": "四舌外肌：動作與 X／XII",
+    "time": "58:00–61:45",
+    "path": "assets/muscles1-tongue.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "pharynx",
+    "title": "咽管展開與重疊咽縮肌",
+    "time": "62:00–72:30",
+    "path": "assets/muscles1-pharynx.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  },
+  {
+    "id": "posterior-triangle",
+    "title": "頸後三角：枕區與鎖骨上區",
+    "time": "107:30–112:30",
+    "path": "assets/muscles1-posterior-triangle.svg",
+    "license": "本站原創概念圖",
+    "source": "使用者上傳影片，板書構想重繪與教材核對"
+  }
+]
