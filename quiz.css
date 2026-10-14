@@ -2,3 +2,4 @@
 
 .quiz-image{overflow-x:auto}.quiz-image.zoomed canvas{width:900px;max-width:none;height:auto}.quiz-zoom-button{font-size:14px;padding:6px 12px}
 .ym-detail{margin:18px 0 0;border:1px solid #b6d5cf;border-radius:8px;background:white}.ym-detail summary{padding:14px;font-weight:650;color:#075c55;cursor:pointer;white-space:normal}.ym-body{padding:0 14px 18px;white-space:normal}.ym-pages{overflow-x:auto}.ym-pages canvas{display:block;max-width:100%;height:auto;margin:10px auto}.ym-unavailable{padding:16px;background:#f5f6f7;margin-top:16px;white-space:normal}.ym-detail .quiz-note{overflow-wrap:anywhere}.ym-import:disabled{opacity:.5}
+.ym-online-frame{display:block;width:100%;height:75vh;min-height:480px;max-height:900px;border:1px solid #d5e4df;border-radius:8px;background:#f5f7fa;margin:16px 0}@media(max-width:680px){.ym-online-frame{height:70vh;min-height:400px}}@media print{.ym-online-frame{display:none}}
