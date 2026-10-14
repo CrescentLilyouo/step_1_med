@@ -1,6 +1,7 @@
 """Download authorized original books, verify hashes, and render hosted explanation pages."""
 import concurrent.futures
 from html.parser import HTMLParser
+import io
 import hashlib
 import json
 import pathlib
@@ -67,19 +68,23 @@ def build(item):
         assert len(doc) == book['pages'], key
         for n, page in enumerate(doc, 1):
             dest = output / f'{n}.webp'
-            if dest.exists():
+            if dest.exists() and dest.stat().st_size > 0:
                 continue
-            pix = page.get_pixmap(matrix=fitz.Matrix(1.65, 1.65), alpha=False)
-            Image.frombytes('RGB', (pix.width, pix.height), pix.samples).save(dest, 'WEBP', quality=85, method=4)
+            pix = page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5), alpha=False)
+            buffer = io.BytesIO()
+            Image.frombytes('RGB', (pix.width, pix.height), pix.samples).save(buffer, 'WEBP', quality=82, method=4)
+            data = buffer.getvalue()
+            assert len(data) > 0
+            dest.write_bytes(data)
     print(f'{key}: {book["pages"]} pages verified and rendered', flush=True)
 
 if __name__ == '__main__':
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+    with concurrent.futures.ProcessPoolExecutor(max_workers=4) as pool:
         list(pool.map(build, INDEX['books'].items()))
     for record in INDEX['questions'].values():
         if record['status'] == 'matched':
             for page in range(record['start'], record['end'] + 1):
-                assert (ROOT / 'explanations/pages' / record['book'] / f'{page}.webp').is_file()
+                assert (ROOT / 'explanations/pages' / record['book'] / f'{page}.webp').stat().st_size > 0
     total = sum(p.stat().st_size for p in (ROOT / 'explanations/pages').rglob('*.webp'))
     assert total < 850_000_000, f'Explanation assets too large: {total}'
     print(f'Complete: {len(INDEX["books"])} books, {total / 1e6:.1f} MB')
