@@ -2,6 +2,8 @@
  'use strict';
  const indexPromise=fetch('explanations/index.json?v=20261014-pages').then(r=>{if(!r.ok)throw Error('詳解對照載入失敗');return r.json();});indexPromise.catch(()=>{});
  const openViewers=new Map();
+ let authoredPromise;
+ function loadAuthored(){return authoredPromise||(authoredPromise=fetch('explanations/authored-115-2.json?v=20261015-r1').then(r=>{if(!r.ok)throw Error('本站解析載入失敗');return r.json();}).catch(error=>{authoredPromise=undefined;throw error;}));}
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const platform='https://sites.google.com/view/ymmedexam/ans';
  function sourceLinks(book){
@@ -12,7 +14,7 @@
   return {preview:base+'/preview'+(key?'?'+new URLSearchParams({resourcekey:key}):''),view:base+'/view'+(key?'?'+new URLSearchParams({resourcekey:key}):'')};
  }
  function pageText(record){return record.status==='matched'?`PDF 第 ${record.start}${record.end!==record.start?'–'+record.end:''} 頁`:'本卷詳解（題目頁碼待核對）';}
- function panel(){return `<section class="quiz-panel ym-panel"><h2>陽明平台原書詳解</h2><p>交卷後，展開每題即可直接看到對應詳解頁面，保留原書圖片、表格與作者標記。不需要下載或匯入本機檔案。</p><p class="quiz-note">部分題目共用同一頁；頁碼尚待核對的題目可使用翻頁功能查找。分數仍依考選部官方更正答案。</p><a href="${platform}" target="_blank" rel="noopener" class="quiz-button secondary">原站與作者勘誤</a></section>`;}
+ function panel(){return `<section class="quiz-panel ym-panel"><h2>考古題詳解</h2><p>交卷後可直接展開詳解。既有場次保留陽明平台原書頁面；115 年第二次 200 題已補上本站撰寫解析（AI），包含選項判讀與記憶提示。不需要下載或匯入本機檔案。</p><p class="quiz-note">部分題目共用同一頁；頁碼尚待核對的題目可使用翻頁功能查找。分數仍依考選部官方更正答案。</p><a href="${platform}" target="_blank" rel="noopener" class="quiz-button secondary">原站與作者勘誤</a></section>`;}
  function bind(){} // Compatibility with quiz UI; no local-file or storage access.
  function closeOtherViewers(except){for(const [detail,body] of openViewers){if(detail!==except){detail.open=false;body.replaceChildren();openViewers.delete(detail);}}}
  function showViewer(detail,q,record,index){
@@ -36,7 +38,24 @@
   body.querySelector('.ym-reset').addEventListener('click',()=>display(record.start||1,record.end||1));
   display(record.start||1,record.end||1);openViewers.set(detail,body);
  }
+ function answerLabel(answers){return answers.includes('*')?'一律給分':answers.length>1?answers.join(' 或 ')+' 均給分':'答案 '+answers[0];}
+ function authoredHTML(q,item,data){
+  const answers=q.answers||item.officialAnswers,stale=JSON.stringify(answers)!==JSON.stringify(item.officialAnswers),special=answers.includes('*')||answers.length>1;
+  const references=item.references.map(key=>data.references[key]).filter(Boolean).filter(ref=>{try{return new URL(ref.url).protocol==='https:';}catch{return false;}});
+  return `<summary>本站撰寫解析 · ${esc(item.title)}</summary><div class="ym-body authored-body"><p class="authored-credit">${esc(data.author)} · ${esc(data.version)} · 非考選部或陽明平台官方詳解</p><p class="authored-answer${special?' authored-answer-special':''}"><strong>官方更正答案：${esc(answerLabel(answers))}</strong> · <a href="${esc(q.answerPdf||item.officialAnswerPdf)}" target="_blank" rel="noopener">核對官方答案</a></p>${stale?'<p class="authored-note">官方答案與此解析撰寫時的版本不同，解析待重新核對；計分採目前題庫的官方答案。</p>':''}<h3>核心觀念與判斷</h3><p>${esc(item.explanation)}</p><h3>四個選項逐一看</h3><div class="authored-option-list">${Object.entries(item.options).map(([letter,text])=>`<p><strong>${esc(letter)}.</strong> ${esc(text)}</p>`).join('')}</div><div class="authored-memory"><strong>怎麼背、怎麼記</strong><p>${esc(item.memory)}</p></div>${item.note?`<div class="authored-note"><strong>題目疑點與補充</strong><p>${esc(item.note)}</p></div>`:''}<h3>參考資料與延伸閱讀</h3><ul class="authored-references">${references.map(ref=>`<li><a href="${esc(ref.url)}" target="_blank" rel="noopener">${esc(ref.title)}</a><small>查閱：${esc(ref.accessed)}</small></li>`).join('')}</ul></div>`;
+ }
+ async function attachAuthored(q,holder){
+  if(!q.id.startsWith('115-2-'))return false;
+  try{const data=await loadAuthored();if(!holder.isConnected)return true;
+   if(data.kind!=='original-explanations'||!data.questions[q.id])return false;
+   const detail=document.createElement('details');detail.className='ym-detail authored-detail';detail.innerHTML=authoredHTML(q,data.questions[q.id],data);holder.append(detail);return true;
+  }catch{if(!holder.isConnected)return true;
+   const box=document.createElement('div');box.className='ym-unavailable';box.innerHTML='<strong>本站撰寫解析暫時載入失敗</strong><p>此題已有解析，請重試載入。</p><button type="button" class="quiz-button secondary">重新載入解析</button>';
+   holder.append(box);box.querySelector('button').addEventListener('click',async()=>{box.remove();await attachAuthored(q,holder);});return true;
+  }
+ }
  async function attach(q,holder){
+  if(await attachAuthored(q,holder))return;
   try{const index=await indexPromise;if(!holder.isConnected)return;const record=index.questions[q.id];
    if(!record||record.status==='unavailable'){holder.insertAdjacentHTML('beforeend',`<div class="ym-unavailable"><strong>陽明平台詳解</strong><p>此場次尚無可取得的公開詳解。</p><a href="${platform}" target="_blank" rel="noopener">查看原站更新</a></div>`);return;}
    const detail=document.createElement('details');detail.className='ym-detail';
@@ -45,5 +64,5 @@
   }catch{if(holder.isConnected)holder.insertAdjacentHTML('beforeend',`<p class="quiz-note">詳解對照載入失敗，請重新整理，或<a href="${platform}" target="_blank" rel="noopener">開啟原站</a>。</p>`);}
  }
  new MutationObserver(()=>{for(const [detail,body] of openViewers){if(!detail.isConnected){body.replaceChildren();openViewers.delete(detail);}}}).observe(document.documentElement,{subtree:true,childList:true});
- global.YMExplanations={panel,bind,attach,sourceLinks,indexPromise};
+ global.YMExplanations={panel,bind,attach,sourceLinks,indexPromise,authoredHTML,answerLabel};
 })(globalThis);

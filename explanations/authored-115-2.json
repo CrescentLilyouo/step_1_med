@@ -1,0 +1,5018 @@
+{
+  "kind": "original-explanations",
+  "version": "2026-10-15-r1",
+  "author": "本站撰寫（AI）",
+  "scope": "115 年第二次醫師第一階段：醫學（一）、醫學（二）各 100 題",
+  "answerPolicy": "計分以考選部官方更正答案為準；本站解析不是考選部或陽明平台官方詳解。",
+  "counts": {
+    "total": 200,
+    "single": 192,
+    "multiple": 2,
+    "all-credit": 6
+  },
+  "references": {
+    "abatacept": {
+      "title": "NCI Drug Dictionary: Abatacept",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/abatacept",
+      "accessed": "2026-10-15"
+    },
+    "ace": {
+      "title": "Table 1, Characteristics and labeled indications of ACEIs, ARBs, and direct renin inhibitors evaluated in this report - Angiotensin-Converting Enzyme Inhibitors (ACEIs), Angiotensin II Receptor Antagonists (ARBs), and Direct Renin Inhibitors for Treating Essential Hypertension: An Update - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK61779/table/introduction.t1/",
+      "accessed": "2026-10-15"
+    },
+    "adaptation": {
+      "title": "Glossary - Diet, Nutrition, and Cancer - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK216636/",
+      "accessed": "2026-10-15"
+    },
+    "addiction": {
+      "title": "Cannabis Use and the Abuse of Other Substances - The Health Effects of Cannabis and Cannabinoids - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK425760/",
+      "accessed": "2026-10-15"
+    },
+    "adh": {
+      "title": "Syndrome of Inappropriate Antidiuretic Hormone Secretion - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507777/",
+      "accessed": "2026-10-15"
+    },
+    "aip": {
+      "title": "Autoimmune Pancreatitis - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560769/",
+      "accessed": "2026-10-15"
+    },
+    "aire": {
+      "title": "Transcriptional regulation by AIRE: molecular mechanisms of central tolerance - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2785478/",
+      "accessed": "2026-10-15"
+    },
+    "amb": {
+      "title": "Neuroanatomy, Nucleus Ambiguus - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547744/?report=printable",
+      "accessed": "2026-10-15"
+    },
+    "ameba": {
+      "title": "CDC - DPDx - Amebiasis",
+      "url": "https://www.cdc.gov/dpdx/amebiasis/index.html/",
+      "accessed": "2026-10-15"
+    },
+    "aminoacid": {
+      "title": "SDS serine dehydratase [Homo sapiens (human)] - Gene - NCBI",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/10993",
+      "accessed": "2026-10-15"
+    },
+    "andexanet": {
+      "title": "Update on the Safety of Andexxa | FDA",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/update-safety-andexxa",
+      "accessed": "2026-10-15"
+    },
+    "angiostrongylus": {
+      "title": "CDC - DPDx - Angiostrongyliasis cantonensis",
+      "url": "https://www.cdc.gov/dpdx/angiostrongyliasis_can/index.html",
+      "accessed": "2026-10-15"
+    },
+    "anovulation": {
+      "title": "Anovulatory Bleeding - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK549773/",
+      "accessed": "2026-10-15"
+    },
+    "antibiotics": {
+      "title": "Antimicrobial Chemotherapy - Medical Microbiology - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK7986/",
+      "accessed": "2026-10-15"
+    },
+    "arm": {
+      "title": "Anatomy, Shoulder and Upper Limb, Arm Structure and Function - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507841/",
+      "accessed": "2026-10-15"
+    },
+    "auscultation": {
+      "title": "StatPearls: Cardiac Examination — cardiac auscultation areas",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK553078/",
+      "accessed": "2026-10-15"
+    },
+    "bacterialgenome": {
+      "title": "Genetics - Medical Microbiology - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK7908/",
+      "accessed": "2026-10-15"
+    },
+    "baff": {
+      "title": "B lymphocytes in autoimmunity - Autoimmunity - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459431/",
+      "accessed": "2026-10-15"
+    },
+    "bartholin": {
+      "title": "Anatomy, Abdomen and Pelvis: Bartholin Gland - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557803/",
+      "accessed": "2026-10-15"
+    },
+    "benzodiazepine": {
+      "title": "StatPearls: Benzodiazepines — α/γ binding site and pharmacokinetics",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470159/?report=printable",
+      "accessed": "2026-10-15"
+    },
+    "betalactam": {
+      "title": "Ampicillin-Sulbactam - LiverTox - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547872/",
+      "accessed": "2026-10-15"
+    },
+    "bk": {
+      "title": "BK POLYOMAVIRUS - Malaria and Some Polyomaviruses (SV40, BK, JC, and Merkel Cell Viruses) - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK294246/",
+      "accessed": "2026-10-15"
+    },
+    "bladder": {
+      "title": "FGFR3 and TP53 gene mutations define two distinct pathways in urothelial cell carcinoma of the bladder - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14678961/",
+      "accessed": "2026-10-15"
+    },
+    "blood": {
+      "title": "Leukocytosis - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK560882/?report=printable",
+      "accessed": "2026-10-15"
+    },
+    "bohr": {
+      "title": "Physiology, Bohr Effect - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526028/",
+      "accessed": "2026-10-15"
+    },
+    "bone": {
+      "title": "Histology, Osteocytes - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK558990/?report=classic",
+      "accessed": "2026-10-15"
+    },
+    "breasttherapy": {
+      "title": "Aromatase Inhibitors - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557856/",
+      "accessed": "2026-10-15"
+    },
+    "bronchodilator": {
+      "title": "Beta2-Agonists - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK542249/",
+      "accessed": "2026-10-15"
+    },
+    "calici": {
+      "title": "Caliciviridae | ICTV",
+      "url": "https://ictv.global/report_9th/RNApos/Caliciviridae",
+      "accessed": "2026-10-15"
+    },
+    "cardiacphys": {
+      "title": "Physiology, Sinoatrial Node - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459238/",
+      "accessed": "2026-10-15"
+    },
+    "cardiomyopathy": {
+      "title": "Radiation-Induced Cardiac Toxicity - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554453/?report=reader",
+      "accessed": "2026-10-15"
+    },
+    "ccl4": {
+      "title": "Carbon Tetrachloride Toxicity - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK562180/",
+      "accessed": "2026-10-15"
+    },
+    "cellcycle": {
+      "title": "Cell cycle regulation: p53-p21-RB signaling - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35361964/",
+      "accessed": "2026-10-15"
+    },
+    "cerebellum": {
+      "title": "Projections from the Cerebellum - Neuroscience - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK11100/",
+      "accessed": "2026-10-15"
+    },
+    "cervical": {
+      "title": "衛生福利部國民健康署 - 子宮頸癌篩檢介紹",
+      "url": "https://www.hpa.gov.tw/Pages/List.aspx?nodeid=357",
+      "accessed": "2026-10-15"
+    },
+    "chi": {
+      "title": "Types of Variables and Commonly Used Statistical Designs - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557882/",
+      "accessed": "2026-10-15"
+    },
+    "chromatin": {
+      "title": "Histone Database 2.0",
+      "url": "https://www.ncbi.nlm.nih.gov/research/histonedb/type/H1/",
+      "accessed": "2026-10-15"
+    },
+    "coa": {
+      "title": "Fig. 2.10, [Coenzyme A—the grayed-out area indicates the acetyl residue]. - Systems Biology - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK599597/figure/ch2.Fig10/?report=objectonly",
+      "accessed": "2026-10-15"
+    },
+    "contact": {
+      "title": "Type IV Hypersensitivity Reaction - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK562228/",
+      "accessed": "2026-10-15"
+    },
+    "cranial": {
+      "title": "Cranial Nerve Testing - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK585066/",
+      "accessed": "2026-10-15"
+    },
+    "crypto": {
+      "title": "Fungi - Essentials of Glycobiology - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1941/?report=classic",
+      "accessed": "2026-10-15"
+    },
+    "ctla": {
+      "title": "Trans-endocytosis of CD80 and CD86: a molecular basis for the cell extrinsic function of CTLA-4 - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3198051/",
+      "accessed": "2026-10-15"
+    },
+    "dengue": {
+      "title": "Dengue NS1 as a Driver of Immune-Mediated Pathogenesis - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42188857/",
+      "accessed": "2026-10-15"
+    },
+    "dh": {
+      "title": "Dermatitis Herpetiformis - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK493163/",
+      "accessed": "2026-10-15"
+    },
+    "dhlinear": {
+      "title": "StatPearls: Linear IgA Dermatosis — granular versus linear IgA",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK526113/",
+      "accessed": "2026-10-15"
+    },
+    "diaphragm": {
+      "title": "Diaphragm Disorders - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470172/",
+      "accessed": "2026-10-15"
+    },
+    "digitalis": {
+      "title": "Cardiac Glycoside and Digoxin Toxicity - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK459165/?report=reader",
+      "accessed": "2026-10-15"
+    },
+    "diuretics": {
+      "title": "Renal tubular secretion and effects of chlorothiazide, hydrochlorothiazide and clopamide: a study in the avian kidney.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6814186/",
+      "accessed": "2026-10-15"
+    },
+    "dna": {
+      "title": "Genome Anatomies - Genomes - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21120/",
+      "accessed": "2026-10-15"
+    },
+    "ear": {
+      "title": "Anatomy, Head and Neck: External Ear - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK470359/",
+      "accessed": "2026-10-15"
+    },
+    "eicosanoid": {
+      "title": "Phospholipases a2 - Basic Neurochemistry - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK27975/",
+      "accessed": "2026-10-15"
+    },
+    "electrolytes": {
+      "title": "Regulation of intestinal electroneutral sodium absorption and the brush border Na+/H+ exchanger by intracellular calcium - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19538312/",
+      "accessed": "2026-10-15"
+    },
+    "embryo": {
+      "title": "Embryology, Gastrulation - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554394/",
+      "accessed": "2026-10-15"
+    },
+    "endocarditis": {
+      "title": "Nonbacterial Thrombotic Endocarditis: Presentation, Pathophysiology, Diagnosis and Management - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11273749/",
+      "accessed": "2026-10-15"
+    },
+    "endocrine": {
+      "title": "Physiology, Anterior Pituitary - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK499898/",
+      "accessed": "2026-10-15"
+    },
+    "enprofylline": {
+      "title": "Increase in plasma free fatty acids and natriuresis by xanthines may reflect adenosine antagonism - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6370703/",
+      "accessed": "2026-10-15"
+    },
+    "ependymal": {
+      "title": "Histology, Glial Cells - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441945/?report=reader",
+      "accessed": "2026-10-15"
+    },
+    "etc": {
+      "title": "Ubiquinol:cytochrome c oxidoreductase. The redox reactions of the bis-heme cytochrome b in unenergized and energized submitochondrial particles.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9202003/",
+      "accessed": "2026-10-15"
+    },
+    "evaluation": {
+      "title": "Evaluating and Disseminating Intervention Research - Health and Behavior - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK43735/",
+      "accessed": "2026-10-15"
+    },
+    "eye": {
+      "title": "The Architecture of the Human Fovea - Webvision - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554706/",
+      "accessed": "2026-10-15"
+    },
+    "eyedev": {
+      "title": "Neuroanatomy, Pupillary Light Reflexes and Pathway - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK553169/?report=printable",
+      "accessed": "2026-10-15"
+    },
+    "fastingthyroid": {
+      "title": "Influence of fasting and refeeding on 3,3',5'-triiodothyronine metabolism in man - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1986011/",
+      "accessed": "2026-10-15"
+    },
+    "fdg": {
+      "title": "Molecular Imaging of Brain Metastases with PET - Metastasis - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK580878/",
+      "accessed": "2026-10-15"
+    },
+    "femoral": {
+      "title": "Anatomy, Abdomen and Pelvis: Femoral Region - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538501/",
+      "accessed": "2026-10-15"
+    },
+    "fingolimod": {
+      "title": "Fingolimod - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK604198/",
+      "accessed": "2026-10-15"
+    },
+    "fish": {
+      "title": "Mapping Genomes - Genomes - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21116/",
+      "accessed": "2026-10-15"
+    },
+    "flavi": {
+      "title": "Genus: Orthoflavivirus | ICTV",
+      "url": "https://ictv.global/report/chapter/flaviviridae/flaviviridae/orthoflavivirus",
+      "accessed": "2026-10-15"
+    },
+    "flurazepam": {
+      "title": "DailyMed: Flurazepam Hydrochloride — parent drug and active metabolite half-lives",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=8f476891-1346-4e8c-ac1b-f8cbdc64f5a1",
+      "accessed": "2026-10-15"
+    },
+    "gihist": {
+      "title": "Anatomy and histology - Holland-Frei Cancer Medicine - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK12715/",
+      "accessed": "2026-10-15"
+    },
+    "gluteal": {
+      "title": "Anatomy, Bony Pelvis and Lower Limb, Hip Joint - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470555/",
+      "accessed": "2026-10-15"
+    },
+    "glycolysis": {
+      "title": "The pH dependence of the allosteric response of human liver pyruvate kinase to fructose-1,6-bisphosphate, ATP, and alanine - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/",
+      "accessed": "2026-10-15"
+    },
+    "gout": {
+      "title": "Gout - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546606/",
+      "accessed": "2026-10-15"
+    },
+    "gpcr": {
+      "title": "Localization of the sites mediating desensitization of the beta(2)-adrenergic receptor by the GRK pathway - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11040066/",
+      "accessed": "2026-10-15"
+    },
+    "gutdev": {
+      "title": "Anatomy, Abdomen and Pelvis, Spleen - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482235/",
+      "accessed": "2026-10-15"
+    },
+    "hair": {
+      "title": "Stem cells of the skin epithelium - Regenerative Medicine - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK215933/",
+      "accessed": "2026-10-15"
+    },
+    "hand": {
+      "title": "Anatomy, Shoulder and Upper Limb, Hand Compartments - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK532942/",
+      "accessed": "2026-10-15"
+    },
+    "hav": {
+      "title": "Hepatitis A Surveillance Guidance | Viral Hepatitis | CDC",
+      "url": "https://www.cdc.gov/hepatitis/php/surveillance-guidance/hepatitis-a.html",
+      "accessed": "2026-10-15"
+    },
+    "heart": {
+      "title": "Anatomy, Thorax, Heart Veins - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK549786/?report=printable",
+      "accessed": "2026-10-15"
+    },
+    "hearthist": {
+      "title": "StatPearls: Histology, Heart",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545143/",
+      "accessed": "2026-10-15"
+    },
+    "hematopoiesis": {
+      "title": "Decoding human fetal liver haematopoiesis - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31597962/",
+      "accessed": "2026-10-15"
+    },
+    "histotech": {
+      "title": "Histology, Staining - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557663/?report=reader",
+      "accessed": "2026-10-15"
+    },
+    "hookworm": {
+      "title": "CDC - DPDx - Intestinal Hookworm",
+      "url": "https://www.cdc.gov/dpdx/hookworm/",
+      "accessed": "2026-10-15"
+    },
+    "hpylori": {
+      "title": "Pathology of Gastritis and Peptic Ulceration - Helicobacter pylori - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK2461/",
+      "accessed": "2026-10-15"
+    },
+    "hypersensitivity": {
+      "title": "Type II Hypersensitivity Reaction - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK563264/?report=classic",
+      "accessed": "2026-10-15"
+    },
+    "icatibant": {
+      "title": "Bradykinin B2 Receptor Antagonists - MeSH - NCBI",
+      "url": "https://www.ncbi.nlm.nih.gov/mesh/82065094",
+      "accessed": "2026-10-15"
+    },
+    "innate": {
+      "title": "Innate Immunity - Immunobiology - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10769/",
+      "accessed": "2026-10-15"
+    },
+    "ionophore": {
+      "title": "Principles of Membrane Transport - Molecular Biology of the Cell - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+      "accessed": "2026-10-15"
+    },
+    "justice": {
+      "title": "Public Health Ethics: Global Cases, Practice, and Context - Public Health Ethics: Cases Spanning the Globe - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK435780/?report=classic",
+      "accessed": "2026-10-15"
+    },
+    "ketamine": {
+      "title": "Ketamine Toxicity - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541087/",
+      "accessed": "2026-10-15"
+    },
+    "lac": {
+      "title": "Genetics, Inducible Operon - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK564361/",
+      "accessed": "2026-10-15"
+    },
+    "language": {
+      "title": "Anatomy, Central Nervous System - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK542179/",
+      "accessed": "2026-10-15"
+    },
+    "laxative": {
+      "title": "Bisacodyl reduces the volume of polyethylene glycol solution required for bowel preparation - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8137669/",
+      "accessed": "2026-10-15"
+    },
+    "limb": {
+      "title": "Anatomy, Shoulder and Upper Limb, Humerus - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534821/?report=printable",
+      "accessed": "2026-10-15"
+    },
+    "lipidabs": {
+      "title": "Biochemistry, Lipid Metabolism - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK525952/",
+      "accessed": "2026-10-15"
+    },
+    "lipidraft": {
+      "title": "The Lipid Bilayer - Molecular Biology of the Cell - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26871/",
+      "accessed": "2026-10-15"
+    },
+    "lipidsynthesis": {
+      "title": "Brain Lipid Biosynthesis - Basic Neurochemistry - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK27970/",
+      "accessed": "2026-10-15"
+    },
+    "lymphnode": {
+      "title": "Anatomy, Lymph Nodes - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557717/",
+      "accessed": "2026-10-15"
+    },
+    "lymphphys": {
+      "title": "The Lymphatic Vasculature - Capillary Fluid Exchange - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK53448/",
+      "accessed": "2026-10-15"
+    },
+    "malassezia": {
+      "title": "Malassezia Furfur - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK553091/",
+      "accessed": "2026-10-15"
+    },
+    "malt": {
+      "title": "The mucosal immune system - Immunobiology - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK27169/",
+      "accessed": "2026-10-15"
+    },
+    "maltlymphoma": {
+      "title": "The product of the t(11;18), an API2-MLT fusion, marks nearly half of gastric MALT type lymphomas without large cell proliferation - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10751367/",
+      "accessed": "2026-10-15"
+    },
+    "mammary": {
+      "title": "Ramsay et al. Anatomy of the lactating human breast redefined with ultrasound imaging. J Anat. 2005;206:525–534.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1571528/",
+      "accessed": "2026-10-15"
+    },
+    "mds": {
+      "title": "Myelodysplastic Syndrome - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534126/",
+      "accessed": "2026-10-15"
+    },
+    "mediastinum": {
+      "title": "Anatomy, Thorax, Lung Pleura And Mediastinum - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519048/",
+      "accessed": "2026-10-15"
+    },
+    "mefloquine": {
+      "title": "DailyMed - MEFLOQUINE HYDROCHLORIDE tablet",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09716a24-d7da-42b2-af29-c03a1b6670bd",
+      "accessed": "2026-10-15"
+    },
+    "membrane": {
+      "title": "The Refractory Period - Neuroscience - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK11146/",
+      "accessed": "2026-10-15"
+    },
+    "membranous": {
+      "title": "Membranous Nephropathy - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559169/",
+      "accessed": "2026-10-15"
+    },
+    "memory": {
+      "title": "Physiology, Explicit Memory - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554551/?report=classic",
+      "accessed": "2026-10-15"
+    },
+    "meningioma": {
+      "title": "Neurosurgical, obstetric and endocrine aspects of meningioma during pregnancy - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3319945/",
+      "accessed": "2026-10-15"
+    },
+    "mercury": {
+      "title": "HEALTH EFFECTS - Toxicological Profile for Mercury - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK611012/",
+      "accessed": "2026-10-15"
+    },
+    "mesothelioma": {
+      "title": "Prognostic factors and survival in malignant pleural mesothelioma - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7925870/",
+      "accessed": "2026-10-15"
+    },
+    "metabolism": {
+      "title": "Physiology, Cortisol - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538239/",
+      "accessed": "2026-10-15"
+    },
+    "metagonimus": {
+      "title": "CDC - DPDx - Metagonimiasis",
+      "url": "https://www.cdc.gov/dpdx/metagonimiasis/index.html",
+      "accessed": "2026-10-15"
+    },
+    "mhc": {
+      "title": "Genetics, Histocompatibility Antigen - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541023/",
+      "accessed": "2026-10-15"
+    },
+    "mole": {
+      "title": "Hydatidiform Mole - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459155/",
+      "accessed": "2026-10-15"
+    },
+    "mortality": {
+      "title": "Defining and Measuring Population Health - Accounting for Health and Health Care - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK53336/",
+      "accessed": "2026-10-15"
+    },
+    "muscle": {
+      "title": "Physiology, Skeletal Muscle - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK537139/",
+      "accessed": "2026-10-15"
+    },
+    "mycoplasma": {
+      "title": "Mycoplasma Infections - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK536927/",
+      "accessed": "2026-10-15"
+    },
+    "narcolepsy": {
+      "title": "Narcolepsy - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459236/",
+      "accessed": "2026-10-15"
+    },
+    "neck": {
+      "title": "Anatomy, Head and Neck, Posterior Cervical Nerve Plexus - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538514/",
+      "accessed": "2026-10-15"
+    },
+    "neuraleffects": {
+      "title": "Neural Control of Renal Function: Neural Control of Renin Secretion Rate",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK57240/?report=reader",
+      "accessed": "2026-10-15"
+    },
+    "nhi": {
+      "title": "全年及每次住院部分負擔之核退金額上限-衛生福利部中央健康保險署,NHI-健保服務-健保醫療費用-就醫費用與退費-自墊醫療費用核退-全年及每次住院部分負擔之核退金額上限",
+      "url": "https://www.nhi.gov.tw/ch/cp-5184-4d67b-2743-1.html",
+      "accessed": "2026-10-15"
+    },
+    "nhiinfo": {
+      "title": "中央健康保險署：就醫部分負擔及免部分負擔說明",
+      "url": "https://www.nhi.gov.tw/ch/lp-2737-1.html",
+      "accessed": "2026-10-15"
+    },
+    "nmda": {
+      "title": "Neuroscience: Molecular Mechanisms Underlying LTP",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK11101/",
+      "accessed": "2026-10-15"
+    },
+    "nose": {
+      "title": "Anatomy, Head and Neck, Nasal Cavity - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544232/",
+      "accessed": "2026-10-15"
+    },
+    "occupational": {
+      "title": "WHO-EM/OCH/85/E/L",
+      "url": "https://iris.who.int/bitstream/handle/10665/200733/dsa191.pdf",
+      "accessed": "2026-10-15"
+    },
+    "oncovirus": {
+      "title": "Viruses: Eight Listings - 15th Report on Carcinogens - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK590814/",
+      "accessed": "2026-10-15"
+    },
+    "ozone": {
+      "title": "What is Ozone? | US EPA",
+      "url": "https://www.epa.gov/ozone-pollution-and-your-patients-health/what-ozone",
+      "accessed": "2026-10-15"
+    },
+    "pain": {
+      "title": "Physiology, Nociception - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551562/",
+      "accessed": "2026-10-15"
+    },
+    "parotid": {
+      "title": "Anatomy, Head and Neck, Parotid Gland - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534225/",
+      "accessed": "2026-10-15"
+    },
+    "pcr": {
+      "title": "Biochemistry, Polymerase Chain Reaction - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/sites/books/NBK535453/",
+      "accessed": "2026-10-15"
+    },
+    "pediatricpk": {
+      "title": "Pharmacokinetics in the infant - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7737034/",
+      "accessed": "2026-10-15"
+    },
+    "pelvis": {
+      "title": "Anatomy, Abdomen and Pelvis: Bones (Ilium, Ischium, and Pubis) - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519524/",
+      "accessed": "2026-10-15"
+    },
+    "peritoneum": {
+      "title": "The phrenico-esophageal ligament: an anatomical study - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18058057/",
+      "accessed": "2026-10-15"
+    },
+    "pilocarpine": {
+      "title": "Muscarinic Agonists - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK553130/",
+      "accessed": "2026-10-15"
+    },
+    "plateletdrugs": {
+      "title": "Table 2, Key Characteristics of Platelet Aggregation Inhibitors - Clinical Review Report: Ticagrelor (Brilinta) - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539151/table/cl1.tab2/",
+      "accessed": "2026-10-15"
+    },
+    "pneumonia": {
+      "title": "Bacterial Pneumonia - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK513321/",
+      "accessed": "2026-10-15"
+    },
+    "prevention": {
+      "title": "衛生福利部：預防接種為三段五級的初段預防策略",
+      "url": "https://www.mohw.gov.tw/cp-3211-23508-1.html",
+      "accessed": "2026-10-15"
+    },
+    "preventionlevels": {
+      "title": "亞東紀念醫院：預防醫學的三段五級與特殊保護",
+      "url": "https://www.femh.org.tw/magazine/viewmag.aspx?ID=9143",
+      "accessed": "2026-10-15"
+    },
+    "prion": {
+      "title": "A special report I. Prion protein (PrP)--amyloid plaques in the transmissible spongiform encephalopathies, or prion diseases revisited - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11928893/",
+      "accessed": "2026-10-15"
+    },
+    "proline": {
+      "title": "Conversion of glutamate to ornithine and proline: pyrroline-5-carboxylate, a possible modulator of arginine requirements - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2858518/",
+      "accessed": "2026-10-15"
+    },
+    "proteins": {
+      "title": "Analyzing Protein Structure and Function - Molecular Biology of the Cell - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26820/",
+      "accessed": "2026-10-15"
+    },
+    "pudendal": {
+      "title": "Anatomy, Abdomen and Pelvis, Pudendal Nerve - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554736/",
+      "accessed": "2026-10-15"
+    },
+    "relaxants": {
+      "title": "Tizanidine - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519505/",
+      "accessed": "2026-10-15"
+    },
+    "renin": {
+      "title": "Physiology, Renin Angiotensin System - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470410/",
+      "accessed": "2026-10-15"
+    },
+    "repair": {
+      "title": "Cisplatin - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547695/",
+      "accessed": "2026-10-15"
+    },
+    "reperfusion": {
+      "title": "Reactive oxygen species-mediated cardiac-reperfusion injury: Mechanisms and therapies - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27667751/",
+      "accessed": "2026-10-15"
+    },
+    "replication": {
+      "title": "DNA Replication Mechanisms - Molecular Biology of the Cell - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26850/",
+      "accessed": "2026-10-15"
+    },
+    "repro": {
+      "title": "Normal and Abnormal Puberty - Endotext - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK279024/",
+      "accessed": "2026-10-15"
+    },
+    "respiratory": {
+      "title": "Physiology, Airflow Resistance - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554401/",
+      "accessed": "2026-10-15"
+    },
+    "respoxygen": {
+      "title": "Physiology, Respiratory Drive - StatPearls - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK482414/",
+      "accessed": "2026-10-15"
+    },
+    "resting": {
+      "title": "Transport of Small Molecules - The Cell - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9847/",
+      "accessed": "2026-10-15"
+    },
+    "reye": {
+      "title": "Reye Syndrome - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526101/?report=reader",
+      "accessed": "2026-10-15"
+    },
+    "rickettsia": {
+      "title": "Rickettsia Prowazekii - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448173/",
+      "accessed": "2026-10-15"
+    },
+    "scrub": {
+      "title": "About Scrub Typhus | Typhus Fevers | CDC",
+      "url": "https://cdc.gov/typhus/about/scrub.html",
+      "accessed": "2026-10-15"
+    },
+    "sft": {
+      "title": "Solitary Fibrous Tumors - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK585038/",
+      "accessed": "2026-10-15"
+    },
+    "sjogren": {
+      "title": "Rheumatoid Factor and Disease Activity Are Independent Predictors of Lymphoma in Primary Sjögren's Syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26606524/",
+      "accessed": "2026-10-15"
+    },
+    "sleep": {
+      "title": "Information about Sleep - NIH Curriculum Supplement Series - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK20359/",
+      "accessed": "2026-10-15"
+    },
+    "solvents": {
+      "title": "Table 4-2, Physical and Chemical Properties of Toluene - Toxicological Profile for Toluene - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK592503/table/ch4.tab2/",
+      "accessed": "2026-10-15"
+    },
+    "sparganum": {
+      "title": "CDC - DPDx - Sparganosis",
+      "url": "https://www.cdc.gov/dpdx/sparganosis/",
+      "accessed": "2026-10-15"
+    },
+    "splanchnic": {
+      "title": "Anatomy, Abdomen and Pelvis, Splanchnic Nerves - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560504/",
+      "accessed": "2026-10-15"
+    },
+    "statistics": {
+      "title": "1.3.5.7. Bartlett's Test",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda357.htm",
+      "accessed": "2026-10-15"
+    },
+    "stigma": {
+      "title": "The Menstrual Mark: Menstruation as Social Stigma",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK565611/pdf/Bookshelf_NBK565611.pdf",
+      "accessed": "2026-10-15"
+    },
+    "sulfonylurea": {
+      "title": "Sulfonylureas - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK513225/",
+      "accessed": "2026-10-15"
+    },
+    "switch": {
+      "title": "Immunobiology: B-cell activation by armed helper T cells",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK27142/",
+      "accessed": "2026-10-15"
+    },
+    "syphilis": {
+      "title": "Syphilis - STI Treatment Guidelines",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/syphilis.htm",
+      "accessed": "2026-10-15"
+    },
+    "tb": {
+      "title": "Clinical Manifestations - Tuberculosis in Adults and Children - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK344404/",
+      "accessed": "2026-10-15"
+    },
+    "tcell": {
+      "title": "CD4+ T-cell subsets in inflammatory diseases: beyond the Th1/Th2 paradigm - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4889886/",
+      "accessed": "2026-10-15"
+    },
+    "testicular": {
+      "title": "Anatomy, Abdomen and Pelvis: Testes - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470201/?report=reader",
+      "accessed": "2026-10-15"
+    },
+    "testistumor": {
+      "title": "Epidemiology - Holland-Frei Cancer Medicine - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK12708/",
+      "accessed": "2026-10-15"
+    },
+    "tetanus": {
+      "title": "Chapter 21: Tetanus | Pink Book | CDC",
+      "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-21-tetanus.html",
+      "accessed": "2026-10-15"
+    },
+    "thalamus": {
+      "title": "Neuroanatomy, Thalamic Nuclei - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK549908/",
+      "accessed": "2026-10-15"
+    },
+    "thoracicduct": {
+      "title": "Anatomy, Thorax - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557710/",
+      "accessed": "2026-10-15"
+    },
+    "thymoma": {
+      "title": "Thymoma - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559291/",
+      "accessed": "2026-10-15"
+    },
+    "thyroid": {
+      "title": "Chapter 2 Thyroid Hormone Synthesis And Secretion - Endotext - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK285550/",
+      "accessed": "2026-10-15"
+    },
+    "thyroidcancer": {
+      "title": "Papillary Thyroid Carcinoma - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK536943/",
+      "accessed": "2026-10-15"
+    },
+    "thyroidstorm": {
+      "title": "Thyroid Storm - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448095/?hl=en-US",
+      "accessed": "2026-10-15"
+    },
+    "tongue": {
+      "title": "Anatomy, Head and Neck, Styloglossus - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK574498/",
+      "accessed": "2026-10-15"
+    },
+    "tpb": {
+      "title": "Icek Ajzen et al.",
+      "url": "https://people.umass.edu/aizen/pubs/aonb.pdf",
+      "accessed": "2026-10-15"
+    },
+    "transcription": {
+      "title": "Transcription in Prokaryotes - The Cell - NCBI Bookshelf",
+      "url": "https://ncbi.nlm.nih.gov/books/NBK9850/",
+      "accessed": "2026-10-15"
+    },
+    "translation": {
+      "title": "Mechanism of Translation Initiation in Eukaryotes - Madame Curie Bioscience Database - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK6597/",
+      "accessed": "2026-10-15"
+    },
+    "transposon": {
+      "title": "Genetics - Medical Microbiology - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK7908/",
+      "accessed": "2026-10-15"
+    },
+    "trial": {
+      "title": "Table 9, Summary of patient and/or provider blinding risk of performance bias results by study - The Empirical Evidence of Bias in Trials Measuring Treatment Differences - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK253186/table/results.t7/",
+      "accessed": "2026-10-15"
+    },
+    "trigeminal": {
+      "title": "Neuroanatomy, Trigeminal Reflexes - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551641/",
+      "accessed": "2026-10-15"
+    },
+    "trypanosome": {
+      "title": "CDC - DPDx - Trypanosomiasis, African",
+      "url": "https://www.cdc.gov/dpdx/trypanosomiasisAfrican/index.html",
+      "accessed": "2026-10-15"
+    },
+    "ubiquitin": {
+      "title": "Regulation of Signaling by Non-degradative Ubiquitination - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2659175/",
+      "accessed": "2026-10-15"
+    },
+    "urodev": {
+      "title": "Embryology, Mullerian Ducts (Paramesonephric Ducts) - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557727/",
+      "accessed": "2026-10-15"
+    },
+    "uterine": {
+      "title": "The effect of progesterone on oxytocin-induced contraction of the three separate layers of human gestational myometrium in the uterine body and lower segment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6025148/",
+      "accessed": "2026-10-15"
+    },
+    "vagal": {
+      "title": "Neuroanatomy, Vagal Nerve Nuclei - StatPearls - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545209/?report=printable",
+      "accessed": "2026-10-15"
+    },
+    "vascular": {
+      "title": "Venous Return - Control of Cardiac Output - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK54476/",
+      "accessed": "2026-10-15"
+    },
+    "vincristine": {
+      "title": "VinCRIStine Sulfate Injection, USP",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c",
+      "accessed": "2026-10-15"
+    },
+    "viralpath": {
+      "title": "Effects on Cells - Medical Microbiology - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK7979/",
+      "accessed": "2026-10-15"
+    },
+    "vrsa": {
+      "title": "Mechanisms of Streptococcus pyogenes Antibiotic Resistance - Streptococcus pyogenes: Basic Biology to Clinical Manifestations - NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK587098/",
+      "accessed": "2026-10-15"
+    },
+    "glycolysis_overview": {
+      "title": "Glycolysis: feed-forward activation by fructose-1,6-bisphosphate",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8091952/",
+      "accessed": "2026-10-15"
+    }
+  },
+  "questions": {
+    "115-2-1-1": {
+      "title": "疑核：IX、X 的鰓弓運動輸出",
+      "explanation": "疑核位於延髓網狀結構，運動軸突經 IX、X 支配莖突咽肌及咽喉肌，參與吞嚥、發聲。題幹同時指定「傳出」和「IX、X」是關鍵。",
+      "options": {
+        "A": "XII 核支配舌肌。",
+        "B": "背側迷走核主要是 X 的副交感輸出。",
+        "C": "疑核符合兩項條件。",
+        "D": "孤立核接收內臟及味覺傳入。"
+      },
+      "memory": "疑核管吞嚥發聲；孤立核收內臟訊息。",
+      "references": [
+        "amb"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-2": {
+      "title": "壓力反射的中樞入口",
+      "explanation": "頸動脈竇的壓力訊息經 IX，主動脈弓經 X，皆進入延髓孤立徑核，再調整迷走與交感輸出。",
+      "options": {
+        "A": "疑核屬反射傳出端之一。",
+        "B": "孤立核是共同傳入終點。",
+        "C": "背側迷走核是副交感輸出核。",
+        "D": "三叉脊髓核主要收頭面痛溫覺。"
+      },
+      "memory": "頸九、主十，最後都到孤立核。",
+      "references": [
+        "vagal"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-3": {
+      "title": "三叉中腦核的特殊感覺神經元",
+      "explanation": "咀嚼肌肌梭及部分牙周本體感覺的第一級神經元位在三叉中腦核，可參與咬合力調節；這是感覺細胞體位於中樞的特殊例子。",
+      "options": {
+        "A": "脊髓核主要處理痛溫覺。",
+        "B": "橋腦主感覺核主要處理精細觸覺。",
+        "C": "運動核負責咀嚼肌運動輸出。",
+        "D": "中腦核處理咀嚼本體感覺。"
+      },
+      "memory": "三叉：中腦本體、橋腦觸、脊髓痛溫。",
+      "references": [
+        "trigeminal"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-4": {
+      "title": "小腦深核由內向外排列",
+      "explanation": "小腦深核由內向外依序為頂核、球狀核、栓狀核、齒狀核；球狀與栓狀合稱中位核群。",
+      "options": {
+        "A": "頂核最內側。",
+        "B": "球狀核在頂核外側。",
+        "C": "栓狀核仍在齒狀核內側。",
+        "D": "齒狀核最外側。"
+      },
+      "memory": "由內向外：頂、球、栓、齒。",
+      "references": [
+        "cerebellum"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-5": {
+      "title": "膝狀核的視聽分工",
+      "explanation": "外側膝狀核接收視網膜輸入並投射至視皮質；內側膝狀核接收聽覺路徑並投射至聽皮質。",
+      "options": {
+        "A": "VA、VL 主要與運動迴路相關。",
+        "B": "外膝視、內膝聽。",
+        "C": "VPL 收身體感覺，VPM 收顏面感覺。",
+        "D": "LD、LP 屬聯合與邊緣相關核群。"
+      },
+      "memory": "L 看 Light，M 聽 Music。",
+      "references": [
+        "thalamus"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-6": {
+      "title": "外耳與中耳的感覺支配",
+      "explanation": "外耳感覺支配重疊，涉及 V3、X、部分 VII 及 C2–C3；IX 的典型耳部感覺分布為中耳與耳咽管。題目問「最不相關」，不是絕對不會造成耳痛。",
+      "options": {
+        "A": "V3 耳顳神經供應部分外耳。",
+        "B": "VII 可涉及小範圍耳部感覺。",
+        "C": "IX 主要與中耳相關。",
+        "D": "X 耳支可支配外耳道。"
+      },
+      "memory": "外耳想 V、VII、X、頸叢；中耳想 IX。",
+      "references": [
+        "ear"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-7": {
+      "title": "舌頭前伸與後縮",
+      "explanation": "頦舌肌後部纖維的主要作用是使舌頭前伸，與後縮方向相反；其他選項可使舌縮短或後下移。",
+      "options": {
+        "A": "上縱肌縮短舌、上捲舌尖。",
+        "B": "下縱肌縮短舌、下捲舌尖。",
+        "C": "舌骨舌肌使舌下降並可後縮。",
+        "D": "頦舌肌主要使舌前伸。"
+      },
+      "memory": "「頦」在前，頦舌肌把舌往前送。",
+      "references": [
+        "tongue"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-8": {
+      "title": "心臟血管的伴行關係",
+      "explanation": "心小靜脈沿右心緣與右冠狀溝走行，可與右冠狀動脈伴行，再匯入冠狀竇。",
+      "options": {
+        "A": "心大靜脈主要伴前室間支。",
+        "B": "心中靜脈伴後室間支。",
+        "C": "心小靜脈伴右冠狀動脈。",
+        "D": "心後靜脈引流左室後面。"
+      },
+      "memory": "大前、中後、小右冠。",
+      "references": [
+        "heart"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-9": {
+      "title": "股鞘內側的股管",
+      "explanation": "股鞘由外向內分為股動脈、股靜脈、股管三個空間。股神經位在股鞘外，不能把 NAVEL 全部當成鞘內構造。",
+      "options": {
+        "A": "不是以深淺分區。",
+        "B": "股管位於最內側。",
+        "C": "最外側分區為股動脈。",
+        "D": "中央分區為股靜脈。"
+      },
+      "memory": "外向內 N-A-V-E-L；神經 N 在鞘外。",
+      "references": [
+        "femoral"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-10": {
+      "title": "痛覺小纖維由背根外側進入",
+      "explanation": "Aδ 與 C 等較細的痛溫覺纖維，多經背根外側分區進入，之後常經 Lissauer tract 至背角突觸。",
+      "options": {
+        "A": "內側分區較多粗纖維。",
+        "B": "外側分區、小直徑符合痛覺。",
+        "C": "粗纖維主要傳觸覺或本體覺。",
+        "D": "外側位置對，但纖維粗細錯。"
+      },
+      "memory": "痛溫細、走外側；精細觸覺粗、走內側。",
+      "references": [
+        "pain"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-11": {
+      "title": "眼球內收靠內直肌",
+      "explanation": "內直肌由動眼神經 III 支配，其受損可使眼球無法內收。臨床也要考慮內側縱束病變，但本題四個腦神經選項中以 III 最合適。",
+      "options": {
+        "A": "II 傳視覺，不支配眼外肌。",
+        "B": "III 支配內直肌。",
+        "C": "IV 支配上斜肌。",
+        "D": "VI 支配外直肌，作用是外展。"
+      },
+      "memory": "外直六、上斜四，其餘眼外肌第三。",
+      "references": [
+        "cranial"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-12": {
+      "title": "中央小凹的錐細胞密度",
+      "explanation": "中央小凹具有最高的錐細胞密度，是高視力、辨色的重要區域；其中心缺乏桿細胞。",
+      "options": {
+        "A": "脈絡膜是血管層。",
+        "B": "中央小凹錐細胞最密。",
+        "C": "視盤沒有感光細胞，是生理盲點。",
+        "D": "睫狀突主要分泌房水。"
+      },
+      "memory": "中央小凹看最細；視盤是盲點。",
+      "references": [
+        "eye"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-13": {
+      "title": "頸後三角的頸叢皮支",
+      "explanation": "頸叢皮支在胸鎖乳突肌後緣附近穿出，分布於頸後三角；副神經 XI 也是此區重要構造。",
+      "options": {
+        "A": "顏面動脈起點在前方頸動脈三角。",
+        "B": "迷走神經位於較深的頸動脈鞘。",
+        "C": "可見頸叢的皮支。",
+        "D": "後三角相關的是肩胛舌骨肌下腹。"
+      },
+      "memory": "頸後三角記 XI、頸叢皮支、肩胛舌骨下腹。",
+      "references": [
+        "neck"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-14": {
+      "title": "耳下腺血流來自頸外動脈分支",
+      "explanation": "耳下腺周圍有頸外動脈及其終末分支；上頷、耳後與面橫動脈均可參與供血。枕動脈主要供應後頭皮與深層頸部。",
+      "options": {
+        "A": "上頷動脈與腺體供血相關。",
+        "B": "枕動脈最不直接相關。",
+        "C": "耳後動脈可供應耳下腺區。",
+        "D": "面橫動脈是重要供血來源。"
+      },
+      "memory": "耳下腺找「面橫、耳後、上頷」。",
+      "references": [
+        "parotid"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-15": {
+      "title": "咀嚼肌 V3、表情肌 VII",
+      "explanation": "顳肌是咀嚼肌，由下頷神經 V3 的深顳神經支配；頰肌雖協助咀嚼，仍屬表情肌，由 VII 運動支配。",
+      "options": {
+        "A": "顳肌由 V3 支配。",
+        "B": "頰肌運動來自 VII。",
+        "C": "莖突舌骨肌由 VII 支配。",
+        "D": "二腹肌後腹由 VII 支配。"
+      },
+      "memory": "V3 咬，VII 笑；二腹前五後七。",
+      "references": [
+        "cranial"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-16": {
+      "title": "鼻腔的嗅覺與一般感覺",
+      "explanation": "嗅覺由 I 傳遞，鼻腔的一般感覺主要分屬 V1 的篩神經與 V2 分支；V3 並非鼻腔主要支配神經。",
+      "options": {
+        "A": "I 分布在嗅黏膜。",
+        "B": "V1 參與前上部一般感覺。",
+        "C": "V2 參與後下部一般感覺。",
+        "D": "V3 不屬本題鼻腔分布。"
+      },
+      "memory": "鼻腔「一聞、五一五二感覺」。",
+      "references": [
+        "nose"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-17": {
+      "title": "橫膈中心腱的腔靜脈孔",
+      "explanation": "下腔靜脈經約 T8 的腔靜脈孔穿過中心腱；橫膈收縮可使孔口維持開放，利於回流。",
+      "options": {
+        "A": "主動脈經 T12、兩腳後方。",
+        "B": "食道經 T10、以右腳肌纖維為主。",
+        "C": "下腔靜脈經中心腱。",
+        "D": "胸管通常與主動脈經 T12。"
+      },
+      "memory": "8 靜、10 食、12 主動脈加胸管。",
+      "references": [
+        "diaphragm"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-18": {
+      "title": "上縱隔與中縱隔",
+      "explanation": "肺動脈幹起自右心室，主要位於心包內的中縱隔；胸腺、上腔靜脈上段與胸管可在上縱隔出現。",
+      "options": {
+        "A": "胸腺可延伸於上、前縱隔。",
+        "B": "肺動脈幹屬中縱隔。",
+        "C": "上腔靜脈有上縱隔部分。",
+        "D": "胸管向上經過上縱隔。"
+      },
+      "memory": "中縱隔是「心包和心臟根部」。",
+      "references": [
+        "mediastinum"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-19": {
+      "title": "肺動脈瓣聽診區",
+      "explanation": "瓣膜聽診區依血流傳音方向決定，不等同瓣膜實際解剖位置。肺動脈瓣最佳位置為左第二肋間胸骨緣。",
+      "options": {
+        "A": "右二肋間是主動脈瓣區。",
+        "B": "左二肋間是肺動脈瓣區。",
+        "C": "右五不是典型肺動脈瓣區。",
+        "D": "左五鎖骨中線附近是心尖、二尖瓣區。"
+      },
+      "memory": "右二主、左二肺、左下三尖、心尖二尖。",
+      "references": [
+        "auscultation"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-20": {
+      "title": "胸管在後縱隔的層次",
+      "explanation": "胸管由主動脈裂孔入胸，通常在食道後方、主動脈與奇靜脈之間上行。半奇靜脈跨越中線匯入奇靜脈時，通常走在胸管後方。",
+      "options": {
+        "A": "胸管不是通常在主動脈正前方。",
+        "B": "入胸經主動脈裂孔。",
+        "C": "上縱隔胸管在左鎖骨下動脈後方附近。",
+        "D": "跨行的半奇靜脈在胸管後方。"
+      },
+      "memory": "胸管 T12 入胸；食道後、跨行半奇之前。",
+      "references": [
+        "thoracicduct"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-21": {
+      "title": "胸內臟神經節段",
+      "explanation": "典型分段為大內臟 T5–9、小內臟 T10–11、最小內臟 T12；實際分布可有個體差異。",
+      "options": {
+        "A": "T1–4 主要與心肺交感支相關。",
+        "B": "T5–9 是大內臟神經。",
+        "C": "T10–11 是小內臟神經。",
+        "D": "T12 是最小內臟神經。"
+      },
+      "memory": "大五九、小十一、最小十二。",
+      "references": [
+        "splanchnic"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-22": {
+      "title": "睪丸動脈保留胚胎起源的高位供血",
+      "explanation": "睪丸發育於後腹壁，下降至陰囊後仍由腹主動脈直接發出的睪丸動脈供血，通常在腎動脈下方起源。",
+      "options": {
+        "A": "腹主動脈為典型起點。",
+        "B": "腎動脈不是正常主要起點。",
+        "C": "腸繫膜下動脈供應後腸。",
+        "D": "髂內動脈可供應輸精管動脈，非睪丸動脈主幹。"
+      },
+      "memory": "睪丸下降，血管起點不跟著降。",
+      "references": [
+        "testicular"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-23": {
+      "title": "腹膜皺襞與膈食道筋膜不同",
+      "explanation": "膈食道韌帶是食道裂孔周圍筋膜的延續，固定食道並容許吞嚥時移動；其他三者均為腹膜皺襞。",
+      "options": {
+        "A": "脾腎韌帶含脾血管與胰尾。",
+        "B": "膈食道韌帶屬筋膜性固定構造。",
+        "C": "子宮闊韌帶為雙層腹膜。",
+        "D": "卵巢懸韌帶為含卵巢血管的腹膜皺襞。"
+      },
+      "memory": "名稱都有韌帶，先分「腹膜皺襞」或「筋膜」。",
+      "references": [
+        "peritoneum"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-24": {
+      "title": "骨盆壁與骨盆膈",
+      "explanation": "尾骨肌與提肛肌組成骨盆膈，尾骨肌位於坐骨棘至骶尾骨間，不像閉孔內肌那樣穿坐骨小孔至臀部。",
+      "options": {
+        "A": "閉孔內肌形成外側壁並穿小孔。",
+        "B": "梨狀肌形成後壁並穿大孔。",
+        "C": "提肛肌是骨盆底主要肌群。",
+        "D": "尾骨肌屬骨盆膈，未穿小孔入臀。"
+      },
+      "memory": "梨大、閉小；提肛加尾骨鋪地板。",
+      "references": [
+        "pelvis"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-25": {
+      "title": "巴多林氏腺開口在陰道前庭",
+      "explanation": "大前庭腺導管開口於陰道口兩側、陰道口與小陰唇之間的前庭，並非大小陰唇之間的陰唇溝。",
+      "options": {
+        "A": "導管開口位置描述錯誤。",
+        "B": "陰道在膀胱、尿道後方。",
+        "C": "後穹窿緊鄰直腸子宮陷凹。",
+        "D": "所列動脈可參與陰道供血。"
+      },
+      "memory": "巴多林在前庭，靠陰道口後外側。",
+      "references": [
+        "bartholin"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-26": {
+      "title": "陰部神經的分支樹",
+      "explanation": "陰部神經發出下直腸神經、會陰神經與陰莖背神經；會陰神經的表淺支再形成陰囊後神經。",
+      "options": {
+        "A": "母支與子支關係顛倒。",
+        "B": "陰囊後神經來自會陰神經。",
+        "C": "下直腸神經主要支配外肛門括約肌及肛周感覺。",
+        "D": "下直腸支通常較早發出，陰囊後支更下游。"
+      },
+      "memory": "陰部→會陰→陰囊後；下直腸管肛門。",
+      "references": [
+        "pudendal"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-27": {
+      "title": "提肛肌腱弓的附著來源",
+      "explanation": "提肛肌腱弓是閉孔內肌筋膜增厚，由恥骨附近延至坐骨棘，為部分提肛肌纖維的起點。",
+      "options": {
+        "A": "尾骨肌不是腱弓筋膜來源。",
+        "B": "梨狀肌位於後壁。",
+        "C": "閉孔內肌筋膜形成腱弓。",
+        "D": "閉孔外肌位在骨盆外面。"
+      },
+      "memory": "提肛吊床掛在「閉孔內肌筋膜」上。",
+      "references": [
+        "pelvis"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-28": {
+      "title": "臀中肌與上臀神經",
+      "explanation": "臀中肌使髖外展，前部纖維可協助內旋，並在單腳站立時穩定骨盆；由上臀神經支配。",
+      "options": {
+        "A": "梨狀肌主要外旋伸展位髖關節。",
+        "B": "臀大肌主要伸髖、外旋。",
+        "C": "臀中肌符合外展及內旋變弱。",
+        "D": "閉孔內肌主要外旋。"
+      },
+      "memory": "中小臀外展，上臀神經保骨盆平。",
+      "references": [
+        "gluteal"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-29": {
+      "title": "手指外展：DAB",
+      "explanation": "背側骨間肌使手指遠離中指中線；第一背側骨間肌可使食指向橈側外展。",
+      "options": {
+        "A": "蚓狀肌主要屈 MCP、伸 IP。",
+        "B": "背側骨間肌使食指外展。",
+        "C": "掌側骨間肌使手指內收。",
+        "D": "外展拇短肌作用於拇指。"
+      },
+      "memory": "DAB：Dorsal ABduct；PAD：Palmar ADduct。",
+      "references": [
+        "hand"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-30": {
+      "title": "上臂前群的主要神經",
+      "explanation": "肌皮神經穿過喙肱肌，支配喙肱肌、肱二頭肌及大部分肱肌，末端成為前臂外側皮神經。",
+      "options": {
+        "A": "尺神經主要支配部分前臂與手內肌。",
+        "B": "正中神經主要支配前臂屈肌及部分手肌。",
+        "C": "肌皮神經支配上臂前群。",
+        "D": "鎖骨上神經是皮感覺分支。"
+      },
+      "memory": "肌皮穿喙肱，管上臂前群。",
+      "references": [
+        "arm"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-31": {
+      "title": "四肢外側關節面的對應",
+      "explanation": "解剖姿勢下，肱骨小頭位於遠端外側，與橈骨頭關節；股骨外側髁在方位上同樣是遠端外側。",
+      "options": {
+        "A": "小頭位於遠端外側。",
+        "B": "滑車位於遠端內側。",
+        "C": "大結節位於近端，非遠端關節面。",
+        "D": "小結節也位於近端。"
+      },
+      "memory": "肱骨遠端「外小頭、內滑車」。",
+      "references": [
+        "limb"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-32": {
+      "title": "第二週雙層胚盤，第三週三胚層",
+      "explanation": "羊膜腔、次級卵黃囊與胚外中胚層可在第二週出現；胚內中胚層主要隨第三週原腸胚形成而建立。",
+      "options": {
+        "A": "羊膜腔約第二週早期出現。",
+        "B": "次級卵黃囊於第二週形成。",
+        "C": "胚外中胚層在第二週出現。",
+        "D": "胚內中胚層屬第三週重點。"
+      },
+      "memory": "第二週兩層盤，第三週三胚層。",
+      "references": [
+        "embryo"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-33": {
+      "title": "胎兒造血器官的時間軸",
+      "explanation": "早期卵黃囊先造血，之後肝臟成為主要位置；第九週進入胎兒期時主要由肝臟負責，骨髓較晚接手。",
+      "options": {
+        "A": "卵黃囊是最早，但不是此時主要場所。",
+        "B": "第九週以肝臟為主。",
+        "C": "脾可參與但非主要。",
+        "D": "骨髓主要造血地位較晚建立。"
+      },
+      "memory": "造血接力：卵黃囊→肝→骨髓。",
+      "references": [
+        "hematopoiesis"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-34": {
+      "title": "胃旋轉與網膜囊",
+      "explanation": "胃沿縱軸從頭端看順時針旋轉約 90 度，背側胃繫膜被帶向左側，其後方空間形成網膜囊；背側壁較快生長形成大彎。",
+      "options": {
+        "A": "大彎來自背側壁生長較快。",
+        "B": "不是所述逆時針 180 度旋轉。",
+        "C": "背側胃繫膜向左、網膜囊形成正確。",
+        "D": "典型嬰兒幽門肥厚較常見男嬰，非普遍幽門閉鎖。"
+      },
+      "memory": "胃背長成大彎，旋轉留出網膜囊。",
+      "references": [
+        "gutdev"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-35": {
+      "title": "Müller 管與 Wolff 管衍生物",
+      "explanation": "副中腎管即 Müller 管，形成輸卵管、子宮及部分上段陰道；中腎管形成男性主要生殖管道。",
+      "options": {
+        "A": "輸卵管來自副中腎管。",
+        "B": "射精管來自中腎管。",
+        "C": "輸精管來自中腎管。",
+        "D": "輸尿管來自輸尿管芽。"
+      },
+      "memory": "副中腎管走女性；中腎管走男性管道。",
+      "references": [
+        "urodev"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-36": {
+      "title": "瞳孔肌的胚層例外",
+      "explanation": "瞳孔括約肌與擴張肌雖為平滑肌，卻由視杯的神經外胚層分化，是「肌肉多源自中胚層」的重要例外。",
+      "options": {
+        "A": "神經外胚層正確。",
+        "B": "表皮生發層不是此兩肌來源。",
+        "C": "內胚層不是眼部瞳孔肌來源。",
+        "D": "不能套用大多數肌肉的中胚層規則。"
+      },
+      "memory": "瞳孔兩肌是例外：平滑肌也能源自神經外胚層。",
+      "references": [
+        "eyedev"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-37": {
+      "title": "石蠟切片的製備流程",
+      "explanation": "先固定保存組織，再經脫水、透明與包埋，使組織可切成薄片；切片貼附後才進行常規染色。",
+      "options": {
+        "A": "未先切片就染色，不是常規石蠟流程。",
+        "B": "固定→包埋→切片→染色正確。",
+        "C": "固定不應最後才做。",
+        "D": "未固定、未包埋就常規切片不合流程。"
+      },
+      "memory": "先定型、再包住、切薄片、最後上色。",
+      "references": [
+        "histotech"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-38": {
+      "title": "T 小管是肌膜向內凹陷",
+      "explanation": "動作電位沿肌膜進入 T 小管，使深部肌節也能快速啟動興奮收縮耦合；T 小管不是儲鈣的肌漿網。",
+      "options": {
+        "A": "肌漿網主要儲存及釋放鈣。",
+        "B": "T 小管傳遞膜去極化。",
+        "C": "肌束膜是結締組織包膜。",
+        "D": "終池是肌漿網擴大部分。"
+      },
+      "memory": "T 傳電，SR 藏鈣。",
+      "references": [
+        "muscle"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-39": {
+      "title": "骨細胞靠小管與間隙接合交流",
+      "explanation": "成熟骨細胞埋在骨陷窩，突起經骨小管與鄰近細胞建立 gap junction，感受機械負荷並傳遞訊號。",
+      "options": {
+        "A": "同源細胞群較典型見於軟骨。",
+        "B": "骨細胞可透過間隙接合交流。",
+        "C": "蝕骨細胞來自單核／巨噬細胞系。",
+        "D": "骨細胞由成骨細胞轉變，不是顆粒球系。"
+      },
+      "memory": "成骨變骨細胞；單核融合成蝕骨。",
+      "references": [
+        "bone"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-40": {
+      "title": "一般室管膜與脈絡叢上皮要分清",
+      "explanation": "一般室管膜為襯覆腦室及中央管的單層細胞，通常無完整外板，源自神經上皮；脈絡叢的特化室管膜才構成血液腦脊髓液屏障。",
+      "options": {
+        "A": "一般室管膜無典型完整外板。",
+        "B": "不是由成熟星狀細胞分化。",
+        "C": "蛛網膜不是其主要位置。",
+        "D": "血腦障壁核心是腦微血管內皮緊密接合。"
+      },
+      "memory": "室管膜襯腦室；血腦障壁先找內皮。",
+      "references": [
+        "ependymal"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-41": {
+      "title": "淋巴球由 HEV 進入淋巴結",
+      "explanation": "多數循環中的初始淋巴球由副皮質高內皮小靜脈穿出進入淋巴結，再經輸出淋巴管離開。",
+      "options": {
+        "A": "網狀纖維主要由網狀基質細胞製造。",
+        "B": "樹狀細胞才是啟動初始 T 細胞的強效 APC。",
+        "C": "HEV 是血中淋巴球主要入口。",
+        "D": "淋巴竇不是將淋巴直接送回血液的靜脈竇。"
+      },
+      "memory": "血入 HEV，淋巴出輸出管。",
+      "references": [
+        "lymphnode"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-42": {
+      "title": "心內膜與心外膜的上皮",
+      "explanation": "心臟內面心內膜覆有內皮；最外層心外膜即臟層漿膜性心包，表面覆有間皮。",
+      "options": {
+        "A": "胃腔面主要為單層柱狀上皮。",
+        "B": "子宮腔面不是內皮。",
+        "C": "膀胱腔面是移行上皮。",
+        "D": "心臟符合內內皮、外間皮。"
+      },
+      "memory": "血流過的面看內皮，漿膜外表看間皮。",
+      "references": [
+        "hearthist"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-43": {
+      "title": "食道外肌層由骨骼肌漸變平滑肌",
+      "explanation": "食道上三分之一以骨骼肌為主，中三分之一混合，下三分之一以平滑肌為主。",
+      "options": {
+        "A": "中段為骨骼肌與平滑肌混合。",
+        "B": "上段以骨骼肌為主。",
+        "C": "下段僅平滑肌符合標準分區。",
+        "D": "上三分之二並非全平滑肌。"
+      },
+      "memory": "食道上骨、中混、下平。",
+      "references": [
+        "gihist"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-44": {
+      "title": "毛囊隆突是幹細胞龕",
+      "explanation": "毛囊隆突位於立毛肌附著附近，含上皮幹細胞，可參與毛囊及皮脂腺更新。毛基質主要是增殖角質細胞，夾有黑色素細胞。",
+      "options": {
+        "A": "外根鞘厚度會隨部位改變。",
+        "B": "毛基質不全是黑色素細胞。",
+        "C": "玻璃樣膜是增厚基底膜，PAS 陽性。",
+        "D": "隆突的幹細胞可供毛囊再生。"
+      },
+      "memory": "Bulge 藏幹細胞；matrix 生毛；melanocyte 上色。",
+      "references": [
+        "hair"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-45": {
+      "title": "LH→Leydig→testosterone",
+      "explanation": "睪丸間質的 Leydig 細胞受 LH 刺激製造睪固酮；Sertoli 細胞主要支援生精並分泌 inhibin B、ABP。",
+      "options": {
+        "A": "Sertoli 不負責主要睪固酮分泌。",
+        "B": "Leydig 是睪固酮來源。",
+        "C": "精細胞是發育中的生殖細胞。",
+        "D": "基底細胞不是主要類固醇分泌細胞。"
+      },
+      "memory": "LH 找 Leydig；FSH 找 Sertoli。",
+      "references": [
+        "repro"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-46": {
+      "title": "傳統乳腺組織學的輸乳竇",
+      "explanation": "依本題採用的傳統組織學描述，輸乳管近乳頭可有膨大稱輸乳竇，故選 A。乳腺為特化汗腺，且具有協助排乳的肌上皮細胞。",
+      "options": {
+        "A": "符合傳統輸乳竇描述。",
+        "B": "輸乳竇常描述為複層立方／低柱狀，並向開口的鱗狀上皮過渡。",
+        "C": "乳腺不是特化皮脂腺。",
+        "D": "乳腺有肌上皮細胞。"
+      },
+      "memory": "乳腺是汗腺特化；泌乳靠分泌細胞，排乳靠肌上皮。",
+      "references": [
+        "mammary"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M",
+      "note": "現代超音波研究不支持固定大型儲乳竇的舊圖像；勿把考題的傳統命名當成所有乳房皆有同樣儲乳空間。"
+    },
+    "115-2-1-47": {
+      "title": "靜止膜電位對胞外鉀較敏感",
+      "explanation": "靜止時膜對 K⁺ 的通透性遠高於 Na⁺；升高胞外 K⁺ 會使 K⁺ 平衡電位較不負，令細胞去極化。相同增加 2 mM 對低基礎濃度的胞外 K⁺ 相對改變也更大。",
+      "options": {
+        "A": "鈉的影響通常較小，且升鉀不會因此過極化。",
+        "B": "升鉀去極化對，但鈉影響較大不對。",
+        "C": "相對幅度對，過極化方向錯。",
+        "D": "較小鈉效應與升鉀去極化均正確。"
+      },
+      "memory": "胞外鉀升，膜電位往零靠。",
+      "references": [
+        "resting"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-48": {
+      "title": "REM 是「腦醒身睡」",
+      "explanation": "REM 腦波多為低振幅、混合較快頻率，與清醒時相似，並伴快速眼動與大部分骨骼肌張力抑制。",
+      "options": {
+        "A": "清醒期最相似。",
+        "B": "N1 多有 theta，並非最佳配對。",
+        "C": "N2 有睡眠紡錘波、K complex。",
+        "D": "N3 以高振幅慢 delta 波為主。"
+      },
+      "memory": "REM：眼動、夢多、肌張力低，腦波像醒。",
+      "references": [
+        "sleep"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-49": {
+      "title": "程序記憶屬內隱記憶",
+      "explanation": "騎腳踏車的技巧屬程序性、內隱記憶，不需有意識逐步回想；外顯記憶則包含事件與事實。",
+      "options": {
+        "A": "把技能說成外顯記憶錯誤。",
+        "B": "神經可塑性可由活動改變連結。",
+        "C": "LTP 是記憶形成的重要機制模型。",
+        "D": "海馬及相關邊緣迴路受損可致順行性失憶。"
+      },
+      "memory": "會「做」是內隱；能「說出事實、事件」是外顯。",
+      "references": [
+        "memory"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-50": {
+      "title": "Orexin 缺乏與猝睡症",
+      "explanation": "第一型猝睡症常與下視丘 orexin／hypocretin 神經元流失有關，造成清醒狀態不穩定，並可有猝倒。",
+      "options": {
+        "A": "ACh 參與 REM 調控，非最典型缺失。",
+        "B": "NE 與清醒相關，但不是本題特徵性答案。",
+        "C": "NPY 主要與進食等調控相關。",
+        "D": "Orexin 缺乏是關鍵。"
+      },
+      "memory": "Orexin 穩住清醒；少了就容易睡醒切換失控。",
+      "references": [
+        "narcolepsy"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-51": {
+      "title": "NMDA 是配體加電壓的雙重閘門",
+      "explanation": "靜止膜電位時，胞外 Mg²⁺ 阻塞 NMDA 通道；突觸後膜先去極化移除鎂阻塞，再有 glutamate 與共同致效劑結合，才有效導通。",
+      "options": {
+        "A": "NMDA 具有電壓依賴的鎂阻塞。",
+        "B": "GABAA 主要為氯離子通道。",
+        "C": "Glycine 受體主要為抑制性氯通道。",
+        "D": "Nicotinic 受體不以此鎂阻塞為典型特徵。"
+      },
+      "memory": "NMDA 要「配體到、膜先動、鎂離開」。",
+      "references": [
+        "nmda"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-52": {
+      "title": "相對不反應期仍可被更強刺激激發",
+      "explanation": "後段再極化至後過極化時，部分 Na⁺ 通道已恢復，但 K⁺ 導通仍偏高，使閾值較難達成，需要更強刺激。",
+      "options": {
+        "A": "再極化剛開始通常仍屬絕對不反應期。",
+        "B": "大量 Na⁺ 通道不活化是絕對期核心。",
+        "C": "殘留開啟的 K⁺ 通道符合相對期。",
+        "D": "相同強度未必足夠，通常需更強刺激。"
+      },
+      "memory": "絕對期鈉門鎖；相對期鉀門還沒關好。",
+      "references": [
+        "membrane"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-53": {
+      "title": "Broca 失語：知道但說不順",
+      "explanation": "優勢半球額葉 Broca 區受損，常出現非流暢、費力的語言表達，理解相對保留；不流暢是本題關鍵。",
+      "options": {
+        "A": "背內側丘腦不是典型語言輸出區。",
+        "B": "前丘腦核較與記憶迴路相關。",
+        "C": "Broca 區受損可造成表達困難。",
+        "D": "Wernicke 損傷常是流暢但內容與理解異常。"
+      },
+      "memory": "Broca 嘴巴卡；Wernicke 話多但聽不懂。",
+      "references": [
+        "language"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-54": {
+      "title": "慢痛主要由無髓鞘 C 纖維傳遞",
+      "explanation": "慢痛較瀰漫、定位差，C 纖維末梢可釋放 glutamate 及 substance P；快痛主要由有髓鞘 Aδ 纖維傳遞。",
+      "options": {
+        "A": "慢痛比快痛更難精確定位。",
+        "B": "Glutamate 加 substance P 符合。",
+        "C": "Aβ 是粗、有髓鞘的觸覺纖維。",
+        "D": "C 纖維無髓鞘。"
+      },
+      "memory": "Aδ 快刺痛；C 慢灼痛，配 substance P。",
+      "references": [
+        "pain"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-55": {
+      "title": "三種肌肉都用鈣，但來源與開關不同",
+      "explanation": "骨骼肌一次正常收縮主要使用 SR 鈣；心肌由胞外鈣啟動鈣誘發鈣釋放；平滑肌可用胞外鈣及 SR 鈣，並經 calmodulin–MLCK 啟動收縮。",
+      "options": {
+        "A": "三類肌肉均需要鈣。",
+        "B": "在本題正常興奮收縮耦合語境可成立。",
+        "C": "心肌鈣來自胞外與 SR。",
+        "D": "平滑肌並非全部依賴胞外鈣。"
+      },
+      "memory": "骨肌 SR；心肌外鈣引內鈣；平滑肌兩邊都能來。",
+      "references": [
+        "muscle"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-56": {
+      "title": "成人白血球分類以嗜中性球最多",
+      "explanation": "健康成人周邊血白血球中，嗜中性球通常占最高比例；兒童某些年齡淋巴球比例可較高，不可把成人規則無條件套到所有年齡。",
+      "options": {
+        "A": "成人血中通常最多。",
+        "B": "嗜酸性球比例較低。",
+        "C": "巨噬細胞主要位於組織，循環中是單核球。",
+        "D": "成人淋巴球通常次於嗜中性球。"
+      },
+      "memory": "成人分類先記 N 多；巨噬住組織。",
+      "references": [
+        "blood"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-57": {
+      "title": "迷走神經降低 SA node 第四期斜率",
+      "explanation": "ACh 活化 M2、降低 cAMP，抑制 If 等電流並增加 K⁺ 導通，使起搏去極化變慢，達閾值所需時間變長，心率下降。",
+      "options": {
+        "A": "斜率增加屬加速心跳方向。",
+        "B": "斜率下降、心率下降正確。",
+        "C": "斜率增加卻心率下降不合關係。",
+        "D": "斜率下降卻心率增加不合關係。"
+      },
+      "memory": "第四期爬坡慢，下一次心跳就晚。",
+      "references": [
+        "cardiacphys"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-58": {
+      "title": "淋巴回流靠外部擠壓與淋巴管自身收縮",
+      "explanation": "骨骼肌活動、吸氣造成的壓力差及淋巴管平滑肌節律收縮都能推動淋巴，瓣膜維持單向。靜脈平滑肌收縮不是這套直接推進機制。",
+      "options": {
+        "A": "骨骼肌泵促進淋巴流動。",
+        "B": "靜脈收縮非直接淋巴幫浦，最不可能。",
+        "C": "呼吸泵可建立回流壓差。",
+        "D": "淋巴管本身平滑肌可收縮推流。"
+      },
+      "memory": "淋巴靠「肌肉擠、呼吸吸、管壁推」。",
+      "references": [
+        "lymphphys"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-59": {
+      "title": "大多數血管以交感支配為主",
+      "explanation": "多數微動脈受交感血管收縮張力調節，並無廣泛副交感支配。外加 ACh 可透過內皮 NO 舒張，不等同多數血管都有副交感末梢。",
+      "options": {
+        "A": "NE–α 受體可造成收縮。",
+        "B": "把副交感舒張說成大多數血管的普遍神經支配不當。",
+        "C": "部分 NANC 神經可經 NO 舒張。",
+        "D": "腎上腺素可在 β2 優勢血管引起舒張。"
+      },
+      "memory": "有 ACh 反應，不代表有副交感神經分布。",
+      "references": [
+        "vascular"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-60": {
+      "title": "吸氣通常比呼氣更利於靜脈回流",
+      "explanation": "自然吸氣降低胸內壓並增加腹胸壓差，促進回流；呼氣尤其用力呼氣可提高胸內壓，對增加回流的貢獻較小。",
+      "options": {
+        "A": "交感靜脈收縮降低容量、增加回流。",
+        "B": "血量增加可提升平均循環充盈壓。",
+        "C": "骨骼肌泵配瓣膜促進回流。",
+        "D": "呼氣不是最有效的促回流機制。"
+      },
+      "memory": "吸氣胸內負壓吸血回心；Valsalva 可暫減回流。",
+      "references": [
+        "vascular"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-61": {
+      "title": "肺容積下降，呼吸道阻力上升",
+      "explanation": "肺容積大時，周圍肺實質的放射牽引使呼吸道較寬；由 TLC 回到 FRC，牽引減少、口徑較小，阻力上升。",
+      "options": {
+        "A": "阻力升高符合變化方向。",
+        "B": "口徑改變，不能視為不變。",
+        "C": "下降是肺容積增加時的常見方向。",
+        "D": "題幹未提供必須雙相變化的條件。"
+      },
+      "memory": "肺大拉開氣道，肺小氣道較窄。",
+      "references": [
+        "respiratory"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-62": {
+      "title": "低氧主要由周邊化學受器偵測",
+      "explanation": "頸動脈體對動脈 PaO₂ 下降的通氣反應最重要，尤其 PaO₂ 降至約 60 mmHg 以下時反應增強；中樞主要感受 CO₂ 引起的腦脊髓液 H⁺ 變化。",
+      "options": {
+        "A": "肺牽張受器主要感受擴張。",
+        "B": "中樞不是主要直接低氧感受器。",
+        "C": "滲透壓受器主要調節水分。",
+        "D": "頸動脈體為主要低氧偵測端。"
+      },
+      "memory": "氧低找頸動脈體；CO₂ 找中樞化學受器。",
+      "references": [
+        "respoxygen"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-63": {
+      "title": "腸道電解質吸收：官方接受 B、D 或 BD",
+      "explanation": "小腸可經 Na⁺/H⁺ 交換將 H⁺ 分泌到腔內，屬次級主動運輸；鈣也可經 vitamin D 調控的跨細胞主動路徑吸收。兩者都能成立，官方已更正接受 B、D 或 BD。",
+      "options": {
+        "A": "Cl⁻ 吸收有多種途徑，不能一律概括為主動運輸。",
+        "B": "Na⁺/H⁺ 交換可支持 H⁺ 次級主動分泌。",
+        "C": "SGLT1 將鈉與葡萄糖同向吸收，非反向分泌。",
+        "D": "鈣有主動吸收，也有旁細胞被動途徑。"
+      },
+      "memory": "小腸 SGLT1 同向吸糖鈉；NHE 鈉進氫出；鈣可主動吸收。",
+      "references": [
+        "electrolytes"
+      ],
+      "officialAnswers": [
+        "B",
+        "D",
+        "BD"
+      ],
+      "answerStatus": "multiple",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-64": {
+      "title": "長鏈脂肪的吸收走淋巴",
+      "explanation": "膽鹽負責乳化、胰脂肪酶負責水解；長鏈脂肪進入腸細胞後主要在 ER 再酯化成三酸甘油酯，包成乳糜微粒後先進乳糜管與淋巴。",
+      "options": {
+        "A": "主要乳化者是膽鹽，不是胰液本身。",
+        "B": "胰脂肪酶主要產生脂肪酸與 2-monoglyceride，非專製短鏈脂肪酸。",
+        "C": "再酯化主要在 ER。",
+        "D": "乳糜微粒先走淋巴，不直接進門脈。"
+      },
+      "memory": "膽乳化、胰水解、ER 重包裝、淋巴運走。",
+      "references": [
+        "lipidabs"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-65": {
+      "title": "喝水後抑制 ADH、排出自由水",
+      "explanation": "大量飲水被吸收後，血漿滲透壓下降，抑制下視丘滲透壓受器與 ADH 釋放，使集尿管水通透性降低、尿液變稀。",
+      "options": {
+        "A": "滲透壓與 ADH 均下降。",
+        "B": "兩者都增加不是正常飲水反應。",
+        "C": "滲透壓不應因白開水上升。",
+        "D": "滲透壓下降通常抑制而非促進 ADH。"
+      },
+      "memory": "水多→血稀→ADH 少→排稀尿。",
+      "references": [
+        "adh"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-66": {
+      "title": "腎素三大輸入：壓力、鹽、交感",
+      "explanation": "典型促腎素訊號為入球動脈壓下降、緻密斑 NaCl 遞送下降，以及腎交感 β1 刺激。原答案 B 指向非主要典型感測位置，但官方已改為一律給分。",
+      "options": {
+        "A": "交感直接刺激 JG 細胞 β1 可促進腎素。",
+        "B": "出球血管壁不是典型主要壓力感測／腎素細胞位置。",
+        "C": "入球血管壁的顆粒細胞與壓力調節相關。",
+        "D": "緻密斑位於粗上行支末端至遠曲小管交界，感測管液 NaCl。"
+      },
+      "memory": "腎素開關：「低壓、低鹽、β1 交感」。",
+      "references": [
+        "renin",
+        "neuraleffects"
+      ],
+      "officialAnswers": [
+        "*"
+      ],
+      "answerStatus": "all-credit",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M",
+      "note": "本題一律給分；不得把原答案 B 再當成唯一計分答案。官方更正未在答案表解釋原因，這裡僅補充標準生理觀念。"
+    },
+    "115-2-1-67": {
+      "title": "NIS 在基底側，pendrin 在頂端",
+      "explanation": "血中 I⁻ 經基底外側 Na⁺/I⁻ symporter 次級主動進入濾泡細胞；pendrin 參與頂端向濾泡腔的碘運輸。TPO 進行氧化、有機化與偶聯。",
+      "options": {
+        "A": "將 NIS 和 pendrin 的位置及方向混淆。",
+        "B": "TPO 可促進 Tg 酪胺酸碘化。",
+        "C": "DIT＋DIT 形成 T4。",
+        "D": "內吞 Tg 後需溶小體蛋白水解釋出 T3、T4。"
+      },
+      "memory": "血→NIS→細胞→pendrin→膠質；TPO 接碘與偶聯。",
+      "references": [
+        "thyroid"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-68": {
+      "title": "Cortisol 是拮抗胰島素的升糖激素",
+      "explanation": "Cortisol 增加糖質新生並促進胰島素阻抗，並非提高肝臟對胰島素敏感性；過多時可使血糖上升。",
+      "options": {
+        "A": "Insulin 促進肌肉肝醣合成。",
+        "B": "Glucagon 促進肝糖質新生。",
+        "C": "促胰島素敏感性不是 cortisol 的典型作用。",
+        "D": "Epinephrine 可促進脂肪分解。"
+      },
+      "memory": "胰島素存能量；皮質醇提高可用燃料、抗胰島素。",
+      "references": [
+        "metabolism"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-69": {
+      "title": "低血容量時也能以非滲透壓途徑釋放 ADH",
+      "explanation": "血壓或有效循環量明顯下降會促進 ADH 由後葉釋放，透過 V2 保水及較高濃度的 V1 血管收縮協助維持循環。",
+      "options": {
+        "A": "Somatostatin 非前葉主要分泌產物。",
+        "B": "Angiotensinogen 主要來自肝臟。",
+        "C": "後葉釋放 ADH 符合低血壓反應。",
+        "D": "ACTH 由前葉分泌，非中突。"
+      },
+      "memory": "ADH 在下視丘製造、後葉釋放；低壓也會叫它出來。",
+      "references": [
+        "adh"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-70": {
+      "title": "激素的製造地與釋放地",
+      "explanation": "ADH 在下視丘神經元合成，沿軸突運至腦下垂體後葉儲存、釋放；不是前葉激素。",
+      "options": {
+        "A": "Cortisol 來自腎上腺皮質。",
+        "B": "ADH 寫成前葉來源錯誤。",
+        "C": "Insulin 由胰島 β 細胞分泌。",
+        "D": "Aldosterone 由腎上腺皮質球狀層分泌。"
+      },
+      "memory": "前葉做促素；後葉放 ADH 與 oxytocin。",
+      "references": [
+        "endocrine"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-71": {
+      "title": "飢餓時降低 T3 以節省能量",
+      "explanation": "飢餓改變周邊去碘化，使 T3 下降、rT3 常上升，T4 相對較不明顯；重新進食尤其碳水化合物後，T3 可明顯回升。",
+      "options": {
+        "A": "T4 通常不是短期最敏感指標。",
+        "B": "rT3 可明顯受影響。",
+        "C": "再進食後 T3 回升符合調節。",
+        "D": "相較 T3，T4 變動通常較小。"
+      },
+      "memory": "餓時 T3 低省電，吃後 T3 回來。",
+      "references": [
+        "fastingthyroid"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-72": {
+      "title": "黃體素維持子宮安靜",
+      "explanation": "Progesterone 在妊娠期間降低子宮興奮性；estrogen 提高收縮相關蛋白表現，prostaglandin 與 oxytocin 可促子宮收縮。",
+      "options": {
+        "A": "Estrogen 整體上促進臨產收縮能力。",
+        "B": "Progesterone 的抑制方向不同。",
+        "C": "Prostaglandin 促收縮與子宮頸成熟。",
+        "D": "Oxytocin 直接促子宮收縮。"
+      },
+      "memory": "黃體素「安胎安靜」；催產、前列腺素「推動生產」。",
+      "references": [
+        "uterine"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-73": {
+      "title": "FSH 刺激 Sertoli 分泌 inhibin B",
+      "explanation": "FSH 作用於 Sertoli 細胞，支援生精並分泌 inhibin B；inhibin 對前葉 FSH 形成負回饋。女性 FSH 主要作用於顆粒細胞的芳香環酶。",
+      "options": {
+        "A": "Leydig 主要受 LH 刺激。",
+        "B": "FSH→Sertoli→inhibin→抑制 FSH 正確。",
+        "C": "Theca 主要受 LH 刺激並產生雄激素。",
+        "D": "Granulosa 受 FSH 促進雄激素轉為雌激素。"
+      },
+      "memory": "FSH–Sertoli–inhibin；LH–Leydig–testosterone。",
+      "references": [
+        "repro"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-74": {
+      "title": "以特異性結合純化蛋白質",
+      "explanation": "親合力層析利用目標蛋白與固定配體的特異結合，例如抗原–抗體、酵素–配體，洗去雜質後再改變條件洗脫目標。",
+      "options": {
+        "A": "親合力層析依特異結合。",
+        "B": "離子交換依淨電荷。",
+        "C": "凝膠過濾依水動力大小。",
+        "D": "鹽析依高鹽下溶解度差異。"
+      },
+      "memory": "親合看對象、離子看電荷、凝膠看大小。",
+      "references": [
+        "proteins"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-75": {
+      "title": "α 螺旋屬局部二級結構",
+      "explanation": "蛋白質二級結構包含 α-helix 與 β-sheet，主要由主鏈間氫鍵穩定；多個亞基的組裝屬四級結構。",
+      "options": {
+        "A": "α-helix 是二級結構。",
+        "B": "Tetramer 指四個亞基的組裝。",
+        "C": "Subunit 是亞基，不是二級構型名稱。",
+        "D": "Capping structure 非此處典型二級結構。"
+      },
+      "memory": "一級序列、二級螺旋摺板、三級整體、四級組隊。",
+      "references": [
+        "proteins"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-76": {
+      "title": "Bohr 效應是酸促進釋氧",
+      "explanation": "H⁺ 增加或 CO₂ 增加可降低 Hb 對 O₂ 的親和力，促進代謝旺盛組織獲氧；本題特指血液酸鹼度的影響。",
+      "options": {
+        "A": "pH 變化是 Bohr 效應核心。",
+        "B": "升溫也右移，但不稱 Bohr 效應本身。",
+        "C": "外界含氧量主要改變氧分壓，非此定義。",
+        "D": "心率不直接定義 Hb 親和力改變。"
+      },
+      "memory": "酸多、CO₂ 多，Hb 把氧放手。",
+      "references": [
+        "bohr"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-77": {
+      "title": "CoA 含維生素 B5，不含 A",
+      "explanation": "CoA 由 pantothenate、β-mercaptoethylamine 與磷酸化腺苷核苷酸部分組成，末端硫醇可攜帶 acyl group。",
+      "options": {
+        "A": "Pantothenic acid 即維生素 B5。",
+        "B": "β-Mercaptoethylamine 提供末端硫醇部分。",
+        "C": "磷酸化腺苷核苷酸屬結構組分。",
+        "D": "Vitamin A 不屬 CoA 組成。"
+      },
+      "memory": "CoA 的維生素是 B5；A 是 coenzyme A 的名字，不是維生素 A。",
+      "references": [
+        "coa"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-78": {
+      "title": "負超螺旋有利局部解鏈",
+      "explanation": "負超螺旋相對於鬆弛 DNA 為 underwound，可使 DNA 緊湊，並較易在複製、轉錄起始處局部打開。",
+      "options": {
+        "A": "負超螺旋及低度纏繞正確。",
+        "B": "正超螺旋反而增加解鏈困難。",
+        "C": "鬆弛狀態不是本題緊湊的負超螺旋。",
+        "D": "線性延展不符合多數細菌環狀染色體。"
+      },
+      "memory": "負超螺旋像先鬆扭，較容易拉開兩股。",
+      "references": [
+        "dna"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-79": {
+      "title": "H1 是 linker histone",
+      "explanation": "核小體核心是 H2A、H2B、H3、H4 各兩個的八聚體；H1 結合 linker DNA 與出入口，協助更高階包裝。",
+      "options": {
+        "A": "H1 不屬核心八聚體。",
+        "B": "H2A 是核心組成。",
+        "C": "H2B 是核心組成。",
+        "D": "H3 是核心組成。"
+      },
+      "memory": "核心「2A、2B、3、4」各兩個；H1 守連接段。",
+      "references": [
+        "chromatin"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-80": {
+      "title": "解旋酶與拓樸異構酶的分工",
+      "explanation": "Helicase 打開雙股 DNA 的鹼基配對；複製叉前方累積的扭轉張力由 topoisomerase／DNA gyrase 緩解。",
+      "options": {
+        "A": "將 topoisomerase 功能誤配給 helicase。",
+        "B": "SSB 穩定單股、避免重新配對。",
+        "C": "Primase 製造 RNA 引子。",
+        "D": "DNA Pol III 是細菌主要複製酶。"
+      },
+      "memory": "解旋拆拉鍊，拓樸解扭結。",
+      "references": [
+        "replication"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-81": {
+      "title": "轉座插入產生 target-site duplication",
+      "explanation": "轉座酶對目標 DNA 做錯位切割，插入轉座子後補齊缺口，因而在兩側形成同向短重複序列；勿與轉座子末端反向重複混淆。",
+      "options": {
+        "A": "目標序列通常會留下插入與重複痕跡。",
+        "B": "兩側同向短重複是典型結果。",
+        "C": "末端反向重複屬轉座子自身的特徵。",
+        "D": "典型插入不等同把目標整段刪掉。"
+      },
+      "memory": "轉座子自己可有倒重複；目標兩側是同向重複。",
+      "references": [
+        "transposon"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-82": {
+      "title": "Cisplatin 的 bulky adduct 主要走 NER",
+      "explanation": "Cisplatin 常形成使雙股螺旋扭曲的股內交聯，主要由核苷酸切除修復辨識、切除並重合成。股間交聯亦需其他修復路徑協作。",
+      "options": {
+        "A": "直接修復不是主要移除方式。",
+        "B": "BER 多處理較小的單一受損鹼基。",
+        "C": "MMR 主要修復複製錯配。",
+        "D": "NER 處理 bulky、扭曲螺旋的損傷。"
+      },
+      "memory": "大塊扭曲找 NER；小鹼基損傷找 BER。",
+      "references": [
+        "repair"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-83": {
+      "title": "RNA polymerase 能從頭起始",
+      "explanation": "RNA 聚合酶利用 DNA 模板與 NTP，在 Mg²⁺ 輔助下合成 RNA，可 de novo 起始，不像 DNA 聚合酶需既有 3′-OH 引子。",
+      "options": {
+        "A": "四種 NTP 是 RNA 原料。",
+        "B": "不需要引子。",
+        "C": "Mg²⁺ 是催化所需金屬離子。",
+        "D": "轉錄需 DNA 模板。"
+      },
+      "memory": "DNA 聚合酶要起跑墊；RNA 聚合酶可自己起跑。",
+      "references": [
+        "transcription"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-84": {
+      "title": "Ubiquitin 標記不只有降解",
+      "explanation": "特定多聚 ubiquitin 鏈可導向 proteasome；單泛素化及其他鏈型也參與內吞、DNA 修復與訊號傳遞，因此不能說一律降解。",
+      "options": {
+        "A": "「一定」進 proteasome 過度概括。",
+        "B": "分解前可回收 ubiquitin。",
+        "C": "典型連接位點是標的蛋白 lysine。",
+        "D": "E3 參與辨識受質及轉移 ubiquitin。"
+      },
+      "memory": "泛素像標籤：有些叫回收，有些叫轉運或修復。",
+      "references": [
+        "ubiquitin"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-85": {
+      "title": "Lac operon 需要解除抑制加強促進",
+      "explanation": "有乳糖時 allolactose 解除 LacI 抑制；無葡萄糖時 cAMP 上升、CAP 活化。兩條件同時成立才有高度表達。",
+      "options": {
+        "A": "有葡萄糖會壓低 cAMP–CAP 活化。",
+        "B": "有乳糖且無葡萄糖是高表達組合。",
+        "C": "無乳糖時 repressor 仍抑制。",
+        "D": "無乳糖即使 cAMP 高仍受抑制。"
+      },
+      "memory": "乳糖解鎖，缺糖踩油門。",
+      "references": [
+        "lac"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-86": {
+      "title": "eIF4E 認 5′ cap",
+      "explanation": "eIF4F 複合體中，eIF4E 結合 mRNA 5′ m⁷G cap；eIF4G 是支架，eIF4A 是 RNA helicase，eIF4B 協助解旋。",
+      "options": {
+        "A": "4A 負責解旋。",
+        "B": "4B 協助解旋及掃描。",
+        "C": "4E 直接辨識帽結構。",
+        "D": "4G 是連接其他因子的支架。"
+      },
+      "memory": "4E 抓帽、4A 解旋、4G 架橋。",
+      "references": [
+        "translation"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-87": {
+      "title": "FDG 被磷酸化後困在細胞內",
+      "explanation": "FDG 經葡萄糖轉運進入細胞，由 hexokinase 轉成 FDG-6-phosphate；因難再由磷酸葡萄糖異構酶代謝而滯留，PET 偵測的是 18F 訊號。",
+      "options": {
+        "A": "不是典型第一個被困住的產物。",
+        "B": "FDG-6-phosphate 正確。",
+        "C": "少了 deoxy 不能代表 FDG 產物。",
+        "D": "不會正常走到 fructose-1,6-bisphosphate 那一步。"
+      },
+      "memory": "FDG 進門後上「6 磷酸鎖」。",
+      "references": [
+        "fdg"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-88": {
+      "title": "F1,6BP 對 pyruvate kinase 是前饋活化",
+      "explanation": "糖解上游產物 fructose-1,6-bisphosphate 可活化 pyruvate kinase；F2,6BP 則促進 PFK-1，並抑制 FBPase-1。",
+      "options": {
+        "A": "Acetyl-CoA 為能量充足訊號，可抑制糖解相關通量。",
+        "B": "Acetyl-CoA 活化 pyruvate carboxylase。",
+        "C": "F1,6BP 是活化而非抑制 PK。",
+        "D": "F2,6BP 促 PFK-1 正確。"
+      },
+      "memory": "1,6 推後段 PK；2,6 推前段 PFK。",
+      "references": [
+        "glycolysis",
+        "glycolysis_overview"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-89": {
+      "title": "脂筏富含膽固醇與鞘脂",
+      "explanation": "Lipid raft 為膜中相對有序的微區，富含 cholesterol、sphingolipids 與特定膜蛋白；TAG 主要作為儲存脂質，不是典型膜脂筏成分。",
+      "options": {
+        "A": "鞘醣脂可富集於脂筏。",
+        "B": "膽固醇是重要成分。",
+        "C": "TAG 不是典型脂筏膜成分。",
+        "D": "特定訊號蛋白可聚集於脂筏。"
+      },
+      "memory": "脂筏載「膽固醇、鞘脂、訊號蛋白」，不載油滴 TAG。",
+      "references": [
+        "lipidraft"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-90": {
+      "title": "Reductase 做還原，不做縮合",
+      "explanation": "β-Ketoacyl-ACP reductase 以 NADPH 將 β-keto 基還原為 β-hydroxy 基；前三者皆可參與形成碳–碳鍵的縮合反應。",
+      "options": {
+        "A": "Thiolase 可催化兩個 acetyl-CoA 縮合。",
+        "B": "HMG-CoA synthase 進行縮合。",
+        "C": "β-Ketoacyl-ACP synthase 是脂肪酸延長的縮合酶。",
+        "D": "Reductase 負責還原。"
+      },
+      "memory": "Synthase 接碳鏈，reductase 加還原力。",
+      "references": [
+        "lipidsynthesis"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-91": {
+      "title": "Ionophore 促進順梯度通透",
+      "explanation": "離子載體或孔道型 ionophore 讓特定離子沿電化學梯度穿膜，可消散梯度；它們不是利用 ATP 逆梯度搬運的主動幫浦。",
+      "options": {
+        "A": "可增加離子穿膜通透性。",
+        "B": "部分 ionophore 是抗生素。",
+        "C": "可破壞原有電化學梯度。",
+        "D": "不是提高主動運輸本身。"
+      },
+      "memory": "Ionophore 開捷徑，pump 才花能量逆坡搬。",
+      "references": [
+        "ionophore"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-92": {
+      "title": "Serine dehydratase 直接產生 pyruvate",
+      "explanation": "Serine 經脫水、脫胺可轉為 pyruvate；其他選項分別參與一碳代謝或產生 oxaloacetate。",
+      "options": {
+        "A": "SHMT 將 serine 轉為 glycine 並轉移一碳單位。",
+        "B": "Glycine cleavage 產生 CO₂、NH₃ 與一碳單位。",
+        "C": "Serine dehydratase 可產生 pyruvate。",
+        "D": "AST 使 aspartate 與 oxaloacetate 互轉。"
+      },
+      "memory": "Serine 脫水脫胺→pyruvate；Asp 轉胺→OAA。",
+      "references": [
+        "aminoacid"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-93": {
+      "title": "Glutamate 是 proline 的前驅物",
+      "explanation": "Glutamate 經 glutamate-semialdehyde、pyrroline-5-carboxylate 等中間物可合成 proline。",
+      "options": {
+        "A": "Phenylalanine 主要可轉為 tyrosine。",
+        "B": "Tryptophan 可供 serotonin、niacin 等路徑。",
+        "C": "Glutamate 可合成 proline。",
+        "D": "Tyrosine 可供 catecholamine 等合成。"
+      },
+      "memory": "麩胺酸摺成環，成為脯胺酸。",
+      "references": [
+        "proline"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-94": {
+      "title": "呼吸鏈阻斷點前還原、後氧化",
+      "explanation": "Complex III 阻斷後，上游電子無法順利往 cytochrome c 傳遞，NADH 與 CoQH₂ 累積；下游 cytochrome c、a 偏氧化態。",
+      "options": {
+        "A": "CoQ 與 NADH 都在阻斷點上游。",
+        "B": "Cytochrome c 位於下游，非同為還原。",
+        "C": "b 可在上游，但 c 在下游。",
+        "D": "a 位於下游，b 位於 III 內。"
+      },
+      "memory": "塞車點前堆電子＝還原；點後缺電子＝氧化。",
+      "references": [
+        "etc"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-95": {
+      "title": "膜磷脂釋出 arachidonic acid",
+      "explanation": "細胞受刺激後，PLA₂ 從膜磷脂 sn-2 位置釋放花生四烯酸，再由 COX 產生 prostaglandin 等 eicosanoids。",
+      "options": {
+        "A": "人體無法以此簡化方式從頭提供所有所需前驅物。",
+        "B": "不必先由鄰近脂肪細胞供應。",
+        "C": "主要可動員池是膜磷脂，而非油滴 TAG。",
+        "D": "膜磷脂經 PLA₂ 釋出為典型來源。"
+      },
+      "memory": "PLA₂ 放出 AA，COX 接做 PG。",
+      "references": [
+        "eicosanoid"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-96": {
+      "title": "β 受體去敏感化發生在胞質側",
+      "explanation": "GRK／βARK 磷酸化 β 受體的胞質側殘基，尤其 C 端，讓 β-arrestin 結合並促內吞。受體 N 端在胞外，不是此胞內激酶的主要作用面。",
+      "options": {
+        "A": "把磷酸化位置說成胞外 N 端錯誤。",
+        "B": "β-Arrestin 可辨識磷酸化受體並促內吞。",
+        "C": "內吞後 arrestin 可與受體分離。",
+        "D": "去磷酸化後可回收至膜而再敏感化。"
+      },
+      "memory": "N 端朝外、C 端朝內；GRK 在內側貼 arrestin 標籤。",
+      "references": [
+        "gpcr"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-97": {
+      "title": "p53–p21 是細胞週期煞車",
+      "explanation": "DNA 損傷可活化 p53，誘導 CDK inhibitor p21，抑制 cyclin–CDK，使 Rb 維持抑制 E2F 的狀態，阻止 G1→S。",
+      "options": {
+        "A": "p53→p21 會抑制而非促進進入 S 期。",
+        "B": "p21 脫離 CDK 可解除抑制。",
+        "C": "CDK 磷酸化 Rb 可釋放 E2F。",
+        "D": "E2F 活化可啟動 DNA 合成基因。"
+      },
+      "memory": "p53 叫 p21 踩煞車；CDK 磷酸化 Rb 才放 E2F。",
+      "references": [
+        "cellcycle"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-98": {
+      "title": "DNA 聚合保留 α 磷酸",
+      "explanation": "dNTP 的 α 磷酸最靠近核糖，聚合時留在 DNA 磷酸二酯骨架，β、γ 磷酸以 pyrophosphate 離開，因此標記探針需 α-32P-dATP。",
+      "options": {
+        "A": "α 磷酸會留在新生 DNA。",
+        "B": "β 隨焦磷酸離去。",
+        "C": "γ 也隨焦磷酸離去；可用於其他末端標記反應。",
+        "D": "DNA 合成需 dATP 等 dNTP，不是一般 ATP 取代。"
+      },
+      "memory": "聚合留 α、丟 βγ。",
+      "references": [
+        "replication"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-99": {
+      "title": "FISH 直接在染色體上定位",
+      "explanation": "FISH 以帶螢光的互補核酸探針與細胞內染色體序列雜交，可觀察基因位置、拷貝數與部分重排。",
+      "options": {
+        "A": "RFLP 比較限制片段長度。",
+        "B": "FISH 可在染色體上看位置。",
+        "C": "RT-PCR 偵測 RNA 衍生的 cDNA。",
+        "D": "Microarray 多比較大量序列或表現，不直接提供顯微定位。"
+      },
+      "memory": "FISH 是「螢光釣到染色體上的位置」。",
+      "references": [
+        "fish"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-1-100": {
+      "title": "PCR 要 dNTP，不是 NTP",
+      "explanation": "PCR 的 DNA polymerase 使用 dATP、dGTP、dCTP、dTTP；題目 A 寫的是非去氧核苷三磷酸，不能代替標準 DNA 合成原料。",
+      "options": {
+        "A": "不需 RNA 型 NTP；真正需要 dNTP。",
+        "B": "需要模板 DNA。",
+        "C": "需要耐熱 DNA polymerase。",
+        "D": "需要成對引子界定擴增區。"
+      },
+      "memory": "PCR 複製 DNA，原料也要有 d。",
+      "references": [
+        "pcr"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-1-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0101&q=1&verify=step1-20261013-115090-301-0101-M"
+    },
+    "115-2-2-1": {
+      "title": "肉芽腫可控制卻未必根除結核菌",
+      "explanation": "Th1–IFN-γ 活化巨噬細胞並形成肉芽腫，限制病原擴散，但部分菌可存活於病灶形成潛伏感染；日後細胞免疫下降即可再活化。",
+      "options": {
+        "A": "肉芽腫能限制感染，卻可能保留未被根除的菌。",
+        "B": "不是以快速抗原突變作主要解釋。",
+        "C": "嗜中性球過度活化無法解釋多年潛伏。",
+        "D": "控制結核主要倚賴細胞免疫，非 B 細胞耐受。"
+      },
+      "memory": "肉芽腫像圍牆：關住不一定殺光。",
+      "references": [
+        "tb"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "A 的文字不代表肉芽腫本身是有害機制；它同時具有保護性限制感染的作用。"
+    },
+    "115-2-2-2": {
+      "title": "流行性斑疹傷寒的人類傳染窩",
+      "explanation": "R. prowazekii 引起流行性斑疹傷寒，典型循環為人與體蝨；另有飛鼠相關自然宿主循環，但本題問主要人類傳染窩配對。",
+      "options": {
+        "A": "R. akari 主要與鼠類、蟎相關。",
+        "B": "R. rickettsii 主要與蜱及動物循環相關。",
+        "C": "R. prowazekii 典型以人為主要傳染窩。",
+        "D": "R. typhi 典型與鼠、蚤相關。"
+      },
+      "memory": "流行性 prowazekii：人與蝨；地方性 typhi：鼠與蚤。",
+      "references": [
+        "rickettsia"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-3": {
+      "title": "細菌多為單倍體",
+      "explanation": "多數細菌染色體為環狀雙股 DNA，在無核膜的擬核區，通常有單一主要複製起點，並以半保留方式複製；「雙股」不等於「雙倍體」。",
+      "options": {
+        "A": "多數為環狀，但存在例外。",
+        "B": "多數有單一 oriC。",
+        "C": "位於無核膜的細胞質擬核區。",
+        "D": "半保留正確，但多為單倍體而非雙倍體。"
+      },
+      "memory": "雙股指 DNA 兩鏈；倍體指染色體套數。",
+      "references": [
+        "bacterialgenome"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-4": {
+      "title": "病毒出血熱不是單純直接細胞破壞",
+      "explanation": "登革重症涉及免疫活化、內皮屏障與血管通透性異常等；伊波拉亦有宿主發炎、凝血與器官損傷。不能把兩者都簡化為病毒蛋白直接殺細胞。",
+      "options": {
+        "A": "細胞激素可造成類流感症狀。",
+        "B": "免疫複合物可引發第三型反應。",
+        "C": "把不同出血熱都歸為直接細胞病變過度簡化。",
+        "D": "潛伏期可已複製而尚未出現症狀。"
+      },
+      "memory": "病毒傷害＝直接傷害＋免疫與血管反應。",
+      "references": [
+        "dengue"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-5": {
+      "title": "Cryptococcus 的多醣莢膜",
+      "explanation": "新型隱球菌是有莢膜酵母菌，可經吸入感染，常見重要表現為肺部病變與免疫低下者腦膜炎；莢膜抗原是診斷工具。",
+      "options": {
+        "A": "Cephalosporin 不治療此真菌感染。",
+        "B": "主要不是尿道感染。",
+        "C": "通常由環境吸入，不以昆蟲為主要媒介。",
+        "D": "多醣莢膜是代表性特徵。"
+      },
+      "memory": "隱球有厚莢膜，想肺與腦膜。",
+      "references": [
+        "crypto"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-6": {
+      "title": "核糖體突變不直接改變 quinolone 標的",
+      "explanation": "Levofloxacin 抑制 DNA gyrase／topoisomerase IV；其他三者皆以核糖體為主要標的，因此核糖體本身突變最不直接造成對 levofloxacin 的抗藥性。",
+      "options": {
+        "A": "Kanamycin 作用 30S。",
+        "B": "Azithromycin 作用 50S。",
+        "C": "Minocycline 作用 30S。",
+        "D": "Levofloxacin 標的是 DNA 拓樸酶。"
+      },
+      "memory": "Quinolone 管 DNA；胺基醣苷、四環素、大環內酯管核糖體。",
+      "references": [
+        "antibiotics"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-7": {
+      "title": "PBP 是 β-lactam 類的作用標的",
+      "explanation": "Cephalosporin 等 β-lactam 結合 PBP，抑制肽聚糖交聯；PBP 親和力下降或改變，可造成此類抗藥性。",
+      "options": {
+        "A": "Cephalosporin 直接作用 PBP。",
+        "B": "Macrolide 主要作用 50S。",
+        "C": "Sulfonamide 作用葉酸合成。",
+        "D": "Aminoglycoside 主要作用 30S。"
+      },
+      "memory": "PBP 改了，β-lactam 就抓不牢。",
+      "references": [
+        "antibiotics"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-8": {
+      "title": "TIG 中和尚未入神經的毒素",
+      "explanation": "TIG 提供立即被動抗體，僅能中和尚未與神經結合的毒素，不能逆轉已結合的神經毒素作用；長期保護仍需類毒素疫苗。",
+      "options": {
+        "A": "不直接恢復已受阻的神經傳導。",
+        "B": "中和游離毒素是主要目的。",
+        "C": "長期主動免疫要靠疫苗。",
+        "D": "不是用來殺死細菌的抗菌藥。"
+      },
+      "memory": "TIG 抓游離毒素；toxoid 建長期記憶。",
+      "references": [
+        "tetanus"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-9": {
+      "title": "追蹤梅毒療效用 RPR／VDRL 滴度",
+      "explanation": "Treponemal test 常長期甚至終身陽性，不適合拿抗體轉陰率追蹤療效；RPR／VDRL 的定量滴度變化才是常用追蹤依據。",
+      "options": {
+        "A": "兩者均為非螺旋體檢驗，可用於傳統篩檢。",
+        "B": "早期初期梅毒仍可能陰性，敏感性受時期影響。",
+        "C": "自體免疫相關偽陽性以非螺旋體檢驗較典型，其他檢驗亦非絕無偽陽性。",
+        "D": "螺旋體抗體較少轉陰，不宜用來追蹤療效。"
+      },
+      "memory": "確認用 treponemal，追蹤看 RPR／VDRL 滴度。",
+      "references": [
+        "syphilis"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-10": {
+      "title": "VRSA：把 D-Ala-D-Ala 換成 D-Ala-D-Lac",
+      "explanation": "vanA 可使細胞壁前驅物末端改成 D-Ala-D-Lac，大幅降低 vancomycin 親和力，是高度抗藥性 VRSA 的典型機制。",
+      "options": {
+        "A": "VanA 改變結合標的正確。",
+        "B": "外排泵不是 VRSA 的主要典型機制。",
+        "C": "S. aureus 非革蘭陰性外膜 porin 模式。",
+        "D": "不是典型靠分解 vancomycin 的酵素。"
+      },
+      "memory": "Vanco 要抓 Ala-Ala，VanA 把末端換成 Lac。",
+      "references": [
+        "vrsa"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-11": {
+      "title": "肺炎黴漿菌的需氧性",
+      "explanation": "M. pneumoniae 為需氧生長的黴漿菌，無細胞壁，可在特殊無細胞培養基生長；感染常見於學齡兒童與年輕人。",
+      "options": {
+        "A": "此處 free-living 指非必須在細胞內複製，仍需營養豐富培養基。",
+        "B": "「兼性厭氧」不是本菌典型分類。",
+        "C": "學齡兒童與青年常見。",
+        "D": "氣管支氣管炎是常見表現。"
+      },
+      "memory": "肺炎黴漿菌：無壁、需氧、青少年久咳。",
+      "references": [
+        "mycoplasma"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-12": {
+      "title": "人類致癌病毒：EBV、HHV8、HTLV1",
+      "explanation": "EBV 即 HHV4，與多種淋巴瘤及鼻咽癌相關；HHV8 與 Kaposi sarcoma 相關；HTLV1 可致成人 T 細胞白血病／淋巴瘤。",
+      "options": {
+        "A": "包含尚無確立人類致癌關係的 adenovirus。",
+        "B": "HSV 與 poxvirus 不是本題確立組合。",
+        "C": "③④⑥ 是已知人類致癌病毒。",
+        "D": "①④⑤ 含非本題確立致癌項目。"
+      },
+      "memory": "四號 EBV、八號 Kaposi、HTLV1 成人 T 白。",
+      "references": [
+        "oncovirus"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-13": {
+      "title": "HCV 與 Zika 同屬 Flaviviridae",
+      "explanation": "HCV 屬 Hepacivirus，Zika 屬 Orthoflavivirus，同屬 Flaviviridae；同科不代表同屬或同樣傳播途徑。",
+      "options": {
+        "A": "HBV 主要經血液、性及母嬰傳播。",
+        "B": "同科配對正確。",
+        "C": "HDV 需要 HBV 的 HBsAg，不是 HEV。",
+        "D": "孕婦嚴重肝炎典型聯想 HEV，非 HAV。"
+      },
+      "memory": "A、E 糞口；D 依附 B；C 和 Zika 同科不同屬。",
+      "references": [
+        "flavi"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-14": {
+      "title": "病毒分類觀念可讀，計分一律給分",
+      "explanation": "原公布答案為 B，HCV 與 dengue 依 ICTV 分類同屬 Flaviviridae，但官方最終已改為一律給分，不能再要求只選 B。",
+      "options": {
+        "A": "HAV 為 Picornaviridae；HBV 為 Hepadnaviridae。",
+        "B": "HCV 與 dengue 同屬 Flaviviridae。",
+        "C": "HSV 為 Herpesviridae；猴痘病毒為 Poxviridae。",
+        "D": "RSV 為 Pneumoviridae；流感為 Orthomyxoviridae。"
+      },
+      "memory": "先分 family，再分 genus；記住官方本題一律給分。",
+      "references": [
+        "flavi"
+      ],
+      "officialAnswers": [
+        "*"
+      ],
+      "answerStatus": "all-credit",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "官方更正答案未交代一律給分的理由；本站不推測申覆原因。"
+    },
+    "115-2-2-15": {
+      "title": "Calicivirus 是正股 RNA 病毒",
+      "explanation": "杯狀病毒科包含 norovirus 等無套膜正股單股 RNA 病毒，並非雙股 DNA。病毒有無套膜與消毒敏感性常一起考。",
+      "options": {
+        "A": "無套膜腸病毒對一般酒精消毒較不敏感。",
+        "B": "Caliciviridae 為 +ssRNA，不是 dsDNA。",
+        "C": "套膜含宿主來源脂質與病毒相關蛋白。",
+        "D": "Rhabdoviridae 為負股 RNA。"
+      },
+      "memory": "杯狀、腸病毒都無套膜；杯狀是正股 RNA。",
+      "references": [
+        "calici"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-16": {
+      "title": "病毒轉型與永生化",
+      "explanation": "本題考病毒轉型可使細胞逃過正常增殖限制、獲得持續增殖能力；實際上 immortalization 與完全惡性轉化不是同義，也非任何病毒感染都會發生。",
+      "options": {
+        "A": "潛伏感染不等同細胞衰老。",
+        "B": "流產性感染指無法完成有效繁殖，不保證細胞死亡。",
+        "C": "在本題選項中，轉型與持續增殖能力的連結最合適。",
+        "D": "RNA 病毒如 HTLV1 也能參與致癌。"
+      },
+      "memory": "Latent 藏住；abortive 做不完；transform 改變增殖控制。",
+      "references": [
+        "viralpath"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-17": {
+      "title": "Malassezia 喜脂",
+      "explanation": "Malassezia 多為嗜脂性酵母菌；培養 M. furfur 可加入橄欖油提供外源脂質，與變色糠疹的診斷線索相符。",
+      "options": {
+        "A": "Olive oil 提供所需脂質。",
+        "B": "Thiamine 非最具代表性的添加物。",
+        "C": "Nicotinic acid 不能取代脂質需求。",
+        "D": "Inositol 不是本題關鍵添加物。"
+      },
+      "memory": "Malassezia 長在出油處，培養也給油。",
+      "references": [
+        "malassezia"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-18": {
+      "title": "先天免疫沒有典型抗原特異性克隆記憶",
+      "explanation": "先天免疫以胚系編碼 PRR、吞噬細胞及補體快速反應；教科書所說的抗原特異性記憶主要屬適應性免疫。",
+      "options": {
+        "A": "吞噬細胞和補體屬先天防禦。",
+        "B": "PRR 不靠 V(D)J 重組。",
+        "C": "先天反應可分泌發炎細胞激素。",
+        "D": "不能把適應性免疫的特異性記憶直接歸給先天免疫。"
+      },
+      "memory": "先天快且辨模式；後天慢起步但辨特異抗原。",
+      "references": [
+        "innate"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "Trained immunity 可有長期功能重塑，但不等同 B／T 細胞的典型抗原特異性記憶。"
+    },
+    "115-2-2-19": {
+      "title": "MHC 多基因、多型、共同顯現",
+      "explanation": "人類三種主要古典 MHC I 基因為 HLA-A、B、C；父母兩套均表現，不像免疫球蛋白的 allelic exclusion。",
+      "options": {
+        "A": "MHC 是 polygenic，非 monogenic。",
+        "B": "HLA-A、B、C 是主要古典 class I。",
+        "C": "MHC 為 codominant expression。",
+        "D": "IFN-γ 是上調 MHC II 的典型細胞激素，非 IL-5。"
+      },
+      "memory": "Class I＝ABC；Class II＝DP、DQ、DR。",
+      "references": [
+        "mhc"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-20": {
+      "title": "BAFF 過量讓自體反應 B 細胞存活",
+      "explanation": "BAFF 提供周邊 B 細胞存活訊號；過量時可降低選汰壓力，讓原本應被淘汰或抑制的自體反應成熟 B 細胞累積。",
+      "options": {
+        "A": "BAFF 不是主要以增加 pre-B 細胞解釋。",
+        "B": "不以增加骨髓 immature B 輸出為核心。",
+        "C": "周邊自體反應成熟 B 細胞增加最符合。",
+        "D": "BAFF 的主要直接靶細胞是 B 細胞。"
+      },
+      "memory": "BAFF 像 B 細胞保命券，太多會保住不該留的自體反應細胞。",
+      "references": [
+        "baff"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-21": {
+      "title": "T 細胞次群的主調控因子",
+      "explanation": "Th1–T-bet、Th2–GATA3、Th17–RORγt、Tfh–Bcl6、Treg–FOXP3 是常見配對。",
+      "options": {
+        "A": "Th1–T-bet 正確。",
+        "B": "RORγt 對應 Th17。",
+        "C": "Tfh 對應 Bcl6，不是 GATA3。",
+        "D": "Treg 對應 FOXP3，不是 Bcl6。"
+      },
+      "memory": "1 T-bet、2 GATA3、17 ROR、濾泡 Bcl6、調節 FOXP3。",
+      "references": [
+        "tcell"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-22": {
+      "title": "急性 HAV 感染看 IgM anti-HAV",
+      "explanation": "初次感染早期以 IgM 反應為主；IgM anti-HAV 支持近期／急性感染，IgG anti-HAV 則較反映既往感染或疫苗後免疫。",
+      "options": {
+        "A": "IgA 與黏膜防禦相關，但不是血中急性 HAV 診斷主指標。",
+        "B": "IgE 常與寄生蟲、過敏相關。",
+        "C": "IgG 不能單獨證明剛感染。",
+        "D": "IgM 為近期感染線索。"
+      },
+      "memory": "HAV：M＝目前，G＝過去或接種。",
+      "references": [
+        "hav"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-23": {
+      "title": "Abatacept 是 CTLA4-Ig 融合蛋白",
+      "explanation": "Abatacept 由 CTLA4 胞外段與 IgG Fc 融合，結合 APC 的 CD80／86，阻斷其與 T 細胞 CD28 的共同刺激。",
+      "options": {
+        "A": "Infliximab 是 anti-TNF 單株抗體。",
+        "B": "Abatacept 是 CTLA4-Ig 融合蛋白。",
+        "C": "Tocilizumab 是 anti-IL6 receptor 抗體。",
+        "D": "Omalizumab 是 anti-IgE 抗體，非此融合蛋白。"
+      },
+      "memory": "Abata「把 B7 擋住」，讓 CD28 接不到第二訊號。",
+      "references": [
+        "abatacept"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-24": {
+      "title": "IL-4 與 IgE、TGF-β 與 IgA",
+      "explanation": "此選項混用了小鼠 IgG 亞型，且把 IL-4 的典型轉換方向誤寫成 IgA；典型小鼠配對為 IL-4→IgG1／IgE、TGF-β→IgA。物種間亞型不能硬套。",
+      "options": {
+        "A": "AID 參與 class-switch DNA 重組。",
+        "B": "疫苗可促進抗體成熟與類型轉換。",
+        "C": "IL-4／IgA 配對不當，是本題錯項。",
+        "D": "CD40／CD40L 缺失可致 hyper-IgM。"
+      },
+      "memory": "IL-4 想 IgE；黏膜 IgA 想 TGF-β。",
+      "references": [
+        "switch"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-25": {
+      "title": "MALT 名稱有邊界爭議，官方一律給分",
+      "explanation": "GALT、NALT、BALT 都是典型 MALT 名稱；口腔也有黏膜相關免疫組織，OALT 並非可僅憑名稱就排除。原答案 D 已被撤為一律給分。",
+      "options": {
+        "A": "GALT 為腸相關黏膜淋巴組織。",
+        "B": "NALT 為鼻相關黏膜淋巴組織。",
+        "C": "BALT 為支氣管相關黏膜淋巴組織。",
+        "D": "OALT 用語與分類範圍依文獻而異，不宜當作必然非 MALT。"
+      },
+      "memory": "MALT 是黏膜免疫總稱；不靠縮寫陌生與否猜分類。",
+      "references": [
+        "malt"
+      ],
+      "officialAnswers": [
+        "*"
+      ],
+      "answerStatus": "all-credit",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "官方未在更正表提供撤題理由；本段說明分類上的學習限制，不宣稱就是官方申覆理由。"
+    },
+    "115-2-2-26": {
+      "title": "接觸性皮膚炎屬第四型反應",
+      "explanation": "植物成分如 urushiol 可作為 hapten，與自身蛋白結合後誘發 T 細胞反應；再暴露後通常延遲 24–72 小時出現皮炎。",
+      "options": {
+        "A": "不是免疫複合物型第三型。",
+        "B": "Th1 與 CD8 T 細胞參與最合適。",
+        "C": "IL-4／IL-5 較指向 Th2 型反應。",
+        "D": "小分子常須與宿主蛋白結合，不是單獨直接完整啟動反應。"
+      },
+      "memory": "隔天才癢起泡，接觸型找第四型 T 細胞。",
+      "references": [
+        "contact"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-27": {
+      "title": "AIRE 讓胸腺展示周邊自體抗原",
+      "explanation": "AIRE 促進髓質胸腺上皮細胞表現組織限制性抗原，協助負選擇及耐受建立；缺失可使自體反應 T 細胞逃脫。",
+      "options": {
+        "A": "協助刪除自體反應 T 細胞正確。",
+        "B": "病變核心是缺乏適當展示，不是高量自體抗原本身造成攻擊。",
+        "C": "不會一概抑制所有 T 細胞發育。",
+        "D": "AIRE 主要促耐受，非直接誘發自體免疫。"
+      },
+      "memory": "AIRE 把全身自體抗原帶到胸腺做考題。",
+      "references": [
+        "aire"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-28": {
+      "title": "CTLA4 是煞車，不是 CD28 油門",
+      "explanation": "CTLA4 與 CD28 競爭 APC 上的 B7 配體 CD80／86，但主要抑制 T 細胞反應；CD28 才提供典型共同刺激。",
+      "options": {
+        "A": "可與 CD28 競爭相同配體。",
+        "B": "把抑制訊號說成共同刺激不適當。",
+        "C": "CD80 可結合 CTLA4。",
+        "D": "CD86 也可結合 CTLA4。"
+      },
+      "memory": "CD28 踩油門，CTLA4 搶配體踩煞車。",
+      "references": [
+        "ctla"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-29": {
+      "title": "鉤蟲感染期幼蟲可穿皮",
+      "explanation": "鉤蟲 L3 絲狀幼蟲在土壤中接觸皮膚後可主動穿入；之後常經血流、肺及吞嚥到小腸，成蟲吸血可致缺鐵。",
+      "options": {
+        "A": "十二指腸鉤蟲可經 L3 穿皮。",
+        "B": "犬蛔蟲典型為吞食含卵環境。",
+        "C": "肝毛線蟲需吞食感染性卵。",
+        "D": "頜口線蟲典型與食入未熟中間／保蟲宿主相關。"
+      },
+      "memory": "赤腳踩土想鉤蟲；L3 絲狀幼蟲鑽皮。",
+      "references": [
+        "hookworm"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-30": {
+      "title": "臺灣的眼部廣東住血線蟲感染",
+      "explanation": "廣東住血線蟲在臺灣有地方性傳播，可造成嗜酸性腦膜炎，少數幼蟲移行至眼部。眼病加臺灣在地流行是本題鑑別重點。",
+      "options": {
+        "A": "與臺灣分布及眼部幼蟲病變相符。",
+        "B": "旋毛蟲可眼眶周圍水腫，但不是本題最佳地方病配對。",
+        "C": "犬鉤蟲典型為皮膚幼蟲移行症。",
+        "D": "蟠尾絲蟲可致河盲，但臺灣非其典型地方流行區。"
+      },
+      "memory": "廣東住血線蟲：蝸牛、嗜酸性腦膜炎，也可能入眼。",
+      "references": [
+        "angiostrongylus"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-31": {
+      "title": "蛙肉敷眼與裂頭蚴症",
+      "explanation": "Spirometra 的 plerocercoid／sparganum 可由生蛙肉敷貼進入局部組織，造成眼周或其他部位裂頭蚴症。",
+      "options": {
+        "A": "短小包膜絛蟲主要為腸道感染。",
+        "B": "縮小包膜絛蟲常經吞食受感染節肢動物。",
+        "C": "Spirometra 與蛙肉敷貼、裂頭蚴相符。",
+        "D": "包生絛蟲典型為吞卵後囊腫。"
+      },
+      "memory": "蛙肉敷傷口、敷眼睛→裂頭蚴。",
+      "references": [
+        "sparganum"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-32": {
+      "title": "小型腸吸蟲：本題官方答案為橫川氏吸蟲",
+      "explanation": "Metagonimus 為魚媒腸吸蟲，可造成腹痛、腹瀉並以糞便蟲卵診斷；本題依選項及官方答案選 C，但「吃鮭魚」本身不足以唯一確診。",
+      "options": {
+        "A": "Clonorchis 主要寄生膽道。",
+        "B": "Paragonimus 通常與未熟蟹、螯蝦及肺病相關。",
+        "C": "Metagonimus 是本題指定的魚媒腸吸蟲。",
+        "D": "Heterophyes 也是魚媒腸吸蟲，須由流行病學及卵／成蟲特徵進一步鑑別。"
+      },
+      "memory": "魚媒腸吸蟲不能只靠菜單，要搭配蟲卵與流行地區。",
+      "references": [
+        "metagonimus"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "Metagonimus 典型魚宿主包括香魚等；鮭魚也需想到魚絛蟲等鑑別。沒有貧血不能單獨排除魚絛蟲。"
+    },
+    "115-2-2-33": {
+      "title": "阿米巴急性痢疾較易見活動體",
+      "explanation": "新鮮腹瀉便較常找到 trophozoite，成形便較常見 cyst；感染性階段通常是成熟囊體，而非把所有急性便都稱囊體。",
+      "options": {
+        "A": "肝膿瘍可用血清抗體檢驗輔助。",
+        "B": "急性下痢主要線索偏活動體，此敘述錯。",
+        "C": "PCR 可區分 E. histolytica 與 E. dispar。",
+        "D": "潰瘍組織可見活動體。"
+      },
+      "memory": "成形便找囊體，急性血便找活動體；侵襲性看吞紅血球。",
+      "references": [
+        "ameba"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-34": {
+      "title": "錐蟲在人體與媒介的表面蛋白會切換",
+      "explanation": "非洲錐蟲在哺乳類血中表現 VSG，經抗原變異逃避免疫；進采采蠅後的前環型表面主要改為 procyclin。",
+      "options": {
+        "A": "病原與宿主基因交互作用可影響致病性。",
+        "B": "典型頸後淋巴結腫大叫 Winterbottom sign；Jericho boil 指皮膚利什曼病。",
+        "C": "題目把人體 VSG 與蠅內 procyclin 的切換方向倒置。",
+        "D": "神經期通常在血淋巴期之後，速度依亞種而異。"
+      },
+      "memory": "人體 VSG 變裝；蠅內 procyclin；睡眠症要看後續 CNS 侵犯。",
+      "references": [
+        "trypanosome"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-35": {
+      "title": "恙蟎傳播恙蟲病",
+      "explanation": "恙蟲病由 Orientia tsutsugamushi 引起，經恙蟎幼蟲叮咬傳播；臺灣離島及草叢暴露史、發燒與焦痂常為線索。",
+      "options": {
+        "A": "犬心絲蟲由蚊媒傳播。",
+        "B": "瘧疾由瘧蚊傳播。",
+        "C": "黃熱病由蚊媒傳播。",
+        "D": "恙蟲病與恙蟎暴露相符。"
+      },
+      "memory": "恙蟎咬，Orientia 來；發燒找焦痂。",
+      "references": [
+        "scrub"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-36": {
+      "title": "等變異數的合併估計",
+      "explanation": "合併變異數以各組自由度加權：sp²＝[(19−1)×1.5＋(27−1)×1.7]／(19＋27−2)＝71.2／44＝1.618，最接近 1.6。",
+      "options": {
+        "A": "1.6 最接近計算值。",
+        "B": "2.0 超出兩組變異數的加權平均範圍。",
+        "C": "2.6 不是合併變異數。",
+        "D": "2.7 不是此公式結果。"
+      },
+      "memory": "合併變異數用 n−1 加權，不是加標準差。",
+      "references": [
+        "statistics"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-37": {
+      "title": "粗死亡率的分母通常用年中人口",
+      "explanation": "年度粗死亡率以年度死亡人數除以年中人口或平均人口作估計；標準化死亡率另以固定年齡結構加權，方便比較。",
+      "options": {
+        "A": "用年初人口作標準定義不正確。",
+        "B": "固定人口結構加權各年齡死亡率正確。",
+        "C": "符合題幹所列疫情與人口老化背景。",
+        "D": "疾病別死亡率以特定疾病死亡人數計算。"
+      },
+      "memory": "粗死亡率看年中人口；標準化先固定年齡結構。",
+      "references": [
+        "mortality"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-38": {
+      "title": "盲性減少執行及測量偏差",
+      "explanation": "盲性使受試者、照護者或評估者不知分組，減少因期待與處置差異造成偏差；基線可比性主要依賴隨機分派而非盲性。",
+      "options": {
+        "A": "減少兩組執行差異是主要目的。",
+        "B": "不能保證消除霍桑效應。",
+        "C": "雙盲不能只以醫師加護理師兩種職業定義，應明示誰被盲。",
+        "D": "基線可比主要由隨機化建立。"
+      },
+      "memory": "隨機化顧起跑線，盲性顧比賽過程與評分。",
+      "references": [
+        "trial"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-39": {
+      "title": "類別對類別用列聯表卡方",
+      "explanation": "GERD 類型三類、肥胖兩類都是類別資料，可形成 3×2 列聯表，以卡方檢定檢查獨立性；仍須確認預期次數等適用條件。",
+      "options": {
+        "A": "ANOVA 比較連續結果的組平均。",
+        "B": "Log-rank 比較存活曲線。",
+        "C": "卡方適合類別變項關係。",
+        "D": "兩樣本 t 檢定比較兩組連續平均。"
+      },
+      "memory": "兩個類別變項→列聯表→卡方。",
+      "references": [
+        "chi"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-40": {
+      "title": "地面臭氧為光化學二次污染物",
+      "explanation": "NOx 與揮發性有機物在日照下參與反應，形成地面臭氧；紫外線與日照增加可促進光化學煙霧形成。",
+      "options": {
+        "A": "臭氧是典型光化學產物。",
+        "B": "CO 主要來自不完全燃燒。",
+        "C": "PFC 非此光化學污染物的最佳答案。",
+        "D": "HFC 也不是本題臭氧生成的產物。"
+      },
+      "memory": "有陽光＋NOx＋VOC，地面臭氧升。",
+      "references": [
+        "ozone"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-41": {
+      "title": "CCl4 是可預測的內因性肝毒物",
+      "explanation": "四氯化碳經 CYP 活化形成自由基，引發脂質過氧化與肝細胞損傷；屬劑量相關、可在動物重現的典型 intrinsic toxicity。",
+      "options": {
+        "A": "可造成化學性肝傷害。",
+        "B": "不是主要以個人特異體質造成。",
+        "C": "屬內因性、較可預測毒性。",
+        "D": "可在人類與動物造成相似肝傷害型態。"
+      },
+      "memory": "CCl4 變自由基，攻擊肝細胞膜。",
+      "references": [
+        "ccl4"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-42": {
+      "title": "職業病重點在因果，不是人數",
+      "explanation": "疾病是否與工作相關，要看職業暴露對發病或加重的因果貢獻；群聚可提示暴露，但單一病例也可能是職業病。",
+      "options": {
+        "A": "同事多人有症狀不是必要或充分定義。",
+        "B": "職業可為致病因子之一。",
+        "C": "工作可在多因子情境貢獻風險。",
+        "D": "工作也可使既有疾病惡化。"
+      },
+      "memory": "職業病問「工作造成多少」，不是先問「幾個人中」。",
+      "references": [
+        "occupational"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "題幹使用較廣義的工作相關疾病範圍；嚴格職業病與 work-related disease 的分類可不同。"
+    },
+    "115-2-2-43": {
+      "title": "毒性不能由分子量直接排序",
+      "explanation": "苯的重要危害包括骨髓毒性與白血病風險；甲苯主要有中樞神經等毒性，不能因甲基增加分子量就推論總毒性較強。",
+      "options": {
+        "A": "Cr(VI) 通常較 Cr(III) 毒。",
+        "B": "三氯乙烯曾作清洗／去脂溶劑；現代乾洗也需與四氯乙烯區分。",
+        "C": "CCl4 是典型肝毒物。",
+        "D": "分子量大小不是毒性強弱的判準。"
+      },
+      "memory": "苯傷骨髓，甲苯傷神經；比較毒性要看靶器官、劑量與暴露。",
+      "references": [
+        "solvents"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-44": {
+      "title": "Goffman 的族群污名",
+      "explanation": "以某個貶抑詞概括整個國族，核心是種族／國族的 tribal stigma；即使字面提到「病」，也不能只依字面判為身體污名。",
+      "options": {
+        "A": "精神疾病在此架構多被歸為人格／品格污名。",
+        "B": "「東亞病夫」是國族群體污名。",
+        "C": "被污名者可能隱藏身分或特徵。",
+        "D": "外在負面標籤可能被內化成自我污名。"
+      },
+      "memory": "看標籤指向誰：整個族群→族群污名。",
+      "references": [
+        "stigma"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-45": {
+      "title": "TPB 相容性原則：TACT",
+      "explanation": "態度、意圖與行為的測量應對準同一 Target、Action、Context、Time。選項 C 包含目標、情境與時間；完整架構仍包括行動。",
+      "options": {
+        "A": "「社會關係」不是 TACT 的固定四要素。",
+        "B": "「他人態度」是主觀規範相關概念，非此四要素。",
+        "C": "目標、場域、時間符合相容性要素。",
+        "D": "社會關係不取代 context／time。"
+      },
+      "memory": "TACT＝目標、行動、情境、時間。",
+      "references": [
+        "tpb"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-46": {
+      "title": "五級中的第二級仍屬初段預防",
+      "explanation": "三段五級依序為健康促進、特殊保護、早期診斷治療、限制失能、復健。疫苗屬特殊保護，即五級中的第二級，但仍在三段中的初段／第一段預防。",
+      "options": {
+        "A": "第一級是健康促進。",
+        "B": "第二級特殊保護包含預防接種。",
+        "C": "第三級為早期診斷治療。",
+        "D": "第四級為限制失能。"
+      },
+      "memory": "先分層級：疫苗＝初段預防裡的第二級，不是 secondary prevention。",
+      "references": [
+        "prevention",
+        "preventionlevels"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-47": {
+      "title": "形成性評價與總結性評價",
+      "explanation": "計畫發展、修正及執行中的持續監測較屬形成性／過程評價；總結性評價主要評估實施後達成程度與效果。",
+      "options": {
+        "A": "評價應與目標相連。",
+        "B": "PRECEDE-PROCEED 可分過程、衝擊、結果評價。",
+        "C": "把全程監測定義為總結性評價不當。",
+        "D": "衝擊評價通常較早看知識、信念、行為等變化。"
+      },
+      "memory": "形成性邊做邊改；總結性回頭看成效。",
+      "references": [
+        "evaluation"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-48": {
+      "title": "入門假說不是海洛因先行",
+      "explanation": "Gateway 理論常描述菸、酒或大麻等較早接觸物質與後續其他物質使用的序列關聯；不代表每人必經，也不等於已證明單一因果。",
+      "options": {
+        "A": "所列序列是可能的發展模式，非人人必然。",
+        "B": "任何階段都可能發生傷害。",
+        "C": "多次暴露常與依賴形成相關，但單次也可致害。",
+        "D": "海洛因通常不是此理論的第一個入門物質。"
+      },
+      "memory": "入門常先菸酒，不是人人都會一路走到後面。",
+      "references": [
+        "addiction"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-49": {
+      "title": "Copayment、coinsurance、deductible 要分清",
+      "explanation": "臺灣健保有門診定額、住院定率及特定住院部分負擔上限；deductible 是先累計自付到門檻後保險才開始給付的設計，並非此處一般健保部分負擔型態。",
+      "options": {
+        "A": "定額制確有使用。",
+        "B": "住院可用定率。",
+        "C": "符合規定者有住院部分負擔上限。",
+        "D": "自負額制不同於目前題目列示的三種制度。"
+      },
+      "memory": "定額付固定、定率付百分比；自負額先跨門檻。",
+      "references": [
+        "nhi",
+        "nhiinfo"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-50": {
+      "title": "分配正義與臨床四原則不是同一分類",
+      "explanation": "依本題採用的分類，功利、平等及社群是分配正義的理論取向；原則主義通常指自主、行善、不傷害、公平的倫理決策架構。",
+      "options": {
+        "A": "功利主義重整體效益。",
+        "B": "平等主義重公平分配。",
+        "C": "原則主義不是本題分配正義三類之一。",
+        "D": "社群主義強調共同價值與社會脈絡。"
+      },
+      "memory": "分配理論問怎麼分；四原則問怎麼做倫理判斷。",
+      "references": [
+        "justice"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "正義理論還可有自由至上、能力取向等分類；「三大」是本題課程框架，不是唯一普世分類。"
+    },
+    "115-2-2-51": {
+      "title": "嬰兒藥動學：水多、清除未成熟",
+      "explanation": "尤其新生兒總體水分比例較高，脂肪比例及器官功能與成人不同；水溶性藥的分布容積可較大，肝代謝與腎清除常未成熟。不能概括所有脂溶性藥在嬰兒脂肪中都更多。",
+      "options": {
+        "A": "嬰兒水分比例通常較高。",
+        "B": "脂溶性藥分布受年齡、脂肪及蛋白結合影響，此概括不當。",
+        "C": "多種肝代謝能力尚未成熟。",
+        "D": "腎清除能力尤其新生兒較低。"
+      },
+      "memory": "小嬰兒「水多、肝腎慢」；劑量不能只按成人體重縮小。",
+      "references": [
+        "pediatricpk"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-52": {
+      "title": "Sulfonylurea 關閉 β 細胞 KATP",
+      "explanation": "Sulfonylurea 結合 KATP 通道的 SUR1，關閉 K⁺ 外流，使膜去極化，再開啟電壓依賴 Ca²⁺ 通道，促進 insulin 分泌。",
+      "options": {
+        "A": "作用標的是 KATP 通道。",
+        "B": "Ca²⁺ 通道在下游間接受影響。",
+        "C": "GLUT2 不是此藥直接標的。",
+        "D": "SGLT2 抑制劑主要作用於腎臟。"
+      },
+      "memory": "關鉀→去極化→開鈣→放胰島素。",
+      "references": [
+        "sulfonylurea"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-53": {
+      "title": "Pilocarpine 是 muscarinic agonist",
+      "explanation": "Pilocarpine 可增加分泌、縮瞳及促進腸胃蠕動；能緩解口乾、促進傳統房水流出。膀胱過動通常反而使用抗 muscarinic 或 β3 agonist。",
+      "options": {
+        "A": "腸胃蠕動與分泌增加可致腹瀉。",
+        "B": "更精確是睫狀肌收縮，增加小樑網流出。",
+        "C": "可刺激殘存唾液腺功能。",
+        "D": "會促膀胱收縮，非膀胱過動治療。"
+      },
+      "memory": "Pilocarpine 促副交感：流口水、縮瞳、腸胃動。",
+      "references": [
+        "pilocarpine"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-54": {
+      "title": "Tizanidine 是 α2 agonist",
+      "explanation": "Tizanidine 活化中樞 α2 受體，降低興奮性神經傳遞、減少痙攣；不是 α2 antagonist。",
+      "options": {
+        "A": "Diazepam 是 GABAA 正向異位調節劑，需 GABA 才增效。",
+        "B": "Baclofen 是 GABAB agonist。",
+        "C": "Tizanidine 的致效／拮抗方向寫反。",
+        "D": "Dantrolene 抑制 RyR1 鈣釋放。"
+      },
+      "memory": "Dia-A、Bac-B、Tiz-α2、Dan-RyR。",
+      "references": [
+        "relaxants"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-55": {
+      "title": "β-lactamase inhibitor 觀念與撤題規則",
+      "explanation": "原答案 D 指向以 clavulanate 抑制部分 β-lactamase、保護 β-lactam 的概念；但 ampicillin 的標準複方搭配是 sulbactam，而原題抗藥性措辭也有問題。官方已一律給分。",
+      "options": {
+        "A": "Amoxicillin 本身不是 β-lactamase inhibitor。",
+        "B": "Penicillin G 不會抑制 β-lactamase。",
+        "C": "Cephalexin 本身是 cephalosporin。",
+        "D": "Clavulanate 是酵素抑制劑，但非 ampicillin 的標準配對。"
+      },
+      "memory": "Ampicillin–sulbactam；amoxicillin–clavulanate。",
+      "references": [
+        "betalactam"
+      ],
+      "officialAnswers": [
+        "*"
+      ],
+      "answerStatus": "all-credit",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "MRSA 的低親和 PBP 抗藥機制不能用一般 β-lactamase inhibitor 解決。這是觀念補充，不宣稱為官方撤題理由。"
+    },
+    "115-2-2-56": {
+      "title": "芳香環酶抑制劑需有荷爾蒙敏感性",
+      "explanation": "Letrozole、anastrozole 降低雌激素合成，用於荷爾蒙受體陽性乳癌的重要情境；不能推成 ER／PR 均陰性也有一般輔助效益。",
+      "options": {
+        "A": "停經後 HR 陽性患者可有序列 endocrine therapy。",
+        "B": "CMF 是歷史且仍具教學意義的輔助化療組合。",
+        "C": "HER2 陽性可受益於 trastuzumab，但療程須顧及心臟毒性。",
+        "D": "ER／PR 均陰性通常無此 endocrine therapy 適應邏輯。"
+      },
+      "memory": "先看 HR 再談內分泌治療；看 HER2 再談抗 HER2。",
+      "references": [
+        "breasttherapy"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "Trastuzumab 與 anthracycline 同時使用會增加心臟毒性；不能把選項 C 理解成任意同步併用。"
+    },
+    "115-2-2-57": {
+      "title": "Mefloquine 不宜任意加 quinine",
+      "explanation": "Mefloquine 與 quinine／quinidine 合用可增加神經與心電相關不良反應，不應只為「加強療效」自行併用。藥物選擇也受地區抗藥性影響。",
+      "options": {
+        "A": "Chloroquine 可使乾癬惡化。",
+        "B": "含鈣鎂制酸劑可影響 chloroquine 吸收。",
+        "C": "Mefloquine 可用於部分 chloroquine 抗藥株，但依地區與療程規範。",
+        "D": "任意與 quinine 併用有安全風險。"
+      },
+      "memory": "Mefloquine 加 quinine：先想到交互作用，不是加分。",
+      "references": [
+        "mefloquine"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-58": {
+      "title": "Vincristine 的自主神經毒性常致便秘",
+      "explanation": "Vincristine 阻斷微小管，重要劑量限制毒性是神經毒性；可致周邊神經病變、便秘或腸麻痺、自主神經異常及 SIADH。",
+      "options": {
+        "A": "自主神經病變可出現姿勢性低血壓。",
+        "B": "典型胃腸問題是便秘，不是腹瀉。",
+        "C": "周邊神經毒性是代表性副作用。",
+        "D": "SIADH 為已知可能不良反應。"
+      },
+      "memory": "Vincristine 傷神經、腸子不動；vinblastine 較記骨髓抑制。",
+      "references": [
+        "vincristine"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-59": {
+      "title": "Ticagrelor 阻斷 ADP–P2Y12",
+      "explanation": "Ticagrelor 為可逆、直接作用的 P2Y12 antagonist，可抑制 ADP 介導的血小板活化；不同於阻斷最終 GPIIb/IIIa 路徑。",
+      "options": {
+        "A": "Abciximab 阻斷 GPIIb/IIIa。",
+        "B": "Alteplase 為纖維蛋白溶解劑。",
+        "C": "Dipyridamole 影響 PDE／adenosine 等途徑。",
+        "D": "Ticagrelor 阻斷 P2Y12。"
+      },
+      "memory": "ADP 接 P2Y12；ticagrelor 把接收器擋住。",
+      "references": [
+        "plateletdrugs"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-60": {
+      "title": "Xa 抑制劑的誘餌解毒機制",
+      "explanation": "Andexanet alfa 為失去催化活性的改造 factor Xa，可作為誘餌結合 apixaban 等 Xa inhibitors；本題是藥理配對，不代表當前各地可用性或首選建議。",
+      "options": {
+        "A": "Apixaban 是直接 Xa inhibitor。",
+        "B": "Dabigatran 的專一逆轉劑為 idarucizumab。",
+        "C": "Heparin 以 protamine 逆轉。",
+        "D": "Warfarin 逆轉涉及 vitamin K 與凝血因子補充。"
+      },
+      "memory": "Xa→andexanet；dabi→idaru；heparin→protamine。",
+      "references": [
+        "andexanet"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "FDA 於 2025-12-18 公告嚴重血栓風險，廠商自 2025-12-22 後不再於美國製造／銷售 Andexxa；臨床使用需依當地規範，不把考題配對當處方。"
+    },
+    "115-2-2-61": {
+      "title": "Fingolimod 把淋巴球留在淋巴結",
+      "explanation": "Fingolimod 經磷酸化作用於 S1P 受體，造成 S1P1 功能性拮抗與內化，阻止淋巴球沿 S1P 梯度離開淋巴結。",
+      "options": {
+        "A": "IFN-β 為免疫調節藥，非 S1P 標的。",
+        "B": "Glatiramer 為免疫調節的多胜肽混合物。",
+        "C": "Natalizumab 阻斷 α4 integrin 介導移行。",
+        "D": "Fingolimod 作用 S1P 受體。"
+      },
+      "memory": "Fingo 把淋巴球「封」在淋巴結。",
+      "references": [
+        "fingolimod"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-62": {
+      "title": "Letrozole 抑制 estrogen 合成",
+      "explanation": "Aromatase 將雄激素芳香化為雌激素；letrozole 抑制此步驟，常用於適當的荷爾蒙受體陽性乳癌情境。",
+      "options": {
+        "A": "Letrozole 是 aromatase inhibitor。",
+        "B": "Fulvestrant 為 ER antagonist／degrader。",
+        "C": "Toremifene 為 SERM。",
+        "D": "Clomiphene 也是 SERM，常用於誘導排卵。"
+      },
+      "memory": "「-zole」降低雌激素製造；fulvestrant 破壞受體。",
+      "references": [
+        "breasttherapy"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-63": {
+      "title": "甲狀腺風暴要降低激素作用與供應",
+      "explanation": "Propranolol 控制交感症狀，PTU 抑制合成及部分周邊轉換，碘劑在適當順序下抑制釋放；levothyroxine 是補充甲狀腺素，方向相反。",
+      "options": {
+        "A": "β 阻斷可控制症狀，但須評估心衰等情況。",
+        "B": "PTU 可用於抑制合成及轉換。",
+        "C": "Levothyroxine 不用來治療激素過多風暴。",
+        "D": "碘劑通常在 thionamide 之後給，避免提供新原料。"
+      },
+      "memory": "風暴先堵製造，再堵釋放，還要擋作用。",
+      "references": [
+        "thyroidstorm"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-64": {
+      "title": "Thiazide 主要作用於遠曲小管",
+      "explanation": "Chlorothiazide 主要抑制早期遠曲小管 NCC，增加 NaCl 排出，並增加鈣再吸收；其較弱的碳酸酐酶抑制不是主要利尿部位的判準。",
+      "options": {
+        "A": "近端腎小管不是主要作用部位。",
+        "B": "抑制 Na⁺/Cl⁻ cotransporter 正確。",
+        "C": "可降低尿鈣排出。",
+        "D": "部分 thiazide 有弱碳酸酐酶抑制性。"
+      },
+      "memory": "Thiazide 遠曲排鹽、留鈣；loop 粗升排鈣。",
+      "references": [
+        "diuretics"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-65": {
+      "title": "ACE inhibitor 與 ARB 分別阻哪裡",
+      "explanation": "Enalapril 為 ACE inhibitor，降低 angiotensin II 形成並減少 bradykinin 分解；candesartan 則是阻斷 AT1 receptor。",
+      "options": {
+        "A": "Candesartan 是 ARB。",
+        "B": "Enalapril 是 ACE inhibitor。",
+        "C": "Hydralazine 直接舒張小動脈。",
+        "D": "Minoxidil 開啟 KATP 促舒張。"
+      },
+      "memory": "-pril 抑酶，-sartan 擋受體。",
+      "references": [
+        "ace"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-66": {
+      "title": "Digitalis 中毒典型是 DAD",
+      "explanation": "抑制 Na⁺/K⁺-ATPase 後細胞內 Ca²⁺ 增加；鈣超載可在再極化完成後出現 delayed afterdepolarization，引發觸發性心律不整。",
+      "options": {
+        "A": "可有腸胃症狀與心律不整。",
+        "B": "典型是 delayed，不是 early afterdepolarization。",
+        "C": "治療指數小，濃度與腎功能等需留意。",
+        "D": "Loop 所致低鉀可增加毒性風險。"
+      },
+      "memory": "Digoxin 鈣超載→DAD；QT 延長常想 EAD。",
+      "references": [
+        "digitalis"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-67": {
+      "title": "β2 透過 cAMP 放鬆支氣管平滑肌",
+      "explanation": "β2–Gs–adenylate cyclase 增加 cAMP，降低平滑肌收縮活性，是常見支氣管擴張藥的核心路徑。",
+      "options": {
+        "A": "α1 常與血管平滑肌收縮相關。",
+        "B": "β2 活化可有效擴張支氣管。",
+        "C": "M3 活化通常促支氣管收縮。",
+        "D": "5-HT3 是離子通道型受體，非此擴張主路徑。"
+      },
+      "memory": "β2 讓呼吸道鬆；M3 讓呼吸道縮。",
+      "references": [
+        "bronchodilator"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-68": {
+      "title": "Enprofylline：觀念與撤題分開",
+      "explanation": "Enprofylline 是 3-propylxanthine，具支氣管舒張作用，其 adenosine 拮抗能力相較 theophylline 很弱。原答案 B 已改為一律給分。",
+      "options": {
+        "A": "Tiotropium 是長效 muscarinic antagonist。",
+        "B": "Enprofylline 是本題原欲考的 xanthine。",
+        "C": "Theophylline 同時具有 adenosine antagonist 作用。",
+        "D": "Cromolyn 為 mast-cell stabilizer，非 xanthine。"
+      },
+      "memory": "Theo 有明顯 adenosine 拮抗；enpro 相對弱。",
+      "references": [
+        "enprofylline"
+      ],
+      "officialAnswers": [
+        "*"
+      ],
+      "answerStatus": "all-credit",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "不要把 enprofylline 精確結構直接說成 methylxanthine：它是 propylxanthine。此結構問題與「完全不拮抗」的絕對用語均需謹慎；官方未說明撤題原因。"
+    },
+    "115-2-2-69": {
+      "title": "Bisacodyl 是刺激性瀉劑",
+      "explanation": "Bisacodyl 刺激結腸分泌及蠕動，可在部分 PEG 清腸方案中作輔助；並非所有內視鏡清腸方案都必須加用。",
+      "options": {
+        "A": "Bisacodyl 是常見刺激性瀉劑。",
+        "B": "Erythromycin 主要為 motilin agonist 的促胃動藥。",
+        "C": "Lubiprostone 為促腸液分泌的慢性便秘用藥。",
+        "D": "Octreotide 可抑制多種腸胃分泌，非此清腸輔助。"
+      },
+      "memory": "PEG 留水，bisacodyl 推腸。",
+      "references": [
+        "laxative"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-70": {
+      "title": "Pegloticase 將尿酸氧化為 allantoin",
+      "explanation": "Pegloticase 為 PEG 化 uricase，可將尿酸轉成較易溶解的 allantoin；作用不同於抑制合成或增加腎排泄。",
+      "options": {
+        "A": "Probenecid 促尿酸排出。",
+        "B": "Pegloticase 是 uricase。",
+        "C": "Sulfinpyrazone 促尿酸排出。",
+        "D": "Febuxostat 抑制 xanthine oxidase。"
+      },
+      "memory": "XO 抑制少製造；促尿酸藥多排；uricase 直接分解。",
+      "references": [
+        "gout"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-71": {
+      "title": "Icatibant 擋 bradykinin B2",
+      "explanation": "遺傳性血管性水腫常因 C1 inhibitor 異常導致 bradykinin 過多；icatibant 競爭性阻斷 B2 receptor，減少血管通透性反應。",
+      "options": {
+        "A": "Aliskiren 是直接 renin inhibitor。",
+        "B": "Captopril 是 ACE inhibitor，可因 bradykinin 增加造成水腫。",
+        "C": "Icatibant 為 B2 antagonist。",
+        "D": "Aprotinin 是蛋白酶抑制劑，非此 B2 專一拮抗劑。"
+      },
+      "memory": "Icatibant：把 bradykinin 的 B2 門擋住。",
+      "references": [
+        "icatibant"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-72": {
+      "title": "病毒感染兒童用 aspirin 與 Reye 相關",
+      "explanation": "Aspirin 與兒童、青少年病毒感染後罕見但嚴重的 Reye syndrome 有關，表現為肝粒線體功能障礙、微小泡性脂肪變性及腦病變。",
+      "options": {
+        "A": "Acetaminophen 非此典型關聯。",
+        "B": "Ibuprofen 非本題典型關聯。",
+        "C": "Celecoxib 非此典型答案。",
+        "D": "Aspirin 為代表性風險藥。"
+      },
+      "memory": "小孩病毒發燒，Reye 先想到 aspirin。",
+      "references": [
+        "reye"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-73": {
+      "title": "BZD 抓 α–γ，GABA 抓 α–β",
+      "explanation": "Benzodiazepine 是 GABAA 正向異位調節劑，結合 α、γ 次單元交界，在 GABA 存在下提高通道開啟頻率。",
+      "options": {
+        "A": "作用於 GABAA 正確。",
+        "B": "α–β 是 GABA 位點相關，非典型 BZD 位點。",
+        "C": "一般治療濃度下不能取代 GABA 直接開門。",
+        "D": "Flurazepam 有長效活性代謝物，臨床作用可較長。"
+      },
+      "memory": "BZD 要 γ 才抓得到；GABA 在 αβ，BZD 在 αγ。",
+      "references": [
+        "benzodiazepine",
+        "flurazepam"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "D 的「血中半衰期」用語不夠精確：flurazepam 母藥較短，主要是活性代謝物很長。答題需分清母藥與活性代謝物，不死背母藥一定更長。"
+    },
+    "115-2-2-74": {
+      "title": "本題官方選 A，但不能推論 ketamine 不成癮",
+      "explanation": "四選一官方答案為 ketamine；然而 ketamine 有濫用與依賴風險。不同研究使用的暴露、使用頻率、成癮定義不同，缺少共同條件不能當成普遍固定排名。",
+      "options": {
+        "A": "依官方本題計分選 A，但不是無成癮風險。",
+        "B": "Cannabinoids 可造成使用疾患。",
+        "C": "Alcohol 可造成明顯生理及心理依賴。",
+        "D": "Nicotine 具有高成癮性。"
+      },
+      "memory": "考場答案與普遍風險結論分開；ketamine 仍會成癮。",
+      "references": [
+        "ketamine"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "本站未找到足以支持此四者在所有情境下固定排序的直接比較證據；列為需保留疑點的題目，不硬編唯一機轉證明排名。"
+    },
+    "115-2-2-75": {
+      "title": "元素汞暴露的神經與口腔症狀",
+      "explanation": "元素汞蒸氣可經肺吸收，造成顫抖、情緒／神經行為改變、牙齦口炎與周邊神經症狀；高濃度吸入亦可致肺炎。",
+      "options": {
+        "A": "無機鉛典型另見貧血、腹絞痛、伸肌無力。",
+        "B": "有機鉛較偏中樞神經毒性，但不是本題最佳組合。",
+        "C": "元素汞最符合顫抖、口炎、吸入性肺傷害。",
+        "D": "無機砷常見腸胃、皮膚與周邊神經病變。"
+      },
+      "memory": "汞記「抖、口炎、神經行為、蒸氣傷肺」。",
+      "references": [
+        "mercury"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "題幹的「肢痛病」用語不宜當作單一診斷依據；與此毒物組合區分於鎘相關痛痛病。"
+    },
+    "115-2-2-76": {
+      "title": "化生與持續刺激下的癌化風險",
+      "explanation": "Metaplasia 是成熟細胞型態被另一型態取代，可能在持續刺激下走向 dysplasia／癌化；不是化生本身就等於惡性腫瘤。",
+      "options": {
+        "A": "Hypertrophy 為細胞體積增大。",
+        "B": "Aplasia 指發育或細胞生成缺乏。",
+        "C": "Metaplasia 與後續癌化風險的連結較密切。",
+        "D": "Atrophy 為細胞或組織縮小。"
+      },
+      "memory": "化生可逆，但持續刺激可再走向異生。",
+      "references": [
+        "adaptation"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-77": {
+      "title": "甲狀腺乳突癌常見砂粒體",
+      "explanation": "Psammoma bodies 為同心圓層狀鈣化，可見於甲狀腺乳突癌、腦膜瘤、部分漿液性腫瘤等。",
+      "options": {
+        "A": "甲狀腺乳突癌是經典配對。",
+        "B": "乳腺管癌並非此最典型砂粒體題型。",
+        "C": "胰腺腺泡癌非典型配對。",
+        "D": "結腸黏液癌可鈣化，但非本題最佳。"
+      },
+      "memory": "砂粒體想「乳突甲、腦膜、漿液」。",
+      "references": [
+        "thyroidcancer"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-78": {
+      "title": "Sjögren 可有 RF，但 SSA／SSB 非完全專一",
+      "explanation": "乾燥症常見 ANA、RF、anti-SSA 等；SSA／SSB 也可見於其他自體免疫疾病。腎病較典型是間質性腎炎，惡性淋巴瘤風險以 B 細胞尤其 MALT 類型重要。",
+      "options": {
+        "A": "腎絲球病非最典型常見腎表現。",
+        "B": "SSA／SSB 不具疾病絕對專一性。",
+        "C": "增加的是 B 細胞淋巴瘤風險。",
+        "D": "RF 陽性相當常見。"
+      },
+      "memory": "乾燥症：腺體、SSA、RF、B 細胞淋巴瘤。",
+      "references": [
+        "sjogren"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-79": {
+      "title": "第二型反應也可阻斷受體功能",
+      "explanation": "重症肌無力的抗體針對神經肌肉接合處 AChR，可阻斷、加速受體內化並活化補體，屬第二型抗體介導反應。",
+      "options": {
+        "A": "MG 是第二型經典例。",
+        "B": "狼瘡腎炎主要與免疫複合物第三型相關。",
+        "C": "血清病屬第三型。",
+        "D": "接觸性皮膚炎屬第四型。"
+      },
+      "memory": "二型打細胞或受體，三型沉複合物，四型靠 T。",
+      "references": [
+        "hypersensitivity"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-80": {
+      "title": "子宮頸抹片降低既有年代的死亡率",
+      "explanation": "抹片普及能發現癌前病變，經追蹤治療降低侵襲癌與死亡；疫苗是初段預防，但對過去二十年趨勢的主要貢獻不能忽略更早實施的篩檢。",
+      "options": {
+        "A": "抹片普及是本題最直接解釋。",
+        "B": "HPV 疫苗可預防，但全國公費接種較晚推行。",
+        "C": "口服避孕藥不是主要防癌措施。",
+        "D": "健保可能改善可近性，但不是本題最特定機制。"
+      },
+      "memory": "疫苗防感染、抹片找癌前；歷史下降先想抹片普及。",
+      "references": [
+        "cervical"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-81": {
+      "title": "再灌流仍可能增加細胞傷害",
+      "explanation": "血流恢復雖可挽救缺血心肌，亦可造成 ROS、鈣超載、發炎與粒線體通透性改變；不能保證完全不再損失心肌。",
+      "options": {
+        "A": "Troponin 可持續上升，早期亦可能因沖洗效應加快釋出。",
+        "B": "再灌流可增加自由基。",
+        "C": "白血球可聚集並參與發炎。",
+        "D": "「不再損失細胞」過度絕對。"
+      },
+      "memory": "開通救心肌，但氧回來也會帶來 ROS。",
+      "references": [
+        "reperfusion"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-82": {
+      "title": "NBTE 是少發炎的無菌血栓贅生物",
+      "explanation": "非細菌性血栓性心內膜炎主要由血小板及纖維蛋白形成，通常少發炎、無病原；可見於惡性腫瘤或高凝狀態。",
+      "options": {
+        "A": "NBTE 炎症細胞通常最少。",
+        "B": "細菌感染性贅生物常有發炎及菌落。",
+        "C": "人工瓣膜感染也有感染性發炎。",
+        "D": "Libman-Sacks 與 SLE 相關，可伴免疫與發炎改變。"
+      },
+      "memory": "NBTE＝無菌血小板＋纖維蛋白，少發炎。",
+      "references": [
+        "endocarditis"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-83": {
+      "title": "放射線纖維化較典型想到限制性心病",
+      "explanation": "酒精、心肌炎後及遺傳異常皆可造成 DCM；放射線相關瀰漫纖維化的典型教科書配對偏限制性生理，而非本題 DCM。",
+      "options": {
+        "A": "酒精可造成擴張型心肌病。",
+        "B": "心肌炎後可進展 DCM。",
+        "C": "放射線纖維化在此題偏限制型。",
+        "D": "多種基因突變可造成 DCM。"
+      },
+      "memory": "擴張想酒精、心肌炎、基因；纖維硬化先想限制。",
+      "references": [
+        "cardiomyopathy"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "放療可造成多種心臟病變，並非絕對不可能出現收縮功能障礙；本題考典型分類。"
+    },
+    "115-2-2-84": {
+      "title": "前縱隔腫瘤加 MG 想胸腺瘤",
+      "explanation": "胸腺瘤與重症肌無力有明顯關聯；本例 anti-AChR、肌無力加前縱隔腫塊，最適合胸腺瘤。",
+      "options": {
+        "A": "鱗癌不是此症候群最典型連結。",
+        "B": "畸胎瘤雖可在前縱隔，但缺乏 MG 特徵關聯。",
+        "C": "胸腺瘤最符合。",
+        "D": "類癌亦可前縱隔，但非此最佳配對。"
+      },
+      "memory": "前縱隔 4T；若加 MG，T 指向 thymoma。",
+      "references": [
+        "thymoma"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-85": {
+      "title": "MDS 無效造血、周邊血球低、可轉 AML",
+      "explanation": "MDS 是克隆性髓系疾病，常見老年人、血球減少與骨髓異生；進展 AML 風險依亞型及分子風險而異。",
+      "options": {
+        "A": "10–40% 為本題採用的概略風險範圍。",
+        "B": "患者多為較年長成人。",
+        "C": "常見一系或多系周邊血球減少。",
+        "D": "骨髓可見 dysplasia，不是形態正常。"
+      },
+      "memory": "MDS：骨髓忙但無效，血球少且長得怪，可變 AML。",
+      "references": [
+        "mds"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "10–40% 不是每位病人的固定預後；須依風險分層、追蹤期間及分類版本解讀。"
+    },
+    "115-2-2-86": {
+      "title": "惡性間皮瘤的預後通常不佳",
+      "explanation": "惡性胸膜間皮瘤多有侵襲性；「大多數存活超過兩年」不符合傳統整體自然史描述。現代治療結果依分期、組織型與療程而異。",
+      "options": {
+        "A": "可起於臟、壁側胸膜。",
+        "B": "多數逾兩年的概括不適當。",
+        "C": "免疫染色可協助與肺腺癌區分。",
+        "D": "BAP1、NF2、CDKN2A 為重要相關基因。"
+      },
+      "memory": "間皮瘤想胸膜、石綿、BAP1／NF2、侵襲性。",
+      "references": [
+        "mesothelioma"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-87": {
+      "title": "胸膜孤立性纖維瘤的 CD34、STAT6",
+      "explanation": "孤立性纖維瘤為間葉性腫瘤，典型 CD34 陽性、核 STAT6 陽性，與 NAB2–STAT6 融合相關；不是石綿相關間皮瘤。",
+      "options": {
+        "A": "Keratin 通常陰性。",
+        "B": "CD34 通常陽性，而非陰性。",
+        "C": "無典型石綿因果關係。",
+        "D": "胸膜為經典且本題採用的常見部位。"
+      },
+      "memory": "SFT：纖維性、CD34、核 STAT6；不靠石綿。",
+      "references": [
+        "sft"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "SFT 可發生於全身軟組織；不同病例系列的部位比例不同，不能用胸膜排除其他位置。"
+    },
+    "115-2-2-88": {
+      "title": "大葉性肺炎的四期",
+      "explanation": "傳統形態進展依序為充血、紅色肝變、灰色肝變、緩解。紅色肝變有紅血球及纖維蛋白；灰色期紅血球崩解，纖維膿性滲出仍在。",
+      "options": {
+        "A": "1 起頭即灰色，時序錯。",
+        "B": "3→2→1→4 正確。",
+        "C": "紅、灰順序倒置。",
+        "D": "紅肝變不應早於充血。"
+      },
+      "memory": "先充血，再紅肝、灰肝，最後清掉。",
+      "references": [
+        "pneumonia"
+      ],
+      "officialAnswers": [
+        "B"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-89": {
+      "title": "H. pylori 胃炎常從胃竇優勢開始",
+      "explanation": "典型 H. pylori 胃炎常以胃竇為主，可進展為全胃炎；其分布也受酸分泌、抑酸治療與病程影響，不能說通常胃體比胃竇更易。",
+      "options": {
+        "A": "胃體優於胃竇的普遍敘述不當。",
+        "B": "慢性發炎可與增生／發炎息肉相關。",
+        "C": "細菌常位於表面黏液層。",
+        "D": "胃竇型感染與十二指腸潰瘍有關。"
+      },
+      "memory": "H. pylori 先想胃竇；自體免疫胃炎先想胃體。",
+      "references": [
+        "hpylori"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-90": {
+      "title": "胃 MALT 瘤常見 t(11;18)",
+      "explanation": "胃 MALT lymphoma 的代表性易位為 t(11;18)(q21;q21)，形成 BIRC3(API2)–MALT1；不是題目寫的 t(9;22)。",
+      "options": {
+        "A": "MALT 邊緣區淋巴瘤是重要常見胃淋巴瘤類型。",
+        "B": "H. pylori 是重要誘發因子。",
+        "C": "p53／p16 等失活可與大細胞轉化相關。",
+        "D": "易位染色體編號錯，應記 11;18。"
+      },
+      "memory": "MALT 記 11;18；9;22 常想到 BCR–ABL1，但其斷點也不同。",
+      "references": [
+        "maltlymphoma"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-91": {
+      "title": "第一型自體免疫胰臟炎屬 IgG4-RD",
+      "explanation": "Type 1 AIP 為淋巴漿細胞硬化性胰臟炎，可見 IgG4 陽性漿細胞、車輪狀纖維化及閉塞性靜脈炎；PRSS1／CFTR 比較屬其他胰臟炎病因框架。",
+      "options": {
+        "A": "CFTR／PRSS1 不是第一型 AIP 的典型致病標誌。",
+        "B": "漿細胞浸潤與纖維化符合。",
+        "C": "可見閉塞性靜脈炎。",
+        "D": "與 IgG4-related disease 相關。"
+      },
+      "memory": "IgG4、漿細胞、車輪纖維、閉塞靜脈炎。",
+      "references": [
+        "aip"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-92": {
+      "title": "BK polyomavirus 偏好腎小管上皮",
+      "explanation": "腎移植免疫抑制後 BK 病毒可再活化，造成腎小管上皮核內包涵體、病毒性細胞病變及間質炎；SV40 大 T 抗原染色可輔助。",
+      "options": {
+        "A": "腎小管上皮是典型受感染細胞。",
+        "B": "足細胞非最典型主要靶點。",
+        "C": "單核球不是本題核內包涵體的典型所在。",
+        "D": "Mesangial cell 非最典型答案。"
+      },
+      "memory": "BK 在腎移植後，找小管上皮的大病毒核。",
+      "references": [
+        "bk"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-93": {
+      "title": "膀胱平坦 CIS 的 TP53／RB 路徑",
+      "explanation": "高級別平坦 CIS 常與 TP53、RB 等細胞週期抑癌路徑異常相關；低級別乳突型則較常見 FGFR3／RAS 路徑。",
+      "options": {
+        "A": "TSC1／2 可參與腫瘤，但非此經典 CIS 配對。",
+        "B": "RAS／FGFR3 較典型低級別乳突途徑。",
+        "C": "EWS–FLI1 為 Ewing sarcoma 代表性融合。",
+        "D": "TP53／RB 符合平坦高級別 CIS。"
+      },
+      "memory": "乳突低級別 FGFR3；平坦高級別 p53、Rb。",
+      "references": [
+        "bladder"
+      ],
+      "officialAnswers": [
+        "D"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-94": {
+      "title": "原發性膜性腎病常與 anti-PLA2R 相關",
+      "explanation": "大多數典型原發性 MN 可有 anti-PLA2R；免疫沉積位於上皮下，光鏡可見毛細血管壁增厚及銀染 spikes。",
+      "options": {
+        "A": "Anti-PLA2R 是重要常見標誌。",
+        "B": "Anti-GBM 是另一種疾病機制，不是多數次發性 MN。",
+        "C": "明顯 mesangial 增生與銳角分叉不是典型 MN。",
+        "D": "沉積主要在上皮下，不是 mesangial。"
+      },
+      "memory": "膜性在「上皮下」堆免疫沉積，PLA2R 是重要線索。",
+      "references": [
+        "membranous"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-95": {
+      "title": "睪丸腫瘤：官方接受 A、D 或 AD",
+      "explanation": "隱睪可增加同側及對側生殖細胞腫瘤風險；兒童腫瘤的統計排序受年齡、納入類型及病例系列影響。官方更正已接受 A、D 或 AD，不再限單一 A。",
+      "options": {
+        "A": "單側隱睪的雙側風險均可增加。",
+        "B": "高齡男性最常見睪丸惡性腫瘤應想到淋巴瘤。",
+        "C": "青春期前畸胎瘤通常不伴 GCNIS。",
+        "D": "官方接受 D；「最常見」需看兒童年齡與分類範圍。"
+      },
+      "memory": "成人畸胎瘤和兒童畸胎瘤不同；本題 A、D、AD 都給分。",
+      "references": [
+        "testistumor"
+      ],
+      "officialAnswers": [
+        "A",
+        "D",
+        "AD"
+      ],
+      "answerStatus": "multiple",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "兒童生殖細胞瘤常見卵黃囊瘤與畸胎瘤，勿把不同年齡／統計分母的排名混用。"
+    },
+    "115-2-2-96": {
+      "title": "無排卵多見青春期與更年期過渡，不是停經後週期",
+      "explanation": "無排卵時缺乏黃體與 progesterone 對抗，持續雌激素刺激可造成不規則出血及內膜增生。真正停經後已無正常月經週期。",
+      "options": {
+        "A": "「停經後最常有無排卵週期」混淆停經與停經過渡期。",
+        "B": "甲狀腺、腦下垂體異常可干擾排卵。",
+        "C": "PCOS 可造成慢性無排卵。",
+        "D": "缺乏黃體素使雌激素作用不受適當對抗。"
+      },
+      "memory": "無排卵→無黃體→少 progesterone→雌激素單打。",
+      "references": [
+        "anovulation"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-97": {
+      "title": "完全性葡萄胎常為父源 46,XX",
+      "explanation": "典型完全性葡萄胎由無母核卵被單一精子受精後父源染色體複製，最常為 46,XX；少數可為雙精受精的 46,XY。",
+      "options": {
+        "A": "46,XX 為最常見。",
+        "B": "46,XY 可見但較少。",
+        "C": "69,XXY 常與部分性葡萄胎相關。",
+        "D": "四倍體不是最常見完全性葡萄胎。"
+      },
+      "memory": "完全胎「全父源」，常 46XX；部分胎常三倍體。",
+      "references": [
+        "mole"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-98": {
+      "title": "疱疹樣皮炎是顆粒狀 IgA，非線狀 IgA",
+      "explanation": "Dermatitis herpetiformis 典型為真皮乳頭顆粒狀 IgA；線狀沿基底膜的 IgA 應想到 linear IgA bullous dermatosis。原答案 D 已改為一律給分。",
+      "options": {
+        "A": "Pemphigus 典型為表皮細胞間 IgG。",
+        "B": "Bullous pemphigoid 典型為基底膜線狀 IgG／C3。",
+        "C": "遺傳性 epidermolysis bullosa 不以 IgA 為診斷核心。",
+        "D": "DH 是顆粒狀 IgA，與題幹可能暗示的線狀分布不同。"
+      },
+      "memory": "天疱瘡網狀 IgG、類天疱線狀 IgG、DH 顆粒 IgA。",
+      "references": [
+        "dh",
+        "dhlinear"
+      ],
+      "officialAnswers": [
+        "*"
+      ],
+      "answerStatus": "all-credit",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M",
+      "note": "本題一律給分；辨識 IgA 的「顆粒狀或線狀」比只背 IgA 更重要。"
+    },
+    "115-2-2-99": {
+      "title": "Kuru plaque 的核心是 prion protein",
+      "explanation": "Kuru plaques 為異常 prion protein 沉積形成的類澱粉斑塊，常見於小腦，也可在部分 prion disease／CJD 亞型出現。",
+      "options": {
+        "A": "核心非 Alzheimer 型 Aβ。",
+        "B": "部分 CJD 可見類似 prion 斑塊。",
+        "C": "類澱粉樣沉積可 Congo red 陽性。",
+        "D": "小腦是典型部位。"
+      },
+      "memory": "Kuru＝PrP；Alzheimer 常見 Aβ。",
+      "references": [
+        "prion"
+      ],
+      "officialAnswers": [
+        "A"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    },
+    "115-2-2-100": {
+      "title": "腦膜瘤妊娠期可加速生長",
+      "explanation": "腦膜瘤多為低級別、成人較常見，常與 NF2／22 號染色體路徑相關；妊娠期受荷爾蒙、血流與水分等因素影響，可能長大而非普遍變慢。",
+      "options": {
+        "A": "大多為良性／低級別，但有較高級別亞型。",
+        "B": "兒童較少見。",
+        "C": "「懷孕長較慢」方向不對。",
+        "D": "可與 chromosome 22／NF2 缺失相關。"
+      },
+      "memory": "腦膜瘤想 22、NF2、砂粒體；妊娠可能變大。",
+      "references": [
+        "meningioma"
+      ],
+      "officialAnswers": [
+        "C"
+      ],
+      "answerStatus": "single",
+      "officialAnswerPdf": "exams/115/2/medicine-2-M.pdf",
+      "officialAnswerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=115090&c=301&s=0102&q=1&verify=step1-20261013-115090-301-0102-M"
+    }
+  }
+}
