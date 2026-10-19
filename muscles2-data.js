@@ -88,7 +88,7 @@ const muscles2Sources=[
  },
  {
   "id": "M2SCALRES",
-  "title": "Bilandzic et al.：Functional anatomy of human scalene musculature（2010）",
+  "title": "Functional anatomy of human scalene musculature（2010）",
   "url": "https://pubmed.ncbi.nlm.nih.gov/21036281/",
   "type": "解剖研究",
   "note": "斜角肌旋轉動作受節段、姿勢影響，不以單一口訣概括。"
@@ -137,8 +137,8 @@ const muscles2Topics=[
    },
    {
     "id": "muscles2-video-notes-7",
-    "title": "07｜19:00–26:00｜頸部圖回顧與臨床連結",
-    "html": "<p>畫面多沿用同一橫切圖。鞘內外與感染擴散路徑的細節在主題頁標為教材補充，不推定為逐句口述。</p><p><a href=\"#/subject/anatomy/chapter/muscles2/topic/cervical-fascia\">前往主題：頸部圖回顧與臨床連結 →</a></p>"
+    "title": "07｜19:00–26:00｜頸部橫切圖持續與回查索引",
+    "html": "<p>畫面多沿用同一橫切圖。鞘內外與感染擴散路徑的細節在主題頁標為教材補充，不推定為逐句口述。</p><p><a href=\"#/subject/anatomy/chapter/muscles2/topic/cervical-fascia\">前往主題：頸部橫切圖持續與回查索引 →</a></p>"
    },
    {
     "id": "muscles2-video-notes-8",
@@ -157,8 +157,8 @@ const muscles2Topics=[
    },
    {
     "id": "muscles2-video-notes-11",
-    "title": "11｜36:40–42:00｜橫膈神經與前段回顧",
-    "html": "<p>在既有圖上補標記，部分口頭內容沒有新增板書；本章以可辨認的橫膈與呼吸肌關係整理。</p><p><a href=\"#/subject/anatomy/chapter/muscles2/topic/diaphragm\">前往主題：橫膈神經與前段回顧 →</a></p>"
+    "title": "11｜36:40–42:00｜橫膈與前段圖像回顧",
+    "html": "<p>在既有圖上補標記，部分口頭內容沒有新增板書；本章以可辨認的橫膈與呼吸肌關係整理。</p><p><a href=\"#/subject/anatomy/chapter/muscles2/topic/diaphragm\">前往主題：橫膈與前段圖像回顧 →</a></p>"
    },
    {
     "id": "muscles2-video-notes-12",
@@ -765,7 +765,7 @@ const muscles2Topics=[
    {
     "id": "exam-sources-3",
     "title": "03｜參考來源與圖像說明",
-    "html": "<ol class=\"source-list\"><li><b>M2VIDEO · 課程影片</b> — <a href=\"https://www.youtube.com/playlist?list=PLoKlbKOZ9XPpsITjehrHKiYvhih_3OJOz\" target=\"_blank\" rel=\"noopener\">使用者上傳：2016DF03 02_肌肉(2) 360P.mp4</a><small>全長1:55:06.93；檢視每20秒畫面共346張，時間約略到20秒。未完成音訊轉錄；來源連結僅為原播放清單，不是本片精確連結。</small></li><li><b>M2BACK · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/anatomytables/muscles_back.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Muscles of the Back</a><small>深背肌、枕下肌群與後支。</small></li><li><b>M2SUPER · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/musculoskeletal_system/introback_tables.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Superficial Back</a><small>斜方肌、闊背肌與肩胛肌群。</small></li><li><b>M2NECK · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/anatomytables/muscles_head_neck.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Muscles of the Head and Neck</a><small>頸肌與附著、作用；選取本章所需解剖事實重新整理。</small></li><li><b>M2SCAL · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/nervous_system/postneck_ans.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Posterior Triangle of the Neck — Answers</a><small>前斜角肌與神經血管的前後關係。</small></li><li><b>M2FASCIA · 解剖研究</b> — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7309289/\" target=\"_blank\" rel=\"noopener\">Feigl et al.：Cervical fascia and spaces terminology（2020）</a><small>頸筋膜命名與間隙邊界存在不同描述；不把簡圖當成唯一分類。</small></li><li><b>M2THORAX · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/anatomytables/muscles_thorax.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Muscles of the Thorax</a><small>橫膈、三層肋間肌及神經血管層面。</small></li><li><b>M2ABDOMEN · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/anatomytables/muscles_abdomen.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Muscles of the Abdomen</a><small>後腹壁與腹壁肌的附著及神經。</small></li><li><b>M2WALL · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/gastrointestinal_system/abdo_wall_ans.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Abdominal Wall — Dissector Answers</a><small>腹壁由淺至深層次、弓狀線上下的腱膜分配。</small></li><li><b>M2LAND · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/schemes/abdo_wall_tables.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Abdominal Wall — Tables</a><small>白線、半月線與腹壁定位。</small></li><li><b>M2ING · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/schemes/abdo_wall_ing_tables.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Abdominal Wall and Inguinal Region</a><small>深淺鼠蹊環及精索包被；屬影片末段的教材延伸。</small></li><li><b>M2ARCUATE · 解剖研究</b> — <a href=\"https://onlinelibrary.wiley.com/doi/10.1111/j.1447-073X.2007.00221.x\" target=\"_blank\" rel=\"noopener\">Loukas et al.：Arcuate line of the rectus sheath（2008）</a><small>弓狀線的位置、形態可變；不背成固定高度。</small></li><li><b>M2SCALRES · 解剖研究</b> — <a href=\"https://pubmed.ncbi.nlm.nih.gov/21036281/\" target=\"_blank\" rel=\"noopener\">Bilandzic et al.：Functional anatomy of human scalene musculature（2010）</a><small>斜角肌旋轉動作受節段、姿勢影響，不以單一口訣概括。</small></li></ol><p>原圖：賴奕翔《奕翔的解剖筆記》三版，2021-07-25，PDF第31–38頁；頁碼含封面，非手寫頁碼。圖片為原頁完整渲染，不重繪、不更改原頁文字。更新／查閱：2026-10-19。</p>"
+    "html": "<ol class=\"source-list\"><li><b>M2VIDEO · 課程影片</b> — <a href=\"https://www.youtube.com/playlist?list=PLoKlbKOZ9XPpsITjehrHKiYvhih_3OJOz\" target=\"_blank\" rel=\"noopener\">使用者上傳：2016DF03 02_肌肉(2) 360P.mp4</a><small>全長1:55:06.93；檢視每20秒畫面共346張，時間約略到20秒。未完成音訊轉錄；來源連結僅為原播放清單，不是本片精確連結。</small></li><li><b>M2BACK · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/anatomytables/muscles_back.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Muscles of the Back</a><small>深背肌、枕下肌群與後支。</small></li><li><b>M2SUPER · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/musculoskeletal_system/introback_tables.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Superficial Back</a><small>斜方肌、闊背肌與肩胛肌群。</small></li><li><b>M2NECK · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/anatomytables/muscles_head_neck.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Muscles of the Head and Neck</a><small>頸肌與附著、作用；選取本章所需解剖事實重新整理。</small></li><li><b>M2SCAL · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/nervous_system/postneck_ans.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Posterior Triangle of the Neck — Answers</a><small>前斜角肌與神經血管的前後關係。</small></li><li><b>M2FASCIA · 解剖研究</b> — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7309289/\" target=\"_blank\" rel=\"noopener\">Feigl et al.：Cervical fascia and spaces terminology（2020）</a><small>頸筋膜命名與間隙邊界存在不同描述；不把簡圖當成唯一分類。</small></li><li><b>M2THORAX · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/anatomytables/muscles_thorax.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Muscles of the Thorax</a><small>橫膈、三層肋間肌及神經血管層面。</small></li><li><b>M2ABDOMEN · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/anatomytables/muscles_abdomen.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Muscles of the Abdomen</a><small>後腹壁與腹壁肌的附著及神經。</small></li><li><b>M2WALL · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/gastrointestinal_system/abdo_wall_ans.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Abdominal Wall — Dissector Answers</a><small>腹壁由淺至深層次、弓狀線上下的腱膜分配。</small></li><li><b>M2LAND · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/schemes/abdo_wall_tables.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Abdominal Wall — Tables</a><small>白線、半月線與腹壁定位。</small></li><li><b>M2ING · 大學教材</b> — <a href=\"https://anatomy.ttuhscep.edu/schemes/abdo_wall_ing_tables.html\" target=\"_blank\" rel=\"noopener\">Texas Tech：Abdominal Wall and Inguinal Region</a><small>深淺鼠蹊環及精索包被；屬影片末段的教材延伸。</small></li><li><b>M2ARCUATE · 解剖研究</b> — <a href=\"https://onlinelibrary.wiley.com/doi/10.1111/j.1447-073X.2007.00221.x\" target=\"_blank\" rel=\"noopener\">Loukas et al.：Arcuate line of the rectus sheath（2008）</a><small>弓狀線的位置、形態可變；不背成固定高度。</small></li><li><b>M2SCALRES · 解剖研究</b> — <a href=\"https://pubmed.ncbi.nlm.nih.gov/21036281/\" target=\"_blank\" rel=\"noopener\">Functional anatomy of human scalene musculature（2010）</a><small>斜角肌旋轉動作受節段、姿勢影響，不以單一口訣概括。</small></li></ol><p>原圖：賴奕翔《奕翔的解剖筆記》三版，2021-07-25，PDF第31–38頁；頁碼含封面，非手寫頁碼。圖片為原頁完整渲染，不重繪、不更改原頁文字。更新／查閱：2026-10-19。</p>"
    }
   ]
  }
