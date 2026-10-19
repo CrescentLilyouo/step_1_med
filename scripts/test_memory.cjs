@@ -12,7 +12,7 @@ function element(id){
 }
 const document={getElementById:element,querySelectorAll:()=>[],querySelector:selector=>selector==='.detail-heading'?element('heading'):null};
 const context=vm.createContext({document,window:{scrollTo(){},print(){}},localStorage:{getItem:()=>JSON.stringify(saved),setItem:(key,value)=>{saved=JSON.parse(value);}},matchMedia:()=>({matches:true}),Date});
-const files=['anatomy-data.js','video-notes.js','bones2-data.js','bones3-data.js','bones4-data.js','muscles1-data.js','muscles2-data.js','muscles3-data.js','muscles4-data.js','enrichment-data.js','board-redraw-data.js','anatomy-note-images.js','anatomy-ui.js','memory-lessons.js','muscles-learning.js','memory-coach.js'];
+const files=['anatomy-data.js','video-notes.js','bones2-data.js','bones3-data.js','bones4-data.js','muscles1-data.js','muscles2-data.js','muscles3-data.js','muscles4-data.js','enrichment-data.js','board-redraw-data.js','anatomy-note-images.js','anatomy-ui.js','memory-lessons.js','muscles-learning.js','muscles-practice.js','memory-coach.js'];
 vm.runInContext(files.map(file=>fs.readFileSync(path.join(root,file),'utf8')).join('\n'),context);
 const coverage=vm.runInContext(`Object.entries(memoryLessonChapters).map(([id,lessons])=>{
  const chapter=studyChapters.find(ch=>ch.id===id);

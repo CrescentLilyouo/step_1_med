@@ -31,7 +31,7 @@ jobs:
       - run: python -m pip install PyMuPDF==1.26.5 Pillow==11.3.0
       - run: python scripts/build_ym_pages.py
       - name: Validate study chapters
-        run: node scripts/test_memory.cjs && node scripts/test_anatomy_notes.cjs && node scripts/test_muscles2.cjs && node scripts/test_muscles3.cjs && node scripts/test_muscles4.cjs && node scripts/test_muscles_learning.cjs
+        run: node scripts/test_memory.cjs && node scripts/test_anatomy_notes.cjs && node scripts/test_muscles2.cjs && node scripts/test_muscles3.cjs && node scripts/test_muscles4.cjs && node scripts/test_muscles_learning.cjs && node scripts/test_muscles_practice.cjs
       - run: node scripts/test_quiz.cjs && node scripts/test_explanations.cjs && node scripts/test_authored_explanations.cjs
       - name: Prepare public website
         run: |

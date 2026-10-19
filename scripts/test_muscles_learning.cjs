@@ -3,7 +3,7 @@ const root=path.resolve(__dirname,'..'),els=new Map();let inserted=[];
 function el(id){if(!els.has(id))els.set(id,{innerHTML:'',textContent:'',classList:{add(){},remove(){},toggle(){}},setAttribute(){},removeAttribute(){},addEventListener(){},insertAdjacentHTML(where,html){inserted.push(html);},scrollIntoView(){}});return els.get(id);}
 const document={getElementById:el,querySelectorAll:()=>[],querySelector:s=>s==='.detail-heading'?el('heading'):null};
 const ctx=vm.createContext({document,window:{scrollTo(){},print(){}},localStorage:{getItem:()=>'{"muscles1:eyelid:0":{"stage":3,"due":1000,"rating":"ready"}}',setItem(){throw Error('Rendering must not overwrite progress');}},Date,matchMedia:()=>({matches:true})});
-const files=['anatomy-data.js','video-notes.js','bones2-data.js','bones3-data.js','bones4-data.js','muscles1-data.js','muscles2-data.js','muscles3-data.js','muscles4-data.js','enrichment-data.js','board-redraw-data.js','anatomy-note-images.js','anatomy-ui.js','memory-lessons.js','muscles-learning.js','memory-coach.js'];
+const files=['anatomy-data.js','video-notes.js','bones2-data.js','bones3-data.js','bones4-data.js','muscles1-data.js','muscles2-data.js','muscles3-data.js','muscles4-data.js','enrichment-data.js','board-redraw-data.js','anatomy-note-images.js','anatomy-ui.js','memory-lessons.js','muscles-learning.js','muscles-practice.js','memory-coach.js'];
 for(const f of files)vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),ctx);
 const result=vm.runInContext(String.raw`(()=>{
  const before=JSON.stringify(studyChapters.map(c=>c.topics));let tasks=0,checks=0,paths=0,links=0;
