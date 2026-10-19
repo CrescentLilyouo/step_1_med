@@ -28,7 +28,7 @@ const memoryLessons = {
   ['上、中、下鼻甲之中，哪個是獨立骨？','下鼻甲；上、中鼻甲屬篩骨。遮住答案後，試著說明分組依據。'],
   ['下齒槽神經進入與頦神經離開下頜骨的孔分別是什麼？','下齒槽神經由下頜孔進入；其末端頦神經由頦孔離開。沿路徑記，就不容易把入口與出口對調。']]]
 };
-const memoryLessonChapters={bones:memoryLessons,...memoryMoreLessons};
+const memoryLessonChapters={bones:memoryLessons,...memoryMoreLessons,muscles2:muscles2MemoryLessons};
 function memoryRead(){try{const value=JSON.parse(localStorage.getItem('step1-memory-v1')||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{};}catch{return {};}}
 function memoryDue(chapter,now=Date.now()){
  const lessons=memoryLessonChapters[chapter]||{};
@@ -60,5 +60,5 @@ renderAnatomy=function(parts){memoryOriginalRenderAnatomy(parts);const topic=stu
  document.querySelector('.detail-heading').insertAdjacentHTML('afterend',`<section class="memory-coach"><h2>記憶練習｜本章 ${ids.length} 個主題、${cards} 張回想卡</h2><p>主題頁已加入理解順序、記法、易混提醒與自測。先試著說出，再核對答案。逐段筆記、圖集與來源頁供回查。</p><p>${entries.length?'到期 '+entries.length+' 張卡：':'目前沒有到期卡片；可從任一主題開始。'}${topics.map(id=>`<a class="study-button" href="${studyRoot}/topic/${id}">${studyEscape(studyTopics.find(t=>t.id===id)?.title||id)}</a>`).join(' ')}</p></section>`);
  }else if(parts.length===2){
   const count=Object.values(memoryLessonChapters).reduce((n,lessons)=>n+Object.keys(lessons).length,0),cards=Object.values(memoryLessonChapters).reduce((n,lessons)=>n+Object.values(lessons).reduce((m,lesson)=>m+lesson[3].length,0),0);
-  document.querySelector('.detail-heading').insertAdjacentHTML('afterend',`<section class="memory-coach"><h2>五章記憶教學已加入</h2><p>${count} 個主題、${cards} 張自測卡。進入章節後，可看「怎麼記」與到期練習；已讀與能回想的紀錄分開。</p></section>`);
+  document.querySelector('.detail-heading').insertAdjacentHTML('afterend',`<section class="memory-coach"><h2>${Object.keys(memoryLessonChapters).length} 章記憶教學已加入</h2><p>${count} 個主題、${cards} 張自測卡。進入章節後，可看「怎麼記」與到期練習；已讀與能回想的紀錄分開。</p></section>`);
  }};

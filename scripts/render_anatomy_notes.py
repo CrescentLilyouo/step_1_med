@@ -8,6 +8,9 @@ p=argparse.ArgumentParser();p.add_argument('pdf',type=Path);args=p.parse_args()
 root=Path(__file__).resolve().parents[1]
 mapping=(root/'anatomy-note-images.js').read_text()
 pages=sorted({int(n) for group in re.findall(r"'[^']+\.svg':\[([\d,]+)\]",mapping) for n in group.split(',')})
+extra=root/'assets/muscles2-source.json'
+if extra.exists():
+    pages=sorted(set(pages)|set(json.loads(extra.read_text())['originalPages']))
 dest=root/'assets/anatomy-notes';dest.mkdir(parents=True,exist_ok=True)
 doc=fitz.open(args.pdf)
 for number in pages:

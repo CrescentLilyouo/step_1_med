@@ -12,7 +12,7 @@ function element(id){
 }
 const document={getElementById:element,querySelectorAll:()=>[],querySelector:selector=>selector==='.detail-heading'?element('heading'):null};
 const context=vm.createContext({document,window:{scrollTo(){},print(){}},localStorage:{getItem:()=>JSON.stringify(saved),setItem:(key,value)=>{saved=JSON.parse(value);}},matchMedia:()=>({matches:true}),Date});
-const files=['anatomy-data.js','video-notes.js','bones2-data.js','bones3-data.js','bones4-data.js','muscles1-data.js','enrichment-data.js','board-redraw-data.js','anatomy-note-images.js','anatomy-ui.js','memory-lessons.js','memory-coach.js'];
+const files=['anatomy-data.js','video-notes.js','bones2-data.js','bones3-data.js','bones4-data.js','muscles1-data.js','muscles2-data.js','enrichment-data.js','board-redraw-data.js','anatomy-note-images.js','anatomy-ui.js','memory-lessons.js','memory-coach.js'];
 vm.runInContext(files.map(file=>fs.readFileSync(path.join(root,file),'utf8')).join('\n'),context);
 const coverage=vm.runInContext(`Object.entries(memoryLessonChapters).map(([id,lessons])=>{
  const chapter=studyChapters.find(ch=>ch.id===id);
@@ -22,8 +22,8 @@ const coverage=vm.runInContext(`Object.entries(memoryLessonChapters).map(([id,le
  if(Object.keys(lessons).some(key=>!expected.some(t=>t.id===key)))throw Error('Orphan lesson in '+id);
  return {id,topics:expected.length,cards:Object.values(lessons).reduce((n,l)=>n+l[3].length,0)};
 })`,context);
-assert.equal(coverage.reduce((n,c)=>n+c.topics,0),55);
-assert.equal(coverage.reduce((n,c)=>n+c.cards,0),110);
+assert.equal(coverage.reduce((n,c)=>n+c.topics,0),68);
+assert.equal(coverage.reduce((n,c)=>n+c.cards,0),136);
 const rendered=vm.runInContext(`(()=>{
  const keys=[];
  for(const chapter of studyChapters){
@@ -40,7 +40,7 @@ const rendered=vm.runInContext(`(()=>{
  }
  return keys;
 })()`,context);
-assert.equal(new Set(rendered).size,110,'No storage collisions between chapters');
+assert.equal(new Set(rendered).size,136,'No storage collisions between chapters');
 for(const chapter of coverage){
  inserted=[];
  vm.runInContext(`renderAnatomy(['subject','anatomy','chapter','${chapter.id}'])`,context);
@@ -61,5 +61,5 @@ const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 assert(html.indexOf('anatomy-ui.js')<html.indexOf('memory-lessons.js'));
 assert(html.indexOf('memory-lessons.js')<html.indexOf('memory-coach.js'));
 assert(html.indexOf('memory-coach.js')<html.indexOf('const subjects='));
-console.log('PASS: all 55 topic routes render, 110 hidden recall cards, unique chapter keys, due filters, intervals, blocked storage, chapter counts, script order.');
+console.log('PASS: all 68 topic routes render, 136 hidden recall cards, unique chapter keys, due filters, intervals, blocked storage, chapter counts, script order.');
 console.log(JSON.stringify(coverage));
