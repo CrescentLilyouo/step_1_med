@@ -28,7 +28,7 @@ const memoryLessons = {
   ['上、中、下鼻甲之中，哪個是獨立骨？','下鼻甲；上、中鼻甲屬篩骨。遮住答案後，試著說明分組依據。'],
   ['下齒槽神經進入與頦神經離開下頜骨的孔分別是什麼？','下齒槽神經由下頜孔進入；其末端頦神經由頦孔離開。沿路徑記，就不容易把入口與出口對調。']]]
 };
-const memoryLessonChapters={bones:memoryLessons,...memoryMoreLessons,muscles2:muscles2MemoryLessons};
+const memoryLessonChapters={bones:memoryLessons,...memoryMoreLessons,muscles2:muscles2MemoryLessons,muscles3:muscles3MemoryLessons};
 function memoryRead(){try{const value=JSON.parse(localStorage.getItem('step1-memory-v1')||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{};}catch{return {};}}
 function memoryDue(chapter,now=Date.now()){
  const lessons=memoryLessonChapters[chapter]||{};

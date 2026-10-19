@@ -1,6 +1,6 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),ctx=vm.createContext({});
-for(const f of ['anatomy-data.js','video-notes.js','bones2-data.js','bones3-data.js','bones4-data.js','muscles1-data.js','muscles2-data.js','enrichment-data.js','board-redraw-data.js','anatomy-note-images.js','anatomy-ui.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),ctx);
+for(const f of ['anatomy-data.js','video-notes.js','bones2-data.js','bones3-data.js','bones4-data.js','muscles1-data.js','muscles2-data.js','muscles3-data.js','enrichment-data.js','board-redraw-data.js','anatomy-note-images.js','anatomy-ui.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),ctx);
 const data=JSON.parse(vm.runInContext('JSON.stringify({topics:muscles2Topics,sources:anatomySources,lessons:muscles2MemoryLessons,chapter:studyChapters.find(c=>c.id==="muscles2")})',ctx));
 assert.equal(data.topics.length,16);assert.equal(new Set(data.topics.map(t=>t.id)).size,16);
 assert(data.chapter.scope.includes('未完成音訊轉錄'));assert.equal(data.chapter.code,'2016DF03 02');

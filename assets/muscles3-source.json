@@ -1,0 +1,38 @@
+{
+  "title": "2016DF04 01_肌肉(3)",
+  "uploadedFilename": "vidssave.com 2016DF04 01_肌肉(3) 360P.mp4",
+  "durationSeconds": 6820.266667,
+  "sha256": "12dad288bdbad30aabaa6de21b69316d7c6b22de963c603b7d551539a4363c23",
+  "method": "全片每20秒抽樣板書共342張，已檢視；未完成音訊轉錄或逐句審聽，時間碼為約略畫面定位。",
+  "sampleIntervalSeconds": 20,
+  "sampledFrames": 342,
+  "originalPages": [
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "timelineSegments": 28,
+  "learningTopics": 17,
+  "topicPages": 20,
+  "recallCards": 34,
+  "textbookExtensions": [
+    "完整起止、神經與血管對照",
+    "女性會陰膜現代模型",
+    "提肛肌神經研究核對",
+    "尿道筋膜損傷外滲條件",
+    "腋動脈六分支",
+    "肘窩及前臂圖供延伸預習"
+  ],
+  "notCompleted": [
+    "音訊逐句轉錄",
+    "完整前臂肌肉",
+    "腕隧道",
+    "手內在肌"
+  ],
+  "updated": "2026-10-19"
+}
