@@ -1,0 +1,35 @@
+{
+  "title": "2016DF04 02_肌肉(4)",
+  "uploadedFilename": "vidssave.com 2016DF04 02_肌肉(4) 360P.mp4",
+  "durationSeconds": 6585.6,
+  "sha256": "929ba51203cc42dbf02fc084cca52bf405fb6fdc22f5a3fb3ba11df7af4958e9",
+  "method": "全片每20秒板書畫面共330張，已檢視；未完成音訊轉錄或逐句審聽，時間碼為約略畫面定位。",
+  "sampleIntervalSeconds": 20,
+  "sampledFrames": 330,
+  "originalPages": [
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "timelineSegments": 31,
+  "learningTopics": 19,
+  "topicPages": 22,
+  "recallCards": 38,
+  "textbookExtensions": [
+    "完整肌肉附著及神經分支",
+    "腕隧道外路徑",
+    "手內在肌計數與分支核對",
+    "大腿三室例外",
+    "股鞘與內收肌管出口",
+    "完整膕窩邊界與深淺"
+  ],
+  "notCompleted": [
+    "音訊逐句轉錄",
+    "完整小腿肌群",
+    "足內在肌",
+    "完整下肢神經血管"
+  ],
+  "updated": "2026-10-19"
+}

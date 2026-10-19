@@ -1,8 +1,8 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const root=path.resolve(__dirname,'..'),ctx={};vm.createContext(ctx);
-const files=['anatomy-data.js','video-notes.js','bones2-data.js','bones3-data.js','bones4-data.js','muscles1-data.js','muscles2-data.js','muscles3-data.js','enrichment-data.js','board-redraw-data.js'];
+const files=['anatomy-data.js','video-notes.js','bones2-data.js','bones3-data.js','bones4-data.js','muscles1-data.js','muscles2-data.js','muscles3-data.js','muscles4-data.js','enrichment-data.js','board-redraw-data.js'];
 for(const file of files)vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),ctx);
-const expr='[anatomyTopics,bones2Topics,bones3Topics,bones4Topics,muscles1Topics,muscles2Topics,muscles3Topics]';
+const expr='[anatomyTopics,bones2Topics,bones3Topics,bones4Topics,muscles1Topics,muscles2Topics,muscles3Topics,muscles4Topics]';
 const before=vm.runInContext(expr,ctx).flat().map(t=>({id:t.id,sections:t.sections.map(s=>({id:s.id,html:s.html}))}));
 vm.runInContext(fs.readFileSync(path.join(root,'anatomy-note-images.js'),'utf8'),ctx);
 const after=vm.runInContext(expr,ctx).flat();assert.equal(after.length,before.length);
