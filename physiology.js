@@ -85,6 +85,17 @@ const physiologyChapters = [
       examples: '<h3>同一考點的歷屆換問法</h3><ul><li>109-1 第 50 題從視交叉病灶推視野缺損，107-1 第 49 題由兩眼的缺損反推交叉後病灶。</li><li>97-1 第 19 題辨認伸張反射，110-1 第 51 題改問 α–γ 共活化，113-1 第 56 題再問 dynamic γ。</li><li>114-1 第 51 題用 K complex 找 N2，115-2 第 48 題用清醒樣腦波找 REM。</li></ul>',
     },
   },
+  {
+    id: 'cardiovascular', number: '03', title: '心血管生理', english: 'CARDIOVASCULAR PHYSIOLOGY',
+    summary: '由血流與壓差推到心肌電機活動，再整合微循環、器官灌流與血壓代償。',
+    sources: 'BRS Physiology 第 7 版第 3 章，印刷頁 67–102。Guyton and Hall 第 14 版的心臟、循環、微循環與血壓調節相關章節。',
+    topics: cardiovascularTopics,
+    exams: {
+      notes: cardiovascularExamNotes,
+      scope: '以 BRS 第 3 章範圍整理目前已核對的原題。題目依主要判斷點歸類，血球與凝血機轉、以肺換氣為主的問題留給相應單元。',
+      examples: '<h3>歷屆的同觀念變化</h3><ul><li>110-2 第 56 題問起搏第 4 期，114-1 第 59 題問 SA node 主升段。先判時相，再判離子。</li><li>111-1 第 60 題問等容收縮壓力，113-1 第 58 題問 S1 至 S2 的容積變化。兩題都從瓣膜開關推。</li><li>112-2 第 60 題與 115-1 第 59 題都用 Starling 力，但結果一負一正。算完須交代液體方向。</li></ul>',
+    },
+  },
 ];
 
 function physiologyChapterLink(chapter) {
