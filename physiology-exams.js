@@ -764,7 +764,7 @@ function physiologyExamAnswer(question) {
   return question.answers.join(' 或 ');
 }
 
-async function renderPhysiologyExamArchive(config) {
+async function renderPhysiologyExamArchive(config, chapterRoot) {
   const app = document.getElementById('physiology-exam-archive');
   const generation = quizGeneration;
   try {
@@ -777,7 +777,7 @@ async function renderPhysiologyExamArchive(config) {
         const question = byId.get(id);
         if (!question) throw new Error('Missing question: ' + id);
         const [point, crossover] = label.split('｜');
-        return { question, point, crossover, analysis };
+        return { question, point, crossover, analysis, topicId: group.id };
       }).sort((a, b) => b.question.year - a.question.year || b.question.session - a.question.session || a.question.number - b.question.number),
     }));
     const entries = groups.flatMap(group => group.entries);
@@ -812,7 +812,7 @@ async function renderPhysiologyExamArchive(config) {
     const special = q => q.corrected || q.answers.length > 1 || q.answers.some(answer => answer === '*' || answer === '+');
     const meta = q => `${q.year} 年第 ${q.session} 次醫學（${q.paper === 1 ? '一' : '二'}）第 ${q.number} 題`;
 
-    function questionCard({ question: q, point, crossover, analysis }) {
+    function questionCard({ question: q, point, crossover, analysis, topicId }) {
       return `<article class="quiz-question">
         <details class="phys-exam-card">
           <summary><strong>${meta(q)}</strong> · ${quizEscape(point)}${crossover ? ` <small>（${quizEscape(crossover)}）</small>` : ''}</summary>
@@ -827,6 +827,8 @@ async function renderPhysiologyExamArchive(config) {
             <p><strong>官方採計答案：</strong>${quizEscape(physiologyExamAnswer(q))}${q.corrected ? '（依官方更正）' : ''}</p>
             <p><strong>考點：</strong>${quizEscape(point)}</p>
             <p><strong>判題依據與易錯處：</strong>${quizEscape(analysis)}</p>
+            ${physiologyOptionAnalysis(q.id)}
+            ${chapterRoot ? `<p><a href="${chapterRoot}/topic/${topicId}">回到本考點完整正文 →</a></p>` : ''}
             <p><a href="${q.answerPdf}" target="_blank" rel="noopener">${q.answerVersion === 'M' ? '官方更正答案 PDF' : '官方答案 PDF'}</a></p>
           </details>
         </details>
@@ -880,3 +882,4 @@ const cellPhysiologyExamConfig = {
       </ul>
 `,
 };
+
