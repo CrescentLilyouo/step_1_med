@@ -75,7 +75,8 @@ function physiologyTopicLink(topic) {
 function renderPhysiology(parts) {
   const inChapter = parts[2] === 'chapter' && parts[3] === 'cell-physiology';
   const topic = inChapter && parts[4] === 'topic' && physiologyTopics.find(item => item.id === parts[5]);
-  const title = topic ? topic.title : inChapter ? '細胞生理' : '生理學';
+  const inExamArchive = inChapter && parts[4] === 'exams';
+  const title = inExamArchive ? '細胞生理｜歷屆考古題' : topic ? topic.title : inChapter ? '細胞生理' : '生理學';
   document.querySelectorAll('.nav-subject').forEach(link => {
     const active = link.dataset.id === 'physiology';
     link.classList.toggle('active', active);
@@ -90,23 +91,30 @@ function renderPhysiology(parts) {
 
   const crumbs = '<nav class="breadcrumb" aria-label="麵包屑"><a href="#/">科目總覽</a><span>/</span><a href="#/medicine-one">醫學（一）</a><span>/</span>'
     + (inChapter ? '<a href="' + physiologyRoot + '">生理學</a><span>/</span>' : '<span>生理學</span>')
-    + (topic ? '<a href="' + cellPhysiologyRoot + '">細胞生理</a><span>/</span><span>' + title + '</span>' : inChapter ? '<span>細胞生理</span>' : '')
+    + (topic || inExamArchive ? '<a href="' + cellPhysiologyRoot + '">細胞生理</a><span>/</span><span>' + title + '</span>' : inChapter ? '<span>細胞生理</span>' : '')
     + '</nav>';
   const heading = (eyebrow, intro) => '<div class="detail-heading"><p class="eyebrow">' + eyebrow
     + '</p><h1 tabindex="-1">' + title + '</h1><p class="intro">' + intro + '</p></div>';
 
-  if (topic) {
+  if (inExamArchive) {
+    content.innerHTML = crumbs + heading('CHAPTER 01 / PAST EXAMS', '按考點讀歷屆原題。作答後展開官方答案與逐題分析。')
+      + '<div class="study-actions"><a class="study-button" href="' + cellPhysiologyRoot + '">← 細胞生理目錄</a></div>'
+      + '<div id="physiology-exam-archive"><p role="status">載入生理學題庫…</p></div>';
+    renderPhysiologyExamArchive();
+  } else if (topic) {
     const index = physiologyTopics.indexOf(topic);
     const adjacent = (item, label) => item ? '<a class="study-button" href="' + physiologyTopicLink(item) + '">' + label(item.title) + '</a>' : '<span></span>';
     content.innerHTML = crumbs + heading('CHAPTER 01 / ' + topic.english, topic.summary)
       + '<div class="study-actions"><a class="study-button" href="' + cellPhysiologyRoot + '">← 章節目錄</a>'
       + '<a class="study-button" href="' + physiologyTopicLink(physiologyTopics.at(-1)) + '">考古題與自測</a></div>'
+      + (topic.id === 'review' ? physiologyExamEntry() : '')
       + '<article class="lesson"><section>' + topic.html + '</section><footer class="lesson-footer">教材參考：BRS Physiology 第 7 版第 1 章，Guyton and Hall 第 14 版第 2、4–8 章。</footer></article>'
       + '<nav class="reading-nav" aria-label="章節前後頁">'
       + adjacent(physiologyTopics[index - 1], label => '← ' + label)
       + adjacent(physiologyTopics[index + 1], label => label + ' →') + '</nav>';
   } else if (inChapter) {
     content.innerHTML = crumbs + heading('CHAPTER 01 / CELL PHYSIOLOGY', '從膜與離子梯度開始，逐步推到神經傳導和肌肉收縮。')
+      + physiologyExamEntry()
       + '<div class="topic-grid">' + physiologyTopics.map((item, index) =>
         '<a class="topic-card" href="' + physiologyTopicLink(item) + '"><span class="topic-num">'
         + String(index + 1).padStart(2, '0') + '</span><h2>' + item.title + '</h2><p>' + item.summary + '</p><div class="study-meta"><span>' + item.english + '</span></div></a>'
