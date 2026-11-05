@@ -752,12 +752,10 @@ const physiologyExamNotes = [
   }
 ];
 
-const cellPhysiologyExamRoute = '#/subject/physiology/chapter/cell-physiology/exams';
-
-function physiologyExamEntry() {
-  return '<section class="quiz-panel"><p class="eyebrow">CHAPTER 01 / EXAM ARCHIVE</p><h2>本章歷屆考古題與考點分析</h2>'
+function physiologyExamEntry(route, number) {
+  return '<section class="quiz-panel"><p class="eyebrow">CHAPTER ' + number + ' / EXAM ARCHIVE</p><h2>本章歷屆考古題與考點分析</h2>'
     + '<p>按考點、年度與跨章範圍找題。每題附原卷、官方答案、判題依據及易錯處。</p>'
-    + '<a class="quiz-button" href="' + cellPhysiologyExamRoute + '">瀏覽本章歷屆考題 →</a></section>';
+    + '<a class="quiz-button" href="' + route + '">瀏覽本章歷屆考題 →</a></section>';
 }
 
 function physiologyExamAnswer(question) {
@@ -766,14 +764,14 @@ function physiologyExamAnswer(question) {
   return question.answers.join(' 或 ');
 }
 
-async function renderPhysiologyExamArchive() {
+async function renderPhysiologyExamArchive(config) {
   const app = document.getElementById('physiology-exam-archive');
   const generation = quizGeneration;
   try {
     const bank = await quizLoadBank('physiology');
     if (!app.isConnected || generation !== quizGeneration) return;
     const byId = new Map(bank.map(question => [question.id, question]));
-    const groups = physiologyExamNotes.map(group => ({
+    const groups = config.notes.map(group => ({
       ...group,
       entries: group.notes.map(([id, label, analysis]) => {
         const question = byId.get(id);
@@ -789,19 +787,12 @@ async function renderPhysiologyExamArchive() {
     app.innerHTML = `<section class="quiz-panel">
       <h2>收錄範圍與命題分布</h2>
       <p>從本站生理學題庫（民國 ${Math.min(...bank.map(q => q.year))}–${Math.max(...bank.map(q => q.year))} 年，共 ${bank.length.toLocaleString('zh-TW')} 題）整理出 <strong>${entries.length} 題</strong>。其中 ${entries.length - crossCount} 題以本章機轉為主，${crossCount} 題為可用本章觀念解出的跨章題，${correctedCount} 題有更正、複數採計或特殊給分紀錄。章節歸類與考點統計為本站整理。</p>
-      <p>以 BRS 第 1 章範圍為準。題目若主要在考感覺路徑、心臟節律、腎臟清除率或器官功能，即使提及膜電位或滲透壓，也留給對應系統章節。</p>
+      <p>${config.scope}</p>
       <div class="archive-scroll"><table>
         <thead><tr><th scope="col">考點</th><th scope="col">題數</th><th scope="col">常見問法</th><th scope="col">判題順序</th></tr></thead>
         <tbody>${groups.map(group => `<tr><th scope="row">${quizEscape(group.name)}</th><td>${group.entries.length}</td><td>${quizEscape(group.pattern)}</td><td>${quizEscape(group.strategy)}</td></tr>`).join('')}</tbody>
       </table></div>
-      <h3>同一個考點，歷屆怎麼換問法</h3>
-      <ul>
-        <li><strong>橫橋與 ATP。</strong> 100-2 第 7 題和 104-1 第 7 題問高能構型，答 ATP 水解。112-1 第 56 題問解離，答 ATP 結合。111-1 第 57 題與 114-1 第 55 題改用屍僵反向考。</li>
-        <li><strong>骨骼肌的 Ca²⁺ 路徑。</strong> 100-1 第 11 題與 108-2 第 54 題問 DHPR，106-2 第 54 題問 RyR，110-1 第 55 題問 Ca²⁺ 儲庫。把「哪個膜、哪個蛋白、哪個方向」三欄分開。</li>
-        <li><strong>終板電位。</strong> 109-1 第 56 題問電位性質，113-2 第 50 題問發生位置與量子釋放，114-2 第 48 題用肉毒毒素反推 EPP 大小。可串成「釋放 → 接收 → 達閾」來重做。</li>
-        <li><strong>平滑肌收縮的調節層次。</strong> 107-2 第 55 題與 113-1 第 55 題直接問 Ca²⁺ 結合誰，106-2 第 55 題問 MLCP，115-1 第 55 題把 Ca²⁺ 的直接標的和粗肌絲的調節位置放在同一題比較。</li>
-        <li><strong>膜電位的方向。</strong> 100-1 第 3 題問 Vₘ＝E 時的淨流量，110-2 第 53 題改成開通道後電位往哪走，115-2 第 47 題再改外液濃度。依序練「驅動力 → 電位 → 改變離子梯度」。</li>
-      </ul>
+      ${config.examples}
     </section>
     <section class="quiz-panel" aria-label="題目篩選">
       <div class="quiz-actions">
@@ -875,3 +866,17 @@ async function renderPhysiologyExamArchive() {
     if (app.isConnected && generation === quizGeneration) app.innerHTML = '<p class="quiz-error" role="alert">章節題庫載入失敗，請重新整理頁面再試。</p>';
   }
 }
+
+const cellPhysiologyExamConfig = {
+  notes: physiologyExamNotes,
+  scope: "以 BRS 第 1 章範圍為準。題目若主要在考感覺路徑、心臟節律、腎臟清除率或器官功能，即使提及膜電位或滲透壓，也留給對應系統章節。",
+  examples: `      <h3>同一個考點，歷屆怎麼換問法</h3>
+      <ul>
+        <li><strong>橫橋與 ATP。</strong> 100-2 第 7 題和 104-1 第 7 題問高能構型，答 ATP 水解。112-1 第 56 題問解離，答 ATP 結合。111-1 第 57 題與 114-1 第 55 題改用屍僵反向考。</li>
+        <li><strong>骨骼肌的 Ca²⁺ 路徑。</strong> 100-1 第 11 題與 108-2 第 54 題問 DHPR，106-2 第 54 題問 RyR，110-1 第 55 題問 Ca²⁺ 儲庫。把「哪個膜、哪個蛋白、哪個方向」三欄分開。</li>
+        <li><strong>終板電位。</strong> 109-1 第 56 題問電位性質，113-2 第 50 題問發生位置與量子釋放，114-2 第 48 題用肉毒毒素反推 EPP 大小。可串成「釋放 → 接收 → 達閾」來重做。</li>
+        <li><strong>平滑肌收縮的調節層次。</strong> 107-2 第 55 題與 113-1 第 55 題直接問 Ca²⁺ 結合誰，106-2 第 55 題問 MLCP，115-1 第 55 題把 Ca²⁺ 的直接標的和粗肌絲的調節位置放在同一題比較。</li>
+        <li><strong>膜電位的方向。</strong> 100-1 第 3 題問 Vₘ＝E 時的淨流量，110-2 第 53 題改成開通道後電位往哪走，115-2 第 47 題再改外液濃度。依序練「驅動力 → 電位 → 改變離子梯度」。</li>
+      </ul>
+`,
+};

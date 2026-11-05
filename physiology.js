@@ -65,18 +65,41 @@ const physiologyTopics = [
 ];
 
 const physiologyRoot = '#/subject/physiology';
-const cellPhysiologyRoot = physiologyRoot + '/chapter/cell-physiology';
 const physiologyChapterNames = ['細胞生理', '神經生理', '心血管生理', '呼吸生理', '腎臟與酸鹼生理', '腸胃生理', '內分泌與生殖生理'];
 
-function physiologyTopicLink(topic) {
-  return cellPhysiologyRoot + '/topic/' + topic.id;
+const physiologyChapters = [
+  {
+    id: 'cell-physiology', number: '01', title: '細胞生理', english: 'CELL PHYSIOLOGY',
+    summary: '從膜與離子梯度開始，逐步推到神經傳導和肌肉收縮。',
+    sources: 'BRS Physiology 第 7 版第 1 章，Guyton and Hall 第 14 版第 2、4–8 章。',
+    topics: physiologyTopics, exams: cellPhysiologyExamConfig,
+  },
+  {
+    id: 'neurophysiology', number: '02', title: '神經生理', english: 'NEUROPHYSIOLOGY',
+    summary: '沿感覺輸入、中央處理和運動輸出，練習定位、機轉與反射推理。',
+    sources: 'BRS Physiology 第 7 版第 2 章，印刷頁 33–58。Guyton and Hall 第 14 版的神經系統、特殊感覺、自主神經及體溫調節相關章節。',
+    topics: neuroPhysiologyTopics,
+    exams: {
+      notes: neuroPhysiologyExamNotes,
+      scope: '以 BRS 第 2 章為範圍，收錄目前已核對的原題。以一般膜電位、肌肉偶聯、心臟節律或器官功能為主的題目留在相關章節。',
+      examples: '<h3>同一考點的歷屆換問法</h3><ul><li>109-1 第 50 題從視交叉病灶推視野缺損，107-1 第 49 題由兩眼的缺損反推交叉後病灶。</li><li>97-1 第 19 題辨認伸張反射，110-1 第 51 題改問 α–γ 共活化，113-1 第 56 題再問 dynamic γ。</li><li>114-1 第 51 題用 K complex 找 N2，115-2 第 48 題用清醒樣腦波找 REM。</li></ul>',
+    },
+  },
+];
+
+function physiologyChapterLink(chapter) {
+  return physiologyRoot + '/chapter/' + chapter.id;
 }
 
 function renderPhysiology(parts) {
-  const inChapter = parts[2] === 'chapter' && parts[3] === 'cell-physiology';
-  const topic = inChapter && parts[4] === 'topic' && physiologyTopics.find(item => item.id === parts[5]);
+  const chapter = parts[2] === 'chapter' && physiologyChapters.find(item => item.id === parts[3]);
+  const inChapter = Boolean(chapter);
+  const chapterRoot = chapter ? physiologyChapterLink(chapter) : '';
+  const examRoute = chapterRoot + '/exams';
+  const topicLink = item => chapterRoot + '/topic/' + item.id;
+  const topic = inChapter && parts[4] === 'topic' && chapter.topics.find(item => item.id === parts[5]);
   const inExamArchive = inChapter && parts[4] === 'exams';
-  const title = inExamArchive ? '細胞生理｜歷屆考古題' : topic ? topic.title : inChapter ? '細胞生理' : '生理學';
+  const title = inExamArchive ? chapter.title + '｜歷屆考古題' : topic ? topic.title : inChapter ? chapter.title : '生理學';
   document.querySelectorAll('.nav-subject').forEach(link => {
     const active = link.dataset.id === 'physiology';
     link.classList.toggle('active', active);
@@ -91,28 +114,28 @@ function renderPhysiology(parts) {
 
   const crumbs = '<nav class="breadcrumb" aria-label="麵包屑"><a href="#/">科目總覽</a><span>/</span><a href="#/medicine-one">醫學（一）</a><span>/</span>'
     + (inChapter ? '<a href="' + physiologyRoot + '">生理學</a><span>/</span>' : '<span>生理學</span>')
-    + (topic || inExamArchive ? '<a href="' + cellPhysiologyRoot + '">細胞生理</a><span>/</span><span>' + title + '</span>' : inChapter ? '<span>細胞生理</span>' : '')
+    + (topic || inExamArchive ? '<a href="' + chapterRoot + '">' + chapter.title + '</a><span>/</span><span>' + title + '</span>' : inChapter ? '<span>' + chapter.title + '</span>' : '')
     + '</nav>';
   const heading = (eyebrow, intro) => '<div class="detail-heading"><p class="eyebrow">' + eyebrow
     + '</p><h1 tabindex="-1">' + title + '</h1><p class="intro">' + intro + '</p></div>';
 
   if (inExamArchive) {
-    content.innerHTML = crumbs + heading('CHAPTER 01 / PAST EXAMS', '按考點讀歷屆原題。作答後展開官方答案與逐題分析。')
-      + '<div class="study-actions"><a class="study-button" href="' + cellPhysiologyRoot + '">← 細胞生理目錄</a></div>'
+    content.innerHTML = crumbs + heading('CHAPTER ' + chapter.number + ' / PAST EXAMS', '按考點讀歷屆原題。作答後展開官方答案與逐題分析。')
+      + '<div class="study-actions"><a class="study-button" href="' + chapterRoot + '">← ' + chapter.title + '目錄</a></div>'
       + '<div id="physiology-exam-archive"><p role="status">載入生理學題庫…</p></div>';
-    renderPhysiologyExamArchive();
+    renderPhysiologyExamArchive(chapter.exams);
   } else if (topic) {
-    const index = physiologyTopics.indexOf(topic);
-    const adjacent = (item, label) => item ? '<a class="study-button" href="' + physiologyTopicLink(item) + '">' + label(item.title) + '</a>' : '<span></span>';
-    content.innerHTML = crumbs + heading('CHAPTER 01 / ' + topic.english, topic.summary)
-      + '<div class="study-actions"><a class="study-button" href="' + cellPhysiologyRoot + '">← 章節目錄</a>'
-      + '<a class="study-button" href="' + physiologyTopicLink(physiologyTopics.at(-1)) + '">五題考古與自測</a>'
-      + '<a class="study-button" href="' + cellPhysiologyExamRoute + '">本章歷屆題庫</a></div>'
-      + (topic.id === 'review' ? physiologyExamEntry() : '')
-      + '<article class="lesson"><section>' + topic.html + '</section><footer class="lesson-footer">教材參考：BRS Physiology 第 7 版第 1 章，Guyton and Hall 第 14 版第 2、4–8 章。</footer></article>'
+    const index = chapter.topics.indexOf(topic);
+    const adjacent = (item, label) => item ? '<a class="study-button" href="' + topicLink(item) + '">' + label(item.title) + '</a>' : '<span></span>';
+    content.innerHTML = crumbs + heading('CHAPTER ' + chapter.number + ' / ' + topic.english, topic.summary)
+      + '<div class="study-actions"><a class="study-button" href="' + chapterRoot + '">← 章節目錄</a>'
+      + '<a class="study-button" href="' + topicLink(chapter.topics.at(-1)) + '">五題考古與自測</a>'
+      + '<a class="study-button" href="' + examRoute + '">本章歷屆題庫</a></div>'
+      + (topic.id === 'review' ? physiologyExamEntry(examRoute, chapter.number) : '')
+      + '<article class="lesson"><section>' + topic.html + '</section><footer class="lesson-footer">教材參考：' + chapter.sources + '</footer></article>'
       + '<nav class="reading-nav" aria-label="章節前後頁">'
-      + adjacent(physiologyTopics[index - 1], label => '← ' + label)
-      + adjacent(physiologyTopics[index + 1], label => label + ' →') + '</nav>';
+      + adjacent(chapter.topics[index - 1], label => '← ' + label)
+      + adjacent(chapter.topics[index + 1], label => label + ' →') + '</nav>';
     content.querySelectorAll('[data-phys-section]').forEach(button => {
       button.addEventListener('click', () => {
         const heading = document.getElementById(button.dataset.physSection);
@@ -121,18 +144,18 @@ function renderPhysiology(parts) {
       });
     });
   } else if (inChapter) {
-    content.innerHTML = crumbs + heading('CHAPTER 01 / CELL PHYSIOLOGY', '從膜與離子梯度開始，逐步推到神經傳導和肌肉收縮。')
-      + physiologyExamEntry()
-      + '<div class="topic-grid">' + physiologyTopics.map((item, index) =>
-        '<a class="topic-card" href="' + physiologyTopicLink(item) + '"><span class="topic-num">'
+    content.innerHTML = crumbs + heading('CHAPTER ' + chapter.number + ' / ' + chapter.english, chapter.summary)
+      + physiologyExamEntry(examRoute, chapter.number)
+      + '<div class="topic-grid">' + chapter.topics.map((item, index) =>
+        '<a class="topic-card" href="' + topicLink(item) + '"><span class="topic-num">'
         + String(index + 1).padStart(2, '0') + '</span><h2>' + item.title + '</h2><p>' + item.summary + '</p><div class="study-meta"><span>' + item.english + '</span></div></a>'
       ).join('') + '</div>';
   } else {
     content.innerHTML = crumbs + heading('醫學（一） / PHYSIOLOGY', '依 BRS Physiology 排章，搭配 Guyton and Hall 補機轉。')
-      + '<a class="study-banner" style="display:block" href="' + cellPhysiologyRoot + '"><p class="eyebrow">CHAPTER 01</p><h2>細胞生理</h2>'
-      + '<p>8 個主題與 1 個考題複習頁。含機轉詳解、公式代入、比較表、原圖導讀、遮答案自測與本章歷屆題庫。</p><span class="study-button">進入章節 →</span></a>'
-      + '<section class="study-note"><h2>後續章節</h2><ol start="2">'
-      + physiologyChapterNames.slice(1).map(name => '<li>' + name + '</li>').join('') + '</ol></section>';
+      + physiologyChapters.map(item => '<a class="study-banner" style="display:block" href="' + physiologyChapterLink(item) + '"><p class="eyebrow">CHAPTER ' + item.number + '</p><h2>' + item.title + '</h2>'
+        + '<p>' + (item.topics.length - 1) + ' 個主題與 1 個考題複習頁。' + item.summary + '</p><span class="study-button">進入章節 →</span></a>').join('')
+      + '<section class="study-note"><h2>後續章節</h2><ol start="' + (physiologyChapters.length + 1) + '">'
+      + physiologyChapterNames.slice(physiologyChapters.length).map(name => '<li>' + name + '</li>').join('') + '</ol></section>';
   }
   window.scrollTo(0, 0);
 }
