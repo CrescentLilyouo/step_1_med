@@ -100,8 +100,8 @@ function renderPhysiology(parts) {
   const topic = inChapter && parts[4] === 'topic' && chapter.topics.find(item => item.id === parts[5]);
   const inExamArchive = inChapter && parts[4] === 'exams';
   const inPractice = inChapter && parts[4] === 'practice';
-  const inTopicIndex = inChapter && parts[4] === 'topics';
-  const title = inExamArchive ? chapter.title + '｜歷屆考古題' : inPractice ? chapter.title + '｜章末測驗' : inTopicIndex ? chapter.title + '｜主題索引' : topic ? topic.title : inChapter ? chapter.title : '生理學';
+  const inReading = inChapter && parts[4] === 'reading';
+  const title = inExamArchive ? chapter.title + '｜歷屆考古題' : inPractice ? chapter.title + '｜章末測驗' : inReading ? chapter.title + '｜章節正文' : topic ? topic.title : inChapter ? chapter.title : '生理學';
   document.querySelectorAll('.nav-subject').forEach(link => {
     const active = link.dataset.id === 'physiology';
     link.classList.toggle('active', active);
@@ -116,7 +116,7 @@ function renderPhysiology(parts) {
 
   const crumbs = '<nav class="breadcrumb" aria-label="麵包屑"><a href="#/">科目總覽</a><span>/</span><a href="#/medicine-one">醫學（一）</a><span>/</span>'
     + (inChapter ? '<a href="' + physiologyRoot + '">生理學</a><span>/</span>' : '<span>生理學</span>')
-    + (topic || inExamArchive || inPractice || inTopicIndex ? '<a href="' + chapterRoot + '">' + chapter.title + '</a><span>/</span><span>' + title + '</span>' : inChapter ? '<span>' + chapter.title + '</span>' : '')
+    + (topic || inExamArchive || inPractice || inReading ? '<a href="' + chapterRoot + '">' + chapter.title + '</a><span>/</span><span>' + title + '</span>' : inChapter ? '<span>' + chapter.title + '</span>' : '')
     + '</nav>';
   const heading = (eyebrow, intro) => '<div class="detail-heading"><p class="eyebrow">' + eyebrow
     + '</p><h1 tabindex="-1">' + title + '</h1><p class="intro">' + intro + '</p></div>';
@@ -128,14 +128,14 @@ function renderPhysiology(parts) {
     renderPhysiologyExamArchive(chapter.exams);
   } else if (inPractice) {
     content.innerHTML = crumbs + heading('CHAPTER ' + chapter.number + ' / PRACTICE', '作答後可按考點檢視正確率與每題解析。')
-      + '<div class="study-actions"><a class="study-button" href="' + chapterRoot + '">← 章節正文</a><a class="study-button" href="' + examRoute + '">本章歷屆題庫</a></div>'
+      + '<div class="study-actions"><a class="study-button" href="' + chapterRoot + '">← 章節目錄</a><a class="study-button" href="' + examRoute + '">本章歷屆題庫</a></div>'
       + '<div id="physiology-chapter-practice"><p role="status">載入生理學題庫…</p></div>';
     renderPhysiologyChapterPractice(chapter);
   } else if (topic) {
     const index = chapter.topics.indexOf(topic);
     const adjacent = (item, label) => item ? '<a class="study-button" href="' + topicLink(item) + '">' + label(item.title) + '</a>' : '<span></span>';
     content.innerHTML = crumbs + heading('CHAPTER ' + chapter.number + ' / ' + topic.english, topic.summary)
-      + '<div class="study-actions"><a class="study-button" href="' + chapterRoot + '">← 章節正文</a>'
+      + '<div class="study-actions"><a class="study-button" href="' + chapterRoot + '">← 章節目錄</a>'
       + '<a class="study-button" href="' + topicLink(chapter.topics.at(-1)) + '">五題考古與自測</a>'
       + '<a class="study-button" href="' + examRoute + '">本章歷屆題庫</a></div>'
       + (topic.id === 'review' ? physiologyExamEntry(examRoute, chapter.number) : '')
@@ -143,8 +143,10 @@ function renderPhysiology(parts) {
       + '<nav class="reading-nav" aria-label="章節前後頁">'
       + adjacent(chapter.topics[index - 1], label => '← ' + label)
       + adjacent(chapter.topics[index + 1], label => label + ' →') + '</nav>';
-  } else if (inTopicIndex) {
+  } else if (inChapter && !inReading) {
     content.innerHTML = crumbs + heading('CHAPTER ' + chapter.number + ' / ' + chapter.english, chapter.summary)
+      + '<div class="study-actions"><a class="study-button" href="' + chapterRoot + '/reading">連續閱讀正文</a>'
+      + '<a class="study-button" href="' + chapterRoot + '/practice">20 題章末測驗</a></div>'
       + physiologyExamEntry(examRoute, chapter.number)
       + '<div class="topic-grid">' + chapter.topics.map((item, index) =>
         '<a class="topic-card" href="' + topicLink(item) + '"><span class="topic-num">'
@@ -152,7 +154,7 @@ function renderPhysiology(parts) {
       ).join('') + '</div>';
   } else if (inChapter) {
     content.innerHTML = crumbs + heading('CHAPTER ' + chapter.number + ' / ' + chapter.english, chapter.summary)
-      + '<div class="study-actions"><a class="study-button" href="' + chapterRoot + '/topics">主題索引與深入閱讀</a>'
+      + '<div class="study-actions"><a class="study-button" href="' + chapterRoot + '">← 章節目錄</a>'
       + '<a class="study-button" href="' + examRoute + '">歷屆題庫</a><a class="study-button" href="' + chapterRoot + '/practice">章末測驗</a></div>'
       + physiologyReading(chapter, chapterRoot);
   } else {
