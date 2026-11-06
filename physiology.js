@@ -118,6 +118,17 @@ const physiologyChapters = [
       examples: '<h3>同一考點如何變形</h3><ul><li>109-1 第 66 題求菊糖清除，110-1 第 66 題多了萃取率和血比容，113-2 第 67 題改求 FF。</li><li>108-2 第 65 題問梯度建立，104-2 第 18 題問保存，106-2 第 65 題再加尿素通路。</li><li>113-1 第 67 題問限水，115-2 第 65 題問大量喝水；用 ADH 回饋推相反方向。</li></ul>',
     },
   },
+  {
+    id: 'gastrointestinal', number: '06', title: '腸胃生理', english: 'GASTROINTESTINAL PHYSIOLOGY',
+    summary: '從腸神經與餐後訊號出發，沿食團追蹤運動、分泌、消化、吸收與排泄。',
+    sources: 'BRS Physiology 第 7 版第 6 章；Guyton and Hall 第 14 版第 63–67 章。',
+    topics: giTopics,
+    exams: {
+      notes: giExamNotes,
+      scope: '由既有生理學題庫按機轉分類，包含部分內分泌、神經及酸鹼跨章題，保留官方採計答案。',
+      examples: '<h3>同一考點如何變形</h3><ul><li>96-2 第 10 題由十二指腸酸推胰鹼液，114-1 第 65 題直接問 secretin 標靶。</li><li>102-2 第 13 題問鈉梯度，113-1 第 65 題改問單糖載體與膜面。</li><li>97-2 第 22 題問迴腸切除後的膽鹽，110-1 第 63 題改考 B₁₂。</li></ul>',
+    },
+  },
 ];
 
 function physiologyChapterLink(chapter) {
