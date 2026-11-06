@@ -20,13 +20,13 @@ function bioButton(url,label) {return '<a class="study-button" href="'+url+'">'+
 function bioProgressKey(c,id) {return 'biochemistry-read-v1:'+c.id+':'+id;}
 function bioIsRead(c,id) {try{return localStorage.getItem(bioProgressKey(c,id))==='1';}catch{return false;}}
 function bioSection(c,s) {
- const i=c.sections.indexOf(s),r=bioRecall[i];
+ const i=c.sections.indexOf(s),r=(c.recalls||bioRecall)[i];
  return '<section aria-labelledby="bio-'+s.id+'"><h2 id="bio-'+s.id+'" tabindex="-1">'+(i+1)+'　'+s.title+'</h2>'+s.html
  +(r?'<div class="relearn-bridge"><h3>停下來，閉卷說一遍</h3><p>'+r[0]+'</p><label>先寫推理（此欄離開頁面後不保留）<textarea rows="3" placeholder="先說原因，再說結果。"></textarea></label><details><summary>回答後核對</summary><p>'+r[1]+'</p></details></div>':'')
  +'<label><input type="checkbox" data-bio-read="'+s.id+'" '+(bioIsRead(c,s.id)?'checked':'')+'> 已完成本節閱讀</label></section>';
 }
 function bioPractice(c) {
- return '<section><h2>15 題自編練習</h2><p>先自行作答，再逐題展開解析。這些是教學自編題，不是歷屆考古題，也不計入國考題庫成績。</p><p>文字欄供本頁暫記，離開後不保留。</p></section>'
+ return '<section><h2>'+c.questions.length+' 題自編練習</h2><p>先自行作答，再逐題展開解析。這些是教學自編題，不是歷屆考古題，也不計入國考題庫成績。</p><p>文字欄供本頁暫記，離開後不保留。</p></section>'
  +c.questions.map((q,i)=>'<section aria-labelledby="bio-q-'+i+'"><h2 id="bio-q-'+i+'" tabindex="-1">'+q.title+'</h2>'+q.prompt+'<label>我的推理<textarea rows="3" aria-label="'+bioEscape(q.title)+'：我的推理"></textarea></label><details><summary>作答後看答案與解析</summary>'+q.answer+'</details></section>').join('');
 }
 function bioDiagram() {
@@ -44,10 +44,10 @@ function renderBiochemistry(parts) {
  document.getElementById('top-title').textContent='醫學（一） / 生物化學';document.title=title+'｜一階國考';
  const crumb='<nav class="breadcrumb" aria-label="麵包屑"><a href="#/">科目總覽</a><span>/</span><a href="#/medicine-one">醫學（一）</a><span>/</span>'+'<a href="'+biochemistryRoot+'">生物化學</a>'+(c?'<span>/</span><a href="'+root+'">第 '+c.number+' 章</a>':'')+'</nav>';
  const heading='<div class="detail-heading"><p class="eyebrow">'+(c?'CHAPTER '+c.number:'醫學（一） / BIOCHEMISTRY')+'</p><h1 tabindex="-1">'+title+'</h1><p class="intro">'+(c?c.summary:'依 Harper’s 建立完整機轉，沿用生理學的主題目錄、連續閱讀與閉卷回想。')+'</p></div>';
- const actions=c?'<nav class="study-actions" aria-label="章節閱讀方式">'+bioButton(root,'章節目錄')+bioButton(root+'/reading','連續閱讀正文')+bioButton(root+'/practice','15 題自編練習')+bioButton(root+'/exams','歷屆考點分析')+bioButton(biochemistryRoot+'/quiz','全科考古快寫')+'</nav>':'';
+ const actions=c?'<nav class="study-actions" aria-label="章節閱讀方式">'+bioButton(root,'章節目錄')+bioButton(root+'/reading','連續閱讀正文')+bioButton(root+'/practice',c.questions.length+' 題自編練習')+bioButton(root+'/exams','歷屆考點分析')+bioButton(biochemistryRoot+'/quiz','全科考古快寫')+'</nav>':'';
  let body='';
  if(invalid)body='<section class="quiz-panel"><p>請由生物化學目錄重新選擇章節。</p>'+bioButton(biochemistryRoot,'回生化目錄')+'</section>';
- else if(!c)body=biochemistryChapters.map(ch=>'<a class="study-banner" style="display:block" href="'+biochemistryRoot+'/chapter/'+ch.id+'"><p class="eyebrow">CHAPTER '+ch.number+'</p><h2>'+ch.title+'</h2><p>'+ch.summary+'</p><div class="study-meta"><span>13 個教學主題</span><span>複習清單</span><span>15 題自編練習</span></div><span class="study-button">進入章節 →</span></a>').join('');
+ else if(!c)body=biochemistryChapters.map(ch=>'<a class="study-banner" style="display:block" href="'+biochemistryRoot+'/chapter/'+ch.id+'"><p class="eyebrow">CHAPTER '+ch.number+'</p><h2>'+ch.title+'</h2><p>'+ch.summary+'</p><div class="study-meta"><span>'+ch.sections.filter(s=>!['practice','review'].includes(s.id)).length+' 個教學主題</span><span>複習清單</span><span>'+ch.questions.length+' 題自編練習</span></div><span class="study-button">進入章節 →</span></a>').join('');
  else {
  const topics=c.sections.filter(s=>s.id!=='practice');
  const source='<footer class="lesson-footer">教材參考：'+c.sources+'<details><summary>完整來源與內容範圍</summary>'+c.references.replace('本章尚未完成臺灣歷屆考題逐題對照，因此不標示未經核實的「必考」「歷屆出現次數」或年份。後續題庫對照時再補入可追溯來源。','本章已新增 20 題歷屆考點精選分析，保留原題來源。這是主題精選，並非完整歷年頻率統計。')+'</details></footer>';
@@ -56,11 +56,11 @@ function renderBiochemistry(parts) {
  else if(mode==='practice')body='<article class="lesson bio-lesson">'+bioPractice(c)+source+'</article>';
  else if(mode==='topic'){
  const i=topics.indexOf(topic);
- body=bioExamEntry(root)+progress+'<article class="lesson bio-lesson">'+bioSection(c,topic)+source+'</article><nav class="reading-nav" aria-label="主題前後頁">'+(i?bioButton(root+'/topic/'+topics[i-1].id,'← '+topics[i-1].title):'<span></span>')+(i<topics.length-1?bioButton(root+'/topic/'+topics[i+1].id,topics[i+1].title+' →'):bioButton(root+'/practice','進入自編練習 →'))+'</nav>';
+ body=bioExamEntry(c,root)+progress+'<article class="lesson bio-lesson">'+bioSection(c,topic)+source+'</article><nav class="reading-nav" aria-label="主題前後頁">'+(i?bioButton(root+'/topic/'+topics[i-1].id,'← '+topics[i-1].title):'<span></span>')+(i<topics.length-1?bioButton(root+'/topic/'+topics[i+1].id,topics[i+1].title+' →'):bioButton(root+'/practice','進入自編練習 →'))+'</nav>';
  }else if(mode==='reading'){
- body=bioExamEntry(root)+progress+'<div class="bio-lesson reading-layout"><article class="lesson"><section><h2>重新學習的路徑</h2><p>第一輪讀 1–5 節，建立水與 pH 的直覺；第二輪讀 6–10 節，練習解離、電荷與緩衝計算；第三輪讀生理連結與易錯觀念，再完成章末練習。</p><p>每節先讀完整說明，再停下來閉卷回答；不確定時回到原理與單位。</p>'+bioDiagram()+'</section>'+topics.map(s=>bioSection(c,s)).join('')+'<section><h2>章末練習</h2><p>先完成自編題推理，再讀本章 20 題歷屆考點分析，最後用全科考古快寫練習。全科題庫不侷限本章。</p>'+bioButton(root+'/practice','開始 15 題自編練習')+'</section>'+source+'</article><nav class="reading-toc" aria-label="正文目錄"><strong>本章閱讀目錄</strong>'+topics.map((s,i)=>'<button class="bio-jump" data-bio-jump="bio-'+s.id+'">'+(c.sections.indexOf(s)+1)+'　'+s.title+'</button>').join('')+'</nav></div>';
+ body=bioExamEntry(c,root)+progress+'<div class="bio-lesson reading-layout"><article class="lesson"><section><h2>重新學習的路徑</h2><p>'+(c.readingIntro||'第一輪讀 1–5 節，建立水與 pH 的直覺；第二輪讀 6–10 節，練習解離、電荷與緩衝計算；第三輪讀生理連結與易錯觀念，再完成章末練習。')+'</p><p>每節先讀完整說明，再停下來閉卷回答；不確定時回到原理與單位。</p>'+(c.figure||bioDiagram())+'</section>'+topics.map(s=>bioSection(c,s)).join('')+'<section><h2>章末練習</h2><p>先完成自編題推理，再讀本章 '+bioExamCount(c)+' 題歷屆考點分析，最後用全科考古快寫練習。全科題庫不侷限本章。</p>'+bioButton(root+'/practice','開始 '+c.questions.length+' 題自編練習')+'</section>'+source+'</article><nav class="reading-toc" aria-label="正文目錄"><strong>本章閱讀目錄</strong>'+topics.map((s,i)=>'<button class="bio-jump" data-bio-jump="bio-'+s.id+'">'+(c.sections.indexOf(s)+1)+'　'+s.title+'</button>').join('')+'</nav></div>';
  }else{
- body='<section class="quiz-panel"><h2>學過但忘了，從完整正文重新接起來</h2><p>先補基礎名詞，再推導公式、看算例，最後閉卷重述。本章保留詳細正文，速讀清單放在最後。</p>'+bioButton(root+'/reading','開始重新學習 →')+'</section>'+bioExamEntry(root)+progress+'<div class="topic-grid">'+topics.map((s,i)=>'<a class="topic-card" href="'+root+'/topic/'+s.id+'"><span class="topic-num">'+String(c.sections.indexOf(s)+1).padStart(2,'0')+'</span><h2>'+s.title+'</h2><p>'+bioEscape((bioRecall[i]||['整合核心觀念與主動回想'])[0])+'</p><div class="study-meta"><span>'+ (bioIsRead(c,s.id)?'已讀':'完整詳解')+'</span></div></a>').join('')+'</div><section class="quiz-panel"><h2>自編練習與歷屆原題分開使用</h2><p>15 題自編練習均附推理解析，另有 20 題歷屆考點分析，保留場次、題號與原卷來源。</p>'+bioButton(root+'/practice','進入 15 題自編練習')+'</section>';
+ body='<section class="quiz-panel"><h2>學過但忘了，從完整正文重新接起來</h2><p>先補基礎名詞，再推導公式、看算例，最後閉卷重述。本章保留詳細正文，速讀清單放在最後。</p>'+bioButton(root+'/reading','開始重新學習 →')+'</section>'+bioExamEntry(c,root)+progress+'<div class="topic-grid">'+topics.map((s,i)=>'<a class="topic-card" href="'+root+'/topic/'+s.id+'"><span class="topic-num">'+String(c.sections.indexOf(s)+1).padStart(2,'0')+'</span><h2>'+s.title+'</h2><p>'+bioEscape(((c.recalls||bioRecall)[i]||['整合核心觀念與主動回想'])[0])+'</p><div class="study-meta"><span>'+ (bioIsRead(c,s.id)?'已讀':'完整詳解')+'</span></div></a>').join('')+'</div><section class="quiz-panel"><h2>自編練習與歷屆原題分開使用</h2><p>'+c.questions.length+' 題自編練習均附推理解析，另有 '+bioExamCount(c)+' 題歷屆考點分析，保留場次、題號與原卷來源。</p>'+bioButton(root+'/practice','進入 '+c.questions.length+' 題自編練習')+'</section>';
  }
  }
  content.innerHTML=crumb+heading+actions+body;
@@ -74,14 +74,17 @@ function renderBiochemistry(parts) {
 }
 
 
-function bioExamEntry(root) {
- const n=biochemistryExamAnalysis.groups.reduce((n,g)=>n+g.questions.length,0);
- return '<section class="quiz-panel"><h2>歷屆考點分析</h2><p>按四個觀念整理 '+n+' 題原題，對照不同年份的問法、解題步驟與易錯選項。</p>'+bioButton(root+'/exams','閱讀歷屆考點分析 →')+'</section>';
+function bioExamData(c) { return c.exams || biochemistryExamAnalysis; }
+function bioExamCount(c) { return bioExamData(c).groups.reduce((n,g)=>n+g.questions.length,0); }
+function bioExamEntry(c,root) {
+ const n=bioExamCount(c);
+ return '<section class="quiz-panel"><h2>歷屆考點分析</h2><p>按 '+bioExamData(c).groups.length+' 組考點整理 '+n+' 題原題，對照不同年份的問法、解題步驟與易錯選項。</p>'+bioButton(root+'/exams','閱讀歷屆考點分析 →')+'</section>';
 }
 function bioExamPage(c,root) {
- const data=biochemistryExamAnalysis;
+ const data=bioExamData(c);
  const label=q=>q.year+' 年第 '+q.session+' 次・醫學（'+(q.paper===1?'一':'二')+'）第 '+q.number+' 題';
  const counts=data.groups.map(g=>'<tr><td><a href="'+root+'/topic/'+g.topic+'">'+g.title+'</a></td><td>'+g.questions.length+'</td><td>'+g.summary+'</td></tr>').join('');
- return '<article class="lesson bio-lesson"><section><h2>本章考法地圖</h2><p>從網站既有 '+data.bankCount+' 題生化題庫（民國 '+data.yearMin+'–'+data.yearMax+' 年）中，以主題檢索並人工篩選本章與跨章銜接原題。以下 20 題是本次精選，並非完整命中清單；各組題數不是歷年出題率，也不能用來推估下次考試比例。</p><p>題幹為既有 PDF 文字擷取，已移除可辨識的前題殘留；符號或排版有疑義時以原卷為準。答案沿用題庫的官方採計欄位與答案版本，解析為本教材撰寫。pI 與摺疊熱力學題屬延伸，連接後續章節。</p><div class="table-scroll" tabindex="0" role="region" aria-label="考點分類表"><table><thead><tr><th>考點</th><th>精選題數</th><th>出題變化與讀法</th></tr></thead><tbody>'+counts+'</tbody></table></div><p>本次精選沒有直接的緩衝比例計算原題，不代表歷屆未考；本章公式仍先用自編算例練熟。</p></section>'
+ return '<article class="lesson bio-lesson"><section><h2>本章考法地圖</h2><p>從網站既有 '+data.bankCount+' 題生化題庫（民國 '+data.yearMin+'–'+data.yearMax+' 年）中，以主題檢索並人工篩選本章與跨章銜接原題。以下 '+bioExamCount(c)+' 題是本次精選，並非完整命中清單；各組題數不是歷年出題率，也不能用來推估下次考試比例。</p><p>題幹為既有 PDF 文字擷取，已移除可辨識的前題殘留；符號或排版有疑義時以原卷為準。答案沿用題庫的官方採計欄位與答案版本，解析為本教材撰寫。'+(data.note||'pI 與摺疊熱力學題屬延伸，連接後續章節。')+'</p><div class="table-scroll" tabindex="0" role="region" aria-label="考點分類表"><table><thead><tr><th>考點</th><th>精選題數</th><th>出題變化與讀法</th></tr></thead><tbody>'+counts+'</tbody></table></div>'+(c.exams?'':'<p>本次精選沒有直接的緩衝比例計算原題，不代表歷屆未考；本章公式仍先用自編算例練熟。</p>')+'</section>'
  +data.groups.map(g=>'<section><h2>'+g.title+'</h2><p>'+g.summary+'</p>'+bioButton(root+'/topic/'+g.topic,'回讀機轉與觀念')+g.questions.map(q=>'<div class="bio-exam-item"><h3>'+label(q)+'｜'+q.point+'</h3><p class="quiz-note">原題編號：'+q.id+'</p><div class="bio-exam-text">'+bioEscape(q.text)+'</div><details><summary>作答後看採計答案與考點解析</summary><p><strong>題庫官方採計答案：'+q.answers.join('、')+'</strong>（'+(q.answerVersion==='M'?'更正答案 M 版':'答案 '+bioEscape(q.answerVersion||'S')+' 版')+'）</p><p>'+q.analysis+'</p><p><strong>這題怎麼記、怎麼避免錯：</strong>'+q.trap+'</p></details><div class="study-actions"><a class="study-button" href="'+q.pdf+'#page='+q.regions[0].page+'" target="_blank" rel="noopener noreferrer">原題 PDF</a><a class="study-button" href="'+q.answerPdf+'" target="_blank" rel="noopener noreferrer">官方答案 PDF</a><a class="study-button" href="'+q.query+'" target="_blank" rel="noopener noreferrer">考選部來源</a></div></div>').join('')+'</section>').join('')+'</article>';
 }
+
