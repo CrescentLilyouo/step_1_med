@@ -201,6 +201,7 @@ function renderPhysiology(parts) {
     content.innerHTML = crumbs + heading('CHAPTER ' + chapter.number + ' / ' + chapter.english, chapter.summary)
       + '<div class="study-actions"><a class="study-button" href="' + chapterRoot + '/reading">連續閱讀正文</a>'
       + '<a class="study-button" href="' + chapterRoot + '/practice">20 題章末測驗</a></div>'
+      + '<section class="quiz-panel"><h2>學過但忘了，從連續閱讀重新接起來</h2><p>每節先補概念銜接，再讀完整機轉、教材圖與定量分析，最後閉卷回想。章末依序做完整示範、引導變式與獨立推理，再用原題檢查。</p><a class="study-button" href="'+chapterRoot+'/reading">開始重新學習 →</a></section>'
       + physiologyExamEntry(examRoute, chapter.number)
       + '<div class="topic-grid">' + chapter.topics.map((item, index) =>
         '<a class="topic-card" href="' + topicLink(item) + '"><span class="topic-num">'

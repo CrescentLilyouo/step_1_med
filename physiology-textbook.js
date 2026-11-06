@@ -178,16 +178,41 @@ async function renderPhysiologyChapterPractice(chapter) {
     }));
     if (pool.length < size) throw new Error('Insufficient questions');
     app.innerHTML = '<section class="quiz-panel"><p>每回從本章既有題庫抽 20 道有單一採計答案的原題，先從各考點各抽一題，其餘隨機補足。每題 5 分，18 題為 90 分。交卷後顯示各考點表現。</p>'
+      + '<label><input type="checkbox" id="phys-practice-fresh"> 排除正文引用題與此瀏覽器已抽測題</label><p id="phys-practice-available" role="status"></p>'
+      + '<p>已抽測題與最近 50 次成績儲存在此瀏覽器。清除瀏覽資料、換裝置或禁止儲存會影響紀錄；歷屆題庫的閱讀與站外接觸不會自動追蹤。</p><details><summary>本章最近的作答紀錄</summary><div id="phys-practice-history"></div></details>'
       + '<button class="quiz-button" type="button" id="phys-practice-start">抽 20 題</button></section><div id="phys-practice-round"></div>';
     const round = app.querySelector('#phys-practice-round');
     const start = app.querySelector('#phys-practice-start');
+    const fresh = app.querySelector('#phys-practice-fresh');
+    const availability = app.querySelector('#phys-practice-available');
+    const history = app.querySelector('#phys-practice-history');
+    const showHistory=()=>{
+      const stored=physiologyReadAttempts().results;
+      const rows=(Array.isArray(stored)?stored:[]).filter(r=>r&&r.chapter===chapter.id).slice(-8).reverse();
+      history.innerHTML=rows.length?'<ul>'+rows.map(r=>'<li>'+quizEscape(String(r.date).slice(0,10))+' · '+Number(r.correct)+'/'+Number(r.total)+' · '+(r.mode==='fresh'?'排除引用與已抽測題':'一般複習')+'</li>').join('')+'</ul>':'<p>尚無本章紀錄。</p>';
+    };
+    const availablePool=()=>{
+      const seen=physiologySeenIds();
+      return fresh.checked?pool.filter(x=>!physiologyTeachingQuestionIds.has(x.question.id)&&!seen.has(x.question.id)):pool;
+    };
+    const updateAvailability=()=>{
+      const n=availablePool().length; start.disabled=n<size;
+      availability.textContent='本模式可用 '+n+' 題。'+(n<size?'不足 20 題，請改用一般複習；不會自動混入已排除題。':'可開始 20 題測驗。');
+    };
+    fresh.onchange=updateAvailability;
+    showHistory();updateAvailability();
     start.onclick = () => {
       if (round.querySelector('form:not([data-scored]) input:checked') && !window.confirm('重新抽題會清除目前的作答。')) return;
-      const first = chapter.exams.notes.flatMap(group => QuizCore.draw(pool.filter(item => item.group === group.name), 1));
+      const currentPool=availablePool();
+      if(currentPool.length<size){updateAvailability();return;}
+      const mode=fresh.checked?'fresh':'review';
+      const first = chapter.exams.notes.flatMap(group => QuizCore.draw(currentPool.filter(item => item.group === group.name), 1));
       const chosen = new Set(first.map(item => item.question.id));
-      const extra = QuizCore.draw(pool.filter(item => !chosen.has(item.question.id)), size - first.length);
+      const extra = QuizCore.draw(currentPool.filter(item => !chosen.has(item.question.id)), size - first.length);
       const selected = QuizCore.draw([...first, ...extra], size);
-      round.innerHTML = '<form><div class="quiz-panel"><p>文字轉錄可能有欄位或符號錯序，遇到圖題請開原卷。</p></div>'
+      const savedQuestions=physiologyRememberQuestions(selected);
+      updateAvailability();
+      round.innerHTML = '<form><div class="quiz-panel"><p>文字轉錄可能有欄位或符號錯序，遇到圖題請開原卷。</p><p>'+(mode==='fresh'?'本回排除正文引用題與先前本機抽測題。':'本回為一般複習，可能含先前看過的題目。')+(savedQuestions?'':' 此瀏覽器無法保存紀錄，後續無法可靠排除已抽測題。')+'</p></div>'
         + selected.map(({ question: q }, i) => `<article class="quiz-question">
           <h2>第 ${i + 1} 題 <small>· ${q.year}-${q.session} 原題 ${q.number}</small></h2>
           <p style="white-space:pre-wrap;overflow-wrap:anywhere">${quizEscape(q.text.trim())}</p>
@@ -224,14 +249,19 @@ async function renderPhysiologyChapterPractice(chapter) {
           result.hidden = false;
           result.className = 'quiz-result' + (ok ? '' : ' wrong');
           result.innerHTML = `<p><strong>${ok ? '答對' : value ? '答錯' : '未作答'}</strong> · 官方答案 ${q.answers[0]}${q.corrected ? '（更正）' : ''}</p>
-            <p><strong>${quizEscape(point)}</strong>　${quizEscape(analysis)}</p>${physiologyOptionAnalysis(q.id)}<a href="${q.answerPdf}" target="_blank" rel="noopener">官方答案 PDF</a>`;
+            <p><strong>${quizEscape(point)}</strong>　${quizEscape(analysis)}</p>${physiologyOptionAnalysis(q.id)}${physiologyRemediation(chapter,group)}<a href="${q.answerPdf}" target="_blank" rel="noopener">官方答案 PDF</a>`;
         });
         form.querySelectorAll('input, button[type="submit"]').forEach(field => field.disabled = true);
         const score = form.querySelector('#phys-practice-score');
         score.hidden = false;
         score.innerHTML = '<h2>' + correct + ' / ' + size + ' 題 · ' + (correct * 5) + ' 分</h2>'
           + '<ul>' + [...counts].map(([name, {hits, total}]) => '<li>' + quizEscape(name) + '　' + hits + ' / ' + total + '</li>').join('') + '</ul>'
-          + '<p>重做時先針對最低的主題回讀正文，再換一輪原題驗證。</p>';
+          + '<p>本回屬'+(mode==='fresh'?'排除引用與已抽測題模式':'一般複習模式')+'。此分數只代表這 20 題，不能直接當作國考整科正確率。</p>'
+          + '<p>優先補讀以下未全對考點。每個考點題數有限，比例用來找線索，不宜當作穩定能力估計。</p>'
+          + [...counts].filter(([,c])=>c.hits<c.total).map(([name])=>'<h3>'+quizEscape(name)+'</h3>'+physiologyRemediation(chapter,name)).join('');
+        const savedResult=physiologySaveResult(chapter,correct,size,mode);
+        if(!savedResult)score.innerHTML+='<p>本次成績未能儲存於此瀏覽器。</p>';
+        showHistory();
         score.focus();
       };
     };
