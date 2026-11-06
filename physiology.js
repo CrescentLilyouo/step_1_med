@@ -96,6 +96,17 @@ const physiologyChapters = [
       examples: '<h3>歷屆的同觀念變化</h3><ul><li>110-2 第 56 題問起搏第 4 期，114-1 第 59 題問 SA node 主升段。先判時相，再判離子。</li><li>111-1 第 60 題問等容收縮壓力，113-1 第 58 題問 S1 至 S2 的容積變化。兩題都從瓣膜開關推。</li><li>112-2 第 60 題與 115-1 第 59 題都用 Starling 力，但結果一負一正。算完須交代液體方向。</li></ul>',
     },
   },
+  {
+    id: 'respiratory', number: '04', title: '呼吸生理', english: 'RESPIRATORY PHYSIOLOGY',
+    summary: '由胸肺力學與有效換氣，推到肺泡分壓、灌流分布、血液氣體運輸和呼吸調節。',
+    sources: 'BRS Physiology 第 7 版第 4 章；Guyton and Hall 第 14 版第 38–43 章。',
+    topics: respiratoryTopics,
+    exams: {
+      notes: respiratoryExamNotes,
+      scope: '從網站既有生理學題庫逐題核對，依主要推理分類。含肺泡通氣、氧輸送與酸鹼等跨章題；依官方採計保留更正、多答案及一律給分，解析另說明必要條件。',
+      examples: '<h3>同一考點如何變形</h3><ul><li>96-1 第 22 題區分分鐘與肺泡通氣，110-1 第 61 題固定分鐘通氣後比較不同呼吸型態。</li><li>111-2 第 61 題從 FRC 開始吸氣，96-2 第 8 題從 RV 開始，先找起始容積再判肺尖與肺底。</li><li>108-2 第 61 題固定 PCO₂ 看 Haldane，110-2 第 61 題固定 PO₂ 看 Bohr。</li><li>104-1 第 14 題先堵氣道，115-1 第 62 題先堵血管；從局部氣體改變推回饋。</li></ul>',
+    },
+  },
 ];
 
 function physiologyChapterLink(chapter) {
