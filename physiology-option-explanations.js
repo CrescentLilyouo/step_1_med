@@ -478,6 +478,56 @@ const physiologyDetailedExplanations = {
       "D．乳糜微粒先入乳糜管再進體循環，短中鏈脂肪酸較可直接走門脈。"
     ],
     "transfer": "若缺失膽鹽，先受影響的是乳化與微膠粒；若缺 apoB-48 組裝，問題發生在脂質進上皮之後。"
+  },
+  "115-2-1-67": {
+    "reason": "官方答案 A。從血、細胞、濾泡腔三個區室追碘及 thyroglobulin。",
+    "options": [
+      "A．血到濾泡細胞由基底外側 NIS 完成；pendrin 位於頂膜，參與往濾泡腔輸送。",
+      "B．TPO 利用 H₂O₂ 支持碘有機化，形成 MIT、DIT。",
+      "C．兩個 DIT 偶合形成 T₄；MIT 加 DIT 的適當偶合形成 T₃。",
+      "D．碘化 thyroglobulin 內吞後須經溶酶體蛋白分解，才釋出激素。"
+    ],
+    "transfer": "若題目改問血中 T₄ 變成 T₃，要移到周邊去碘酶，不再追濾泡腔。"
+  },
+  "107-1-1-67": {
+    "reason": "官方答案 D。21-hydroxylase 在 cortisol 和礦物皮質素路徑皆有功能。",
+    "options": [
+      "A．Cortisol 低使負回饋解除，ACTH 可增加。",
+      "B．雄性素過多可改變 XX 胎兒外生殖器表現。",
+      "C．前驅物可流向雄性素路徑。",
+      "D．Corticosterone 的上游需先由 21-hydroxylase 形成 DOC，不預期經該受阻路增加。"
+    ],
+    "transfer": "換成 11β-hydroxylase 缺陷時，DOC 可堆積，礦物作用造成高血壓及低 renin。"
+  },
+  "108-2-1-68": {
+    "reason": "官方答案 D。代謝訊號先改 KATP，再用 Ca²⁺ 觸發胞吐。",
+    "options": [
+      "A．GLUT4 多用於肌肉和脂肪的 insulin 反應，不是 β 細胞經典感測入口。",
+      "B．是 KATP 關閉、K⁺ 外流減少造成去極化。",
+      "C．胺基酸可藉代謝、膜去極化等促分泌，題述不能作為主要普遍機轉；cAMP 是 incretin 的典型放大訊號。",
+      "D．胞內 Ca²⁺ 上升促 insulin 囊泡胞吐。"
+    ],
+    "transfer": "若代謝正常但電壓門控 Ca²⁺ 通道被抑制，去極化仍可有，胞吐卻會減弱。"
+  },
+  "115-1-1-70": {
+    "reason": "官方答案 C。PTH 已偏高而效應仍不足，表示分泌端有反應，但靶端可能失效。",
+    "options": [
+      "A．若副甲狀腺感測鈣的閾值改變，主要影響釋放設定；不能直接解釋高 PTH 卻低靶效應。",
+      "B．分泌不足通常使 PTH 低或不相稱正常。",
+      "C．PTH 受器或下游訊號不靈，會出現功能低下及代償性 PTH 高。",
+      "D．Calcitonin 路徑不能直接解釋 PTH 偏高而靶端反應低。"
+    ],
+    "transfer": "若改成腎功能明顯降低，也可見 PTH 高與磷高，需先分器官功能與特定受器抗性。"
+  },
+  "112-1-1-73": {
+    "reason": "官方答案 C。卵巢由 LH 驅動 theca 供 androgen，再由 FSH 支持 granulosa 芳香化。",
+    "options": [
+      "A．睪丸 testosterone 主要由 LH–Leydig 驅動，非此命名。",
+      "B．此模型不以睪丸 progesterone 分泌為目的。",
+      "C．兩種細胞與兩性促素配合生成 estradiol。",
+      "D．Androstenedione 是 theca 提供的中間底物，模型的重點是下一站芳香化。"
+    ],
+    "transfer": "若 FSH 不足，theca 仍可能製造 androgen，但 granulosa 芳香化與濾泡成熟受限。"
   }
 };
 

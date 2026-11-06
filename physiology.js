@@ -65,7 +65,6 @@ const physiologyTopics = [
 ];
 
 const physiologyRoot = '#/subject/physiology';
-const physiologyChapterNames = ['細胞生理', '神經生理', '心血管生理', '呼吸生理', '腎臟與酸鹼生理', '腸胃生理', '內分泌與生殖生理'];
 
 const physiologyChapters = [
   {
@@ -127,6 +126,17 @@ const physiologyChapters = [
       notes: giExamNotes,
       scope: '由既有生理學題庫按機轉分類，包含部分內分泌、神經及酸鹼跨章題，保留官方採計答案。',
       examples: '<h3>同一考點如何變形</h3><ul><li>96-2 第 10 題由十二指腸酸推胰鹼液，114-1 第 65 題直接問 secretin 標靶。</li><li>102-2 第 13 題問鈉梯度，113-1 第 65 題改問單糖載體與膜面。</li><li>97-2 第 22 題問迴腸切除後的膽鹽，110-1 第 63 題改考 B₁₂。</li></ul>',
+    },
+  },
+  {
+    id: 'endocrine', number: '07', title: '內分泌與生殖生理', english: 'ENDOCRINE AND REPRODUCTIVE PHYSIOLOGY',
+    summary: '從受器與激素軸出發，讀到代謝、鈣磷、性別分化、週期及妊娠的調控。',
+    sources: 'BRS Physiology 第 7 版第 7 章；Guyton and Hall 第 14 版第 75–84 章。',
+    topics: endoTopics,
+    exams: {
+      notes: endoExamNotes,
+      scope: '由既有生理學題庫按機轉分類，包含部分腎臟、腸胃及發育跨章題，保留官方採計答案。',
+      examples: '<h3>同一考點如何變形</h3><ul><li>109-1 第 68 題考基底外側抓碘，115-2 第 67 題改考 pendrin 與頂膜。</li><li>108-2 第 68 題問 β 細胞胞吐，114-2 第 71 題把擾動移到最前端的葡萄糖感測。</li><li>111-2 第 72 題問 LH 和 theca，112-1 第 73 題將兩種細胞組合成同一條生成路徑。</li></ul>',
     },
   },
 ];
@@ -204,9 +214,7 @@ function renderPhysiology(parts) {
   } else {
     content.innerHTML = crumbs + heading('醫學（一） / PHYSIOLOGY', '依 BRS Physiology 排章，搭配 Guyton and Hall 補機轉。')
       + physiologyChapters.map(item => '<a class="study-banner" style="display:block" href="' + physiologyChapterLink(item) + '"><p class="eyebrow">CHAPTER ' + item.number + '</p><h2>' + item.title + '</h2>'
-        + '<p>' + (item.topics.length - 1) + ' 個主題與 1 個考題複習頁。' + item.summary + '</p><span class="study-button">進入章節 →</span></a>').join('')
-      + '<section class="study-note"><h2>後續章節</h2><ol start="' + (physiologyChapters.length + 1) + '">'
-      + physiologyChapterNames.slice(physiologyChapters.length).map(name => '<li>' + name + '</li>').join('') + '</ol></section>';
+        + '<p>' + (item.topics.length - 1) + ' 個主題與 1 個考題複習頁。' + item.summary + '</p><span class="study-button">進入章節 →</span></a>').join('');
   }
     content.querySelectorAll('[data-phys-section]').forEach(button => {
       button.addEventListener('click', () => {
