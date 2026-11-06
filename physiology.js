@@ -107,6 +107,17 @@ const physiologyChapters = [
       examples: '<h3>同一考點如何變形</h3><ul><li>96-1 第 22 題區分分鐘與肺泡通氣，110-1 第 61 題固定分鐘通氣後比較不同呼吸型態。</li><li>111-2 第 61 題從 FRC 開始吸氣，96-2 第 8 題從 RV 開始，先找起始容積再判肺尖與肺底。</li><li>108-2 第 61 題固定 PCO₂ 看 Haldane，110-2 第 61 題固定 PO₂ 看 Bohr。</li><li>104-1 第 14 題先堵氣道，115-1 第 62 題先堵血管；從局部氣體改變推回饋。</li></ul>',
     },
   },
+  {
+    id: 'renal', number: '05', title: '腎臟與酸鹼生理', english: 'RENAL AND ACID–BASE PHYSIOLOGY',
+    summary: '由腎絲球濾過、各段小管與尿液濃縮，讀到鈉鉀恆定、淨排酸及血氣判讀。',
+    sources: 'BRS Physiology 第 7 版第 5 章；Guyton and Hall 第 14 版第 25–31 章。',
+    topics: renalTopics,
+    exams: {
+      notes: renalExamNotes,
+      scope: '依主要推理歸類網站既有腎臟與酸鹼原題，含少數內分泌、呼吸及體液跨章題。保留官方更正及多答案，教材條件另附於解析。',
+      examples: '<h3>同一考點如何變形</h3><ul><li>109-1 第 66 題求菊糖清除，110-1 第 66 題多了萃取率和血比容，113-2 第 67 題改求 FF。</li><li>108-2 第 65 題問梯度建立，104-2 第 18 題問保存，106-2 第 65 題再加尿素通路。</li><li>113-1 第 67 題問限水，115-2 第 65 題問大量喝水；用 ADH 回饋推相反方向。</li></ul>',
+    },
+  },
 ];
 
 function physiologyChapterLink(chapter) {
