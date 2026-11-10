@@ -5,7 +5,7 @@ const noop=()=>{};
 const element=()=>({classList:{remove:noop,toggle:noop},removeAttribute:noop,setAttribute:noop,textContent:''});
 const content={innerHTML:'',querySelectorAll:()=>[]};
 const ctx=vm.createContext({content,document:{querySelectorAll:()=>[],getElementById:()=>element()},window:{scrollTo:noop},localStorage:{getItem:()=>null}});
-for(const f of ['biochemistry-data.js','biochemistry-amino-acids.js','biochemistry-exams.js','biochemistry.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),ctx,{filename:f});
+for(const f of ['biochemistry-data.js','biochemistry-amino-acids.js','biochemistry-exams.js','biochemistry-protein-structure-folding.js','biochemistry-hemoglobin-myoglobin.js','biochemistry-enzymes-kinetics.js','biochemistry.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),ctx,{filename:f});
 const chapters=vm.runInContext('biochemistryChapters',ctx);
 const bank=JSON.parse(fs.readFileSync(path.join(root,'question-bank/biochemistry.json'),'utf8'));
 let rendered=0;
@@ -35,3 +35,4 @@ const index=fs.readFileSync(path.join(root,'index.html'),'utf8');
 assert(index.indexOf('src="biochemistry-data.js')<index.indexOf('src="biochemistry-amino-acids.js'));
 assert(index.indexOf('src="biochemistry-amino-acids.js')<index.indexOf('src="biochemistry.js'));
 console.log(`PASS: ${chapters.length} chapters, ${rendered+2} routes, exam answers/source fields, counts and script ordering.`);
+
