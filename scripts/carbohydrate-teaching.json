@@ -1,0 +1,759 @@
+[
+  {
+    "id": "tca-cycle",
+    "number": "09",
+    "title": "TCA循環：碳流、能量與代謝交會",
+    "summary": "逐步理解八個反應、碳與電子收支，再連到補充反應、合成出口與呼吸鏈。",
+    "sources": "Harper’s Illustrated Biochemistry, 31st ed., Ch. 16 The Citric Acid Cycle（印刷頁150–156）；PDH與呼吸鏈連結參Ch. 17與13。",
+    "intro": "先用碳數畫八步，再找NADH、FAD相關當量與GTP；接著用不同題幹起點算能量，最後理解抽出與補充中間物。",
+    "links": [],
+    "diagrams": [
+      [
+        2,
+        "carbohydrate-tca.svg",
+        "TCA八步、碳數與每圈能量帳；OAA再生不是淨增加"
+      ]
+    ],
+    "recalls": [
+      [
+        "TCA不直接用O₂，為什麼仍依賴有氧條件？",
+        "NADH需經呼吸鏈再氧化；氧為末端接受者，出口受阻使NAD⁺再生及TCA氧化步驟受限。"
+      ],
+      [
+        "新進acetyl-CoA的碳是否第一圈立即全部變CO₂？",
+        "通常不是。每圈淨出2 CO₂不等於新進的2碳當圈被脫除；標記碳須按結構與立體專一性追蹤。"
+      ],
+      [
+        "OAA淨消耗為零，為什麼仍可能限制citrate生成？",
+        "它須實際參與入口縮合；被抽出而未補充時，可用濃度下降，循環再生不代表起點不需要它。"
+      ],
+      [
+        "α-KG dehydrogenase和PDH共用哪些輔因子？",
+        "TPP、lipoate、CoA、FAD、NAD⁺；FAD內部接力，淨電子收益算NADH，不再多算FADH₂。"
+      ],
+      [
+        "TCA直接生成與含後續氧化的ATP當量各多少？",
+        "每圈直接1 GTP或ATP；以2.5/1.5回收3 NADH及1 FAD相關當量，合計約10。"
+      ],
+      [
+        "Succinate到OAA三步怎麼記？",
+        "先以FAD相關氧化形成雙鍵，再加水成malate，最後以NAD⁺氧化羥基成OAA。"
+      ],
+      [
+        "由1 pyruvate經PDH加TCA共有幾個NADH？",
+        "PDH 1加TCA 3，共4；同時共3 CO₂、1 FAD相關當量、1直接核苷酸收益。"
+      ],
+      [
+        "高NADH/NAD⁺為何不代表TCA應再加速？",
+        "氧化態接受者不足及產物回饋可限制氧化；還需呼吸鏈再生NAD⁺，並符合ATP需求。"
+      ],
+      [
+        "抽出citrate製脂肪，能否同時算同一份碳完成整圈收益？",
+        "不能；碳已轉向合成，需按實際出口及補充反應重新記帳。"
+      ],
+      [
+        "PC與acetyl-CoA進入TCA，哪個能淨補OAA？",
+        "PC把pyruvate羧化成OAA，可淨補充；acetyl-CoA完成一圈出兩CO₂，通常不淨增加OAA。"
+      ],
+      [
+        "呼吸鏈IV受阻時，應怎麼推回TCA？",
+        "先推NADH再氧化下降，再推NAD⁺依賴反應受限；不要把IV列成TCA八步之一。"
+      ]
+    ],
+    "practice": [
+      [
+        "一圈TCA，題幹規定NADH=2.5 ATP、FAD相關當量=1.5 ATP，總收益？",
+        "列出3×2.5+1×1.5+1=10 ATP當量。只有最後的1是受質階層磷酸化直接收益，其餘要經呼吸鏈回收。若問直接產生，答案不是10。"
+      ],
+      [
+        "一個pyruvate經PDH加TCA，問NADH與CO₂；若改成一個glucose呢？",
+        "每pyruvate為4 NADH與3 CO₂；兩個pyruvate即8 NADH與6 CO₂，這裡尚不包含糖解本身的2 NADH。先確定起點才不會重複。"
+      ],
+      [
+        "酵素都正常，但OAA被大量抽出而未補回，額外給acetyl-CoA是否保證通量恢復？",
+        "不能。Citrate synthase同時需要OAA，額外二碳供體不等於淨補四碳接受者；可考慮PC等anaplerosis是否足夠。"
+      ],
+      [
+        "Malate→OAA的ΔG°′為正，是否代表教材的前進箭頭畫錯？",
+        "不是。實際ΔG還看Q；低OAA、持續消耗OAA與NADH再氧化可使前進有利。酵素本身不改ΔG°′或平衡常數。"
+      ],
+      [
+        "一個人把α-KG dehydrogenase算成1 NADH加1 FADH₂，錯在哪？",
+        "FAD是複合體內再氧化lipoamide的電子接力，電子最後送NAD⁺；只有NADH是這一步淨輸出的還原當量。"
+      ],
+      [
+        "Malonate抑制時，最直接哪個受質累積趨勢與產物形成受限？",
+        "阻succinate dehydrogenase，故succinate到fumarate受限；在其他條件相容下上游較易累積。不能把它當fluorocitrate對aconitase的抑制。"
+      ],
+      [
+        "以3與2的舊式P/O假設算一圈，為何得到12而非10？",
+        "3 NADH×3+1 FAD相關當量×2+1 GTP=12。差別是給定回收假設，不是TCA突然多了一個反應；同一題要一致使用題目數值。"
+      ],
+      [
+        "奇數鏈脂肪酸尾端如何生糖？請列兩個輔因子。",
+        "Propionyl-CoA先經biotin依賴羧化成methylmalonyl-CoA，再經立體轉換與B12依賴mutase成succinyl-CoA，提供淨TCA中間物並可導向OAA及糖新生。"
+      ],
+      [
+        "為何TCA缺氧受限，但它沒有一步直接消耗氧？",
+        "直接反應與系統依賴不同。呼吸鏈需要氧來處理還原當量，NAD⁺再生不足限制TCA；增加TCA酵素不能代替末端電子接受者。"
+      ],
+      [
+        "空腹脂肪氧化高，是否可推論肝臟TCA必定成比例加速？",
+        "不能。還要看OAA供應、糖新生抽出、NADH/NAD⁺及ATP需求；acetyl-CoA可能轉向酮體生成。供體很多不等於所有出口都能增加。"
+      ]
+    ],
+    "groups": [
+      [
+        7,
+        "反應邊界與能量帳",
+        "題幹每pyruvate、每acetyl-CoA與每glucose不能混算。",
+        [
+          [
+            "96-1-2-44",
+            [
+              "D"
+            ],
+            "一個pyruvate先經PDH得1 NADH與1 CO₂，再跑TCA得3 NADH與2 CO₂，故共4 NADH選D。A只算PDH，C只算TCA；B也漏掉部分氧化。題幹另列的FADH₂及ATP／GTP來自TCA。",
+            "先在題幹圈出pyruvate與3 CO₂，表示必須包含PDH橋樑。"
+          ],
+          [
+            "107-1-1-88",
+            [
+              "A"
+            ],
+            "OAA在入口消耗、最後再生，理想完整一圈淨消耗為零，A正確。B漏掉succinyl-CoA synthetase的受質階層磷酸化；C應為2 CO₂；D應為1 FAD相關當量與3 NADH。",
+            "淨消耗零不等於OAA濃度可以是零。"
+          ]
+        ]
+      ],
+      [
+        4,
+        "氧化脫羧與輔因子",
+        "從受質、產物與電子去向辨認反應。",
+        [
+          [
+            "96-2-2-35",
+            [
+              "D"
+            ],
+            "Succinyl-CoA為α-KG dehydrogenase產物，累積可回饋抑制，選D。AMP／ADP是較低能量訊號而非本題主要抑制者；NAD⁺是氧化反應所需接受者，須與抑制性的NADH區分。",
+            "酵素名、產物與NADH先連成一組。"
+          ],
+          [
+            "105-2-2-38",
+            [
+              "C"
+            ],
+            "CoA參與citrate入口及α-KG氧化脫羧等反應；GDP／ADP接受受質階層磷酸化；NAD⁺接收電子。Glutathione重要於抗氧化，但不是標準八步TCA的直接反應物，故C。",
+            "重要的細胞分子不等於此路徑的直接受質。"
+          ],
+          [
+            "115-1-1-93",
+            [
+              "C"
+            ],
+            "糖解終產物pyruvate先由PDH complex轉為acetyl-CoA，才作為二碳單位進入TCA，選C。A、B、D均為循環內部酵素，不是pyruvate變acetyl-CoA的入口橋樑。",
+            "PDH支援進入循環，但不是八步循環之一。"
+          ]
+        ]
+      ],
+      [
+        6,
+        "Succinate、complex II與抑制",
+        "這個內膜反應把TCA直接連到CoQ。",
+        [
+          [
+            "101-1-2-33",
+            [
+              "B"
+            ],
+            "Malonate與succinate相似，競爭性抑制succinate dehydrogenase，B正確。A citrate synthase是入口縮合，C fumarase加水，D malate dehydrogenase使用NAD⁺氧化malate；都不是malonate的典型目標。",
+            "先找與抑制物相似的受質，不要只背相鄰順序。"
+          ],
+          [
+            "106-1-2-47",
+            [
+              "A"
+            ],
+            "Succinate dehydrogenase在粒線體內膜且為complex II，選A。其餘三者雖可在基質TCA產NADH或參與氧化，並非內膜呼吸鏈複合體本身。",
+            "區分產生NADH供呼吸鏈與自己就是呼吸鏈元件。"
+          ],
+          [
+            "109-2-1-95",
+            [
+              "A"
+            ],
+            "Succinate在II被氧化，電子經結合FAD與Fe-S到CoQ，不先生成游離NADH，選A。Malate與α-KG的典型氧化使用NAD⁺；citrate也不是II直接受質。",
+            "FAD相關記帳不代表自由FADH₂先從酵素離開。"
+          ]
+        ]
+      ],
+      [
+        8,
+        "能量需求與通量",
+        "高ATP或高NADH通常提示供能需求下降或電子再氧化受限。",
+        [
+          [
+            "99-2-2-33",
+            [
+              "B"
+            ],
+            "高ATP/ADP表示能量較充足，典型上降低進一步氧化需求，B正確。高AMP/ATP常反映缺能；高NAD⁺/NADH有利氧化接受電子；足量OAA支持與acetyl-CoA縮合，均非本題典型減速訊號。",
+            "此題採計B；不要拿相似題的更正答案替換本題。"
+          ]
+        ]
+      ],
+      [
+        10,
+        "補充碳源與合成出口",
+        "淨補中間物與只把acetyl碳氧化是兩種效果。",
+        [
+          [
+            "108-2-1-89",
+            [
+              "B"
+            ],
+            "奇數鏈尾端為propionyl-CoA，經methylmalonyl-CoA轉為succinyl-CoA才直接進入TCA，故B。D是較早前驅物，A及C不是此段的直接入口。",
+            "羧化需biotin，重排需B12；直接進TCA選succinyl-CoA。"
+          ],
+          [
+            "106-2-1-94",
+            [
+              "D"
+            ],
+            "多種生糖胺基酸的碳骨架可進入TCA中間物再到OAA與糖新生，D為題目所問主要連結。尿素循環處理氮；氧化磷酸化處理電子供能；PPP不是這個主要碳回收路徑。不是所有胺基酸都能生糖，部分也可直接經pyruvate。",
+            "題目選的是概括碳路徑，勿誇大成所有胺基酸必經完整一圈。"
+          ]
+        ]
+      ],
+      [
+        9,
+        "TCA與尿素循環交會",
+        "胺基與碳骨架需分開追蹤。",
+        [
+          [
+            "109-2-1-93",
+            [
+              "A"
+            ],
+            "Aspartate提供尿素循環的一個氮；argininosuccinate相關反應釋出的fumarate可經malate回OAA，連到TCA，故A。Cori主要為乳酸與糖回收；人類也沒有用glyoxylate cycle完成此連結。",
+            "看到aspartate與fumarate，先想到氮進尿素循環、碳回TCA。"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "gluconeogenesis",
+    "number": "10",
+    "title": "糖質新生與血糖維持",
+    "summary": "從四個繞道酵素、跨膜還原力與六個高能磷酸鍵，理解空腹供糖及器官分工。",
+    "sources": "Harper’s Illustrated Biochemistry, 31st ed., Ch. 19 Gluconeogenesis & the Control of Blood Glucose（印刷頁172–181）；糖解與肝醣連結參Ch. 17、18。",
+    "intro": "先區分肝醣拆解與重新製糖，逐一走過三個不可逆關卡的繞道，再按起點重算能量、還原力與器官分工。",
+    "links": [],
+    "diagrams": [
+      [
+        2,
+        "carbohydrate-gng.svg",
+        "糖新生三個繞道：PC與PEPCK、FBPase-1、G6Pase；標示區室及耗能"
+      ]
+    ],
+    "recalls": [
+      [
+        "空腹糖新生是否等肝醣完全用完才開始？",
+        "不是；兩者可同時運作，隨空腹時間改變相對貢獻，肝臟與腎皮質都可供糖。"
+      ],
+      [
+        "為何三個關卡卻有四個繞道酵素？",
+        "PK由PC加PEPCK兩步繞過，另有FBPase-1與G6Pase各繞一關。"
+      ],
+      [
+        "Acetyl-CoA活化PC代表它的碳會淨變葡萄糖嗎？",
+        "不代表。它可作調節與供能訊號，但偶數鏈來源acetyl-CoA一般不淨提供糖碳。"
+      ],
+      [
+        "由lactate與alanine起算，胞質NADH來源有何不同？",
+        "Lactate經LDH氧化會產NADH；ALT轉胺不產NADH，需另安排如malate運輸的還原力供應。"
+      ],
+      [
+        "兩個phosphatase繞道會產ATP嗎？",
+        "不會，使用水解並釋Pi，不把磷酸轉給ADP。G6Pase屬內質網系統。"
+      ],
+      [
+        "兩個pyruvate製一個glucose總成本？",
+        "4 ATP、2 GTP、2 NADH；高能磷酸鍵當量是6，NADH另列。"
+      ],
+      [
+        "脂肪不能生糖有哪些必須分開的例外？",
+        "一般偶數鏈acetyl-CoA不淨生糖；奇數鏈三碳尾端可經succinyl-CoA，脂肪的glycerol也可經DHAP。"
+      ],
+      [
+        "Alanine cycle比Cori cycle多運什麼？",
+        "Alanine帶胺基氮到肝臟處理；Cori以乳酸碳回收及葡萄糖供應為主。"
+      ],
+      [
+        "肝臟F2,6BP下降對兩條路各有何效果？",
+        "PFK-1少了活化，FBPase-1少了抑制，典型方向偏糖新生。"
+      ],
+      [
+        "Epinephrine是否讓肝與肌肉糖解都下降？",
+        "不是；肝臟側重供糖，肌肉側重運動供能，必須依器官判斷。"
+      ],
+      [
+        "空腹飲酒為何更易低血糖？",
+        "酒精代謝提高NADH/NAD⁺，使pyruvate偏lactate、OAA偏malate，限制糖新生；肝醣低時供糖更脆弱。"
+      ],
+      [
+        "混合題先圈哪四件事？",
+        "器官、起點、終點、代謝狀態；它們決定區室、反應與能量帳，不能先背固定答案。"
+      ]
+    ],
+    "practice": [
+      [
+        "兩個pyruvate製糖，分別在哪三個酵素步驟花ATP或GTP？",
+        "PC兩次花2 ATP、PEPCK兩次花2 GTP、PGK逆向兩次花2 ATP，共4 ATP與2 GTP；GAPDH逆向另需2 NADH。"
+      ],
+      [
+        "若有人說FBPase-1讓糖新生回收一個ATP，如何反駁？",
+        "它水解F1,6BP成F6P與Pi，不把磷酸轉給ADP；若與PFK-1同時成循環，淨結果反而耗ATP。"
+      ],
+      [
+        "Cori cycle一個glucose往返的高能磷酸淨成本？",
+        "周邊糖解得2 ATP，肝臟回收乳酸製糖耗4 ATP+2 GTP=6當量，合計淨耗4；能量需由其他氧化燃料支援。"
+      ],
+      [
+        "由lactate開始，為何不能再把同一套胞質NADH需求重複算兩次？",
+        "LDH將兩個lactate氧化時已提供2胞質NADH，可供逆向GAPDH；運輸方案要依已有還原力安排，不能又無條件額外增加相同需求。"
+      ],
+      [
+        "Glycerol為何可以生糖，而一般偶數鏈脂肪酸不行？",
+        "Glycerol可經glycerol-3-P成DHAP，直接提供三碳糖骨架；偶數鏈脂肪酸主要產acetyl-CoA，完整TCA無淨OAA增加，PDH也不能反向回pyruvate。"
+      ],
+      [
+        "肌肉能做許多可逆糖代謝反應，為何仍不等於能直接維持血糖？",
+        "缺乏有效G6Pase供糖出口，無法像肝臟把G6P大量轉游離glucose輸出；但可輸出lactate／alanine供肝臟利用。"
+      ],
+      [
+        "PC先加CO₂、PEPCK又去CO₂，是不是多此一舉？",
+        "暫時羧化結合ATP投入，再以脫羧與GTP支持形成PEP，繞過PK不可逆障礙。加入的碳在淨帳相消，但在反應機制上有用途。"
+      ],
+      [
+        "肝型PFK-2/FBPase-2被PKA磷酸化後，如何一路推到糖新生？",
+        "PFK-2下降、FBPase-2上升使F2,6BP下降，PFK-1少活化、FBPase-1少抑制，偏糖新生。需限定典型肝型，不能套用所有isoform。"
+      ],
+      [
+        "酒精造成高NADH為何不一定讓糖新生更順？",
+        "糖新生需要適當還原力，不是NADH越高越好；過高NADH把pyruvate拉向lactate、OAA拉向malate，限制前驅物與通量，尤其肝醣低時。"
+      ],
+      [
+        "G6Pase缺陷與debranching缺陷，哪個會堵住兩種肝臟供糖的共同末端？",
+        "G6Pase缺陷。肝醣與糖新生都經G6P到glucose出口；debranching只限制特定肝醣動員步驟，不能當成完全相同的瓶頸。"
+      ]
+    ],
+    "groups": [
+      [
+        7,
+        "前驅物與碳源例外",
+        "分清生糖胺基酸、glycerol與acetyl-CoA。",
+        [
+          [
+            "98-1-2-50",
+            [
+              "D"
+            ],
+            "部分胺基酸可由pyruvate或TCA中間物導向糖，D正確。A忽略不可逆關卡需繞道；B餐後降糖不是糖新生目的；C對一般偶數鏈脂肪酸的敘述不成立，奇數鏈尾端須另談。",
+            "可生糖不表示每一種胺基酸都能，leucine與lysine為典型純生酮例子。"
+          ],
+          [
+            "106-1-2-38",
+            [
+              "A"
+            ],
+            "此題採一般脂肪酸氧化成acetyl-CoA不能淨生糖的框架，官方選A。生糖胺基酸、glycerol、OAA均可提供碳。題目「脂肪酸」未限定偶數鏈，嚴格而言奇數鏈propionyl尾端是例外，不能把題目簡化為所有脂肪相關碳皆不行。",
+            "保留官方答案，同時記住奇數鏈與glycerol兩個邊界。"
+          ],
+          [
+            "106-2-1-88",
+            [
+              "D"
+            ],
+            "Lactate與alanine可到pyruvate，glycerol可到DHAP；ethanol主要經acetate成acetyl-CoA，不提供有效淨糖碳，故D。其代謝還可提高NADH而抑制糖新生。",
+            "碳可被氧化供能不等於可淨合成葡萄糖。"
+          ]
+        ]
+      ],
+      [
+        2,
+        "繞道、區室與共用步驟",
+        "不能把糖解原路倒轉。",
+        [
+          [
+            "103-1-2-36",
+            [
+              "B"
+            ],
+            "OAA是pyruvate到PEP繞道中間物，不是糖解十步的中間物，B正確。PEP、1,3-BPG與G6P兩路均可用到；共同中間物不表示所有酵素也都相同。",
+            "先列三個繞道，再找哪個分子是繞道新增。"
+          ],
+          [
+            "111-2-1-90",
+            [
+              "C"
+            ],
+            "PC先以ATP及biotin把pyruvate變OAA，PEPCK再用GTP形成PEP，選C。PK是糖解方向，PDH則把碳送acetyl-CoA而非糖新生繞道，因此其餘組合不對。",
+            "名字中的carboxylase與carboxykinase不可省略到只剩kinase。"
+          ],
+          [
+            "112-2-1-88",
+            [
+              "B"
+            ],
+            "PC與PGK逆向耗ATP、PEPCK耗GTP，故B正確。A忽略粒線體與內質網；C忽略四個繞道酵素；D把PEPCK的糖新生方向寫反。",
+            "把四個酵素、三個區室、兩種核苷酸並列檢查。"
+          ]
+        ]
+      ],
+      [
+        8,
+        "跨器官循環",
+        "乳酸與alanine運送內容不同。",
+        [
+          [
+            "111-1-1-92",
+            [
+              "C"
+            ],
+            "典型Cori cycle由周邊送lactate到肝，肝糖新生再供glucose給周邊，C正確。A、B方向相反；D把肌肉產乳酸誤叫糖新生，實際是糖解加LDH。",
+            "Cori把局部ATP取得與肝臟耗能回收分開。"
+          ],
+          [
+            "99-2-2-47",
+            [
+              "B"
+            ],
+            "Glucose–alanine cycle以alanine攜帶胺基由肌肉到肝，B正確。TCA／Krebs是同一核心碳氧化路徑，不是這種跨器官運氮循環；尿素循環在肝處理氮但不等同肌肉到肝的運送形式。",
+            "運送用alanine，後續氮處理才接尿素循環。"
+          ]
+        ]
+      ],
+      [
+        9,
+        "肝臟協同調控",
+        "先區分PFK-1/2與FBPase-1/2。",
+        [
+          [
+            "104-1-2-38",
+            [
+              "C"
+            ],
+            "F2,6BP活化PFK-1並抑制FBPase-1，C正確。A在典型肝模型方向相反；B合成者應PFK-2不是FBPase-2；D因此也把糖新生方向寫反。",
+            "F1,6BP是路徑中間物，F2,6BP是主要調節物，不能互換。"
+          ]
+        ]
+      ],
+      [
+        10,
+        "器官與緊急狀態",
+        "肝臟供全身，肌肉供自己工作。",
+        [
+          [
+            "107-2-1-89",
+            [
+              "C"
+            ],
+            "題目問錯誤。緊急epinephrine訊號促進肌肉肝醣動員與糖解，肝臟則支援供糖及糖新生；C把肝臟糖解寫成增加，是此題錯項。其餘方向符合典型整體反應。",
+            "先讀肝或肌肉，不用一個上升下降套全身。"
+          ]
+        ]
+      ],
+      [
+        11,
+        "空腹酒精與氧化還原",
+        "高NADH可使糖新生前驅物受限。",
+        [
+          [
+            "101-1-2-35",
+            [
+              "B"
+            ],
+            "本題問錯誤。酒精代謝提高NADH，推pyruvate向lactate、OAA向malate，限制糖新生；A、C、D符合此機轉。B以胰島素敏感性提高解釋急性低血糖，並非題設核心，故選B。",
+            "先推NADH/NAD⁺，再推碳源與血糖，不只背酒精會低血糖。"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "glycogen-metabolism",
+    "number": "11",
+    "title": "肝醣代謝與肝醣儲積症",
+    "summary": "從分枝結構與兩種末端，推到合成、磷酸解、激素調控及肝肌疾病差異。",
+    "sources": "Harper’s Illustrated Biochemistry, 31st ed., Ch. 18 Metabolism of Glycogen（印刷頁164–171）；GSK3與疾病核對來源列於下方。",
+    "intro": "先認清合成供體、分解產物、分支鍵與非還原端，再用肝肌任務理解調控，最後由故障位置推疾病。",
+    "diagrams": [
+      [
+        8,
+        "carbohydrate-glycogen-control.svg",
+        "肝醣動員與儲存的相反調控：PKA、phosphorylase kinase、GP、GS與PP1"
+      ]
+    ],
+    "links": [
+      [
+        "CK2與GSK3引導式磷酸化原始研究",
+        "https://pubmed.ncbi.nlm.nih.gov/2820993/"
+      ],
+      [
+        "GeneReviews：Glycogen Storage Disease Type I",
+        "https://www.ncbi.nlm.nih.gov/books/NBK1312/"
+      ],
+      [
+        "GeneReviews：Glycogen Storage Disease Type V",
+        "https://www.ncbi.nlm.nih.gov/books/NBK1344/"
+      ],
+      [
+        "GeneReviews：Pompe Disease",
+        "https://www.ncbi.nlm.nih.gov/books/NBK1261/"
+      ]
+    ],
+    "recalls": [
+      [
+        "肝醣不只在肝，肝肌兩者目的？",
+        "肝臟供血糖，肌肉主要供自身ATP；肌肉可間接輸出lactate／alanine，但不是同樣的直接glucose出口。"
+      ],
+      [
+        "分枝為何讓動員快？",
+        "增加許多非還原端，可多點同時處理；還原端不會隨每個分支都增加一個。"
+      ],
+      [
+        "GS的直接糖供體與上游G1P差在哪？",
+        "GS用UDP-glucose；G1P先與UTP形成活化供體，PPi水解支持方向。"
+      ],
+      [
+        "誰起始、誰延長、誰分枝？",
+        "典型glycogenin提供引子，GS形成α1→4延長，branching enzyme移鏈形成α1→6分支。"
+      ],
+      [
+        "Phosphorylase用Pi切鍵，主要產物為何？",
+        "G1P而非G6P或自由glucose；需PLP且作用非還原端α1→4。"
+      ],
+      [
+        "分枝點最終產物與直鏈磷酸解相同嗎？",
+        "不相同，debranching先搬三個，再水解α1→6單一殘基，釋自由glucose。"
+      ],
+      [
+        "為何G6Pase缺陷同時影響肝醣與糖新生供糖？",
+        "兩條路都會匯到G6P並需要此出口，堵共同末端會限制兩路釋glucose。"
+      ],
+      [
+        "PKA是否直接就是拆肝醣酵素？",
+        "不是；典型級聯經phosphorylase kinase再磷酸化GP，GP才以Pi切糖鍵。"
+      ],
+      [
+        "a/b與R/T是否同義？",
+        "a/b主要為磷酸化分類，R/T為構形；肌肉AMP可使b型偏R而增加活性。"
+      ],
+      [
+        "Insulin抑制GSK3為何有利合成？",
+        "GSK3原本磷酸化抑制GS；Akt抑制性磷酸化GSK3，減少對GS的抑制，配合去磷酸化支持合成。"
+      ],
+      [
+        "Pompe與McArdle的區室／故障差異？",
+        "Pompe是溶小體GAA；McArdle是肌肉胞質肝醣動員的phosphorylase。都可肌無力但機轉不同。"
+      ],
+      [
+        "肝醣途徑得3 ATP是否代表先存後用比直接糖解更賺？",
+        "不是。動員時省hexokinase，但先前存糖花ATP與UTP當量；全程要把成本納入。"
+      ]
+    ],
+    "practice": [
+      [
+        "一段肝醣釋9 G1P及1 glucose，全部到乳酸得多少ATP？",
+        "每G1P省hexokinase而淨3 ATP，每自由glucose淨2，所以9×3+2=29。分枝點水解產物不能也算成G1P。"
+      ],
+      [
+        "由自由glucose存到既有肝醣鏈，再以G1P放出走乳酸，簡化淨帳？",
+        "儲存先花1 ATP與1 UTP再生當量，動員糖解得3，合計+1；直接自由glucose糖解得2。儲存是為時機與快速動員，不是提高總效率。"
+      ],
+      [
+        "一個人說GS用G6P在還原端形成α1→6，請修正三處。",
+        "直接供體是UDP-glucose，作用端是非還原端，延長鍵是α1→4；α1→6分支由branching enzyme處理。"
+      ],
+      [
+        "為何phosphorylase被磷酸化，卻不代表每個glucose由ATP磷酸化？",
+        "蛋白磷酸化是調控事件；GP執行的是以無機Pi切糖苷鍵的磷酸解，釋G1P。兩種磷酸相關動作的受質不同。"
+      ],
+      [
+        "GS與GP同時被PP1去磷酸化，預測淨方向。",
+        "GS較活化，GP與phosphorylase kinase較不活化，通常有利合成、減少分解。相同修飾不代表每種酵素活性都同方向變化。"
+      ],
+      [
+        "AMP很高，但肌肉phosphorylase仍多為b型，能否完全不動員？",
+        "不能由b型就斷言零活性。AMP可allosterically使肌肉b型偏向R，促進分解；a/b與R/T是不同層次。"
+      ],
+      [
+        "Insulin活化Akt，Akt抑制GSK3，GS結果為何？",
+        "GSK3是GS的抑制性磷酸化酵素；它受抑制後GS較少受抑制，配合去磷酸化支持肝醣合成。不要把兩個抑制箭頭讀成抑制合成。"
+      ],
+      [
+        "CK2的priming和Akt的作用有何不同？",
+        "CK2先修飾GS以利GSK3後續辨認磷酸化；Akt則可抑制GSK3本身。前者在受質上建立標記，後者控制上游kinase活性。"
+      ],
+      [
+        "嚴重空腹低血糖加肝腫大，與運動肌痛加second wind，故障方向如何區分？",
+        "前者優先思考肝臟供糖型缺陷，如G6Pase系統；後者提示肌肉肝醣動員如McArdle。仍需其他臨床及酵素／分子資料，不能以單一症狀定診。"
+      ],
+      [
+        "III與IV型為何都可能累積肝醣，結構卻不同？",
+        "III是拆分枝的debranching缺陷，留下limit dextrin；IV是合成分枝的branching缺陷，形成分枝不足的異常多醣。不是同一酵素的正反反應。"
+      ]
+    ],
+    "groups": [
+      [
+        2,
+        "結構與鍵結",
+        "先分儲存型與結構型，再辨α或β鍵。",
+        [
+          [
+            "107-2-1-88",
+            [
+              "C"
+            ],
+            "Cellulose具有β1→4鍵，C正確。Amylose主要α1→4；glycogen主鏈α1→4、分支α1→6；dextran典型主鏈為α1→6，並非題問β1→4。",
+            "由同一葡萄糖單元組成，不代表鍵結與功能相同。"
+          ],
+          [
+            "114-2-1-88",
+            [
+              "A"
+            ],
+            "Cellulose用於植物結構支撐，A正確。Amylose與amylopectin是澱粉成分，glycogen為動物儲存多醣，其餘屬儲存型。",
+            "結構型看功能與β鍵，不要只看是否為多醣。"
+          ]
+        ]
+      ],
+      [
+        4,
+        "合成供體與延長位置",
+        "UDP-glucose、非還原端、α1→4三項一起記。",
+        [
+          [
+            "108-1-1-87",
+            [
+              "D"
+            ],
+            "GS使用UDP-glucose在非還原端形成α1→4鍵，D正確。A一般方向相反，GS磷酸化偏抑制；B忽略肌肉等組織；C把G6P上游原料誤當直接供體。",
+            "GSK3名字含synthase不代表其磷酸化會活化GS。"
+          ]
+        ]
+      ],
+      [
+        5,
+        "磷酸解與PLP",
+        "先辨產G1P，再分清蛋白修飾和糖鍵切割。",
+        [
+          [
+            "99-1-2-45",
+            [
+              "D"
+            ],
+            "題目採a型較活躍、b型較不活躍的傳統分類，選D。A應非還原端，B直接產物應G1P，C的α1→6水解由debranching處理。精確而言b型可受AMP活化，不能把D簡稱推成b永遠零活性。",
+            "a/b主要磷酸化分類，R/T另描述構形。"
+          ],
+          [
+            "102-1-2-30",
+            [
+              "A"
+            ],
+            "Glycogen phosphorylase需PLP，A正確。Hexokinase與PFK-1使用ATP/Mg²⁺等而非以PLP作此必要輔因子；PDH需TPP等五輔因子，不是PLP。",
+            "PLP是B6；TPP是B1。PLP酵素不全是轉胺酵素。"
+          ],
+          [
+            "110-1-1-89",
+            [
+              "A"
+            ],
+            "問錯誤。GP直接釋G1P，不是G6P，A錯；G6P／ATP偏向低活性、AMP在肌肉偏向R、磷酸化通常有利活化，符合其餘選項的教學模型。局部allosteric反應需注意肝肌isoform差異。",
+            "G1P之後才經mutase變G6P，勿省略中間物。"
+          ]
+        ]
+      ],
+      [
+        8,
+        "動員級聯與去磷酸化",
+        "找出直接作用的酵素，不跳過中間層。",
+        [
+          [
+            "105-2-2-39",
+            [
+              "B"
+            ],
+            "Phosphorylase kinase與phosphatase直接改變GP的磷酸化狀態，B正確。不是主要改蛋白分解、單純allosteric小分子結合或調節蛋白結合。雖GP也有其他調控，本題指定的是這兩種酵素。",
+            "問題已限定調控者，就答其直接機制。"
+          ],
+          [
+            "106-1-2-39",
+            [
+              "B"
+            ],
+            "活化phosphorylase kinase可增加GP活化，B正確。A直接抑制動員；C去磷酸化GP通常降低分解；D抑制GSK3主要有利GS合成，不是增加分解的典型方向。",
+            "Kinase與phosphatase名稱要對到哪個受質。"
+          ],
+          [
+            "107-1-1-97",
+            [
+              "B"
+            ],
+            "問錯誤。典型β-adrenergic路徑經Gs、adenylyl cyclase、cAMP與PKA，並非受體直接活化Ras，B錯。A、C、D符合題目這條訊號鏈；勿把其他受體的Ras路徑混入。",
+            "訊號級聯的順序比只記激素會升血糖更有用。"
+          ]
+        ]
+      ],
+      [
+        10,
+        "Insulin、GSK3與priming",
+        "兩層抑制與受質引導式磷酸化分開回答。",
+        [
+          [
+            "114-2-1-95",
+            [
+              "D"
+            ],
+            "Insulin經Akt等使GSK3抑制性磷酸化，降低GSK3對GS的抑制，故D最合理。A、B把GSK3活性提高與GS活化混為一談；C把此訊號的磷酸化方向寫反。",
+            "被磷酸化的是GSK3，不是直接斷言GS因此活化。"
+          ],
+          [
+            "115-1-1-81",
+            [
+              "A"
+            ],
+            "GS先經casein kinase II（CK2）priming，建立GSK3後續辨認的磷酸化背景，A正確。Phosphorylase kinase主要調控GP；PKA不是此題指定priming；Akt／PKB是insulin路徑抑制GSK3的上游，不是同一件事。",
+            "記住CK2修飾GS；Akt調節GSK3。"
+          ]
+        ]
+      ],
+      [
+        11,
+        "供糖出口與儲積症",
+        "肝醣很多不等於能正常釋放血糖。",
+        [
+          [
+            "100-1-2-36",
+            [
+              "C"
+            ],
+            "G6Pase缺陷限制G6P到glucose，空腹血糖可偏低，C正確。B的G6P與G1P互轉並非缺陷本身；A與D是過度籠統的代謝變化敘述，無法替代共同出口受阻的直接特徵。",
+            "糖新生與肝醣動員都會匯到同一出口。"
+          ],
+          [
+            "101-2-2-33",
+            [
+              "B"
+            ],
+            "題設正常三餐、午餐未進食前，是短期餐間供糖情境，肝醣為重要主要來源，選B。肌肉缺有效glucose輸出；脂肪組織不以儲存游離glucose作供糖倉；蛋白動員不是這個短期題設的優先答案。",
+            "不要把此答案推成長期飢餓時仍以肝醣為主。"
+          ]
+        ]
+      ]
+    ]
+  }
+]

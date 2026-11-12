@@ -5,11 +5,12 @@ const noop=()=>{};
 const element=()=>({classList:{remove:noop,toggle:noop},removeAttribute:noop,setAttribute:noop,textContent:''});
 const content={innerHTML:'',querySelectorAll:()=>[]};
 const ctx=vm.createContext({content,document:{querySelectorAll:()=>[],getElementById:()=>element()},window:{scrollTo:noop},localStorage:{getItem:()=>null}});
-for(const f of ['biochemistry-data.js','biochemistry-amino-acids.js','biochemistry-exams.js','biochemistry-protein-structure-folding.js','biochemistry-hemoglobin-myoglobin.js','biochemistry-enzymes-kinetics.js','biochemistry-bioenergetics.js','biochemistry-respiratory-chain.js','biochemistry-glycolysis-pyruvate.js','biochemistry.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),ctx,{filename:f});
+for(const f of ['biochemistry-data.js','biochemistry-amino-acids.js','biochemistry-exams.js','biochemistry-protein-structure-folding.js','biochemistry-hemoglobin-myoglobin.js','biochemistry-enzymes-kinetics.js','biochemistry-bioenergetics.js','biochemistry-respiratory-chain.js','biochemistry-glycolysis-pyruvate.js','biochemistry-tca-cycle.js','biochemistry-gluconeogenesis.js','biochemistry-glycogen-metabolism.js','biochemistry.js'])vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),ctx,{filename:f});
 const chapters=vm.runInContext('biochemistryChapters',ctx);
 const bank=JSON.parse(fs.readFileSync(path.join(root,'question-bank/biochemistry.json'),'utf8'));
 let rendered=0;
 for(const c of chapters){
+ if(Number(c.number)>=9){assert.equal(c.recalls.length,c.sections.length);assert.equal(new Set(c.recalls.map(r=>r[0])).size,c.sections.length);for(const s of c.sections){for(const m of s.html.matchAll(/src="([^"]+)"/g))assert(fs.existsSync(path.join(root,m[1])),'missing diagram asset');}}
  const ids=new Set(c.sections.map(s=>s.id));assert.equal(ids.size,c.sections.length);
  const data=vm.runInContext(`bioExamData(biochemistryChapters.find(c=>c.id===${JSON.stringify(c.id)}))`,ctx);
  const seen=new Set();
