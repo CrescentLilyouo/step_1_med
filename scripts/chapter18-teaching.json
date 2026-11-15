@@ -1,0 +1,232 @@
+{
+  "number": "18",
+  "id": "nitrogen-urea",
+  "title": "胺基酸的氮：轉胺、跨器官運輸與尿素循環",
+  "summary": "把胺基酸的碳與氮分開追蹤，從蛋白質周轉、PLP轉胺到兩個區室的尿素循環，再推高血氨的阻塞位置。",
+  "sources": "Harper’s Illustrated Biochemistry, 31st ed., Ch. 28 Catabolism of Proteins & of Amino Acid Nitrogen（印刷頁269–279）；尿素循環缺陷與尿orotic acid判讀補充GeneReviews。",
+  "intro": "先畫出氮從何處來、由誰運送，再加上尿素循環的兩個區室與ATP帳；疾病表用來檢查能否從阻塞點推代謝物方向。",
+  "recalls": [
+    [
+      "氮平衡為零，是否表示蛋白質沒有分解？",
+      "不是。合成與分解可同時持續，只是淨氮攝入與排出相等；周轉速率與淨平衡不同。"
+    ],
+    [
+      "泛素典型接到標的蛋白哪個部位？",
+      "多接到lysine側鏈ε-amino group，E1利用ATP活化泛素；不是arginine的guanidino group，也不是每種泛素化都導向降解。"
+    ],
+    [
+      "轉胺是否直接產生游離NH₄⁺？",
+      "通常不會；胺基從一個有機分子轉給酮酸，PLP／PMP暫時搬運胺基。"
+    ],
+    [
+      "ALT與AST對應的酮酸各是什麼？",
+      "Alanine對pyruvate，aspartate對OAA；兩者都可與glutamate／α-KG配對轉移氮。"
+    ],
+    [
+      "Transdeamination由哪兩類反應合作？",
+      "先由aminotransferase把氮集中到glutamate，再由GDH氧化脫胺釋氨並再生α-KG。"
+    ],
+    [
+      "一個glutamine最多可經這兩步釋出幾個氨？",
+      "Glutaminase先釋側鏈amide氮，之後GDH可釋原α-amino氮，共兩個；只看第一步則一個。"
+    ],
+    [
+      "Glucose–alanine cycle與Cori cycle差在哪裡？",
+      "前者以alanine搬三碳骨架及氮到肝；後者以lactate回送三碳，沒有相同的胺基運輸功能。"
+    ],
+    [
+      "尿素的碳與兩個直接氮來源？",
+      "碳來自HCO₃⁻／CO₂，一個氮來自游離氨，另一個來自aspartate；CPS I與OTC在粒線體。"
+    ],
+    [
+      "哪個酵素直接釋出urea，在哪個區室？",
+      "胞質arginase水解arginine，產生urea並再生ornithine；ASS1與ASL也在胞質。"
+    ],
+    [
+      "每圈尿素循環使用多少ATP分子與高能鍵當量？",
+      "3個ATP分子、4個高能磷酸鍵當量：CPS I使用2 ATP→ADP，ASS1使用1 ATP→AMP＋PPi。"
+    ],
+    [
+      "CPS I與CPS II的氮源及活化控制如何分辨？",
+      "CPS I在粒線體用游離氨，需NAG；CPS II在胞質用glutamine的amide氮，參與嘧啶合成。"
+    ],
+    [
+      "低citrulline合併高血氨時，尿orotic acid有何用途？",
+      "比較OTC與CPS I／NAGS缺陷時，OTC常升高，CPS I／NAGS通常正常或低；仍需搭配其他資料，升高並非OTC獨有。"
+    ]
+  ],
+  "practice": [
+    [
+      "蛋白質總量不變，但一天內大量合成與降解，算沒有代謝嗎？",
+      "不算。Protein turnover描述更新速度，總量描述淨結果；二者可分別改變。氮平衡也不能直接告訴你某一蛋白的半衰期。"
+    ],
+    [
+      "某蛋白被接上ubiquitin，能否立刻判定它必定送往26S proteasome？",
+      "不能。典型K48多聚泛素常與蛋白酶體降解相關，但不同泛素鏈與標記也參與訊息、運輸及DNA損傷反應；必須看標記型式與情境。"
+    ],
+    [
+      "Alanine＋α-KG反應後，如何同時追碳與氮？",
+      "Alanine三碳骨架變pyruvate；其胺基轉到α-KG形成glutamate。典型ALT以PLP協助，不直接放出一顆游離氨。"
+    ],
+    [
+      "想由OAA製造尿素循環需要的aspartate，哪個分子可供胺基？",
+      "Glutamate經AST把胺基交給OAA，形成aspartate與α-KG。OAA不是先直接接受游離氨再變aspartate的典型一步反應。"
+    ],
+    [
+      "Glutamine synthetase與glutaminase能否寫成同一酵素正反兩向？",
+      "不宜。GS以ATP驅動glutamate接氨；glutaminase以水解釋出側鏈氨。它們是不同酵素，反應能量與調控不同。"
+    ],
+    [
+      "肌肉有ALT，是否表示肌肉能完成整套尿素循環？",
+      "不是。ALT可將氮放到alanine送到肝臟；完整排氮尿素循環主要在肝。存在一個氮代謝酵素不等於擁有完整循環。"
+    ],
+    [
+      "做兩個urea，若只計循環本身，ATP分子與高能鍵各耗多少？",
+      "6個ATP分子、8個高能磷酸鍵當量。這裡不扣除fumarate後續轉換可能回收的NADH能量，因題目邊界只包括循環本身。"
+    ],
+    [
+      "ASL缺陷時，為何不能把OAA叫做該酵素直接產物？",
+      "ASL正常反應直接切出arginine與fumarate；fumarate之後才可經malate轉成OAA。阻塞處上游argininosuccinate可升高。"
+    ],
+    [
+      "NAGS缺陷與OTC缺陷都可高血氨，為何尿orotic acid常不同？",
+      "NAGS缺陷使CPS I缺活化，carbamoyl phosphate形成不足；OTC缺陷則可能形成了卻用不掉，轉入嘧啶途徑而使orotic acid增加。"
+    ],
+    [
+      "女病人有高血氨，能否因OTC是X-linked就排除？",
+      "不能。異型合子女性也可能有症狀；性別、發作年齡或單一代謝物都不能獨立排除，應依題幹整合遺傳與生化線索。"
+    ]
+  ],
+  "groups": [
+    [
+      2,
+      "蛋白質周轉與轉胺輔酶",
+      "分清標記、蛋白降解及氮的轉移，不把每個過程都當氧化還原。",
+      [
+        [
+          "111-2-1-85",
+          [
+            "D"
+          ],
+          "D錯在將典型泛素依賴性蛋白降解的主要終點寫成lysosome；此題指向proteasome。A E1活化需要ATP，B E2經E3協助將泛素轉移至標的，C lysine為主要連接殘基皆符合典型路徑。泛素也可參與其他運輸與溶小體相關事件，不能將本題延伸為泛素和lysosome完全無關。",
+          "題幹限定典型泛素依賴降解；不要背成所有ubiquitination都只有一種命運。"
+        ],
+        [
+          "113-2-1-77",
+          [
+            "C"
+          ],
+          "C pyridoxal phosphate是ALT所需的典型輔酶。A NADPH與B NADH屬氧化還原電子載體，D TPP常見於α-keto acid氧化脫羧及transketolase，均不是這一步轉胺的主要輔酶。",
+          "先判反應類型：轉胺選PLP，別因胺基酸代謝就一律選NADH。"
+        ]
+      ]
+    ],
+    [
+      7,
+      "氨的包裝與跨器官運送",
+      "把glutamine合成與glucose–alanine cycle放回相應位置。",
+      [
+        [
+          "101-2-2-41",
+          [
+            "B"
+          ],
+          "B glutamine synthetase使用ATP將氨接到glutamate側鏈，形成glutamine。A glutaminase是釋出側鏈氨；C GDH反向可形成glutamate而非直接形成glutamine；D AST是有機分子之間的轉胺。題幹稱無毒是相對游離氨的運輸概念，不表示腦內glutamine可以無限制堆積。",
+          "GS加amide氮；glutaminase拆amide氮；GDH處理glutamate的α-amino氮。"
+        ],
+        [
+          "99-2-2-47",
+          [
+            "B"
+          ],
+          "B glucose–alanine cycle能把骨骼肌的胺基以alanine形式送到肝。A Krebs cycle與D citric acid cycle是同一TCA的兩種名稱，並非此跨器官氮運輸線；C urea cycle主要是肝內排氮處理。",
+          "先看題目問跨器官搬運，還是肝內把氮轉成urea。"
+        ]
+      ]
+    ],
+    [
+      9,
+      "尿素循環的區室與TCA銜接",
+      "直接產物和後續代謝分開；最後釋出尿素的地方也要明確。",
+      [
+        [
+          "114-2-1-92",
+          [
+            "A"
+          ],
+          "A最適切：肝粒線體GDH可由glutamate釋氨，而完整urea由胞質arginase釋出。B把釋氨放到peroxisome且把urea釋出放到粒線體；C把整串都放在粒線體並誤用囊泡運送概念；D則整串錯放peroxisome及ER／囊泡途徑。",
+          "CPS I、OTC在粒線體，ASS1、ASL、arginase在胞質；urea不是分泌蛋白。"
+        ],
+        [
+          "106-2-1-93",
+          [
+            "B"
+          ],
+          "B錯在將OAA當尿素循環直接產物；直接產物是fumarate，後續才可經malate到OAA。A主要在肝、C分粒線體與胞質、D將含氮代謝物的氮轉為urea皆符合。",
+          "直接與間接是這題關鍵，不是尿素循環和OAA完全無關。"
+        ],
+        [
+          "109-2-1-93",
+          [
+            "A"
+          ],
+          "A citric acid cycle與urea cycle正確：ASL形成fumarate，後續連malate、OAA，再由AST產aspartate回尿素循環。B Cori cycle主要乳酸回肝；C glyoxylate cycle不是人體此連結；D glucose–alanine cycle雖搬氮，並非題名shunt所指的兩環。",
+          "Fumarate→malate→OAA→aspartate，沿四碳骨架連回去。"
+        ]
+      ]
+    ],
+    [
+      11,
+      "調控、旁路排氮與遺傳阻塞",
+      "NAG類似物修補活化訊號；替代排氮藥物使用另一條出口。",
+      [
+        [
+          "106-1-2-45",
+          [
+            "B"
+          ],
+          "B正確，N-carbamylglutamate可模擬NAG，異位活化CPS I。A不是直接補充循環中間物；C是benzoate／phenylacetate相關替代排氮策略；D促arginine合成不是本題藥物的直接主要機轉。",
+          "NAG是訊號，不是被當作urea原料消耗的中間物。"
+        ],
+        [
+          "102-1-2-44",
+          [
+            "C"
+          ],
+          "C正確：benzoate與glycine結合形成可排出衍生物；phenylbutyrate代謝至phenylacetate後與glutamine結合，提供替代排氮路徑。A非直接補中間物，B不是這兩者的NAG類似活化機轉，D也不是直接促arginine合成。",
+          "旁路排出氮與活化CPS I是兩種不同策略。"
+        ],
+        [
+          "100-1-2-35",
+          [
+            "B"
+          ],
+          "B OTC符合高血氨、可能呼吸性鹼中毒及X-linked線索。A homogentisate oxygenase屬tyrosine降解／alkaptonuria；C CBS屬transsulfuration；D ASL雖參與尿素循環，但典型缺陷為常染色體隱性，與題幹性聯線索不符。",
+          "OTC不能只靠男性或高血氨判斷，這題靠遺傳加代謝情境整合。"
+        ]
+      ]
+    ]
+  ],
+  "diagrams": [
+    [
+      8,
+      "amino-urea-cycle.svg",
+      "尿素循環的區室、氮來源與能量支出"
+    ],
+    [
+      7,
+      "amino-nitrogen-organs.svg",
+      "肌肉、肝與腎的氮運輸分工"
+    ]
+  ],
+  "links": [
+    [
+      "GeneReviews：Urea Cycle Disorders Overview",
+      "https://www.ncbi.nlm.nih.gov/sites/books/NBK1217/"
+    ],
+    [
+      "GeneReviews：Ornithine Transcarbamylase Deficiency",
+      "https://www.ncbi.nlm.nih.gov/books/NBK154378/"
+    ]
+  ]
+}

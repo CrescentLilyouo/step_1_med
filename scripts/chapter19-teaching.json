@@ -1,0 +1,244 @@
+{
+  "number": "19",
+  "id": "amino-acid-carbon",
+  "title": "胺基酸碳骨架：合成來源、供能出口與代謝疾病",
+  "summary": "將胺基酸收斂到七個碳代謝入口，從共同步驟與分支阻塞推導MSUD、PKU、黑尿症與有機酸代謝異常。",
+  "sources": "Harper’s Illustrated Biochemistry, 31st ed., Ch. 27 Biosynthesis of the Nutritionally Nonessential Amino Acids（印刷頁263–268）；Ch. 29 Catabolism of the Carbon Skeletons of Amino Acids（印刷頁280–295）。成人必需胺基酸與Thr分類採本文範圍說明；人類TDH、THA1P基因註記與疾病補充見來源連結。",
+  "intro": "先把氮帳與碳帳分開，再看七個出口；同一條路用正常反應、阻塞前累積、阻塞後不足三層推理，不只背疾病名稱。",
+  "recalls": [
+    [
+      "必需胺基酸與生糖胺基酸是在回答同一問題嗎？",
+      "不是。必需性問飲食是否須供足量；生糖性問碳骨架降解後能否淨供糖質新生。Leu既必需又純生酮，兩種分類可以交叉。"
+    ],
+    [
+      "Acetyl-CoA能進TCA，為何仍不能淨生糖？",
+      "TCA再生原有OAA，沒有因加入二碳acetyl-CoA而淨增加可抽走的四碳骨架；人體也沒有可作此用途的glyoxylate cycle。"
+    ],
+    [
+      "三組最重要的酮酸與胺基酸轉胺配對？",
+      "Pyruvate／alanine、oxaloacetate／aspartate、α-ketoglutarate／glutamate；典型轉胺需要PLP，碳骨架不因搬氮而互換。"
+    ],
+    [
+      "Histidine應接succinyl-CoA還是α-KG？",
+      "經FIGLU、THF接一碳相關基團、Glu等步驟，最後接α-KG；不能把His列入propionyl-CoA那一組。"
+    ],
+    [
+      "Serine變成glycine少的一碳去哪裡？",
+      "經serine hydroxymethyltransferase可交給THF，形成5,10-methylene-THF；不必一律當成CO₂丟掉。"
+    ],
+    [
+      "BCAT與BCKDH各使用哪類輔因子？",
+      "BCAT是PLP依賴轉胺；BCKDH是氧化脫羧複合體，需TPP、lipoamide、CoA、FAD及NAD⁺，不能把前一步的B6換成後一步全部工具。"
+    ],
+    [
+      "Leu、Ile、Val的末端碳出口如何分開？",
+      "Leu純生酮；Val經propionyl-CoA到succinyl-CoA而生糖；Ile同時提供acetyl-CoA與propionyl-CoA，因此混合型。"
+    ],
+    [
+      "Propionyl-CoA到succinyl-CoA，biotin與B12各做什麼？",
+      "Biotin參與carboxylase加碳，另需ATP及HCO₃⁻；經epimerase後，adenosyl-B12參與mutase碳骨架重排。"
+    ],
+    [
+      "PAH活性正常但Phe升高，還要檢查哪一層？",
+      "BH4合成與再生是否正常；輔因子缺陷可限制PAH反應，並影響其他BH4依賴的芳香族胺基酸羥化酵素。"
+    ],
+    [
+      "Alkaptonuria與tyrosinemia I分別阻在哪裡？",
+      "前者為homogentisate dioxygenase相關缺陷；後者為FAH缺陷，succinylacetone是重要定位線索，不能只靠Tyr高或尿色分型。"
+    ],
+    [
+      "為何Thr不能不分範圍背成一律混合型？",
+      "傳統表格納入不同支路，但人類TDH為pseudogene；本文指定Thr經α-ketobutyrate、propionyl-CoA到succinyl-CoA時屬生糖碳流。"
+    ],
+    [
+      "看到代謝物堆積時，最先問哪四件事？",
+      "正常反應、阻塞前受質、阻塞後產物、替代支路或共用輔因子；另須排除運輸缺陷，而不是看到尿中胺基酸多就認定分解酵素壞掉。"
+    ]
+  ],
+  "practice": [
+    [
+      "一名學生說「Lys是純生酮，所以不是營養必需」，錯在哪裡？",
+      "把兩種分類混用。Lys是九種成人必需胺基酸之一，同時碳分解屬純生酮；生酮性不能決定飲食需求。"
+    ],
+    [
+      "Alanine將胺基交給α-KG後，三碳與五碳各去哪裡？",
+      "Ala的三碳成pyruvate；α-KG的五碳成Glu。ALT搬的是氮，沒有把兩條碳鏈交換或接在一起。"
+    ],
+    [
+      "用TCA中間物直接轉胺製造Ala與Ser，這句為何不精確？",
+      "直接典型配對為α-KG→Glu與OAA→Asp。Ala由糖解末端pyruvate取得骨架；Ser合成源於3-phosphoglycerate，還需多步反應。"
+    ],
+    [
+      "Gln經glutaminase變成Glu後，是否已去除全部氮？",
+      "沒有。側鏈amide氮被釋出，但α-amino氮仍在Glu，還需轉胺或脫胺等後續處理。"
+    ],
+    [
+      "BCKDH阻塞為何會同時見Leu、Ile、Val增加，而非只一個？",
+      "三者先共用BCAT與BCKDH，再各自分流；共同步驟堵塞影響一群上游受質。單獨後段分支酵素缺陷則影響範圍不同。"
+    ],
+    [
+      "已知Ile產acetyl-CoA與propionyl-CoA，如何推其分類？",
+      "Acetyl-CoA端是生酮碳；propionyl-CoA可補碳並重排為succinyl-CoA，提供生糖碳。因此Ile兼有兩類出口，不能因為有acetyl-CoA就判純生酮。"
+    ],
+    [
+      "Biotin不足與B12不足，會卡住propionyl-CoA路徑的同一步嗎？",
+      "不會。Biotin用在加碳的propionyl-CoA carboxylase；B12用在後續methylmalonyl-CoA mutase。兩者可影響同一路徑，卻不是同一酵素的替代輔因子。"
+    ],
+    [
+      "PAH本身缺陷與BH4再生缺陷，為何不能只靠Phe高區分？",
+      "兩者都可能使Phe→Tyr通量下降。BH4還服務Tyr及Trp hydroxylase，所以需結合輔因子與其他生化／基因資料；不能把所有高Phe都當同一PAH病因。"
+    ],
+    [
+      "Tyr升高與succinylacetone升高相比，哪個更能定位FAH阻塞？",
+      "Succinylacetone更能指向tyrosinemia I相關位置；Tyr升高可見於多種情況，不能單獨區分I、II、III型或其他肝臟問題。"
+    ],
+    [
+      "題目指定Thr經α-ketobutyrate→propionyl-CoA→succinyl-CoA，這段是生糖還是生酮？",
+      "這條指定路徑提供生糖碳。不要拿未限定物種與支路的「五種混合型」口訣覆蓋已明確寫出的碳流。"
+    ]
+  ],
+  "groups": [
+    [
+      3,
+      "合成來源與碳骨架匯流",
+      "用Glu／α-KG、Asp／OAA及家族關係連回糖解與TCA。",
+      [
+        [
+          "105-2-2-43",
+          [
+            "C"
+          ],
+          "C正確：α-KG與OAA可經轉胺分別形成Glu與Asp。A Arg、His不是這兩個TCA中間物直接一次轉胺的產物；B Tyr合成涉及Phe羥化，Pro亦需其他反應；D Ala來自pyruvate，Ser由3-phosphoglycerate多步合成，不是題目所問的TCA中間物直接轉胺組合。",
+          "看到「直接轉胺」就先找α-KG／Glu、OAA／Asp，不只看最終能否互相接通。"
+        ],
+        [
+          "108-2-1-93",
+          [
+            "B"
+          ],
+          "B錯：His經FIGLU與Glu相關步驟匯向α-KG，不是succinyl-CoA。A Glu→α-KG與C Asp→OAA為典型配對；D Tyr的降解確可產fumarate，但要經多個反應，題幹的「直接」不能字面解作所有選項都只需一步。",
+          "His→FIGLU→Glu→α-KG；同時分清碳落點與單步酵素反應。"
+        ],
+        [
+          "112-2-1-94",
+          [
+            "C"
+          ],
+          "C錯：Asn先可變Asp，再接OAA，屬生糖性而非生酮性。A通常為非必需胺基酸、B可代謝為Asp、D asparaginase可分解Asn皆符合基本機轉。",
+          "Asn去掉側鏈amide氮仍留下四碳Asp，沿碳骨架即可回到OAA。"
+        ],
+        [
+          "115-2-1-93",
+          [
+            "C"
+          ],
+          "C Glu正確，可經glutamate semialdehyde／pyrroline-5-carboxylate相關步驟形成Pro。A Phe、B Trp與D Tyr不是人體製造Pro的主要直接前驅家族。",
+          "Pro是環狀，但先記它屬Glu家族；不是所有環狀側鏈都從芳香族胺基酸製造。"
+        ]
+      ]
+    ],
+    [
+      7,
+      "BCAA共同阻塞與propionyl-CoA出口",
+      "共用BCKDH解釋三種堆積，再以biotin及B12定位後段。",
+      [
+        [
+          "101-2-2-45",
+          [
+            "C"
+          ],
+          "C BCKDH為MSUD的典型缺陷，Leu、Ile、Val共同降解受阻。A carbamoyl phosphate synthetase連到氮代謝／核苷酸相關路徑，非BCAA共同酮酸分解；B homogentisate oxidase連到黑尿症；D PAH連到Phe→Tyr障礙。題幹提到飲食控制，本文不據此提供個人飲食處方。",
+          "酵素受質叫支鏈酮酸，但上游BCAA也會增加；不要只找字面完全相同的代謝物。"
+        ],
+        [
+          "104-1-2-43",
+          [
+            "C"
+          ],
+          "C Ile的一部分碳經propionyl-CoA、methylmalonyl-CoA到succinyl-CoA，可連到methylmalonic acidemia相關阻塞。A Ala主要到pyruvate；B Gly可經Ser及一碳代謝等處理；D His主要匯向Glu／α-KG，均不是選項中此典型支線。",
+          "MMA升高可能涉及mutase或cobalamin代謝，不等於每一例都是Ile入口酵素本身壞掉。"
+        ]
+      ]
+    ],
+    [
+      9,
+      "Phe→Tyr：酵素、輔因子與下游不足",
+      "同時追Phe累積、Tyr供應下降及BH4的其他用途。",
+      [
+        [
+          "100-1-2-37",
+          [
+            "B"
+          ],
+          "B為題目所指的BH4再生相關還原酵素缺陷；即使PAH本身活性檢查正常，體內缺乏可用BH4仍可阻礙Phe羥化。A tyrosinase涉及melanin，C homogentisate oxidase涉及Tyr分解及黑尿症，D dopamine hydroxylase涉及catecholamine後段，不是此Phe清除關卡。原題以PKU作較廣義用法，本文另區分PAH缺陷與BH4缺陷。",
+          "酵素蛋白正常不保證整個反應正常，還要檢查輔因子供應與再生。"
+        ],
+        [
+          "105-1-2-45",
+          [
+            "A"
+          ],
+          "A正確：PAH功能不足使Phe轉Tyr受限，患者自行合成Tyr的供應可能不足。B大量Trp尿不是此缺陷的特徵；C不是Phe過敏；D不是腸道吸收Phe不足，問題在吸收後的細胞內代謝。",
+          "前驅物Phe高與下游Tyr不足可以同時發生；代謝阻塞不是食物過敏或吸收障礙。"
+        ]
+      ]
+    ],
+    [
+      10,
+      "芳香族碳出口與黑尿症定位",
+      "以fumarate＋acetoacetate解釋混合分類，再辨認路徑中段的阻塞。",
+      [
+        [
+          "110-2-1-95",
+          [
+            "C"
+          ],
+          "C正確，Phe經Tyr降解後產fumarate與acetoacetate，前者供生糖碳，後者屬生酮碳。A只生糖、B只生酮及D不具生酮性都漏掉其中一個出口。",
+          "同一胺基酸可切成兩類碳片段；不能只挑其中一個產物替整體分類。"
+        ],
+        [
+          "98-1-2-41",
+          [
+            "B"
+          ],
+          "B homogentisic acid dioxygenase（homogentisate dioxygenase）缺陷對應alkaptonuria。A BCKDH缺陷為MSUD；C ALT是Ala與pyruvate的轉胺；D glutamine amidotransferase不是此Tyr降解開環步驟。",
+          "黑尿症先定位homogentisate，不要與PAH、FAH或heme合成疾病只按尿色混在一起。"
+        ]
+      ]
+    ]
+  ],
+  "diagrams": [
+    [
+      2,
+      "amino-carbon-entries.svg",
+      "胺基酸碳骨架的七個代謝入口"
+    ],
+    [
+      9,
+      "amino-phe-bh4.svg",
+      "PAH缺陷與BH4缺陷的分別"
+    ]
+  ],
+  "links": [
+    [
+      "NCBI Gene：人類TDH為pseudogene",
+      "https://www.ncbi.nlm.nih.gov/gene/157739/"
+    ],
+    [
+      "NCBI Gene：人類THA1P為pseudogene",
+      "https://www.ncbi.nlm.nih.gov/gene/390816/"
+    ],
+    [
+      "GeneReviews：Maple Syrup Urine Disease",
+      "https://www.ncbi.nlm.nih.gov/books/NBK1319/"
+    ],
+    [
+      "GeneReviews：Phenylalanine Hydroxylase Deficiency",
+      "https://www.ncbi.nlm.nih.gov/books/NBK1504/"
+    ],
+    [
+      "GeneReviews：Tyrosinemia Type I",
+      "https://www.ncbi.nlm.nih.gov/books/NBK1515/"
+    ]
+  ]
+}

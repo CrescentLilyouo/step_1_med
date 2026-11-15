@@ -1,0 +1,236 @@
+{
+  "number": "20",
+  "id": "amino-acid-derivatives",
+  "title": "胺基酸衍生物與一碳代謝：從輔酶到神經訊號",
+  "summary": "把SAM、THF、B12與B6放回各自的反應，串起homocysteine、神經傳導物、NO、creatine與抗氧化系統。",
+  "sources": "Harper’s Illustrated Biochemistry, 31st ed., Ch. 30 Conversion of Amino Acids to Specialized Products（印刷頁296–304）；一碳與B12反應連結相關胺基酸及維生素章節。臨床生化模式補充GeneReviews與NIH Office of Dietary Supplements。",
+  "intro": "每條路先辨原料供哪一部分，再辨羥化、脫羧或甲基化；最後用不同輔因子與代謝物的變化定位阻塞。",
+  "recalls": [
+    [
+      "為何tyrosine到dopamine不能只背B6？",
+      "先由tyrosine hydroxylase使用BH4羥化，再由PLP依賴的decarboxylase脫羧；兩步需要不同工具。"
+    ],
+    [
+      "SAM交出甲基後的直接產物是什麼？",
+      "先成SAH，再經後續反應形成homocysteine與adenosine；不能省略SAH而說直接形成homocysteine。"
+    ],
+    [
+      "Cysteine的硫與碳骨架分別從哪裡來？",
+      "Transsulfuration中硫來自methionine／homocysteine，主要碳骨架來自serine；CBS與γ-lyase都需PLP。"
+    ],
+    [
+      "THF的methyl、methylene與formyl型各供什麼？",
+      "5-methyl-THF連到methionine回收；5,10-methylene-THF連到dTMP；10-formyl-THF供purine環C2及C8。"
+    ],
+    [
+      "為何B12不足可同時使homocysteine與MMA升高？",
+      "分別影響methionine synthase及methylmalonyl-CoA mutase；前者需methyl-B12，後者需adenosyl-B12。"
+    ],
+    [
+      "CBS缺陷與再甲基化缺陷的methionine方向如何比較？",
+      "CBS缺陷常見homocysteine及methionine一起升高；再甲基化缺陷則可homocysteine高而methionine低或正常。"
+    ],
+    [
+      "Catecholamine四步應配哪四組輔助工具？",
+      "Tyr→DOPA用BH4，DOPA→dopamine用PLP，dopamine→norepinephrine需Cu及ascorbate等，NE→epinephrine由SAM供甲基。"
+    ],
+    [
+      "Serotonin、histamine與GABA的前驅物各是什麼？",
+      "依序是tryptophan、histidine與glutamate；後兩者由PLP依賴脫羧產生，serotonin先經BH4相關羥化再脫羧。"
+    ],
+    [
+      "NOS與arginase都用arginine，產物如何區分？",
+      "NOS產NO與citrulline；arginase產urea與ornithine。NO典型活化可溶型guanylyl cyclase，而非膜受體型。"
+    ],
+    [
+      "Creatine、phosphocreatine與creatinine是同一個功能嗎？",
+      "Creatine可接受磷酸，phosphocreatine經CK快速補ATP，creatinine是非酵素性形成的分解產物，非儲能分子。"
+    ],
+    [
+      "GSH合成與GSSG還原各需要什麼？",
+      "合成三胜肽有兩個ATP依賴步驟；glutathione reductase再生GSH直接使用NADPH，不是ATP。"
+    ],
+    [
+      "Carnitine與creatine如何一句話分清？",
+      "Carnitine參與長鏈脂醯基跨粒線體內膜；creatine／phosphocreatine是能量緩衝系統，不是同一條運輸路徑。"
+    ]
+  ],
+  "practice": [
+    [
+      "DOPA變dopamine時為何選PLP而非BH4？",
+      "這一步是移除CO₂的decarboxylation，由PLP依賴的AADC催化。BH4對應前一步tyrosine羥化，而非任何含芳香環的反應都使用BH4。"
+    ],
+    [
+      "一個SAM已交出甲基，是否可以直接再交第二個甲基？",
+      "該分子已成SAH，需經後續代謝、homocysteine再甲基化與重新形成SAM等程序。SAM不是裝了多個可連續交出的methyl的袋子。"
+    ],
+    [
+      "為何足量cysteine不能完全取代飲食methionine？",
+      "人體轉硫路徑不提供由cysteine有效反向淨合成methionine的途徑。硫代謝相連不等於營養上可雙向自由替代。"
+    ],
+    [
+      "dUMP變dTMP多一個甲基，為什麼不直接選SAM？",
+      "Thymidylate synthase直接使用5,10-methylene-THF，反應產生DHF，再由DHFR與NADPH再生THF。反應產物有methyl並不保證甲基供體就是SAM。"
+    ],
+    [
+      "Homocysteine升高且MMA升高，與單純葉酸不足相比應多想到什麼？",
+      "B12供應或相關代謝問題可同時影響methionine synthase與methylmalonyl-CoA mutase；單純葉酸不足不以MMA升高為典型。但腎功能等亦會影響指標，不能僅憑兩個數字確診。"
+    ],
+    [
+      "一位homocysteine高的病人methionine偏低，為何不能直接套CBS缺乏？",
+      "CBS缺乏阻塞轉硫出口，常見methionine也高；methionine偏低更需考慮再甲基化受阻。共同堆積物不代表阻塞點相同。"
+    ],
+    [
+      "所有製造dopamine的神經元都會再形成epinephrine嗎？",
+      "不會。是否具有DBH、PNMT及適當區室等條件決定下游能力；完整路徑圖是整合模型，不代表每個細胞都表現全部酵素。"
+    ],
+    [
+      "Arginine產物中看到ornithine，可直接判為NOS嗎？",
+      "不能。NOS的胺基酸產物是citrulline；arginase及creatine合成上游AGAT反應則可產ornithine，還需看另一個產物。"
+    ],
+    [
+      "Phosphocreatine幫ADP變ATP，是否代表它是無需補充的能量來源？",
+      "不是。CK反應可逆，補充phosphocreatine需要先投入ATP的磷酸轉移能；它緩衝需求的時間與位置，不能無限產能。"
+    ],
+    [
+      "紅血球無粒線體，為何仍可再生GSH？",
+      "胞質PPP可供NADPH，glutathione reductase用它將GSSG還原成GSH；抗氧化再生不必依賴粒線體呼吸鏈產ATP。"
+    ]
+  ],
+  "groups": [
+    [
+      4,
+      "一碳型式與直接供體",
+      "先辨反應需要methyl、methylene或formyl，不要只看到產物含甲基就選SAM。",
+      [
+        [
+          "101-1-2-29",
+          [
+            "D"
+          ],
+          "D的N5,N10-methylene-THF直接參與dUMP→dTMP。A CoA主要攜帶acyl基，B biotin典型攜帶羧化所需CO₂，C SAM雖是常見甲基供體，卻不是thymidylate synthase此步直接使用的輔酶。",
+          "產物多一個methyl，不代表所有反應都用SAM；記dTMP配methylene-THF。"
+        ],
+        [
+          "103-1-2-44",
+          [
+            "B"
+          ],
+          "B serine→glycine把一碳交給THF，形成5,10-methylene-THF。A描述transsulfuration總路徑，主要配PLP；C glutamate→glutamine是ATP依賴的加氨；D glutamate→proline不是此一碳轉移反應。",
+          "Serine三碳變glycine二碳，少的一碳交給葉酸載體。"
+        ],
+        [
+          "107-2-1-93",
+          [
+            "D"
+          ],
+          "D methionine可由homocysteine接受5-methyl-THF提供的甲基，經B12依賴methionine synthase再生。A isoleucine、B leucine、C lysine不是此反應產物；這不表示人體可從頭合成足量methionine而免除其營養必需性。",
+          "再甲基化回收和從頭淨合成必需胺基酸是不同問題。"
+        ]
+      ]
+    ],
+    [
+      6,
+      "Homocysteine：阻塞位置與臨床終點",
+      "把前驅物、輔因子與遺傳缺陷定位，再區分生化指標與臨床結果。",
+      [
+        [
+          "111-2-1-94",
+          [
+            "B"
+          ],
+          "B錯：homocysteine來自methionine→SAM→SAH路徑，不是arginine。A反映其與心血管風險的關聯；C CBS缺乏可致經典homocystinuria；D葉酸及B12參與再甲基化。風險關聯本身不等於補充維生素必能改善所有事件。",
+          "Met→SAM→SAH→Hcy；Arg另連到urea、NO及creatine。"
+        ],
+        [
+          "115-1-1-79",
+          [
+            "C"
+          ],
+          "官方採計為C folate；葉酸提供再甲基化所需的一碳單位，可降低homocysteine。A aspartate、B malate、D citrulline不是本題所指的葉酸相關回收輔因子。題幹把心臟病、高血壓與中風風險概括在一起；NIH資料指出降低homocysteine不等於普遍降低所有心血管終點，部分人群的中風效益須看條件。",
+          "保留官方C以練習原題，同時不要把題幹延伸成人人補葉酸都能預防所有心血管疾病。"
+        ]
+      ]
+    ],
+    [
+      7,
+      "神經傳導物與NO：從原料推路徑",
+      "共用輔因子不等於共用前驅物；產物、區室和受體型式都要對上。",
+      [
+        [
+          "109-2-1-85",
+          [
+            "A"
+          ],
+          "A SAM由methionine與ATP形成，並非tyrosine衍生。B epinephrine與D dopamine屬tyrosine的catecholamine路徑；C melanin也與tyrosine相關，但使用tyrosinase等另一套酵素。",
+          "Tyrosine可有多個出口；SAM提供甲基，不因參與Epi合成就變成Tyr產物。"
+        ],
+        [
+          "112-2-1-93",
+          [
+            "D"
+          ],
+          "D錯：dopamine的典型前驅物為tyrosine，非tryptophan。A tryptophan為必需胺基酸、C為serotonin前驅物皆成立；B把TPH抑制與憂鬱連結作簡化提示，實際憂鬱病理不能化約成單一合成酵素或單一神經傳導物缺乏。",
+          "Trp→5-HT；Tyr→DOPA→dopamine，不要把兩種先羥化再脫羧的路徑混線。"
+        ],
+        [
+          "110-1-1-96",
+          [
+            "C"
+          ],
+          "C錯：NOS以arginine為前驅物，產NO與citrulline，不以glutamine作此步受質。A NO為可擴散的自由基，B可作神經訊號，D可與細胞質可溶型guanylyl cyclase相關結合而提高cGMP，均符合題目典型機轉。",
+          "NO→soluble guanylyl cyclase→cGMP；不要與膜受體型guanylyl cyclase混淆。"
+        ]
+      ]
+    ],
+    [
+      10,
+      "能量緩衝與抗氧化：合成原料不等於再生能源",
+      "比較creatine的三個來源與GSH再生的直接還原力。",
+      [
+        [
+          "107-2-1-94",
+          [
+            "C"
+          ],
+          "C glycine、arginine、methionine正確：前兩者形成guanidinoacetate相關骨架，methionine經SAM提供甲基。B glutamate、cysteine、glycine是GSH三胜肽；A與D不是creatine的典型三來源組合。",
+          "Creatine＝Gly＋Arg＋Met的甲基；GSH＝Glu＋Cys＋Gly。"
+        ],
+        [
+          "108-1-1-91",
+          [
+            "D"
+          ],
+          "D錯在ATP：glutathione reductase直接使用NADPH還原GSSG。A GSH由Glu、Cys、Gly組成；B部分leukotriene合成涉及GSH；C兩個GSH的Cys硫形成雙硫鍵得到GSSG，皆正確。",
+          "最初合成GSH會耗ATP，但再生還原態GSH用NADPH；別把兩種步驟的能源互換。"
+        ]
+      ]
+    ]
+  ],
+  "diagrams": [
+    [
+      3,
+      "amino-methionine-cycle.svg",
+      "Methionine循環與homocysteine分流"
+    ],
+    [
+      7,
+      "amino-neurotransmitters.svg",
+      "Catecholamine與serotonin合成的輔因子"
+    ]
+  ],
+  "links": [
+    [
+      "NIH ODS：Folate—Health Professional Fact Sheet",
+      "https://ods.od.nih.gov/factsheets/folate-healthprofessional/"
+    ],
+    [
+      "NIH ODS：Vitamin B12—Health Professional Fact Sheet",
+      "https://ods.od.nih.gov/factsheets/Vitaminb12-HealthProfessional/"
+    ],
+    [
+      "GeneReviews：Homocystinuria due to Cystathionine Beta-Synthase Deficiency",
+      "https://www.ncbi.nlm.nih.gov/books/NBK1524/"
+    ]
+  ]
+}
