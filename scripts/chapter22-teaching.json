@@ -1,0 +1,264 @@
+{
+  "number": "22",
+  "id": "nucleotide-metabolism",
+  "title": "核苷酸代謝",
+  "summary": "從嘌呤與嘧啶的環如何形成，推導回收缺陷、免疫缺陷及抗代謝藥物的作用。",
+  "intro": "先畫出 PRPP、IMP、UMP 三個節點，再標出氮源、能量與回饋調控。遇到藥物題，先判斷受影響的是鹼基、核糖還是一碳轉移。",
+  "sources": "Harper’s Illustrated Biochemistry, 31st Edition；歷屆題目依本站醫師第一階段生物化學題庫及各題官方答案。",
+  "recalls": [
+    [
+      "Adenine、adenosine、AMP 的結構差在哪裡？",
+      "從 adenine 開始依序加核糖、再加磷酸，便得到核苷與核苷酸。"
+    ],
+    [
+      "嘌呤的環在哪個底座上組裝？",
+      "PRPP 提供活化的核糖磷酸。經第一個承諾步驟後在糖上逐步組環，先形成 IMP。"
+    ],
+    [
+      "嘌呤環上 C2、C8 從哪裡來？",
+      "兩者都來自 N¹⁰-formyl-THF。Glycine 則一次提供 C4、C5、N7。"
+    ],
+    [
+      "IMP 分流時，哪一支耗用 GTP？",
+      "往 AMP 的分支使用 GTP 與 aspartate；往 GMP 的分支使用 ATP 與 glutamine。"
+    ],
+    [
+      "HGPRT 如何同時回收兩種鹼基？",
+      "Hypoxanthine 和 guanine 分別與 PRPP 形成 IMP 和 GMP，兩個反應共用 HGPRT。"
+    ],
+    [
+      "ADA 缺乏怎麼影響 DNA 原料？",
+      "Deoxyadenosine 堆積並轉成 dATP，過量 dATP 抑制 ribonucleotide reductase，造成去氧核苷酸池失衡。"
+    ],
+    [
+      "哪一步讓嘧啶合成與呼吸鏈有關？",
+      "粒線體內膜上的 dihydroorotate dehydrogenase 把電子交給 ubiquinone。"
+    ],
+    [
+      "UMPS 的兩項活性各做什麼？",
+      "先將 orotate 與 PRPP 轉成 OMP，再將 OMP 脫羧為 UMP。"
+    ],
+    [
+      "人類 RNR 的直接受質是哪個磷酸層級？",
+      "主要是 ADP、GDP、CDP、UDP 等 NDP，還原核糖的 2′ 位置形成 dNDP。"
+    ],
+    [
+      "dUMP 變成 dTMP 時葉酸發生什麼事？",
+      "N⁵,N¹⁰-methylene-THF 提供一碳與還原力並變成 DHF，需經 DHFR 再生 THF。"
+    ],
+    [
+      "5-FU 與 methotrexate 為何都能降低 dTMP？",
+      "前者的 FdUMP 抑制 thymidylate synthase，後者抑制 DHFR，降低可循環使用的還原型葉酸。"
+    ],
+    [
+      "Thymine 與 uracil 的分解末端怎麼區分？",
+      "Thymine 可產生 β-aminoisobutyrate，uracil 可產生 β-alanine。"
+    ]
+  ],
+  "practice": [
+    [
+      "若把核苷去掉磷酸，能得到游離鹼基嗎？",
+      "核苷原本就沒有磷酸；必須斷開糖和鹼基間的 N-glycosidic bond 才會分開兩者。"
+    ],
+    [
+      "若 IMP 充足而 GTP 不足，哪一支直接受限？",
+      "AMP 分支的 adenylosuccinate 合成需要 GTP。不要依產品名稱猜消耗的能量。"
+    ],
+    [
+      "為何 HGPRT 缺乏會連帶提高從頭合成？",
+      "回收減少使 PRPP 增多，IMP、GMP 的回饋減弱，兩者都促進嘌呤從頭合成。"
+    ],
+    [
+      "如何從 dATP 升高連到淋巴球受損？",
+      "RNR 受抑制後各種 dNTP 的供應失衡，影響需要增殖的淋巴球。這是 ADA 缺陷的重要機轉。"
+    ],
+    [
+      "若呼吸鏈無法有效再氧化 CoQ，哪一段嘧啶反應首先受牽連？",
+      "Dihydroorotate 氧化成 orotate 時需將電子交給 CoQ，因此嘧啶環合成受阻。"
+    ],
+    [
+      "尿中 orotate 上升合併高血氨，優先想到哪種機轉？",
+      "考慮 OTC 缺乏造成粒線體 carbamoyl phosphate 堆積並流入嘧啶路徑。原發性 UMPS 缺乏通常沒有高血氨。"
+    ],
+    [
+      "為何 uridine 可繞過 UMPS 缺陷？",
+      "回收 uridine 可經磷酸化形成 UMP，避開 orotate 經 OMP 到 UMP 的阻塞。"
+    ],
+    [
+      "若抑制 RNR，直接缺少的是 dTMP 嗎？",
+      "直接受影響的是 NDP 到 dNDP；後續多種 DNA 前驅物都可能減少，專門將 dUMP 轉成 dTMP 的是另一個酵素。"
+    ],
+    [
+      "抑制 xanthine oxidoreductase，最直接降低什麼？",
+      "降低尿酸生成。它位於嘌呤分解末段，不負責將 guanine 回收成 GMP。"
+    ],
+    [
+      "題目給 N¹⁰-formyl-THF 與 N⁵,N¹⁰-methylene-THF，怎麼選？",
+      "先找反應。嘌呤環 C2、C8 使用前者；dUMP 的甲基化使用後者。"
+    ]
+  ],
+  "groups": [
+    [
+      2,
+      "共同底物",
+      "從頭合成用 PRPP 當底座，鹼基回收也用它提供核糖磷酸。",
+      [
+        [
+          "112-1-1-80",
+          [
+            "D"
+          ],
+          "從頭合成用 PRPP 當底座，鹼基回收也用它提供核糖磷酸。",
+          "GAR、PRA、FGAR 都是從頭合成中間物。"
+        ]
+      ]
+    ],
+    [
+      2,
+      "嘌呤回饋",
+      "AMP 可回饋抑制 PRPP amidotransferase，降低進入嘌呤從頭合成的流量。",
+      [
+        [
+          "106-1-2-32",
+          [
+            "A"
+          ],
+          "AMP 可回饋抑制 PRPP amidotransferase，降低進入嘌呤從頭合成的流量。",
+          "先辨識承諾步驟，再判斷同一路徑的終產物。"
+        ]
+      ]
+    ],
+    [
+      3,
+      "共用氮源",
+      "Aspartate 提供尿素的一個氮、嘌呤的 N1，也貢獻嘧啶環骨架。",
+      [
+        [
+          "110-1-1-93",
+          [
+            "C"
+          ],
+          "Aspartate 提供尿素的一個氮、嘌呤的 N1，也貢獻嘧啶環骨架。",
+          "題幹要求三條路徑同時符合。"
+        ]
+      ]
+    ],
+    [
+      5,
+      "Lesch–Nyhan",
+      "HGPRT 缺乏影響回收，從頭合成反而可增加，因此 B 為錯誤敘述。",
+      [
+        [
+          "110-2-1-80",
+          [
+            "B"
+          ],
+          "HGPRT 缺乏影響回收，從頭合成反而可增加，因此 B 為錯誤敘述。",
+          "題幹問錯誤選項，留意回收與從頭合成的區別。"
+        ]
+      ]
+    ],
+    [
+      6,
+      "免疫缺陷",
+      "ADA 參與嘌呤核苷降解，其缺陷可造成毒性代謝物累積與免疫缺陷。",
+      [
+        [
+          "104-2-2-32",
+          [
+            "A"
+          ],
+          "ADA 參與嘌呤核苷降解，其缺陷可造成毒性代謝物累積與免疫缺陷。",
+          "Xanthine oxidoreductase 位於較下游的尿酸生成步驟。"
+        ]
+      ]
+    ],
+    [
+      7,
+      "粒線體關卡",
+      "Dihydroorotate dehydrogenase 透過 ubiquinone 與呼吸鏈相連，因此呼吸抑制可牽動嘧啶供應。",
+      [
+        [
+          "114-1-1-79",
+          [
+            "C"
+          ],
+          "Dihydroorotate dehydrogenase 透過 ubiquinone 與呼吸鏈相連，因此呼吸抑制可牽動嘧啶供應。",
+          "多數步驟位於胞質，不能據此排除粒線體關卡。"
+        ]
+      ]
+    ],
+    [
+      8,
+      "Orotic aciduria",
+      "Uridine 可經回收產生 UMP，補償 UMPS 缺陷。",
+      [
+        [
+          "107-1-1-79",
+          [
+            "A"
+          ],
+          "Uridine 可經回收產生 UMP，補償 UMPS 缺陷。",
+          "給嘌呤前驅物不能繞過這段嘧啶阻塞。"
+        ]
+      ]
+    ],
+    [
+      9,
+      "去氧核苷酸",
+      "RNR 還原核糖的 2′ 位置，使細胞能由核糖核苷酸供應 DNA 原料。",
+      [
+        [
+          "115-1-1-84",
+          [
+            "C"
+          ],
+          "RNR 還原核糖的 2′ 位置，使細胞能由核糖核苷酸供應 DNA 原料。",
+          "磷酸化與改變核糖氧化態是不同反應。"
+        ]
+      ]
+    ],
+    [
+      10,
+      "FdUMP 靶點",
+      "FdUMP 與 thymidylate synthase 及葉酸輔因子形成穩定複合物，使 dTMP 合成受阻。",
+      [
+        [
+          "114-2-1-79",
+          [
+            "D"
+          ],
+          "FdUMP 與 thymidylate synthase 及葉酸輔因子形成穩定複合物，使 dTMP 合成受阻。",
+          "區分直接酵素靶點與下游 DNA 合成下降。"
+        ]
+      ]
+    ],
+    [
+      12,
+      "嘧啶降解",
+      "Thymine 的降解可產生 β-aminoisobutyric acid。",
+      [
+        [
+          "111-1-1-84",
+          [
+            "A"
+          ],
+          "Thymine 的降解可產生 β-aminoisobutyric acid。",
+          "β-alanine 對應 uracil 的降解。"
+        ]
+      ]
+    ]
+  ],
+  "diagrams": [
+    [
+      4,
+      "purine-branches.svg",
+      "IMP 分流至 AMP 與 GMP 時的氮源及能量"
+    ],
+    [
+      7,
+      "pyrimidine-path.svg",
+      "嘧啶環合成、粒線體氧化與 UMP 的形成"
+    ]
+  ]
+}

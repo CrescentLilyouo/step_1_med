@@ -1,0 +1,240 @@
+{
+  "number": "21",
+  "id": "heme-bilirubin",
+  "title": "血基質與膽紅素：合成、拆解與排泄",
+  "summary": "從glycine與succinyl-CoA建立heme，分開ALAS1、ALAS2與光敏感疾病，再追蹤膽紅素的albumin運輸、肝結合與腸道排泄。",
+  "sources": "Harper’s Illustrated Biochemistry, 31st ed., Ch. 31 Porphyrins & Bile Pigments（印刷頁305–318）。Protoporphyrin採標準IX命名；AIP、Rotor與direct bilirubin分析限制補充GeneReviews及Mayo Clinic Laboratories。",
+  "intro": "先把heme合成與分解畫成兩條不同路徑，再逐一加上區室、輔因子及運輸蛋白。膽紅素部分使用自編題檢查，歷屆精選集中在現有題庫可確認的heme相關題。",
+  "recalls": [
+    [
+      "Heme、globin、bilirubin三者有何不同？",
+      "Heme是含鐵tetrapyrrole輔基，globin是蛋白質，bilirubin是heme拆解後的線性膽色素；三者不是同一種分子的別名。"
+    ],
+    [
+      "ALA synthase的兩個受質、輔酶與位置？",
+      "Glycine與succinyl-CoA，在粒線體由PLP依賴的ALA synthase形成ALA、CoA與CO₂。"
+    ],
+    [
+      "一個四環骨架上游需要幾個PBG與ALA？",
+      "4 PBG，每個PBG來自2 ALA，所以需8 ALA；先線性接合，再由酵素引導形成正確環結構。"
+    ],
+    [
+      "最後插鐵的酵素與鐵氧化態？",
+      "Ferrochelatase將Fe²⁺插入protoporphyrin IX；它是末步，不是肝ALAS1那個上游控制點。"
+    ],
+    [
+      "ALAS2的5′ IRE與HRI–eIF2α分別控制什麼？",
+      "缺鐵時IRP結合ALAS2的5′ IRE抑制其翻譯；heme不足可啟動HRI使eIF2α磷酸化，抑制翻譯起始並協調globin供應。"
+    ],
+    [
+      "鉛影響heme合成的兩個經典酵素？",
+      "ALA dehydratase與ferrochelatase；前者把ALA變PBG，後者插鐵，不能當成單純鐵攝取不足。"
+    ],
+    [
+      "AIP與PCT的典型機轉及皮膚表現？",
+      "AIP為HMBS/PBG deaminase相關缺陷，以神經內臟症狀為主且無典型光敏感；PCT為肝UROD活性降低，常有光敏感皮膚脆弱與水疱。"
+    ],
+    [
+      "未結合型bilirubin是否完全沒有結合任何東西？",
+      "不是。未結合指尚未glucuronidation；血中仍主要與albumin非共價結合運送。"
+    ],
+    [
+      "UGT1A1與MRP2分別在哪一步？",
+      "UGT1A1以UDP-glucuronic acid將bilirubin結合；MRP2/ABCC2再將結合型向膽汁側輸送，化學反應與運輸是兩關。"
+    ],
+    [
+      "尿bilirubin與尿urobilinogen為何不能互換？",
+      "前者是膽紅素本身進尿，後者源自腸菌處理膽紅素後的代謝物；它們在溶血、阻塞與肝病中的變化可能不同。"
+    ],
+    [
+      "Gilbert、Crigler–Najjar、Dubin–Johnson與Rotor先如何分組？",
+      "前兩者偏UGT1A1相關未結合型增加；後兩者偏運輸缺陷及結合型增加，DJS為MRP2，Rotor涉及OATP1B1/1B3。"
+    ],
+    [
+      "Phototherapy是否修復UGT1A1？",
+      "不是。光改變bilirubin異構形式，形成較易排出的光產物；是否需要照光須另依出生時數、胎齡與風險判定。"
+    ]
+  ],
+  "practice": [
+    [
+      "成熟紅血球含heme，為何不能據此推論它能繼續合成heme？",
+      "完整合成需粒線體；成熟紅血球已失去粒線體。主要紅系合成發生在前驅細胞階段，既有含量與當下合成能力不同。"
+    ],
+    [
+      "用游離succinate取代succinyl-CoA描述ALA synthase反應，是否精確？",
+      "不精確。實際受質為活化的succinyl-CoA與glycine；路徑名稱中的succinate可概括碳來源，但酵素受質題需寫完整。"
+    ],
+    [
+      "16個ALA最多對應幾個tetrapyrrole骨架的上游量？",
+      "每個骨架需8 ALA，故對應2個；這是原料計數，未保證氧、鐵、酵素與運輸等條件足夠而實際形成2個heme。"
+    ],
+    [
+      "題目問速率限制酵素與末端插鐵酵素，為何不能都填ferrochelatase？",
+      "肝heme合成的典型控制點是ALAS1，末端插鐵才是ferrochelatase；限制詞決定答題層級。"
+    ],
+    [
+      "缺鐵時ALAS2與globin翻譯如何協調降低？",
+      "IRP結合ALAS2的5′ IRE降低其翻譯；heme不足也可經HRI使eIF2α磷酸化，抑制翻譯起始，避免globin與heme供應失衡。"
+    ],
+    [
+      "急性腹痛合併神經症狀，但沒有光敏感，能否排除AIP？",
+      "不能，AIP本來就不以光敏感為特徵。需要依發作時ALA/PBG等生化及後續資料判定，不能只靠尿色或皮膚有無變化。"
+    ],
+    [
+      "Heme oxygenase與ferrochelatase為何不能互換？",
+      "前者打開heme環並產biliverdin、釋鐵與CO，是降解；後者將Fe²⁺插入protoporphyrin IX，是合成末步。"
+    ],
+    [
+      "未結合型膽紅素升高，為何尿bilirubin可能仍陰性？",
+      "未結合型親水性低且大多與albumin結合，不易經腎絲球過濾；血中升高不等於必定在尿中測得膽紅素。"
+    ],
+    [
+      "膽道阻塞改善後direct bilirubin仍偏高，是否只能代表阻塞沒解除？",
+      "不是唯一可能。與albumin共價結合的delta bilirubin可被計入direct fraction，清除較慢；仍須結合臨床與其他檢驗，不能單靠這個數值斷定原因。"
+    ],
+    [
+      "完全膽道阻塞時，為何可能尿bilirubin增加但尿urobilinogen下降？",
+      "已結合膽紅素回流血中可進尿，但進腸道的膽紅素減少，腸菌形成urobilinogen的原料不足；二者來自不同步驟。"
+    ]
+  ],
+  "groups": [
+    [
+      2,
+      "原料與合成方向",
+      "從胺基酸衍生物辨認合成原料，將bilirubin留在降解路徑。",
+      [
+        [
+          "111-2-1-95",
+          [
+            "D"
+          ],
+          "D glycine正確，與succinyl-CoA在ALAS反應形成ALA。A tryptophan常連到serotonin等，B tyrosine連到catecholamine等，C histidine可形成histamine，均不是此處heme合成的典型起始胺基酸。",
+          "Heme起點是Gly＋succinyl-CoA，不因hemoglobin有histidine配位便選His作主要起始原料。"
+        ],
+        [
+          "109-1-1-93",
+          [
+            "D"
+          ],
+          "D bilirubin是heme降解後的膽色素，不是合成前驅物。A glycine與B succinyl-CoA為起始受質，C ALA為第一步產物與後續中間物。",
+          "合成方向與拆解方向各畫一條，避免看到血液相關名詞就放在同一路。"
+        ],
+        [
+          "102-2-2-46",
+          [
+            "D"
+          ],
+          "D cobalamin是人體無法自行完成生合成的維生素，故不符合題目在人體中的合成前驅物關係。A epinephrine由tyrosine衍生，B porphyrin使用glycine，C adenine所在purine環也可接受胺基酸供應的原子。",
+          "題幹限定人體；不能把微生物合成B12的能力套到人身上。"
+        ]
+      ]
+    ],
+    [
+      5,
+      "區室、控制點與翻譯協調",
+      "第一步、最後一步與globin翻譯是不同問題。",
+      [
+        [
+          "104-1-2-36",
+          [
+            "C"
+          ],
+          "C ALA synthase為典型速率限制控制點。A ferrochelatase負責末端插鐵；B heme oxygenase屬降解；D UDP-glucose dehydrogenase可參與UDP-glucuronic acid形成相關代謝，不是heme合成速率限制酵素。",
+          "Synthase進入合成，oxygenase打開heme環，chelatase插鐵。"
+        ],
+        [
+          "112-1-1-94",
+          [
+            "D"
+          ],
+          "D錯在說heme合成在胞質中完成；起點及末段需要粒線體。A第一步ALAS與C需PLP正確。B以succinate–glycine路徑的名稱描述碳來源，精確反應受質應寫succinyl-CoA，不是游離succinate直接反應。",
+          "以官方D採計，同時把B的簡稱補成完整生化受質，避免學成錯誤反應式。"
+        ],
+        [
+          "107-2-1-84",
+          [
+            "C"
+          ],
+          "C eIF2的α次單元磷酸化符合heme不足時HRI介導的翻譯起始抑制。A CREB與B SREBP不是本題這條紅系heme感測機制；D eIF4E亦非此處HRI的典型受質。缺鐵可先使heme不足，不能省略成鐵直接磷酸化eIF2。",
+          "ALAS2的5′ IRE與HRI–eIF2α是兩種協調方式，題目這裡問後者。"
+        ]
+      ]
+    ],
+    [
+      1,
+      "結構比較：heme與含heme蛋白",
+      "以配位與分子類別銜接前面的蛋白質章節。",
+      [
+        [
+          "105-2-2-26",
+          [
+            "B"
+          ],
+          "B一個氧分子與一個胺基酸側鏈正確：四個配位位置來自porphyrin氮，第五個為proximal histidine，第六個可結合O₂。A沒有反映題幹已結氧的狀態；C把histidine換成水；D誤認一個鐵可同時以這兩個位置攜帶兩個O₂。",
+          "一個heme結合一個O₂；distal histidine協助穩定但不是第五個直接鐵配位鍵。"
+        ],
+        [
+          "110-1-1-94",
+          [
+            "D"
+          ],
+          "D glutathione由glutamate、cysteine及glycine組成，為tripeptide。A aspartame屬二胜肽衍生物；B serotonin是tryptophan衍生胺；C heme是含鐵tetrapyrrole而不是胜肽。這是跨章分子結構比較題。",
+          "Heme作為蛋白的輔基，不代表heme自己就是蛋白質或胜肽。"
+        ]
+      ]
+    ],
+    [
+      6,
+      "酵素阻塞與porphyria線索",
+      "把鉛干擾與遺傳合成缺陷放回反應位置。",
+      [
+        [
+          "107-1-1-78",
+          [
+            "A"
+          ],
+          "A錯把leucine zipper與zinc finger混淆；leucine zipper主要依heptad中疏水殘基協助二聚化，不是鋅與leucine配位形成的結構。B含鋅gustin與味覺、C鋅與免疫功能、D鉛干擾含鋅ALA dehydratase並抑制heme合成，符合此題基本比較。",
+          "本章重點為D的ALAD位置；看到蛋白結構題，分清zinc finger與leucine zipper。"
+        ],
+        [
+          "101-2-2-44",
+          [
+            "D"
+          ],
+          "D porphyria最符合heme合成酵素缺陷、腹痛及神經症狀的組合。A PKU涉及Phe處理，B MSUD涉及BCAA氧化脫羧，C alkaptonuria涉及homogentisate降解。尿色可以提供線索，但不足單獨確診或決定porphyria亞型。",
+          "先按路徑選疾病類別；要判定AIP等精確亞型，仍需酵素／生化等更多資訊。"
+        ]
+      ]
+    ]
+  ],
+  "diagrams": [
+    [
+      2,
+      "heme-synthesis.svg",
+      "血基質合成的區室與酵素"
+    ],
+    [
+      8,
+      "bilirubin-flow.svg",
+      "膽紅素的運輸與排泄"
+    ]
+  ],
+  "links": [
+    [
+      "GeneReviews：Acute Intermittent Porphyria",
+      "https://www.ncbi.nlm.nih.gov/books/NBK1193/"
+    ],
+    [
+      "GeneReviews：Rotor Syndrome",
+      "https://www.ncbi.nlm.nih.gov/books/NBK114805/"
+    ],
+    [
+      "Mayo Clinic Laboratories：Direct Bilirubin與delta fraction",
+      "https://www.mayocliniclabs.com/test-catalog/overview/81787"
+    ],
+    [
+      "紅系heme與鐵供應的調控",
+      "https://haematologica.org/article/view/7061"
+    ]
+  ]
+}

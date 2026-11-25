@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" role="img" aria-labelledby="t d">
+<title id="t">向右移動的複製叉</title><desc id="d">上方模板由左向右為三端至五端，前導股向右延長。下方模板方向相反，後隨股的岡崎片段各自由右向左延長。</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#00796b"/></marker></defs>
+<rect width="760" height="450" fill="#f6faf9"/><g font-family="system-ui,sans-serif" fill="#163e45">
+<text x="24" y="43" font-size="25" font-weight="650">兩條新股都從 5′ 朝 3′ 延長</text>
+<g fill="none" stroke="#526e81" stroke-width="4"><path d="M70 115H420L560 203H715"/><path d="M70 304H420L560 214H715"/></g>
+<g fill="none" stroke="#00796b" stroke-width="6" marker-end="url(#arr)"><path d="M100 137H417L494 182"/><path d="M405 280H292"/><path d="M250 280H137"/></g>
+<g stroke="#d38b40" stroke-width="7"><path d="M406 280h16"/><path d="M251 280h16"/></g>
+<g font-size="18"><text x="36" y="120">3′</text><text x="36" y="312">5′</text><text x="718" y="201">5′</text><text x="718" y="229">3′</text>
+<text x="83" y="163">5′</text><text x="492" y="173">3′</text><text x="110" y="201">前導股連續延長 →</text><text x="115" y="254">← 岡崎片段各自延長</text><text x="550" y="160">複製叉前進 →</text>
+<text x="62" y="365" fill="#526e81">灰藍線　親代模板</text><text x="294" y="365" fill="#00796b">綠箭頭　新股 3′ 端</text><text x="540" y="365" fill="#935113">橘色　引子</text>
+<text x="32" y="415">後隨股越靠近複製叉的片段越新，引子移除並補上 DNA 後，由 ligase 封口。</text></g></g></svg>
